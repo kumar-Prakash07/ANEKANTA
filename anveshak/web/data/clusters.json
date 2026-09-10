@@ -1,0 +1,5710 @@
+[
+ {
+  "cluster_id": "CL000",
+  "personas": [
+   "ACT059-P0",
+   "ACT070-P0",
+   "ACT092-P0",
+   "ACT092-P1",
+   "ACT092-P2"
+  ],
+  "size": 5,
+  "internal_links": 5,
+  "density": 0.5,
+  "cohesion_log10_lr": 1.59,
+  "peak_log10_lr": 2.68,
+  "handles": [
+   "opalinedell",
+   "ambervale",
+   "amberhollow",
+   "AmberHollow",
+   "AmberHollow"
+  ],
+  "dossier": {
+   "cluster_id": "CL000",
+   "personas": [
+    {
+     "id": "ACT059-P0",
+     "handle": "opalinedell",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-03-13",
+     "last_seen": "2025-07-14"
+    },
+    {
+     "id": "ACT070-P0",
+     "handle": "ambervale",
+     "site": "dread-forum",
+     "first_seen": "2025-01-10",
+     "last_seen": "2025-06-23"
+    },
+    {
+     "id": "ACT092-P0",
+     "handle": "amberhollow",
+     "site": "thehub-successor",
+     "first_seen": "2025-05-20",
+     "last_seen": "2025-06-22"
+    },
+    {
+     "id": "ACT092-P1",
+     "handle": "AmberHollow",
+     "site": "dread-forum",
+     "first_seen": "2025-01-10",
+     "last_seen": "2025-04-22"
+    },
+    {
+     "id": "ACT092-P2",
+     "handle": "AmberHollow",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-07-04",
+     "last_seen": "2025-12-01"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "dread-forum",
+    "nulled-bazaar",
+    "thehub-successor"
+   ],
+   "active_from": "2025-01-10",
+   "active_to": "2025-12-01",
+   "pgp_keys": [
+    "107E6707D69FE2BD60B3F0C01430DEE83491CD8E",
+    "38C659BDAA46CA8DB4D15EB8613439B0A63300C8",
+    "B386CD02D1BE98849DBF1A1D6B12A31B676FF45C",
+    "B53C7B828F7A817D58CC97779166BCDD3D00FC01",
+    "D5D2519C10F61A3DD6D9819A31C6FE405E7C2C60"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1oypm4Ql6d4CN4rBgCafBcNqcBfFfa2"
+   ],
+   "onion_services": [
+    "2yu2o6m5fv5ql4oiwm2xrapawvhqqgzlgo7wvkcfc34gqiwbqzlhjd4g.onion",
+    "gkxtfjxspqa67sg7dohaooaxhk7xglp7g65yq3kcu7ttyhyig63cxhig.onion",
+    "sphvusoe5uhhymvdydkvayghsc2zca32ppbxpiwpri22v4wajktuqk3q.onion",
+    "tt3qtyjivtbq7wjora325fkzfgsykjobb3bal2642hzpftkm7jp4iiro.onion",
+    "w7cl3urbrfwd7vfxxfdxn5wrqbn3alin7yx3ieuuu22ruuduc22athax.onion"
+   ],
+   "exif_devices": [
+    "Canon EOS 1300D",
+    "HUAWEI P30",
+    "OnePlus 7T",
+    "Redmi Note 8 Pro"
+   ],
+   "contact_identifiers": [
+    "amberhollow@xmpp.jp",
+    "opalinedell@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -2.8,
+    "per_persona_spread_hours": 2.5,
+    "regions": [
+     "Brazil / Argentina",
+     "UK / Portugal"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.59
+  }
+ },
+ {
+  "cluster_id": "CL001",
+  "personas": [
+   "ACT002-P0",
+   "ACT002-P1",
+   "ACT002-P2",
+   "ACT002-P3"
+  ],
+  "size": 4,
+  "internal_links": 5,
+  "density": 0.833,
+  "cohesion_log10_lr": 1.41,
+  "peak_log10_lr": 3.27,
+  "handles": [
+   "lumengate",
+   "lume.ngate",
+   "LumeNgate",
+   "lumenga5"
+  ],
+  "dossier": {
+   "cluster_id": "CL001",
+   "personas": [
+    {
+     "id": "ACT002-P0",
+     "handle": "lumengate",
+     "site": "kilos-index",
+     "first_seen": "2025-06-26",
+     "last_seen": "2026-01-06"
+    },
+    {
+     "id": "ACT002-P1",
+     "handle": "lume.ngate",
+     "site": "dread-forum",
+     "first_seen": "2025-04-27",
+     "last_seen": "2025-08-21"
+    },
+    {
+     "id": "ACT002-P2",
+     "handle": "LumeNgate",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-01-15",
+     "last_seen": "2025-06-15"
+    },
+    {
+     "id": "ACT002-P3",
+     "handle": "lumenga5",
+     "site": "agora-reloaded",
+     "first_seen": "2025-01-11",
+     "last_seen": "2025-06-09"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "dread-forum",
+    "kilos-index",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-01-11",
+   "active_to": "2026-01-06",
+   "pgp_keys": [
+    "7B042EE5F2E0CC425BAFE3A7659FCC66C58FEF0F",
+    "861EB334E908C8FEFC24065577D2EE7F1CFA76EB",
+    "C1FB11B387AD7A2782F3E9B111C4540977FF5910",
+    "C2BBC1087735C6DF15E1EC5D9DB35C986E858300"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "10ttSA1ns2bUDDVmrCaNDv3lnAIRDJm",
+    "11NDHKWp7XncIxsBY9UcILJtxsgf9VK",
+    "11PsjrO7L9e6V8TbyglOuKZf3xbkzg5",
+    "1HaNcVmnmzQrzjeAuzIOV0rZW5vsCoQ",
+    "1JFR58eALyu8UD2g3N81L5UZSVbl1Mr",
+    "1SQJYYWZjbsWtIS1tcUwEzKLpBOwiAC",
+    "1j53UkXdEWzjWtaY8PyoHl2rPV5ZqKx"
+   ],
+   "onion_services": [
+    "4scbqvcykvcnyirne5zp33mutsiliebj7rfalghddzb4nhnpkfzjntf2.onion",
+    "e2jrorpmd4zdd2rds6sd4ybj77gj3jttec7gabbmcgchllyt5rijhrho.onion",
+    "e6i3w6j2kv52t3s5gb354u4afbeedvplffof7iih6nmjxkjfpfh675yf.onion",
+    "mna2ccsuomthqaqqhgzaydxoh5t3zxnds25vwnkra47lzkqcv2uy7ysr.onion"
+   ],
+   "exif_devices": [
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "lumengate@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 3.45,
+    "per_persona_spread_hours": 6.5,
+    "regions": [
+     "Bangladesh",
+     "China / Singapore",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Moscow / East Africa",
+     "Nepal",
+     "SE Asia",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.41
+  }
+ },
+ {
+  "cluster_id": "CL002",
+  "personas": [
+   "ACT003-P0",
+   "ACT123-P0",
+   "ACT123-P1",
+   "ACT123-P2"
+  ],
+  "size": 4,
+  "internal_links": 4,
+  "density": 0.667,
+  "cohesion_log10_lr": 1.4,
+  "peak_log10_lr": 4.09,
+  "handles": [
+   "jettisonpike",
+   "rookerygate",
+   "therookerygate",
+   "rookeryg7"
+  ],
+  "dossier": {
+   "cluster_id": "CL002",
+   "personas": [
+    {
+     "id": "ACT003-P0",
+     "handle": "jettisonpike",
+     "site": "thehub-successor",
+     "first_seen": "2025-01-14",
+     "last_seen": "2025-07-26"
+    },
+    {
+     "id": "ACT123-P0",
+     "handle": "rookerygate",
+     "site": "thehub-successor",
+     "first_seen": "2025-07-18",
+     "last_seen": "2026-02-01"
+    },
+    {
+     "id": "ACT123-P1",
+     "handle": "therookerygate",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-05-21",
+     "last_seen": "2025-10-31"
+    },
+    {
+     "id": "ACT123-P2",
+     "handle": "rookeryg7",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-07-07",
+     "last_seen": "2025-08-16"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "nulled-bazaar",
+    "thehub-successor"
+   ],
+   "active_from": "2025-01-14",
+   "active_to": "2026-02-01",
+   "pgp_keys": [
+    "43CDEDF2179529EE8FC2BA19DCDCF6D915C88A9D",
+    "DFA490970422BE238BA07CC9BC5C2EE3967DE673"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "18zMtcgj4YuOGQ5w1rFBiocNOJKWFzJ",
+    "1BGQblJD5K5fVHmTkrn7WldOmnfDqMM",
+    "1ZqFZAxiliXDf41V2Tx5AxB1s1AxMob",
+    "1v3359BhUnMlHXr6K4mDhPf1FxGikE4",
+    "1z20AcAgljp0WwTC4wY1RmUrre61wOr"
+   ],
+   "onion_services": [
+    "ndf5g4yarpga7ucgs4gutrh4q6zv6pcmceftq4jw4dn746ntnb2abghy.onion",
+    "u6ssvf6gplpxkzt3hp453mtnyp6tjca6oj4wgbhpr7mrhg22aisx2zf2.onion",
+    "xlyex6k32qh7bxgvgjtntmzcmvogjwnslpozmq4p6gcxg6cn3ujawhmd.onion",
+    "xnxvnlfsr7xkkund2fgb4hnsqfs6kt7nm6uxzh7ezgzkvkpo2ep53tum.onion"
+   ],
+   "exif_devices": [
+    "Canon EOS 1300D"
+   ],
+   "contact_identifiers": [
+    "jettisonpike@jabber.ru",
+    "therookerygate@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 0.86,
+    "per_persona_spread_hours": 3.5,
+    "regions": [
+     "Gulf states",
+     "Iran",
+     "Moscow / East Africa",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.4
+  }
+ },
+ {
+  "cluster_id": "CL003",
+  "personas": [
+   "ACT034-P0",
+   "ACT034-P1",
+   "ACT034-P2",
+   "ACT034-P3"
+  ],
+  "size": 4,
+  "internal_links": 6,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.98,
+  "peak_log10_lr": 4.0,
+  "handles": [
+   "indigodell",
+   "indig-odell",
+   "indigodell38",
+   "1ndigodell"
+  ],
+  "dossier": {
+   "cluster_id": "CL003",
+   "personas": [
+    {
+     "id": "ACT034-P0",
+     "handle": "indigodell",
+     "site": "dread-forum",
+     "first_seen": "2025-04-01",
+     "last_seen": "2025-10-21"
+    },
+    {
+     "id": "ACT034-P1",
+     "handle": "indig-odell",
+     "site": "kilos-index",
+     "first_seen": "2025-02-09",
+     "last_seen": "2025-04-03"
+    },
+    {
+     "id": "ACT034-P2",
+     "handle": "indigodell38",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-01-08",
+     "last_seen": "2025-03-22"
+    },
+    {
+     "id": "ACT034-P3",
+     "handle": "1ndigodell",
+     "site": "agora-reloaded",
+     "first_seen": "2025-04-28",
+     "last_seen": "2025-09-21"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "dread-forum",
+    "kilos-index",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-01-08",
+   "active_to": "2025-10-21",
+   "pgp_keys": [
+    "85E4EC94E1BA9DBCECEDD51BB8753D782B224E20",
+    "F8E976E50E9C19E5973FCDBDB749D1F15B5BC35B"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1444UbjkJtjN8sZ1HS2flizNt2Ybfwi",
+    "1BPg032P3TFSicL6ZkOMCSK3qTB3Y0Z",
+    "1InYte42EJHjaiMTePsKIsYuQH5LWMY",
+    "1fKnjpsf4jLDyIK71jKJrQxb4NN7rP3",
+    "1klAMVSlBKItb0v96TFpKXCwCTAuv7r",
+    "1u7ZiVnXXGaP9ekWCscTQWqIyT63FEx"
+   ],
+   "onion_services": [
+    "cuhhibymafg7urlvcawnl2w2s2tidig4eool3hm7zobsrvzhpn72iiqb.onion",
+    "kvxjhkmd663ijwqjcnpemb664vqzs5wu5ymwdixfqw2bilqg6kvczbs7.onion",
+    "t44b5nw2s7kqrzahlsn64e53w7dhsa3mpgw7a2xfhfp7o5vrfjafvzgg.onion",
+    "ud5ekkdvuu5ge7arzabjtp35bauxqzftounnsu7vef5ug4sgqbfvqjiw.onion"
+   ],
+   "exif_devices": [
+    "SM-A515F"
+   ],
+   "contact_identifiers": [
+    "indig-odell@jabber.ru",
+    "indigodell@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -4.14,
+    "per_persona_spread_hours": 3,
+    "regions": [
+     "Brazil / Argentina",
+     "US Central",
+     "US Eastern"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.98
+  }
+ },
+ {
+  "cluster_id": "CL004",
+  "personas": [
+   "ACT052-P0",
+   "ACT052-P1",
+   "ACT052-P2",
+   "ACT052-P3"
+  ],
+  "size": 4,
+  "internal_links": 6,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.74,
+  "peak_log10_lr": 4.47,
+  "handles": [
+   "elmshadewick",
+   "ElmshaDewick",
+   "xelmshadewick",
+   "ElmshaDewick"
+  ],
+  "dossier": {
+   "cluster_id": "CL004",
+   "personas": [
+    {
+     "id": "ACT052-P0",
+     "handle": "elmshadewick",
+     "site": "exploit-market",
+     "first_seen": "2025-05-06",
+     "last_seen": "2025-12-22"
+    },
+    {
+     "id": "ACT052-P1",
+     "handle": "ElmshaDewick",
+     "site": "thehub-successor",
+     "first_seen": "2025-05-14",
+     "last_seen": "2025-12-05"
+    },
+    {
+     "id": "ACT052-P2",
+     "handle": "xelmshadewick",
+     "site": "agora-reloaded",
+     "first_seen": "2025-03-01",
+     "last_seen": "2025-08-04"
+    },
+    {
+     "id": "ACT052-P3",
+     "handle": "ElmshaDewick",
+     "site": "dread-forum",
+     "first_seen": "2025-06-16",
+     "last_seen": "2026-01-29"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "dread-forum",
+    "exploit-market",
+    "thehub-successor"
+   ],
+   "active_from": "2025-03-01",
+   "active_to": "2026-01-29",
+   "pgp_keys": [
+    "F18588B9F02035039E01FC279FF46C4BE0498D68"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "10Z43sXauVCvjpwaurGbUB1zhnNQxep",
+    "1VKdY0MUx5QEJZCLQjwtkzA9IgYF5yN"
+   ],
+   "onion_services": [
+    "77degrrpfeljenpupro7oe6dyi4jry3vjxf4bcx3a4qx6zgc54wpbec2.onion",
+    "hqogi3rktnf2uz5sbeoewegkpzqvgnljxclfr3pgg5na5iwqnmvw2g4d.onion",
+    "jqk7ny6y7dadn6qfyqdkib5zgtfsupigum2c27djlk5y4hb5ezrkrul6.onion",
+    "r4xcfer6r2q4jz63wzalym6mccw2dr5ottwk2zh425kjhrx4qh2dbv7h.onion"
+   ],
+   "exif_devices": [
+    "OnePlus 7T",
+    "SM-A515F"
+   ],
+   "contact_identifiers": [
+    "ElmshaDewick@jabber.ru",
+    "elmshadewick@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 3.72,
+    "per_persona_spread_hours": 3.5,
+    "regions": [
+     "Bangladesh",
+     "Central Europe",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Moscow / East Africa",
+     "Nepal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.74
+  }
+ },
+ {
+  "cluster_id": "CL005",
+  "personas": [
+   "ACT061-P0",
+   "ACT061-P1",
+   "ACT061-P2",
+   "ACT061-P3"
+  ],
+  "size": 4,
+  "internal_links": 6,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.75,
+  "peak_log10_lr": 4.11,
+  "handles": [
+   "indigovale",
+   "ind1goval3",
+   "1nd1goval3",
+   "indigova4"
+  ],
+  "dossier": {
+   "cluster_id": "CL005",
+   "personas": [
+    {
+     "id": "ACT061-P0",
+     "handle": "indigovale",
+     "site": "exploit-market",
+     "first_seen": "2025-07-04",
+     "last_seen": "2025-10-16"
+    },
+    {
+     "id": "ACT061-P1",
+     "handle": "ind1goval3",
+     "site": "agora-reloaded",
+     "first_seen": "2025-03-10",
+     "last_seen": "2025-09-09"
+    },
+    {
+     "id": "ACT061-P2",
+     "handle": "1nd1goval3",
+     "site": "thehub-successor",
+     "first_seen": "2025-03-27",
+     "last_seen": "2025-09-16"
+    },
+    {
+     "id": "ACT061-P3",
+     "handle": "indigova4",
+     "site": "kilos-index",
+     "first_seen": "2025-07-11",
+     "last_seen": "2025-11-29"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "exploit-market",
+    "kilos-index",
+    "thehub-successor"
+   ],
+   "active_from": "2025-03-10",
+   "active_to": "2025-11-29",
+   "pgp_keys": [
+    "3F55A54625445EE430825C68C13894F7C0B6904A"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "176PuggQl0hLjGjnfhKdAILTi82YWHg",
+    "1B24pyWyJU2OBzWn4LnjmFqFJHsBl43"
+   ],
+   "onion_services": [
+    "5ezchovh6cfjkt4my4xllx7ebj7jtsmot4yowoleslu2p64tbwdn5ubu.onion",
+    "bbrzh4ktuh2krspytyyuifck6jsil7rixuqlpqg7iceblq3fczrg56s4.onion",
+    "hnm3kh6eu45hjvxpfcg4mnc6rtk4tyhxaffzq4xscbsriifd6yvvziyp.onion",
+    "qfyzx7m5zjypgkogtsbqyzgfgfm73cp3mrc3in4kvca2m2olprwm4id2.onion"
+   ],
+   "exif_devices": [
+    "iPhone 13"
+   ],
+   "contact_identifiers": [
+    "indigova4@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 5.78,
+    "per_persona_spread_hours": 1.0,
+    "regions": [
+     "Bangladesh",
+     "India / Sri Lanka",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 2.75
+  }
+ },
+ {
+  "cluster_id": "CL006",
+  "personas": [
+   "ACT064-P0",
+   "ACT064-P1",
+   "ACT064-P2",
+   "ACT064-P3"
+  ],
+  "size": 4,
+  "internal_links": 6,
+  "density": 1.0,
+  "cohesion_log10_lr": 4.11,
+  "peak_log10_lr": 6.44,
+  "handles": [
+   "umbralvale",
+   "umbralvale.57",
+   "umbra_lvale",
+   "xumbralvale"
+  ],
+  "dossier": {
+   "cluster_id": "CL006",
+   "personas": [
+    {
+     "id": "ACT064-P0",
+     "handle": "umbralvale",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-03-25",
+     "last_seen": "2025-09-28"
+    },
+    {
+     "id": "ACT064-P1",
+     "handle": "umbralvale.57",
+     "site": "agora-reloaded",
+     "first_seen": "2025-07-18",
+     "last_seen": "2025-08-26"
+    },
+    {
+     "id": "ACT064-P2",
+     "handle": "umbra_lvale",
+     "site": "thehub-successor",
+     "first_seen": "2025-05-20",
+     "last_seen": "2025-07-28"
+    },
+    {
+     "id": "ACT064-P3",
+     "handle": "xumbralvale",
+     "site": "kilos-index",
+     "first_seen": "2025-06-13",
+     "last_seen": "2026-01-27"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "cryptbb-mirror",
+    "kilos-index",
+    "thehub-successor"
+   ],
+   "active_from": "2025-03-25",
+   "active_to": "2026-01-27",
+   "pgp_keys": [
+    "F6C4DE6287F7A03C235BB8094758092A20210D26"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1AhyKaNB96jwf9T1cPIDhRp6RDIi8nS",
+    "1FGODsX2AeH83ivEebU8UDvRffhN2pk",
+    "1Gyc3rAxwu2UWpk9yJWrOdXDE8vl8at",
+    "1UnHY43cqoc8o5wZNHiOJbULBfzpp7B"
+   ],
+   "onion_services": [
+    "327a7c772rg6pg2oeeretvl7u7udnnoeciyv6i7ryxbmyp742i7vjmsl.onion",
+    "6kz2xaxkbaumgfildfayfd3dg3t57rkyzy7lntzdpmxgow5op2a527xi.onion",
+    "nkppce6c3tkwv2rt6b4lyeqnzny2lkf7jvo6f3y7i3u2fe3n7ly56rqq.onion",
+    "nkrzc5rasxo7sfllycfriestyzijd63oqyclmstc5fyiv5u5jywbek33.onion"
+   ],
+   "exif_devices": [
+    "Nikon D3500"
+   ],
+   "contact_identifiers": [
+    "umbralvale@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 4.97,
+    "per_persona_spread_hours": 2.0,
+    "regions": [
+     "Bangladesh",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 4.11
+  }
+ },
+ {
+  "cluster_id": "CL007",
+  "personas": [
+   "ACT077-P0",
+   "ACT077-P1",
+   "ACT077-P2",
+   "ACT077-P3"
+  ],
+  "size": 4,
+  "internal_links": 6,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.96,
+  "peak_log10_lr": 5.8,
+  "handles": [
+   "opalinebank",
+   "opal1neb4nk",
+   "mropalinebank",
+   "opalineb6"
+  ],
+  "dossier": {
+   "cluster_id": "CL007",
+   "personas": [
+    {
+     "id": "ACT077-P0",
+     "handle": "opalinebank",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-07-04",
+     "last_seen": "2026-02-09"
+    },
+    {
+     "id": "ACT077-P1",
+     "handle": "opal1neb4nk",
+     "site": "kilos-index",
+     "first_seen": "2025-05-05",
+     "last_seen": "2025-07-06"
+    },
+    {
+     "id": "ACT077-P2",
+     "handle": "mropalinebank",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-03-26",
+     "last_seen": "2025-11-07"
+    },
+    {
+     "id": "ACT077-P3",
+     "handle": "opalineb6",
+     "site": "exploit-market",
+     "first_seen": "2025-03-14",
+     "last_seen": "2025-09-19"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "exploit-market",
+    "kilos-index",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-03-14",
+   "active_to": "2026-02-09",
+   "pgp_keys": [
+    "8163EC929E46D7B7317D3247306DA91FCA450469"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1OCG5tLtO7dZvThq0u3ikwY5323yB76",
+    "1djKBYGYJUWfeR36X86dZNkKo9qCxYs"
+   ],
+   "onion_services": [
+    "5ehjzwu6fndpflpbb37k6ioh6bvoscck3b7ox4brlzdzlozfq6lsaa5t.onion",
+    "aytxh3idndp56gkej46y7vypsg3fxxq7mfoxn536vcisa2aoaxexodr2.onion",
+    "idkz2su7jcfesi5sygtwzivpewelt3yl7qctth7f2xrnjcnf3v5tnwsp.onion",
+    "p424zunor7uzon5uaaookcjinpsitxupet6pefsdeijgel47ze3vt2be.onion"
+   ],
+   "exif_devices": [
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "opalinebank@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 0.55,
+    "per_persona_spread_hours": 2,
+    "regions": [
+     "Central Europe",
+     "Moscow / East Africa",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 3.96
+  }
+ },
+ {
+  "cluster_id": "CL008",
+  "personas": [
+   "ACT088-P0",
+   "ACT088-P1",
+   "ACT088-P2",
+   "ACT088-P3"
+  ],
+  "size": 4,
+  "internal_links": 4,
+  "density": 0.667,
+  "cohesion_log10_lr": 1.53,
+  "peak_log10_lr": 3.84,
+  "handles": [
+   "umbralreach",
+   "vellum47",
+   "thistlewick80",
+   "umbra.lreach"
+  ],
+  "dossier": {
+   "cluster_id": "CL008",
+   "personas": [
+    {
+     "id": "ACT088-P0",
+     "handle": "umbralreach",
+     "site": "thehub-successor",
+     "first_seen": "2025-03-03",
+     "last_seen": "2025-09-22"
+    },
+    {
+     "id": "ACT088-P1",
+     "handle": "vellum47",
+     "site": "exploit-market",
+     "first_seen": "2025-06-27",
+     "last_seen": "2025-11-21"
+    },
+    {
+     "id": "ACT088-P2",
+     "handle": "thistlewick80",
+     "site": "dread-forum",
+     "first_seen": "2025-02-15",
+     "last_seen": "2025-10-07"
+    },
+    {
+     "id": "ACT088-P3",
+     "handle": "umbra.lreach",
+     "site": "agora-reloaded",
+     "first_seen": "2025-04-08",
+     "last_seen": "2025-06-22"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "dread-forum",
+    "exploit-market",
+    "thehub-successor"
+   ],
+   "active_from": "2025-02-15",
+   "active_to": "2025-11-21",
+   "pgp_keys": [
+    "20F64A13AFFCC7F638B6BBFF7AD023922B11D0EA",
+    "3065C420E0579B6A27F668AB1B022E656126059D",
+    "B4819339AAEBC3BF5048C17A861E6D8698EF442C"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "13Z5O85sJKeQTY6ZysarAE16uMF35uQ",
+    "1MheMNfQb5NrXYA1SHiqjULXhfF1OiD",
+    "1syqMqg4ZC9CoA6sT7SU7yu0VrwEJia",
+    "1v8NjpGq76XroumHttCFAedJ1TRGXIs"
+   ],
+   "onion_services": [
+    "5eyyyfuuchnt7upwmwk5hxgtsu32pk24fchh256c4iaf3ywbz6q6gm5w.onion",
+    "gxqhvhbhwn7564de2xqodhptpzpygqp7te3ux2fmb5vmbleoi6sqj2av.onion",
+    "mhv5ygb75vtkk7zvdkmxpvr2e565pve6l5qgma2di74muoegr4gqwmkd.onion",
+    "o3vn2jueglezit65voavpdns7iupf3inlp6dp3iyoghvzjhc6pf5fry4.onion"
+   ],
+   "exif_devices": [
+    "Canon EOS 1300D",
+    "Nikon D3500",
+    "iPhone 11"
+   ],
+   "contact_identifiers": [
+    "umbra.lreach@jabber.ru",
+    "umbralreach@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 2.43,
+    "per_persona_spread_hours": 3.5,
+    "regions": [
+     "Bangladesh",
+     "Central Europe",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Moscow / East Africa",
+     "Nepal",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.53
+  }
+ },
+ {
+  "cluster_id": "CL009",
+  "personas": [
+   "ACT101-P0",
+   "ACT101-P1",
+   "ACT101-P2",
+   "ACT101-P3"
+  ],
+  "size": 4,
+  "internal_links": 6,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.6,
+  "peak_log10_lr": 5.72,
+  "handles": [
+   "rookerynotch",
+   "rookerynotch_v2",
+   "rookerynot6",
+   "r00kerynotch"
+  ],
+  "dossier": {
+   "cluster_id": "CL009",
+   "personas": [
+    {
+     "id": "ACT101-P0",
+     "handle": "rookerynotch",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-03-20",
+     "last_seen": "2025-10-14"
+    },
+    {
+     "id": "ACT101-P1",
+     "handle": "rookerynotch_v2",
+     "site": "agora-reloaded",
+     "first_seen": "2025-03-09",
+     "last_seen": "2025-06-05"
+    },
+    {
+     "id": "ACT101-P2",
+     "handle": "rookerynot6",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-05-10",
+     "last_seen": "2025-10-06"
+    },
+    {
+     "id": "ACT101-P3",
+     "handle": "r00kerynotch",
+     "site": "exploit-market",
+     "first_seen": "2025-07-10",
+     "last_seen": "2025-09-06"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "cryptbb-mirror",
+    "exploit-market",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-03-09",
+   "active_to": "2025-10-14",
+   "pgp_keys": [
+    "999FF1317FE44850872D6A3F413F0DDC9BFA1DD5"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "19UPAEJaai0toWFf6iidD6WmmD1TyTz",
+    "1ADwWekvrYhuUt4bVxUMvYcVE4zSyUY",
+    "1Csnr6Qlil3hRzFLXhLO5lae0Rhd2od",
+    "1JysRwIBW8kQVAq85OhIDw6WXbQjG2G",
+    "1Jz0qtucvsj4cWcye9tQRmQlt1SUebG"
+   ],
+   "onion_services": [
+    "cx7k35bogx2oga3qjm4cellpq6ryvcuovcqno5qjxatc7us6vadnvm5w.onion",
+    "eym3refrufza27kh53qi7wc3mzn56spidv5benggz7wqsvktmqh4ylcy.onion",
+    "izakt7wbxxabl5gnej3sninrfwz7a6hlyjjjkeo4bro2qfban65nn2xp.onion",
+    "qkqjgzu7asebnjzs53cjx4zqm45qnnnlk4yclr2zvrxsus3yfc44ihse.onion"
+   ],
+   "exif_devices": [
+    "iPhone 13"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 1.33,
+    "per_persona_spread_hours": 5.5,
+    "regions": [
+     "Bangladesh",
+     "India / Sri Lanka",
+     "Nepal",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 3.6
+  }
+ },
+ {
+  "cluster_id": "CL010",
+  "personas": [
+   "ACT116-P0",
+   "ACT116-P1",
+   "ACT143-P0",
+   "ACT143-P1"
+  ],
+  "size": 4,
+  "internal_links": 3,
+  "density": 0.5,
+  "cohesion_log10_lr": 1.34,
+  "peak_log10_lr": 3.28,
+  "handles": [
+   "indigopike",
+   "IndigOpike",
+   "birchreach",
+   "birchreach-alt"
+  ],
+  "dossier": {
+   "cluster_id": "CL010",
+   "personas": [
+    {
+     "id": "ACT116-P0",
+     "handle": "indigopike",
+     "site": "dread-forum",
+     "first_seen": "2025-01-06",
+     "last_seen": "2025-05-25"
+    },
+    {
+     "id": "ACT116-P1",
+     "handle": "IndigOpike",
+     "site": "thehub-successor",
+     "first_seen": "2025-03-07",
+     "last_seen": "2025-07-25"
+    },
+    {
+     "id": "ACT143-P0",
+     "handle": "birchreach",
+     "site": "agora-reloaded",
+     "first_seen": "2025-05-15",
+     "last_seen": "2025-07-21"
+    },
+    {
+     "id": "ACT143-P1",
+     "handle": "birchreach-alt",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-04-24",
+     "last_seen": "2025-12-11"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "cryptbb-mirror",
+    "dread-forum",
+    "thehub-successor"
+   ],
+   "active_from": "2025-01-06",
+   "active_to": "2025-12-11",
+   "pgp_keys": [
+    "3681A08B688075079DDFE7582AB9B2349D0660F3",
+    "671529AE79E0E050117E940AA9A8A6B94203A525"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1JIMuYfh8wYIMTKG5z1UpJIjJWNvX2a"
+   ],
+   "onion_services": [
+    "a7t52634yijs6q2knviyfll3hip35oveokj25z7rgketk4tyql3aarov.onion",
+    "cqkwv4lfaqryplkptpqe6kyoll24qx7agrgi7ntki5rapdotinrbvq3b.onion",
+    "mfdpp7j3uu5nfrapqn4qznmutu7r3kulqexm2fxnsbezmvezyfn4fsww.onion",
+    "nyi2gu2nq5gvahfqhdnaee6v3pvmknvkl3eecnpjr3iqdkn6yseig3aq.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a"
+   ],
+   "contact_identifiers": [
+    "birchreach-alt@jabber.ru",
+    "indigopike@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 1.89,
+    "per_persona_spread_hours": 3.5,
+    "regions": [
+     "Central Europe",
+     "Gulf states",
+     "Iran",
+     "Moscow / East Africa",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.34
+  }
+ },
+ {
+  "cluster_id": "CL011",
+  "personas": [
+   "ACT018-P0",
+   "ACT018-P1",
+   "ACT027-P0"
+  ],
+  "size": 3,
+  "internal_links": 2,
+  "density": 0.667,
+  "cohesion_log10_lr": 1.74,
+  "peak_log10_lr": 1.97,
+  "handles": [
+   "rookerykeep",
+   "drrookerykeep",
+   "marrowford"
+  ],
+  "dossier": {
+   "cluster_id": "CL011",
+   "personas": [
+    {
+     "id": "ACT018-P0",
+     "handle": "rookerykeep",
+     "site": "kilos-index",
+     "first_seen": "2025-07-01",
+     "last_seen": "2025-11-27"
+    },
+    {
+     "id": "ACT018-P1",
+     "handle": "drrookerykeep",
+     "site": "exploit-market",
+     "first_seen": "2025-05-08",
+     "last_seen": "2025-09-22"
+    },
+    {
+     "id": "ACT027-P0",
+     "handle": "marrowford",
+     "site": "exploit-market",
+     "first_seen": "2025-02-20",
+     "last_seen": "2025-05-21"
+    }
+   ],
+   "sites": [
+    "exploit-market",
+    "kilos-index"
+   ],
+   "active_from": "2025-02-20",
+   "active_to": "2025-11-27",
+   "pgp_keys": [
+    "10A2463D513F1D7423BB49B0AAAC00AD3E626DA4",
+    "C479701A9A094280B589E3EBD5254CAD9A8957CE",
+    "E760F73538BD43BAB14EF64C30F522E06D905F4A"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "142h4i0tjewVqW1v7d1eCR3qSr3debW",
+    "1m3NAXlK8jDXdI133362n0o1UGhLPAl"
+   ],
+   "onion_services": [
+    "lygvg57n3h727gbyx3hichdgm462djvenfvxg2jpdclr5sl5e2ledwds.onion",
+    "mzdi34xjgrg3ocqrhkw3xs5epz4vnxb4feryeszopumr6z2wdxeeeqrl.onion",
+    "p6o6ab62ls55wrgkz2s2rnqyu5ugo6uus3lqr7k22b4hbalftco4kmcz.onion"
+   ],
+   "exif_devices": [
+    "iPhone 13"
+   ],
+   "contact_identifiers": [
+    "marrowford@xmpp.jp",
+    "rookerykeep@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 3.57,
+    "per_persona_spread_hours": 5.5,
+    "regions": [
+     "Bangladesh",
+     "India / Sri Lanka",
+     "Nepal",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.74
+  }
+ },
+ {
+  "cluster_id": "CL012",
+  "personas": [
+   "ACT019-P0",
+   "ACT019-P1",
+   "ACT019-P2"
+  ],
+  "size": 3,
+  "internal_links": 3,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.04,
+  "peak_log10_lr": 2.65,
+  "handles": [
+   "elmshadepike",
+   "elmshadep3",
+   "elmshadepikealt"
+  ],
+  "dossier": {
+   "cluster_id": "CL012",
+   "personas": [
+    {
+     "id": "ACT019-P0",
+     "handle": "elmshadepike",
+     "site": "agora-reloaded",
+     "first_seen": "2025-07-01",
+     "last_seen": "2026-02-03"
+    },
+    {
+     "id": "ACT019-P1",
+     "handle": "elmshadep3",
+     "site": "kilos-index",
+     "first_seen": "2025-02-20",
+     "last_seen": "2025-08-13"
+    },
+    {
+     "id": "ACT019-P2",
+     "handle": "elmshadepikealt",
+     "site": "thehub-successor",
+     "first_seen": "2025-03-01",
+     "last_seen": "2025-10-25"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "kilos-index",
+    "thehub-successor"
+   ],
+   "active_from": "2025-02-20",
+   "active_to": "2026-02-03",
+   "pgp_keys": [
+    "943AC3306F4E2A08118A662DE7BD426694FEF951",
+    "B6A4BD9236010E7AFB1980E9FAB7AAC2CFEF205B"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "12SKC00G0gdUX4s4mIM1fKwIpuTofyx",
+    "19UB6AeF6tTr5yad2aEa50E310ZHz0N",
+    "1h8tGXV2YLqHHsRh7PWaUzBPWYnh2xQ",
+    "1kPlEBouNHmlVL5j04Iqzxqdms5kSqf",
+    "1wTzzgyjPM1n9r2L7I9OhGIg0CMfAOk"
+   ],
+   "onion_services": [
+    "anufm7ntotfcvkkxvyiaddlnxt4jqzsfly7wrcmtb7xqufi4urtygkii.onion",
+    "aqrvgvqj753jgf5qe6ohifyvlrqgqs3asfim2yxmw2nm7mznrmufetrj.onion",
+    "yzdgxasugkjsoqnuf7b6m3lxbgthu7yczxlw4wzinnxtlpl7zwm2qx7m.onion"
+   ],
+   "exif_devices": [
+    "Redmi Note 8 Pro",
+    "iPhone 13"
+   ],
+   "contact_identifiers": [
+    "elmshadep3@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 2.52,
+    "per_persona_spread_hours": 1.5,
+    "regions": [
+     "Central Europe",
+     "Gulf states",
+     "Iran",
+     "Moscow / East Africa",
+     "Western Europe"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 2.04
+  }
+ },
+ {
+  "cluster_id": "CL013",
+  "personas": [
+   "ACT029-P0",
+   "ACT029-P1",
+   "ACT029-P2"
+  ],
+  "size": 3,
+  "internal_links": 2,
+  "density": 0.667,
+  "cohesion_log10_lr": 1.47,
+  "peak_log10_lr": 2.4,
+  "handles": [
+   "wrenthorn",
+   "hazelvale34",
+   "wrenthorn.hq"
+  ],
+  "dossier": {
+   "cluster_id": "CL013",
+   "personas": [
+    {
+     "id": "ACT029-P0",
+     "handle": "wrenthorn",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-06-16",
+     "last_seen": "2025-12-02"
+    },
+    {
+     "id": "ACT029-P1",
+     "handle": "hazelvale34",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-07-08",
+     "last_seen": "2025-11-01"
+    },
+    {
+     "id": "ACT029-P2",
+     "handle": "wrenthorn.hq",
+     "site": "agora-reloaded",
+     "first_seen": "2025-03-17",
+     "last_seen": "2025-10-02"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "cryptbb-mirror",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-03-17",
+   "active_to": "2025-12-02",
+   "pgp_keys": [
+    "26560FFEFB2F77A16ECDC9AD9AFA73FB18DA73DC",
+    "B876365911912091F5601A2FE0CFC239EC09396D"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "10YoXunCIqTM4k4hT4vgzmo78EYY3ha",
+    "12VnJaVbHvj559OdfJZ7oI1HHG61HJq",
+    "182emwaU5ioMYp3nlhI8hYZs5kmm7HX",
+    "1C2NA40bPjN8evJupxqdurfwLn4xY5d",
+    "1TNDVZPgRqJRMYtZRvQrJRG729xFvHw"
+   ],
+   "onion_services": [
+    "6r4zqkhg2s2t4rkx3ttsk56qvfficnw7k6h3zitscb4uywcenhxycjvr.onion",
+    "igec4rgaqpottvrl6mlqrfi2aoyzfl5l5anmza5kpx35dilreqd3ddbv.onion",
+    "nw5x7t323pbammufejfy33qwmmqvpslq2ukrn7t7mqra5eeee4crcsvx.onion"
+   ],
+   "exif_devices": [
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "wrenthorn@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -2.86,
+    "per_persona_spread_hours": 5,
+    "regions": [
+     "Brazil / Argentina",
+     "UK / Portugal",
+     "US Central",
+     "US Eastern",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.47
+  }
+ },
+ {
+  "cluster_id": "CL014",
+  "personas": [
+   "ACT053-P0",
+   "ACT053-P1",
+   "ACT053-P2"
+  ],
+  "size": 3,
+  "internal_links": 3,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.65,
+  "peak_log10_lr": 3.95,
+  "handles": [
+   "dovetailmarsh",
+   "xdovetailmarsh",
+   "elmshadehollow53"
+  ],
+  "dossier": {
+   "cluster_id": "CL014",
+   "personas": [
+    {
+     "id": "ACT053-P0",
+     "handle": "dovetailmarsh",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-02-07",
+     "last_seen": "2025-08-03"
+    },
+    {
+     "id": "ACT053-P1",
+     "handle": "xdovetailmarsh",
+     "site": "thehub-successor",
+     "first_seen": "2025-06-03",
+     "last_seen": "2025-12-10"
+    },
+    {
+     "id": "ACT053-P2",
+     "handle": "elmshadehollow53",
+     "site": "dread-forum",
+     "first_seen": "2025-03-10",
+     "last_seen": "2025-07-29"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "nulled-bazaar",
+    "thehub-successor"
+   ],
+   "active_from": "2025-02-07",
+   "active_to": "2025-12-10",
+   "pgp_keys": [
+    "FDF9AD6CE97590CA763BA8333E97D6F40138D6DD"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "111gk3Ygl300J7u6m8ahJcpdrcX4uBF",
+    "1Phy0nR2Wl1sTQnMw0TvoL7A8mt3M93",
+    "1QMQ8tjbJD7TYxkihgvZakFDZamxFjK",
+    "1e3LH49xjDCuK8ILFmYon9TuJnn1TNp"
+   ],
+   "onion_services": [
+    "4deijxanrs6cpnl7kb72moocukl77fgtt6mny4frznmihjj3ekt7gozy.onion",
+    "4lirlbm677624acf7yag2yli5zpgarmyvzh3pmocfyhjskp74uhgze6z.onion",
+    "x36lr4apn7seyt4llxkfvc5nfuz55t44q6pnzmvjce3vstyqxbzrb6p2.onion"
+   ],
+   "exif_devices": [
+    "HUAWEI P30",
+    "SM-G975F"
+   ],
+   "contact_identifiers": [
+    "dovetailmarsh@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 7.93,
+    "per_persona_spread_hours": 4.0,
+    "regions": [
+     "Bangladesh",
+     "China / Singapore",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Japan / Korea",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.65
+  }
+ },
+ {
+  "cluster_id": "CL015",
+  "personas": [
+   "ACT055-P0",
+   "ACT055-P1",
+   "ACT055-P2"
+  ],
+  "size": 3,
+  "internal_links": 2,
+  "density": 0.667,
+  "cohesion_log10_lr": 1.41,
+  "peak_log10_lr": 1.47,
+  "handles": [
+   "dovetailhollow",
+   "dovetailh0llow",
+   "drdovetailhollow"
+  ],
+  "dossier": {
+   "cluster_id": "CL015",
+   "personas": [
+    {
+     "id": "ACT055-P0",
+     "handle": "dovetailhollow",
+     "site": "thehub-successor",
+     "first_seen": "2025-06-12",
+     "last_seen": "2025-09-01"
+    },
+    {
+     "id": "ACT055-P1",
+     "handle": "dovetailh0llow",
+     "site": "dread-forum",
+     "first_seen": "2025-06-28",
+     "last_seen": "2026-01-28"
+    },
+    {
+     "id": "ACT055-P2",
+     "handle": "drdovetailhollow",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-02-28",
+     "last_seen": "2025-07-24"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "dread-forum",
+    "thehub-successor"
+   ],
+   "active_from": "2025-02-28",
+   "active_to": "2026-01-28",
+   "pgp_keys": [
+    "D73D3E979E501BC1C4435B0C16BCC6ADB4E012B7"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1O1JifmEtLVmu5529P5R7ogEvwUSYqR",
+    "1PyPACerldCnzMGrJVGMZXNHdN0V7yI",
+    "1TQDy6xjdwspYHw4Gf3k7RqPulRdk1C",
+    "1kPvEk8eiZJR0HWz2EBo0KrI1Oijz5U"
+   ],
+   "onion_services": [
+    "7wdxk4do6yugsroqzhzikau23p56i4iaxea6dmma43atqz5wftw6w3gg.onion",
+    "h5b3ntg56sgdxukynwyeaarwdajnpuxgfmfg3ico6xamunugl6owvut7.onion",
+    "xd3okr3y6modm34t3pncqwnj5r76n2lnr44tb3tdeedrc7g3s3kqsw4w.onion"
+   ],
+   "exif_devices": [
+    "Canon EOS 1300D",
+    "Redmi Note 8 Pro",
+    "SM-A515F"
+   ],
+   "contact_identifiers": [
+    "dovetailhollow@xmpp.jp",
+    "drdovetailhollow@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -0.37,
+    "per_persona_spread_hours": 3,
+    "regions": [
+     "Brazil / Argentina",
+     "Central Europe",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.41
+  }
+ },
+ {
+  "cluster_id": "CL016",
+  "personas": [
+   "ACT068-P0",
+   "ACT068-P1",
+   "ACT068-P2"
+  ],
+  "size": 3,
+  "internal_links": 3,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.79,
+  "peak_log10_lr": 3.41,
+  "handles": [
+   "hazelgate",
+   "saltmine38",
+   "HazeLgate"
+  ],
+  "dossier": {
+   "cluster_id": "CL016",
+   "personas": [
+    {
+     "id": "ACT068-P0",
+     "handle": "hazelgate",
+     "site": "dread-forum",
+     "first_seen": "2025-07-06",
+     "last_seen": "2026-01-29"
+    },
+    {
+     "id": "ACT068-P1",
+     "handle": "saltmine38",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-07-19",
+     "last_seen": "2026-01-29"
+    },
+    {
+     "id": "ACT068-P2",
+     "handle": "HazeLgate",
+     "site": "exploit-market",
+     "first_seen": "2025-04-13",
+     "last_seen": "2025-11-06"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "dread-forum",
+    "exploit-market"
+   ],
+   "active_from": "2025-04-13",
+   "active_to": "2026-01-29",
+   "pgp_keys": [
+    "AE8E7E3FC67660539591671987574152F0511450"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1pVpxm73zYgPck50CDmkibGLz4JZpzo"
+   ],
+   "onion_services": [
+    "3etzc3bcikvowiky6zecow44fiuoibrhsyoqpzw2mzverfowcpz5klbp.onion",
+    "aafsiz3vhxlaqwjn3hwrilcunud5n726lt63vgsbqomv4eihqdad77xp.onion",
+    "zod6qoqdjpughg4w7h5zmgdadtu57tdd5jjlstojzyon4tnsyf5ncyjx.onion"
+   ],
+   "exif_devices": [
+    "Canon EOS 1300D",
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "hazelgate@jabber.ru",
+    "saltmine38@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -1.36,
+    "per_persona_spread_hours": 1,
+    "regions": [
+     "Brazil / Argentina",
+     "UK / Portugal"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 1.79
+  }
+ },
+ {
+  "cluster_id": "CL017",
+  "personas": [
+   "ACT076-P0",
+   "ACT076-P1",
+   "ACT076-P2"
+  ],
+  "size": 3,
+  "internal_links": 3,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.72,
+  "peak_log10_lr": 2.59,
+  "handles": [
+   "rookeryvale",
+   "wireframe59",
+   "rookeryv5"
+  ],
+  "dossier": {
+   "cluster_id": "CL017",
+   "personas": [
+    {
+     "id": "ACT076-P0",
+     "handle": "rookeryvale",
+     "site": "thehub-successor",
+     "first_seen": "2025-05-02",
+     "last_seen": "2025-10-29"
+    },
+    {
+     "id": "ACT076-P1",
+     "handle": "wireframe59",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-04-08",
+     "last_seen": "2025-07-17"
+    },
+    {
+     "id": "ACT076-P2",
+     "handle": "rookeryv5",
+     "site": "exploit-market",
+     "first_seen": "2025-05-20",
+     "last_seen": "2025-07-25"
+    }
+   ],
+   "sites": [
+    "exploit-market",
+    "nulled-bazaar",
+    "thehub-successor"
+   ],
+   "active_from": "2025-04-08",
+   "active_to": "2025-10-29",
+   "pgp_keys": [
+    "2AB5D8A9CD662445354E1CE5BE9407DC9824D7AF",
+    "8D99DC1B23F30426E6DAC42DE57EB260EDB9CC10"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "13ZprdNCGFC9bbgXqYkrD2YYiF7C86G"
+   ],
+   "onion_services": [
+    "567y6nokxa5pierpngxwylyiqdmqdya5jnwcpfqn7mfn3wwc5mufa7cp.onion",
+    "tlwjmyegawsaq6k75gmznarj6aa53vdfhgh5mmjr3mgl53qn4tuwavdy.onion",
+    "zxqu3g3zr6nd43jpqjmrgw4wndachdxt2g7s5fgqrwurbtzbyv7k5cyc.onion"
+   ],
+   "exif_devices": [
+    "Redmi Note 8 Pro",
+    "iPhone 11",
+    "moto g(7)"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": -5.38,
+    "per_persona_spread_hours": 4,
+    "regions": [
+     "Brazil / Argentina",
+     "US Central",
+     "US Eastern",
+     "US Pacific"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.72
+  }
+ },
+ {
+  "cluster_id": "CL018",
+  "personas": [
+   "ACT082-P0",
+   "ACT082-P1",
+   "ACT082-P2"
+  ],
+  "size": 3,
+  "internal_links": 3,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.9,
+  "peak_log10_lr": 5.23,
+  "handles": [
+   "redlantern",
+   "redla.ntern",
+   "redla-ntern"
+  ],
+  "dossier": {
+   "cluster_id": "CL018",
+   "personas": [
+    {
+     "id": "ACT082-P0",
+     "handle": "redlantern",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-07-17",
+     "last_seen": "2025-10-03"
+    },
+    {
+     "id": "ACT082-P1",
+     "handle": "redla.ntern",
+     "site": "exploit-market",
+     "first_seen": "2025-01-27",
+     "last_seen": "2025-03-05"
+    },
+    {
+     "id": "ACT082-P2",
+     "handle": "redla-ntern",
+     "site": "thehub-successor",
+     "first_seen": "2025-04-08",
+     "last_seen": "2025-07-21"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "exploit-market",
+    "thehub-successor"
+   ],
+   "active_from": "2025-01-27",
+   "active_to": "2025-10-03",
+   "pgp_keys": [
+    "EB059A6420E0FC68C8D0EDB33D4A76BF43084899"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1o54w1rV8Bm31mcnRkdbmjm83QX2cAf",
+    "1xTHxXqbyH8lugpB2552ytuVKYftAxa"
+   ],
+   "onion_services": [
+    "4ktoppjkeg5vqhc5dzz6of2rni6gvovksdrmf7sqphby3pggx6nt6eos.onion",
+    "54iqtr4nexliqtiyjnhi7ykkjhrckrglsrzishz7pql3dqre5php26ay.onion",
+    "hdcijp6mdqxxpzydohpacaqlka4ixppmyqhvoieyzkdqgu2jibdu6si5.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a",
+    "iPhone 13"
+   ],
+   "contact_identifiers": [
+    "redla-ntern@xmpp.jp",
+    "redlantern@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -1.0,
+    "per_persona_spread_hours": 0,
+    "regions": [
+     "UK / Portugal"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 2.9
+  }
+ },
+ {
+  "cluster_id": "CL019",
+  "personas": [
+   "ACT089-P0",
+   "ACT089-P1",
+   "ACT089-P2"
+  ],
+  "size": 3,
+  "internal_links": 2,
+  "density": 0.667,
+  "cohesion_log10_lr": 1.41,
+  "peak_log10_lr": 3.71,
+  "handles": [
+   "petrelreach",
+   "petrelr2",
+   "amberbank9"
+  ],
+  "dossier": {
+   "cluster_id": "CL019",
+   "personas": [
+    {
+     "id": "ACT089-P0",
+     "handle": "petrelreach",
+     "site": "kilos-index",
+     "first_seen": "2025-05-15",
+     "last_seen": "2025-11-05"
+    },
+    {
+     "id": "ACT089-P1",
+     "handle": "petrelr2",
+     "site": "exploit-market",
+     "first_seen": "2025-03-01",
+     "last_seen": "2025-07-15"
+    },
+    {
+     "id": "ACT089-P2",
+     "handle": "amberbank9",
+     "site": "agora-reloaded",
+     "first_seen": "2025-06-17",
+     "last_seen": "2026-01-22"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "exploit-market",
+    "kilos-index"
+   ],
+   "active_from": "2025-03-01",
+   "active_to": "2026-01-22",
+   "pgp_keys": [
+    "535D91276BF41E330A495EE70BECF06E443607DD"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1HJR5BrjZMf11t4jqMT5tMU2ku4TDA9",
+    "1PXd1ioFeCRIXvMi85Gv1xmAftJzA4g",
+    "1U1CoACIFh9q92x2J2mMm0dTD8xvIV7",
+    "1g6PrKC2nq5aIx5GXhufFDD1KRcyaCw",
+    "1gkjoC64vuQG7dZy46XWe3ngENnb3B7",
+    "1u1C3YFth79mnrhDj0hW4DtfXBhA6I9"
+   ],
+   "onion_services": [
+    "jlbyzg7dpildqxywknp377pzwvcuzmjqsrajsgypnonoq5f26zba7idu.onion",
+    "t5to3tylcui6uo2fqn3iasnbbttykaaf2vtult76whjv73fzh7k5mssd.onion",
+    "ztdkjswi62jtjnfpaw3od2zw3yfmeknmtwwb7hovdeolzfk54bimtaxg.onion"
+   ],
+   "exif_devices": [
+    "SM-G975F",
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "petrelreach@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 6.97,
+    "per_persona_spread_hours": 2.75,
+    "regions": [
+     "Bangladesh",
+     "China / Singapore",
+     "India / Sri Lanka",
+     "Japan / Korea",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.41
+  }
+ },
+ {
+  "cluster_id": "CL020",
+  "personas": [
+   "ACT096-P0",
+   "ACT096-P1",
+   "ACT096-P2"
+  ],
+  "size": 3,
+  "internal_links": 3,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.04,
+  "peak_log10_lr": 3.62,
+  "handles": [
+   "umbralpike",
+   "umbralpi5",
+   "UmbraLpike"
+  ],
+  "dossier": {
+   "cluster_id": "CL020",
+   "personas": [
+    {
+     "id": "ACT096-P0",
+     "handle": "umbralpike",
+     "site": "dread-forum",
+     "first_seen": "2025-01-26",
+     "last_seen": "2025-09-19"
+    },
+    {
+     "id": "ACT096-P1",
+     "handle": "umbralpi5",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-03-19",
+     "last_seen": "2025-05-15"
+    },
+    {
+     "id": "ACT096-P2",
+     "handle": "UmbraLpike",
+     "site": "kilos-index",
+     "first_seen": "2025-05-19",
+     "last_seen": "2025-10-14"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "kilos-index",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-01-26",
+   "active_to": "2025-10-14",
+   "pgp_keys": [
+    "33EED6400D5AFBCAE0EBE908B679B0FF94402984"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [],
+   "onion_services": [
+    "3n2qt7ltq5ujwewjtlnxtvt5liikniegrwggephjtxolfwfqsapgiwif.onion",
+    "gtv4e4rdaxi77jrnezy37wbtw6ccahnflizbsr6srj4lcpnp44dweasu.onion",
+    "x4ufmbw6oxmhpsiela4p4oudo3uxbaf2xujue2xolmnptwgjptmaesuq.onion"
+   ],
+   "exif_devices": [
+    "iPhone 13"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": -3.18,
+    "per_persona_spread_hours": 0.5,
+    "regions": [
+     "Brazil / Argentina"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 3.04
+  }
+ },
+ {
+  "cluster_id": "CL021",
+  "personas": [
+   "ACT104-P0",
+   "ACT104-P1",
+   "ACT104-P2"
+  ],
+  "size": 3,
+  "internal_links": 2,
+  "density": 0.667,
+  "cohesion_log10_lr": 2.55,
+  "peak_log10_lr": 2.89,
+  "handles": [
+   "wrenford",
+   "quillonford82",
+   "wrenfordhq"
+  ],
+  "dossier": {
+   "cluster_id": "CL021",
+   "personas": [
+    {
+     "id": "ACT104-P0",
+     "handle": "wrenford",
+     "site": "kilos-index",
+     "first_seen": "2025-07-08",
+     "last_seen": "2026-02-24"
+    },
+    {
+     "id": "ACT104-P1",
+     "handle": "quillonford82",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-01-23",
+     "last_seen": "2025-06-12"
+    },
+    {
+     "id": "ACT104-P2",
+     "handle": "wrenfordhq",
+     "site": "exploit-market",
+     "first_seen": "2025-07-16",
+     "last_seen": "2025-12-16"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "exploit-market",
+    "kilos-index"
+   ],
+   "active_from": "2025-01-23",
+   "active_to": "2026-02-24",
+   "pgp_keys": [
+    "AC5CCB96F7EC162517998C9FA70EDEEBF0094CE2",
+    "D4C61286B4A2143E35EDC3427D809FA9CEFA443A"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "160xRYnHz18AWHdvEDJrWjcak6LSz9y",
+    "1GQpiyMKitxt3xRXbCQ5qcambSZTYIt",
+    "1H7QRde57C6fMG55mLhHSXGq39VfY2h"
+   ],
+   "onion_services": [
+    "4zwd26rndicpviltfrrje3fv762ztgyfoh46u6s2ghmpsuspiy5ifvtz.onion",
+    "mwujnpdtpi2vgppdgpywicmmmsk2kjo7fzoxwi6raln2qx72ud23a5ww.onion",
+    "o4ys7ghzqjqiz3vufemmtfj4q7pdw2h5qdgah5qoaru6m5d6w4vize2w.onion"
+   ],
+   "exif_devices": [
+    "Canon EOS 1300D",
+    "vivo 1904"
+   ],
+   "contact_identifiers": [
+    "wrenfordhq@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 1.41,
+    "per_persona_spread_hours": 2,
+    "regions": [
+     "Central Europe",
+     "Iran",
+     "Moscow / East Africa",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.55
+  }
+ },
+ {
+  "cluster_id": "CL022",
+  "personas": [
+   "ACT107-P0",
+   "ACT107-P1",
+   "ACT107-P2"
+  ],
+  "size": 3,
+  "internal_links": 3,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.61,
+  "peak_log10_lr": 3.76,
+  "handles": [
+   "flintmarsh",
+   "FlintMarsh",
+   "flintmarsh.50"
+  ],
+  "dossier": {
+   "cluster_id": "CL022",
+   "personas": [
+    {
+     "id": "ACT107-P0",
+     "handle": "flintmarsh",
+     "site": "kilos-index",
+     "first_seen": "2025-06-26",
+     "last_seen": "2025-10-21"
+    },
+    {
+     "id": "ACT107-P1",
+     "handle": "FlintMarsh",
+     "site": "agora-reloaded",
+     "first_seen": "2025-05-18",
+     "last_seen": "2025-10-05"
+    },
+    {
+     "id": "ACT107-P2",
+     "handle": "flintmarsh.50",
+     "site": "dread-forum",
+     "first_seen": "2025-02-23",
+     "last_seen": "2025-04-23"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "dread-forum",
+    "kilos-index"
+   ],
+   "active_from": "2025-02-23",
+   "active_to": "2025-10-21",
+   "pgp_keys": [
+    "6019BBD830F8E7FA953AF63BF38C7D24FAEA3004"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "11fMEtE76y15ocUio6RBuvQ84UELeQ6",
+    "1NmJ7evg41Zq7b2gdBw2XzsNlgmWAVk",
+    "1OOoopMuKxySgmqluFLDpm0bS8j73O7",
+    "1oulDSWKpeHMHzmbceE7Su1DK9aGesk"
+   ],
+   "onion_services": [
+    "eq3lfybfdqomnaipsegggc44mg2h2honvv6lxguxaogu7xvwmu7xk3j6.onion",
+    "wgtpvsudzdpsbpbuxcx2pci6adm75nzp64xka5g6dtjwaelslsykvhj2.onion",
+    "z6zdinqqh3gy5aklfgcatb2tkl4vq3in6ky7g5xphzfs5f3dqcbswtaa.onion"
+   ],
+   "exif_devices": [
+    "SM-A515F",
+    "iPhone 11"
+   ],
+   "contact_identifiers": [
+    "flintmarsh.50@jabber.ru",
+    "flintmarsh@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 3.35,
+    "per_persona_spread_hours": 2.5,
+    "regions": [
+     "Central Europe",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Moscow / East Africa",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.61
+  }
+ },
+ {
+  "cluster_id": "CL023",
+  "personas": [
+   "ACT113-P0",
+   "ACT113-P1",
+   "ACT113-P2"
+  ],
+  "size": 3,
+  "internal_links": 3,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.25,
+  "peak_log10_lr": 3.05,
+  "handles": [
+   "jettisonkeep",
+   "jettis.onkeep",
+   "j3tt1sonkeep"
+  ],
+  "dossier": {
+   "cluster_id": "CL023",
+   "personas": [
+    {
+     "id": "ACT113-P0",
+     "handle": "jettisonkeep",
+     "site": "agora-reloaded",
+     "first_seen": "2025-06-24",
+     "last_seen": "2026-01-29"
+    },
+    {
+     "id": "ACT113-P1",
+     "handle": "jettis.onkeep",
+     "site": "exploit-market",
+     "first_seen": "2025-01-21",
+     "last_seen": "2025-06-24"
+    },
+    {
+     "id": "ACT113-P2",
+     "handle": "j3tt1sonkeep",
+     "site": "dread-forum",
+     "first_seen": "2025-04-16",
+     "last_seen": "2025-11-28"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "dread-forum",
+    "exploit-market"
+   ],
+   "active_from": "2025-01-21",
+   "active_to": "2026-01-29",
+   "pgp_keys": [
+    "9FB07636DBE44CF4A99DE7D8DE6F420D849AE75C",
+    "AE17895C544E28D3C80837FD294F66FC14801175"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1T91CzLaPRHPEof0Hc4RzYWwjisvush",
+    "1UQ0eujLmZtxSRS3uEQxtBt5fuaISwm",
+    "1rLbtvRTI6f3pUuvGIGuYxdFumHkwHO"
+   ],
+   "onion_services": [
+    "2un4u7qnxwiq33q6zn3ahqurhnqw5xzoo345xqmfa7dqodozk727deow.onion",
+    "rk4d4n7bqg5cn3rnxaesjzoldv4gx2rnzhfpxwuedq3ypxcshxyfi5tz.onion",
+    "rzmyahgrwvdf5stfenzojwns7awmzdm3j7swng44nxovfaw3nf2rn5os.onion"
+   ],
+   "exif_devices": [
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "j3tt1sonkeep@jabber.ru",
+    "jettisonkeep@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 12.17,
+    "per_persona_spread_hours": 1.75,
+    "regions": [
+     "Eastern Australia"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.25
+  }
+ },
+ {
+  "cluster_id": "CL024",
+  "personas": [
+   "ACT127-P0",
+   "ACT127-P1",
+   "ACT127-P2"
+  ],
+  "size": 3,
+  "internal_links": 2,
+  "density": 0.667,
+  "cohesion_log10_lr": 1.41,
+  "peak_log10_lr": 2.71,
+  "handles": [
+   "lumenreach",
+   "lumenr1",
+   "LumenReach"
+  ],
+  "dossier": {
+   "cluster_id": "CL024",
+   "personas": [
+    {
+     "id": "ACT127-P0",
+     "handle": "lumenreach",
+     "site": "kilos-index",
+     "first_seen": "2025-05-05",
+     "last_seen": "2025-07-20"
+    },
+    {
+     "id": "ACT127-P1",
+     "handle": "lumenr1",
+     "site": "dread-forum",
+     "first_seen": "2025-02-26",
+     "last_seen": "2025-08-26"
+    },
+    {
+     "id": "ACT127-P2",
+     "handle": "LumenReach",
+     "site": "exploit-market",
+     "first_seen": "2025-04-09",
+     "last_seen": "2025-07-17"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "exploit-market",
+    "kilos-index"
+   ],
+   "active_from": "2025-02-26",
+   "active_to": "2025-08-26",
+   "pgp_keys": [
+    "318F0F32769A67E1E025691D0848D5674C80C079",
+    "5AE69357EB7FBBFCC5270763C74A283671845B24",
+    "B858CEEFC0377E25F47359F542C818B98A1C1CDB"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "14GltnHMenOTpi8WN8rx5QzM1ZSDypy",
+    "1XgBx1JfrK7KX17uhb4SqIVxkRUUcXC",
+    "1rwQlcQk6gyB6gNN4zuuoG75cFq2Jgt"
+   ],
+   "onion_services": [
+    "k3r7tn6kljryavuaai2enc5iz4af24isa5boiyozkrxlczusisrinlub.onion",
+    "ryljptfpqhcqpceutm5mboihss4farfdi6b4ym6uogtncfso5wc3gr2x.onion",
+    "tq7vnrc5t4tmtkf7toxofxaqng4io5wbrdnckftamsnwoxtpgjj6y4sq.onion"
+   ],
+   "exif_devices": [
+    "Nikon D3500"
+   ],
+   "contact_identifiers": [
+    "lumenreach@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -5.32,
+    "per_persona_spread_hours": 1,
+    "regions": [
+     "US Central",
+     "US Eastern"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 1.41
+  }
+ },
+ {
+  "cluster_id": "CL025",
+  "personas": [
+   "ACT129-P0",
+   "ACT129-P1",
+   "ACT129-P2"
+  ],
+  "size": 3,
+  "internal_links": 2,
+  "density": 0.667,
+  "cohesion_log10_lr": 1.42,
+  "peak_log10_lr": 3.44,
+  "handles": [
+   "indigogate",
+   "cinderthorn89",
+   "IndigOgate"
+  ],
+  "dossier": {
+   "cluster_id": "CL025",
+   "personas": [
+    {
+     "id": "ACT129-P0",
+     "handle": "indigogate",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-05-24",
+     "last_seen": "2025-12-22"
+    },
+    {
+     "id": "ACT129-P1",
+     "handle": "cinderthorn89",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-02-22",
+     "last_seen": "2025-06-26"
+    },
+    {
+     "id": "ACT129-P2",
+     "handle": "IndigOgate",
+     "site": "thehub-successor",
+     "first_seen": "2025-04-29",
+     "last_seen": "2025-07-27"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "nulled-bazaar",
+    "thehub-successor"
+   ],
+   "active_from": "2025-02-22",
+   "active_to": "2025-12-22",
+   "pgp_keys": [
+    "D226F8897088837F94B4C249464985438DEE8DBD",
+    "F2B570D270EF43535D36C9645EC1D22F96C418CD"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1P0TMvB7xDEqc6Ppa37VIlfJ54dSX7C",
+    "1WRFBkb2fdpGZPYWoJZdS5zcgL2D67n",
+    "1dfQbJhlnmCckYSDqoHpvxcvcKXkvun",
+    "1inlIR1ec2zQvLJFs8hGWNzMhmYos21",
+    "1pd475WdlAaZH67QdpIE4o9cLSpaq28",
+    "1qzugH2sTiI4YRvGJod7cybQSYZTUF0",
+    "1vC6ZaoWHVcvE872f1GK2rhAsv9WI7v"
+   ],
+   "onion_services": [
+    "bf4yd2qafn6apsjvpw3sl3cyrr2l2sdyd23vhbasdx2hcfhi46frvgc4.onion",
+    "s45xc2k7nwpuhfce6u2vhm62do7ne5votvqrihcirfh6pjh7xkxalkw2.onion",
+    "siqiqai2fowzjcac6t652gutlnov2bwl643slgg5mrkbij3dd2gnuzpp.onion"
+   ],
+   "exif_devices": [
+    "Nikon D3500"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": -10.42,
+    "per_persona_spread_hours": 1.5,
+    "regions": [
+     "Eastern Australia"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 1.42
+  }
+ },
+ {
+  "cluster_id": "CL026",
+  "personas": [
+   "ACT135-P0",
+   "ACT135-P1",
+   "ACT135-P2"
+  ],
+  "size": 3,
+  "internal_links": 2,
+  "density": 0.667,
+  "cohesion_log10_lr": 1.72,
+  "peak_log10_lr": 2.04,
+  "handles": [
+   "verdigrisford",
+   "lumenpike66",
+   "verdigri5f0rd"
+  ],
+  "dossier": {
+   "cluster_id": "CL026",
+   "personas": [
+    {
+     "id": "ACT135-P0",
+     "handle": "verdigrisford",
+     "site": "exploit-market",
+     "first_seen": "2025-04-07",
+     "last_seen": "2025-09-19"
+    },
+    {
+     "id": "ACT135-P1",
+     "handle": "lumenpike66",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-01-23",
+     "last_seen": "2025-04-24"
+    },
+    {
+     "id": "ACT135-P2",
+     "handle": "verdigri5f0rd",
+     "site": "dread-forum",
+     "first_seen": "2025-03-09",
+     "last_seen": "2025-08-06"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "dread-forum",
+    "exploit-market"
+   ],
+   "active_from": "2025-01-23",
+   "active_to": "2025-09-19",
+   "pgp_keys": [
+    "72683A51E427AE97C6222741D86E1BC0C1EB62B1",
+    "C6C1C26E50ECB45CF045A3A7799D7E2221D742E9"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1AJfwP40B8y7GC7wjMGTN0TLk1yTIHw",
+    "1Be8kq05mOV6CPRkxoE1FI1tdnE4h5i",
+    "1gLvwO6FIbhFeupdgRmUgxZhxG47cWG",
+    "1s4tkdGDNNLhL4gMQnxT4wlqfJo7elS"
+   ],
+   "onion_services": [
+    "5vbldbtaxbwz4yqjqpibqohhdupibd555lwcal5f4hrp5jjf7xn542rk.onion",
+    "bqqwsg5htfwbuna4vukkdanbd3twgvgn33ghgrcygc6ge33vefqmzlto.onion",
+    "gxiwdww5nmpntj5iia6gmgkgmtqn2xx3s6sge7nnl5sh3w64s2m24dpz.onion"
+   ],
+   "exif_devices": [
+    "HUAWEI P30"
+   ],
+   "contact_identifiers": [
+    "verdigrisford@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 5.83,
+    "per_persona_spread_hours": 2.5,
+    "regions": [
+     "Bangladesh",
+     "China / Singapore",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Japan / Korea",
+     "Moscow / East Africa",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.72
+  }
+ },
+ {
+  "cluster_id": "CL027",
+  "personas": [
+   "ACT004-P0",
+   "ACT004-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 5.36,
+  "peak_log10_lr": 5.36,
+  "handles": [
+   "petrelkeep",
+   "xpetrelkeep"
+  ],
+  "dossier": {
+   "cluster_id": "CL027",
+   "personas": [
+    {
+     "id": "ACT004-P0",
+     "handle": "petrelkeep",
+     "site": "thehub-successor",
+     "first_seen": "2025-03-28",
+     "last_seen": "2025-06-29"
+    },
+    {
+     "id": "ACT004-P1",
+     "handle": "xpetrelkeep",
+     "site": "exploit-market",
+     "first_seen": "2025-02-15",
+     "last_seen": "2025-04-30"
+    }
+   ],
+   "sites": [
+    "exploit-market",
+    "thehub-successor"
+   ],
+   "active_from": "2025-02-15",
+   "active_to": "2025-06-29",
+   "pgp_keys": [
+    "5D1A24429D77AE6749742F6A4A4BA21F43596B23"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [],
+   "onion_services": [
+    "gtag33aawqkv4iblytiiznau4b6luncihw5j5jzrcon274y4gvowwfmc.onion",
+    "vqr73ozjh2ebg7nkw6b3m6yvle2gmozdpbfknyif5qfvvpcr4r2f65xk.onion"
+   ],
+   "exif_devices": [
+    "HUAWEI P30"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 10.5,
+    "per_persona_spread_hours": 0.0,
+    "regions": [
+     "Eastern Australia"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 5.36
+  }
+ },
+ {
+  "cluster_id": "CL028",
+  "personas": [
+   "ACT011-P0",
+   "ACT011-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.24,
+  "peak_log10_lr": 2.24,
+  "handles": [
+   "lum3nmar5h",
+   "quillonspire73"
+  ],
+  "dossier": {
+   "cluster_id": "CL028",
+   "personas": [
+    {
+     "id": "ACT011-P0",
+     "handle": "lum3nmar5h",
+     "site": "agora-reloaded",
+     "first_seen": "2025-04-23",
+     "last_seen": "2025-06-29"
+    },
+    {
+     "id": "ACT011-P1",
+     "handle": "quillonspire73",
+     "site": "thehub-successor",
+     "first_seen": "2025-05-09",
+     "last_seen": "2025-12-16"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "thehub-successor"
+   ],
+   "active_from": "2025-04-23",
+   "active_to": "2025-12-16",
+   "pgp_keys": [
+    "3F7D02212D117A4EE8B2058812C1CCE3BC5CCBCD",
+    "A3074E3EDC33FA0D1EDE4E74EA630A8A5FF11765"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "15BD3tp6TKEnUNy7pI5Vhk9CwOvdgVn",
+    "1B1mgFa1CAuDJqY4Ev9KvIozqLHeVjY",
+    "1CpeqFqSOIh1UyODcA5fW26tQW1XJhD",
+    "1galYotMbPHKihnnoZEJ7YVOq61yWZa",
+    "1iM4UHVhGXuzwD5qVsHNDU57KcIm3Te",
+    "1jA4XHK3RBvjgRmbAbTGUXlLe2u1Hxm"
+   ],
+   "onion_services": [
+    "rosjy7jtprzxgtxk4rwvopcr2rv6odelhrg4maetd25hyze6pvymdea7.onion",
+    "ypth3iir7gpu66rtcuwmuujqp74fm3f2ivfmnhgpgtzpiblb3awkzv66.onion"
+   ],
+   "exif_devices": [],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 8.34,
+    "per_persona_spread_hours": 3.0,
+    "regions": [
+     "Bangladesh",
+     "China / Singapore",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Japan / Korea",
+     "Moscow / East Africa",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.24
+  }
+ },
+ {
+  "cluster_id": "CL029",
+  "personas": [
+   "ACT015-P0",
+   "ACT015-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 5.79,
+  "peak_log10_lr": 5.79,
+  "handles": [
+   "kestrelkeep",
+   "kestrel9"
+  ],
+  "dossier": {
+   "cluster_id": "CL029",
+   "personas": [
+    {
+     "id": "ACT015-P0",
+     "handle": "kestrelkeep",
+     "site": "agora-reloaded",
+     "first_seen": "2025-05-08",
+     "last_seen": "2025-11-12"
+    },
+    {
+     "id": "ACT015-P1",
+     "handle": "kestrel9",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-03-05",
+     "last_seen": "2025-07-28"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-03-05",
+   "active_to": "2025-11-12",
+   "pgp_keys": [
+    "5065D12390BD471AB64FF17871B59617A723FFB9"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "122Y7s62rCh46IKPlGafBZSuwpUfiS9",
+    "1TCWEp0Fo4rNVe6ANzVgTieWCGTFRbN",
+    "1eDYkL4E6QOzW2n3O2VNVf6f5R0w5DT",
+    "1ojsL5fhxoLLqzfga1Ok7CnFee2piQH"
+   ],
+   "onion_services": [
+    "c5ixoidrbtakcogk642rio2f5ohm7tvd7tn5apmhuu2g3lcitl6ve6dg.onion",
+    "kybia3ws7r3jm75dlmti7qevcq5ihwls2fzro77llxxltjhwznaolptt.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a"
+   ],
+   "contact_identifiers": [
+    "kestrelkeep@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -9.26,
+    "per_persona_spread_hours": 0.5,
+    "regions": [
+     "US Pacific"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 5.79
+  }
+ },
+ {
+  "cluster_id": "CL030",
+  "personas": [
+   "ACT020-P0",
+   "ACT020-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.41,
+  "peak_log10_lr": 3.41,
+  "handles": [
+   "lumendell",
+   "xlumendell"
+  ],
+  "dossier": {
+   "cluster_id": "CL030",
+   "personas": [
+    {
+     "id": "ACT020-P0",
+     "handle": "lumendell",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-01-23",
+     "last_seen": "2025-09-18"
+    },
+    {
+     "id": "ACT020-P1",
+     "handle": "xlumendell",
+     "site": "dread-forum",
+     "first_seen": "2025-01-20",
+     "last_seen": "2025-04-18"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-01-20",
+   "active_to": "2025-09-18",
+   "pgp_keys": [
+    "7DC00A9290B48AF0F491BFF4DB1BD61BC4F5D391"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1HP7fOWj6TYZsZ0H2jjuz1q43zwvMQI",
+    "1VI6uhxFKvGAPQ2lUEuHI8QV615yyfe",
+    "1chajZ6AE0pZ3Vi79pqOyOoSIH0Gv38",
+    "1nF6bXpmnUnex5Pvq1wExOdE1RflVwz",
+    "1sk4lJEbULm4rNSPp27EHiepFvUc0q1"
+   ],
+   "onion_services": [
+    "2mo46hi2koijvyk4ba5gk7iu22renheb346t3y4okvutevw5p22mfa4y.onion",
+    "fsvendlntyyrttsx2bpz2imo7gpxbcuusthcnhcoyue6grh32xbchxik.onion"
+   ],
+   "exif_devices": [
+    "iPhone 13"
+   ],
+   "contact_identifiers": [
+    "xlumendell@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -6.43,
+    "per_persona_spread_hours": 1,
+    "regions": [
+     "US Central",
+     "US Eastern",
+     "US Pacific"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 3.41
+  }
+ },
+ {
+  "cluster_id": "CL031",
+  "personas": [
+   "ACT021-P0",
+   "ACT021-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.0,
+  "peak_log10_lr": 3.0,
+  "handles": [
+   "quillonvale",
+   "quill.onvale"
+  ],
+  "dossier": {
+   "cluster_id": "CL031",
+   "personas": [
+    {
+     "id": "ACT021-P0",
+     "handle": "quillonvale",
+     "site": "thehub-successor",
+     "first_seen": "2025-05-05",
+     "last_seen": "2025-11-25"
+    },
+    {
+     "id": "ACT021-P1",
+     "handle": "quill.onvale",
+     "site": "dread-forum",
+     "first_seen": "2025-06-17",
+     "last_seen": "2025-11-09"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "thehub-successor"
+   ],
+   "active_from": "2025-05-05",
+   "active_to": "2025-11-25",
+   "pgp_keys": [
+    "7DF2D37496FCC7CEBD2D739206CA11766F58772F"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1SJrrgBI1aPWmRCTz3AQaINKFWcdF5j",
+    "1zYDDRWzMTPpHOGzanoMnvBRruvIAbI"
+   ],
+   "onion_services": [
+    "ldhxt4nf3xvpet4iygfxk5gwwi2mckzssvint5xaaldyl3a4mmv3fs4s.onion",
+    "sxxjvnapvx6zzq64paaw7u7t2piqxm7zewkx3pjbs2z6mp6bw2ex73t3.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a"
+   ],
+   "contact_identifiers": [
+    "quill.onvale@jabber.ru",
+    "quillonvale@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 6.74,
+    "per_persona_spread_hours": 4.25,
+    "regions": [
+     "Bangladesh",
+     "China / Singapore",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Japan / Korea",
+     "Moscow / East Africa",
+     "Nepal"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 3.0
+  }
+ },
+ {
+  "cluster_id": "CL032",
+  "personas": [
+   "ACT023-P0",
+   "ACT023-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.59,
+  "peak_log10_lr": 2.59,
+  "handles": [
+   "gablemarsh",
+   "g4blemarsh"
+  ],
+  "dossier": {
+   "cluster_id": "CL032",
+   "personas": [
+    {
+     "id": "ACT023-P0",
+     "handle": "gablemarsh",
+     "site": "thehub-successor",
+     "first_seen": "2025-04-02",
+     "last_seen": "2025-09-01"
+    },
+    {
+     "id": "ACT023-P1",
+     "handle": "g4blemarsh",
+     "site": "exploit-market",
+     "first_seen": "2025-02-18",
+     "last_seen": "2025-08-22"
+    }
+   ],
+   "sites": [
+    "exploit-market",
+    "thehub-successor"
+   ],
+   "active_from": "2025-02-18",
+   "active_to": "2025-09-01",
+   "pgp_keys": [
+    "7B97534A2A4DD50DEFCF8888B3AD3E9BAD97E2C5",
+    "EEB74DD52383D010BE515AD88FE10025E87088A7"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1NhPz6hd6bN4rPVuFhGwD8udZT9zWYq",
+    "1RfHW3JmcsmERwBgdQHV1bo1myPXX3v",
+    "1qsj4156IwbCzATRtAdar6QbDUJl3Ja"
+   ],
+   "onion_services": [
+    "dt3p2zmxy2snctsibyyuux3774hirukfmc2xl5j6zt6acrbpsehl2mnu.onion",
+    "zo3whmu5q436ine2b72fh37faopz3agjjirydlsftjdwh324lmpfvrov.onion"
+   ],
+   "exif_devices": [
+    "iPhone 13"
+   ],
+   "contact_identifiers": [
+    "gablemarsh@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -10.28,
+    "per_persona_spread_hours": 1.5,
+    "regions": [],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 2.59
+  }
+ },
+ {
+  "cluster_id": "CL033",
+  "personas": [
+   "ACT024-P0",
+   "ACT024-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.61,
+  "peak_log10_lr": 2.61,
+  "handles": [
+   "marrownotch",
+   "marr0wnotch"
+  ],
+  "dossier": {
+   "cluster_id": "CL033",
+   "personas": [
+    {
+     "id": "ACT024-P0",
+     "handle": "marrownotch",
+     "site": "thehub-successor",
+     "first_seen": "2025-04-10",
+     "last_seen": "2025-11-02"
+    },
+    {
+     "id": "ACT024-P1",
+     "handle": "marr0wnotch",
+     "site": "dread-forum",
+     "first_seen": "2025-06-04",
+     "last_seen": "2025-08-21"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "thehub-successor"
+   ],
+   "active_from": "2025-04-10",
+   "active_to": "2025-11-02",
+   "pgp_keys": [
+    "FD794FB34E57C9547CE1826ECE52F5327BA08E24"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "17Uut5sxSWHGf5Ke2Qp0G7GiJ4x3d3x",
+    "1G48iw3F3sX3JXRHsdK5k0xcfVNDo25"
+   ],
+   "onion_services": [
+    "a4hlbueqqsu75jkklhvl6npk7r6snuxgkgoy32ynyek2ptsualz662w4.onion",
+    "wxd4kmsnp4osvovdmvyxd5j37ndqxhdjlgxdyt6aa23svssaoyos37fz.onion"
+   ],
+   "exif_devices": [
+    "iPhone 11"
+   ],
+   "contact_identifiers": [
+    "marrownotch@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 6.0,
+    "per_persona_spread_hours": 1.0,
+    "regions": [
+     "Bangladesh",
+     "China / Singapore",
+     "India / Sri Lanka",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 2.61
+  }
+ },
+ {
+  "cluster_id": "CL034",
+  "personas": [
+   "ACT025-P0",
+   "ACT025-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.84,
+  "peak_log10_lr": 1.84,
+  "handles": [
+   "verdigriswick",
+   "verdigriswick_hq"
+  ],
+  "dossier": {
+   "cluster_id": "CL034",
+   "personas": [
+    {
+     "id": "ACT025-P0",
+     "handle": "verdigriswick",
+     "site": "dread-forum",
+     "first_seen": "2025-01-07",
+     "last_seen": "2025-05-29"
+    },
+    {
+     "id": "ACT025-P1",
+     "handle": "verdigriswick_hq",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-02-27",
+     "last_seen": "2025-10-10"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "dread-forum"
+   ],
+   "active_from": "2025-01-07",
+   "active_to": "2025-10-10",
+   "pgp_keys": [
+    "D338BC07E4299876BC595A3995F087CB331AFA24"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "15p7IV4EJkwA4kguANW1hPc1RV86Kja",
+    "1GtCTgQ7ZMUtwdYZsMLJui7v6SBOFzp",
+    "1XgZiaTuf5xK90pK8dod0LLmiI6sW8U",
+    "1ttFhoeTWFlIcSOB6aQiN4LyT70eVHK"
+   ],
+   "onion_services": [
+    "ej45egirqkrxotu4tyvvkppean7ys3exrjba2s5dt53fowjw4emvvsbo.onion",
+    "q7d5usl4ptnvu3rwthoymjtzcvdwfgy75alktniocfc2h63ujbapkenk.onion"
+   ],
+   "exif_devices": [],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 9.96,
+    "per_persona_spread_hours": 1.0,
+    "regions": [
+     "Eastern Australia",
+     "Japan / Korea"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 1.84
+  }
+ },
+ {
+  "cluster_id": "CL035",
+  "personas": [
+   "ACT030-P0",
+   "ACT030-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.53,
+  "peak_log10_lr": 3.53,
+  "handles": [
+   "marrowbank",
+   "dovetailpike49"
+  ],
+  "dossier": {
+   "cluster_id": "CL035",
+   "personas": [
+    {
+     "id": "ACT030-P0",
+     "handle": "marrowbank",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-06-05",
+     "last_seen": "2026-01-20"
+    },
+    {
+     "id": "ACT030-P1",
+     "handle": "dovetailpike49",
+     "site": "exploit-market",
+     "first_seen": "2025-06-22",
+     "last_seen": "2025-11-14"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "exploit-market"
+   ],
+   "active_from": "2025-06-05",
+   "active_to": "2026-01-20",
+   "pgp_keys": [
+    "860D2EB4F1DAC1625824303D670BC786ECE49BAA",
+    "F030DD251B365222EB4FBDA7940189070CE6F89E"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1Ncs8A5YXWfkPXakv1k03s6Zw7MhudR",
+    "1SUg3CsiKFDXv7LHbYBeU4apio0Io9L",
+    "1iKLYa62ymI2p8lSQShxDdoOh0TEudy",
+    "1mf5hieXdjggvQZxzeuLvVA35VejPQ6"
+   ],
+   "onion_services": [
+    "axo4q6ajuna3rgvifwqrzwjiygdk4hq5cke2dvebbwu6onpplu5kecjk.onion",
+    "z23msogey62ye66izoxwmkkomrhnfbkgp5id3lflg5cyourst3svn6vc.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": -7.0,
+    "per_persona_spread_hours": 0,
+    "regions": [
+     "US Central",
+     "US Pacific"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 3.53
+  }
+ },
+ {
+  "cluster_id": "CL036",
+  "personas": [
+   "ACT031-P0",
+   "ACT031-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.88,
+  "peak_log10_lr": 3.88,
+  "handles": [
+   "lumenspire",
+   "lumen-spire"
+  ],
+  "dossier": {
+   "cluster_id": "CL036",
+   "personas": [
+    {
+     "id": "ACT031-P0",
+     "handle": "lumenspire",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-04-03",
+     "last_seen": "2025-08-14"
+    },
+    {
+     "id": "ACT031-P1",
+     "handle": "lumen-spire",
+     "site": "agora-reloaded",
+     "first_seen": "2025-01-22",
+     "last_seen": "2025-04-10"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "cryptbb-mirror"
+   ],
+   "active_from": "2025-01-22",
+   "active_to": "2025-08-14",
+   "pgp_keys": [
+    "B894DFF7945C6AF2F106E7159A7CBF162058E4DC"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1MCM3RRn148HqfQ5Rb1orGAkBb2BxLn"
+   ],
+   "onion_services": [
+    "4nta3mpxnekbqox65xxy7gd24cez274hfnnrb42wam7hwmbpapbic3nm.onion",
+    "eqlphbnuleiz2z5xvmpctdb77z3vpm2nhyazkp2shtgipaxtjlecy6np.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a"
+   ],
+   "contact_identifiers": [
+    "lumenspire@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 9.12,
+    "per_persona_spread_hours": 0.75,
+    "regions": [
+     "China / Singapore",
+     "Japan / Korea"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 3.88
+  }
+ },
+ {
+  "cluster_id": "CL037",
+  "personas": [
+   "ACT036-P0",
+   "ACT036-P2"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.58,
+  "peak_log10_lr": 2.58,
+  "handles": [
+   "thistlekeep",
+   "yarrowhollow4"
+  ],
+  "dossier": {
+   "cluster_id": "CL037",
+   "personas": [
+    {
+     "id": "ACT036-P0",
+     "handle": "thistlekeep",
+     "site": "kilos-index",
+     "first_seen": "2025-06-12",
+     "last_seen": "2025-10-06"
+    },
+    {
+     "id": "ACT036-P2",
+     "handle": "yarrowhollow4",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-01-28",
+     "last_seen": "2025-03-08"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "kilos-index"
+   ],
+   "active_from": "2025-01-28",
+   "active_to": "2025-10-06",
+   "pgp_keys": [
+    "0B7D15CF201C3BDE75763245F1080778AA59BE15",
+    "1F7915D80A7067AE9AF9D288744657A8215A99D3"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1EMZdJtUOHVvbMHTEJ3O6Ulb7Mh5mrZ",
+    "1UisCsuOt6BbKkC5SH43BuNiooLAVlr"
+   ],
+   "onion_services": [
+    "5b3ceebfzkx7nblvkyljwdxjjkt3jfakn327tho6cpcqminj72fouiyn.onion",
+    "fbkt2xe5sx2rf6rbjxgqn2joz46gle73dvdw4n6l2gninzzoio46qxfk.onion"
+   ],
+   "exif_devices": [
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "thistlekeep@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 2.31,
+    "per_persona_spread_hours": 4.5,
+    "regions": [
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.58
+  }
+ },
+ {
+  "cluster_id": "CL038",
+  "personas": [
+   "ACT037-P0",
+   "ACT037-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.01,
+  "peak_log10_lr": 2.01,
+  "handles": [
+   "hazeldell",
+   "h4zeldell"
+  ],
+  "dossier": {
+   "cluster_id": "CL038",
+   "personas": [
+    {
+     "id": "ACT037-P0",
+     "handle": "hazeldell",
+     "site": "dread-forum",
+     "first_seen": "2025-05-16",
+     "last_seen": "2025-08-08"
+    },
+    {
+     "id": "ACT037-P1",
+     "handle": "h4zeldell",
+     "site": "thehub-successor",
+     "first_seen": "2025-03-20",
+     "last_seen": "2025-07-23"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "thehub-successor"
+   ],
+   "active_from": "2025-03-20",
+   "active_to": "2025-08-08",
+   "pgp_keys": [
+    "8BB3D2B598D64EDE7F0D74B24209E155B0B2F6E2",
+    "F54D1D2EB6BC23A3F1D778055BF904F155A7A052"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "10GVrOy7FSsFD8VlMNimVBa2S7Xo0Xm",
+    "1898jBoRxZb0qx11aMFHRgj4QyLRm8W",
+    "1bVkY0krkYBAQe7ErZDxaAj22zjqoK7",
+    "1zy7n6betSrQbGjagg0n3sHveKdiB4E"
+   ],
+   "onion_services": [
+    "73p7nyy4lb3ysnbrihugnauayz6xqrksu2mzrtf6gxl2ak42gyucn2ib.onion",
+    "fnqdrc557f5ohwifqjy6mbe3iyam7ftnkpa2yzzyk44omtvnincpgaub.onion"
+   ],
+   "exif_devices": [
+    "Redmi Note 8 Pro",
+    "vivo 1904"
+   ],
+   "contact_identifiers": [
+    "h4zeldell@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -6.73,
+    "per_persona_spread_hours": 5.5,
+    "regions": [
+     "Brazil / Argentina",
+     "US Eastern",
+     "US Pacific"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.01
+  }
+ },
+ {
+  "cluster_id": "CL039",
+  "personas": [
+   "ACT039-P0",
+   "ACT039-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 4.59,
+  "peak_log10_lr": 4.59,
+  "handles": [
+   "kestrelspire",
+   "k3strelspire"
+  ],
+  "dossier": {
+   "cluster_id": "CL039",
+   "personas": [
+    {
+     "id": "ACT039-P0",
+     "handle": "kestrelspire",
+     "site": "thehub-successor",
+     "first_seen": "2025-06-24",
+     "last_seen": "2026-01-16"
+    },
+    {
+     "id": "ACT039-P1",
+     "handle": "k3strelspire",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-04-08",
+     "last_seen": "2025-11-11"
+    }
+   ],
+   "sites": [
+    "nulled-bazaar",
+    "thehub-successor"
+   ],
+   "active_from": "2025-04-08",
+   "active_to": "2026-01-16",
+   "pgp_keys": [
+    "9E44A939B6FC76D0F7B6B62BF5E02879969A3387"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "11TBHeazFnAc3nS3Sv5wF9d183Sb900"
+   ],
+   "onion_services": [
+    "do365cajxymlqmfx65jvg76po5ludearzmec3tsbasmivvyt65tdehj2.onion",
+    "fsikxgviigvzo7wvefkyfgdqfceexoxwzrwuspfhdk4vm6k26ykqwpy6.onion"
+   ],
+   "exif_devices": [
+    "Redmi Note 8 Pro"
+   ],
+   "contact_identifiers": [
+    "kestrelspire@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 4.01,
+    "per_persona_spread_hours": 1.0,
+    "regions": [
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Moscow / East Africa"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 4.59
+  }
+ },
+ {
+  "cluster_id": "CL040",
+  "personas": [
+   "ACT045-P0",
+   "ACT045-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.58,
+  "peak_log10_lr": 2.58,
+  "handles": [
+   "umbralspire",
+   "mrumbralspire"
+  ],
+  "dossier": {
+   "cluster_id": "CL040",
+   "personas": [
+    {
+     "id": "ACT045-P0",
+     "handle": "umbralspire",
+     "site": "dread-forum",
+     "first_seen": "2025-07-04",
+     "last_seen": "2025-10-30"
+    },
+    {
+     "id": "ACT045-P1",
+     "handle": "mrumbralspire",
+     "site": "kilos-index",
+     "first_seen": "2025-03-17",
+     "last_seen": "2025-06-18"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "kilos-index"
+   ],
+   "active_from": "2025-03-17",
+   "active_to": "2025-10-30",
+   "pgp_keys": [
+    "22D3B0BF70994B23B6039AC93C451539B6810192",
+    "C8B144B4C87634BB7C748018CB862E20437AF2DA"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1dZLzWMKgL7WLgHeXmOLAOa0o5Fa6g6",
+    "1lTsDy9zmiTXMp05tvEGFPvR0pLyj4b"
+   ],
+   "onion_services": [
+    "67o5ugbimpjocsksm2kyup2hra2uo5neh7ykefq2w5ceqyjsvrvnhxdg.onion",
+    "rc57ytptbg4vl4hrun73xhh5ox53dpvioubno5hg24h6jxeq5qtwtryl.onion"
+   ],
+   "exif_devices": [
+    "Nikon D3500",
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "mrumbralspire@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -7.0,
+    "per_persona_spread_hours": 0,
+    "regions": [
+     "US Central",
+     "US Pacific"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 2.58
+  }
+ },
+ {
+  "cluster_id": "CL041",
+  "personas": [
+   "ACT056-P0",
+   "ACT056-P2"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 4.18,
+  "peak_log10_lr": 4.18,
+  "handles": [
+   "nimbusmarsh",
+   "nimbusmarsh-x"
+  ],
+  "dossier": {
+   "cluster_id": "CL041",
+   "personas": [
+    {
+     "id": "ACT056-P0",
+     "handle": "nimbusmarsh",
+     "site": "agora-reloaded",
+     "first_seen": "2025-05-24",
+     "last_seen": "2025-10-25"
+    },
+    {
+     "id": "ACT056-P2",
+     "handle": "nimbusmarsh-x",
+     "site": "dread-forum",
+     "first_seen": "2025-05-17",
+     "last_seen": "2025-07-24"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "dread-forum"
+   ],
+   "active_from": "2025-05-17",
+   "active_to": "2025-10-25",
+   "pgp_keys": [
+    "0770BAB12C4B681BBE04769317476491A57C96B7",
+    "2DCD6E30BFFBD1F9734F6667AFCF790EF5087DC0"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1AfNUH72z5nI3QA7VBiUY0JDgVUA3hf",
+    "1Y42XYX9bTz1HgoFU4WBH6rr0sOcaN3",
+    "1jV5gnkDiq9zazaiIy7t9R2eSwzTASg"
+   ],
+   "onion_services": [
+    "fvhxqgejtqnvx7eg3pjmiurl7pditaxnafnkixp72rgpq4pzt7rqruzk.onion",
+    "m6rqegzhm2xdowagxq5vrrc7q6izvfye2g3zgejhdhdzzzgolhmhncjs.onion"
+   ],
+   "exif_devices": [
+    "SM-A515F"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": -0.64,
+    "per_persona_spread_hours": 20.5,
+    "regions": [
+     "China / Singapore",
+     "Eastern Australia",
+     "Japan / Korea"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 4.18
+  }
+ },
+ {
+  "cluster_id": "CL042",
+  "personas": [
+   "ACT060-P0",
+   "ACT060-P2"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.95,
+  "peak_log10_lr": 1.95,
+  "handles": [
+   "amberspire",
+   "wireframe55"
+  ],
+  "dossier": {
+   "cluster_id": "CL042",
+   "personas": [
+    {
+     "id": "ACT060-P0",
+     "handle": "amberspire",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-04-02",
+     "last_seen": "2025-06-18"
+    },
+    {
+     "id": "ACT060-P2",
+     "handle": "wireframe55",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-05-04",
+     "last_seen": "2025-07-31"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-04-02",
+   "active_to": "2025-07-31",
+   "pgp_keys": [
+    "30E805AE431C80190F4B73DB5B784913FEB6711F",
+    "45A6D699A6B3DB9815D4B0745C87D8299B2DE5D7"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1E44KJqCLLPsBcdbqY7OJAmsW4eLWCd"
+   ],
+   "onion_services": [
+    "7yxdoghazq3yck2oqg6oht4gpdq5ruemh377h7gh3snjcfprmavvd5dw.onion",
+    "dshbcsahsnax4kttep6hsu6jdql6axbdec7qwb3qrmdc7eshet7xbnue.onion"
+   ],
+   "exif_devices": [
+    "iPhone 13"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": -8.86,
+    "per_persona_spread_hours": 1.5,
+    "regions": [
+     "US Pacific"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 1.95
+  }
+ },
+ {
+  "cluster_id": "CL043",
+  "personas": [
+   "ACT062-P0",
+   "ACT062-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.12,
+  "peak_log10_lr": 2.12,
+  "handles": [
+   "sorrelspire",
+   "amberbank8"
+  ],
+  "dossier": {
+   "cluster_id": "CL043",
+   "personas": [
+    {
+     "id": "ACT062-P0",
+     "handle": "sorrelspire",
+     "site": "thehub-successor",
+     "first_seen": "2025-06-04",
+     "last_seen": "2025-10-28"
+    },
+    {
+     "id": "ACT062-P1",
+     "handle": "amberbank8",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-06-10",
+     "last_seen": "2025-07-26"
+    }
+   ],
+   "sites": [
+    "nulled-bazaar",
+    "thehub-successor"
+   ],
+   "active_from": "2025-06-04",
+   "active_to": "2025-10-28",
+   "pgp_keys": [
+    "1B36DD50C85A5FFA9BA3EE7B8DAF37D15152B54E",
+    "4DADF1AD46B7E292A7AD9992CB54373628E5B9DA"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1H6rF71MDWicUajKuljpmk8tEoyPmJ5"
+   ],
+   "onion_services": [
+    "qqpl7t3kh3d6n7gc5eh74vpqtsgqmwnehitsodnyecbnptn43n3bjb6g.onion",
+    "x6s4oadm4wtu5ajx5l32z3brmiua6cmlq4i574db353mn6r5ag57v7qj.onion"
+   ],
+   "exif_devices": [],
+   "contact_identifiers": [
+    "amberbank8@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 5.35,
+    "per_persona_spread_hours": 2.0,
+    "regions": [
+     "Bangladesh",
+     "China / Singapore",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.12
+  }
+ },
+ {
+  "cluster_id": "CL044",
+  "personas": [
+   "ACT063-P0",
+   "ACT063-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 5.8,
+  "peak_log10_lr": 5.8,
+  "handles": [
+   "zephyrford",
+   "ZephyRford"
+  ],
+  "dossier": {
+   "cluster_id": "CL044",
+   "personas": [
+    {
+     "id": "ACT063-P0",
+     "handle": "zephyrford",
+     "site": "agora-reloaded",
+     "first_seen": "2025-03-31",
+     "last_seen": "2025-10-13"
+    },
+    {
+     "id": "ACT063-P1",
+     "handle": "ZephyRford",
+     "site": "kilos-index",
+     "first_seen": "2025-01-17",
+     "last_seen": "2025-05-09"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "kilos-index"
+   ],
+   "active_from": "2025-01-17",
+   "active_to": "2025-10-13",
+   "pgp_keys": [
+    "972063C378EAD0C571D38292222411DAC7728531"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "139AOrodp3gBGjxQZa6ztYDgSwwNG9J",
+    "1401e2Kq7z9SgC6YjwQt4GZwzYMZPzA"
+   ],
+   "onion_services": [
+    "a2jlmk3pobrxfojfr2how3evzs5djc2uymswp4ktefel2pppw7zykdqb.onion",
+    "n4k6x5p54reiewo3u45nhurrab37sy3ankhsmql4hs4egahbfcsnzkpm.onion"
+   ],
+   "exif_devices": [
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "zephyrford@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 0.0,
+    "per_persona_spread_hours": 0,
+    "regions": [
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 5.8
+  }
+ },
+ {
+  "cluster_id": "CL045",
+  "personas": [
+   "ACT066-P0",
+   "ACT066-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.57,
+  "peak_log10_lr": 1.57,
+  "handles": [
+   "sorrelwick",
+   "drsorrelwick"
+  ],
+  "dossier": {
+   "cluster_id": "CL045",
+   "personas": [
+    {
+     "id": "ACT066-P0",
+     "handle": "sorrelwick",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-04-20",
+     "last_seen": "2025-06-16"
+    },
+    {
+     "id": "ACT066-P1",
+     "handle": "drsorrelwick",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-01-30",
+     "last_seen": "2025-07-28"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-01-30",
+   "active_to": "2025-07-28",
+   "pgp_keys": [
+    "7E21AE8E93CB5E3D4CE69C1736BEED90266EFD04"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "17cFweMmOjn9YFxJBcQgxxYuqvoM434",
+    "1h7Z3yfKwRNVkgZF4lqGY0IUe4o9lRH"
+   ],
+   "onion_services": [
+    "er4wkehqcoxsejzc7estvjsvveoegevzz5fifypy3kqxgwio375q5xk4.onion",
+    "tfosjl6umvqdaizwrdhzrcunpgzwr6tg6whphczxlju3hjxu32z62pjc.onion"
+   ],
+   "exif_devices": [
+    "iPhone 11"
+   ],
+   "contact_identifiers": [
+    "drsorrelwick@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -6.0,
+    "per_persona_spread_hours": 0,
+    "regions": [
+     "US Central",
+     "US Eastern"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 1.57
+  }
+ },
+ {
+  "cluster_id": "CL046",
+  "personas": [
+   "ACT067-P0",
+   "ACT067-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 4.22,
+  "peak_log10_lr": 4.22,
+  "handles": [
+   "amberreach",
+   "amber-reach"
+  ],
+  "dossier": {
+   "cluster_id": "CL046",
+   "personas": [
+    {
+     "id": "ACT067-P0",
+     "handle": "amberreach",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-05-28",
+     "last_seen": "2025-10-09"
+    },
+    {
+     "id": "ACT067-P1",
+     "handle": "amber-reach",
+     "site": "kilos-index",
+     "first_seen": "2025-06-17",
+     "last_seen": "2025-12-11"
+    }
+   ],
+   "sites": [
+    "kilos-index",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-05-28",
+   "active_to": "2025-12-11",
+   "pgp_keys": [
+    "0E19658296671560F8E5B2DD2E196FB790D921EB",
+    "590094997EF48E699C86FFA80B9A612C2070A1B4"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "19jpT117ymcNKCjLgE2bCSYD4o3Nc0G",
+    "1MTiKRozqcT0MnOPjUY0w10XL38YrWo",
+    "1TckfwFne6zG9sT4jmSUTutXq3Y8F1H",
+    "1Z403Vb29ndQVqV2cvEEuhtKuXRuOBx",
+    "1qiNw2QYVYgqkTUt40mMlAR58KaW4y7"
+   ],
+   "onion_services": [
+    "hljzyajrqkjkd2swwmqwnyhoathayrox75yxnhhjmsullrplgqvy6bzm.onion",
+    "y4wcjamj5trb4qzjlrnqpct6f4vljtjsgf23whca7ww7xshmapsbuvgw.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a",
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "amber-reach@jabber.ru",
+    "amberreach@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 10.13,
+    "per_persona_spread_hours": 1.5,
+    "regions": [
+     "Eastern Australia",
+     "Japan / Korea"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 4.22
+  }
+ },
+ {
+  "cluster_id": "CL047",
+  "personas": [
+   "ACT071-P0",
+   "ACT071-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.19,
+  "peak_log10_lr": 2.19,
+  "handles": [
+   "rookerymarsh",
+   "rookerymarsh"
+  ],
+  "dossier": {
+   "cluster_id": "CL047",
+   "personas": [
+    {
+     "id": "ACT071-P0",
+     "handle": "rookerymarsh",
+     "site": "dread-forum",
+     "first_seen": "2025-06-16",
+     "last_seen": "2025-08-07"
+    },
+    {
+     "id": "ACT071-P1",
+     "handle": "rookerymarsh",
+     "site": "agora-reloaded",
+     "first_seen": "2025-01-02",
+     "last_seen": "2025-04-18"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "dread-forum"
+   ],
+   "active_from": "2025-01-02",
+   "active_to": "2025-08-07",
+   "pgp_keys": [
+    "8E6E3607CAD7DC14605CF22F9818A752EDF62668"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "18Z45QVYd6qslGniGHvO0cHcAWlNlEf",
+    "1rQutBzm9IRBvJCpXeqEewxxuRxHEWR",
+    "1xyD4YRpB3KgtwNJz8jsXb2JjTq8w3y"
+   ],
+   "onion_services": [
+    "hre2joxjf5mbk5dgyexfbo5b6okc2mtfbjtuy57ugqah7ut7p4xqw2hs.onion",
+    "uzfdmfty262ifilhlp7mxwa5ufwwge2fmcmphzkpdjmtww7zbhcbjsrv.onion"
+   ],
+   "exif_devices": [],
+   "contact_identifiers": [
+    "rookerymarsh@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 2.26,
+    "per_persona_spread_hours": 4.5,
+    "regions": [
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.19
+  }
+ },
+ {
+  "cluster_id": "CL048",
+  "personas": [
+   "ACT072-P0",
+   "ACT072-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.86,
+  "peak_log10_lr": 1.86,
+  "handles": [
+   "birchnotch",
+   "birchnotch"
+  ],
+  "dossier": {
+   "cluster_id": "CL048",
+   "personas": [
+    {
+     "id": "ACT072-P0",
+     "handle": "birchnotch",
+     "site": "dread-forum",
+     "first_seen": "2025-02-03",
+     "last_seen": "2025-08-09"
+    },
+    {
+     "id": "ACT072-P1",
+     "handle": "birchnotch",
+     "site": "thehub-successor",
+     "first_seen": "2025-05-18",
+     "last_seen": "2026-01-11"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "thehub-successor"
+   ],
+   "active_from": "2025-02-03",
+   "active_to": "2026-01-11",
+   "pgp_keys": [
+    "EC5AF8B91123B953AC0D897028910686D869C50B"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1EsGQGVivxVvBwoEyH33SVXtljblpcJ"
+   ],
+   "onion_services": [
+    "ejootvd67stnlloqzb3fimixd5ntbai5afafncg6mdlc7sqe2ejdyy3u.onion",
+    "rswk53lr53fbr6evtkj53pugviu2qop7vycbv6fyg4sjogsvk57yrsud.onion"
+   ],
+   "exif_devices": [
+    "SM-A515F",
+    "iPhone 13"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": -5.53,
+    "per_persona_spread_hours": 1,
+    "regions": [
+     "US Central",
+     "US Eastern"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 1.86
+  }
+ },
+ {
+  "cluster_id": "CL049",
+  "personas": [
+   "ACT073-P0",
+   "ACT073-P2"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.8,
+  "peak_log10_lr": 1.8,
+  "handles": [
+   "cinderwick",
+   "verdigrisdell21"
+  ],
+  "dossier": {
+   "cluster_id": "CL049",
+   "personas": [
+    {
+     "id": "ACT073-P0",
+     "handle": "cinderwick",
+     "site": "kilos-index",
+     "first_seen": "2025-02-04",
+     "last_seen": "2025-07-30"
+    },
+    {
+     "id": "ACT073-P2",
+     "handle": "verdigrisdell21",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-04-29",
+     "last_seen": "2025-08-31"
+    }
+   ],
+   "sites": [
+    "kilos-index",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-02-04",
+   "active_to": "2025-08-31",
+   "pgp_keys": [
+    "E525BF4111B4443D50298BF6C3E9F45983988780"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "18r4GFaXiGDucP6G5QGn5E3x2u5OFnt",
+    "1EykGoB3OYCTjzV02KFG8QMaVEkYfWQ"
+   ],
+   "onion_services": [
+    "2ayffl7h7ixxrkpnpk7gnxseuvwqzakvhqot3jmlybolf2recaormxt5.onion",
+    "3n3bihfkqv75wlrudxntptb6avw6l7usrfgaxxt3c7gax44gruv7oskk.onion"
+   ],
+   "exif_devices": [
+    "Nikon D3500",
+    "iPhone 11"
+   ],
+   "contact_identifiers": [
+    "cinderwick@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 4.5,
+    "per_persona_spread_hours": 0.0,
+    "regions": [
+     "Bangladesh",
+     "Central Europe",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Moscow / East Africa",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 1.8
+  }
+ },
+ {
+  "cluster_id": "CL050",
+  "personas": [
+   "ACT079-P0",
+   "ACT079-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.0,
+  "peak_log10_lr": 2.0,
+  "handles": [
+   "gablecrest",
+   "petrelgate42"
+  ],
+  "dossier": {
+   "cluster_id": "CL050",
+   "personas": [
+    {
+     "id": "ACT079-P0",
+     "handle": "gablecrest",
+     "site": "thehub-successor",
+     "first_seen": "2025-04-02",
+     "last_seen": "2025-05-19"
+    },
+    {
+     "id": "ACT079-P1",
+     "handle": "petrelgate42",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-05-20",
+     "last_seen": "2025-07-07"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "thehub-successor"
+   ],
+   "active_from": "2025-04-02",
+   "active_to": "2025-07-07",
+   "pgp_keys": [
+    "13C7E07FD56FEBAA7208AAB44487E44AEA13AE02",
+    "4B33D48442862106DA5D153A4E97A1AF2694BC73"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "137uA00P7WDveLn1hMO3bO2C6GYAhFw",
+    "1fXJVg657wZVUv2qWBKaIuHapr7Ysfp"
+   ],
+   "onion_services": [
+    "t6es3642zudgqzz4x36tpyiyg7zwofgwiaxojgi4pdew6virki3qmlht.onion",
+    "tn6kth5w4vgdz3iluxkqpnwynm4vzz34qf6thohze5f5ua5onuz5kttj.onion"
+   ],
+   "exif_devices": [
+    "Redmi Note 8 Pro",
+    "SM-A515F"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 0.5,
+    "per_persona_spread_hours": 1,
+    "regions": [
+     "Central Europe",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 2.0
+  }
+ },
+ {
+  "cluster_id": "CL051",
+  "personas": [
+   "ACT081-P0",
+   "ACT081-P3"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.09,
+  "peak_log10_lr": 2.09,
+  "handles": [
+   "verdigriscrest",
+   "dustdevil52"
+  ],
+  "dossier": {
+   "cluster_id": "CL051",
+   "personas": [
+    {
+     "id": "ACT081-P0",
+     "handle": "verdigriscrest",
+     "site": "kilos-index",
+     "first_seen": "2025-06-16",
+     "last_seen": "2025-11-15"
+    },
+    {
+     "id": "ACT081-P3",
+     "handle": "dustdevil52",
+     "site": "dread-forum",
+     "first_seen": "2025-04-18",
+     "last_seen": "2025-10-28"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "kilos-index"
+   ],
+   "active_from": "2025-04-18",
+   "active_to": "2025-11-15",
+   "pgp_keys": [
+    "1809E85397692061FE52A33583AFCAE43B2BD8C7"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "10Pn8MINGP4eJ1BfhnuEh5VUDfVr4BS",
+    "1VEViqGHW1olk1bij1zRds8lfAP2Yss",
+    "1W516Z6KLMKvyW3t34ZVnyZORiUubzI",
+    "1gGD4JLCfmIXJV3ytfrFIWZgifPhx14",
+    "1iwLFoXM4u6ChqxuEMXyYRhSRAboVjF",
+    "1xr3rqHMefAelVCdDGfRPhnO7gztJ40"
+   ],
+   "onion_services": [
+    "7bu66dvqs6vybnpd6n4kdqpeqqgrfgazzjmnnznpm2wxrked54a7hxn5.onion",
+    "bmjqhsowgsr272obzcwbbt2op2keeqi5lhxgwp2y2rq2ixnck3on2jc4.onion"
+   ],
+   "exif_devices": [
+    "vivo 1904"
+   ],
+   "contact_identifiers": [
+    "dustdevil52@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -2.47,
+    "per_persona_spread_hours": 1,
+    "regions": [
+     "Brazil / Argentina",
+     "US Eastern"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 2.09
+  }
+ },
+ {
+  "cluster_id": "CL052",
+  "personas": [
+   "ACT083-P0",
+   "ACT083-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 4.09,
+  "peak_log10_lr": 4.09,
+  "handles": [
+   "rookeryspire",
+   "mrrookeryspire"
+  ],
+  "dossier": {
+   "cluster_id": "CL052",
+   "personas": [
+    {
+     "id": "ACT083-P0",
+     "handle": "rookeryspire",
+     "site": "thehub-successor",
+     "first_seen": "2025-06-20",
+     "last_seen": "2025-12-22"
+    },
+    {
+     "id": "ACT083-P1",
+     "handle": "mrrookeryspire",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-02-07",
+     "last_seen": "2025-09-02"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "thehub-successor"
+   ],
+   "active_from": "2025-02-07",
+   "active_to": "2025-12-22",
+   "pgp_keys": [
+    "0E7873EE2BD472F1EF0C583B64FC58657F5F7EDC"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [],
+   "onion_services": [
+    "amizq532y4czblhm4xe5yhdr5rewmvw2kawutvarszt56r2455pwlxut.onion",
+    "vvn4sv2r2ywuouzcutsjwwsfwdhporruxrvpd2kr7z44d2rg62x2pmuw.onion"
+   ],
+   "exif_devices": [
+    "iPhone 11"
+   ],
+   "contact_identifiers": [
+    "rookeryspire@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -4.08,
+    "per_persona_spread_hours": 2,
+    "regions": [
+     "Brazil / Argentina",
+     "US Central",
+     "US Eastern"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 4.09
+  }
+ },
+ {
+  "cluster_id": "CL053",
+  "personas": [
+   "ACT085-P0",
+   "ACT085-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.33,
+  "peak_log10_lr": 2.33,
+  "handles": [
+   "verdigrisbank",
+   "VerdigRisbank"
+  ],
+  "dossier": {
+   "cluster_id": "CL053",
+   "personas": [
+    {
+     "id": "ACT085-P0",
+     "handle": "verdigrisbank",
+     "site": "dread-forum",
+     "first_seen": "2025-02-22",
+     "last_seen": "2025-08-07"
+    },
+    {
+     "id": "ACT085-P1",
+     "handle": "VerdigRisbank",
+     "site": "kilos-index",
+     "first_seen": "2025-06-30",
+     "last_seen": "2026-01-10"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "kilos-index"
+   ],
+   "active_from": "2025-02-22",
+   "active_to": "2026-01-10",
+   "pgp_keys": [
+    "0B9FEF4B61B16906D1118402D4B6D568B8A557C5",
+    "29BAD5207249EDA1322DF62DD25B2F5F6BA17E75"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [],
+   "onion_services": [
+    "a6kxj56pavuwapizdcuabglxjvrszjqqqgpiik5xuybi5frf6zwftwne.onion",
+    "lor7vbzeceqyzwrvnf3xdrnyxwbpyfzbaej2mjvxzk6uvpos5vwtsh5r.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a"
+   ],
+   "contact_identifiers": [
+    "VerdigRisbank@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 1.03,
+    "per_persona_spread_hours": 2,
+    "regions": [
+     "Central Europe",
+     "Iran",
+     "Moscow / East Africa",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.33
+  }
+ },
+ {
+  "cluster_id": "CL054",
+  "personas": [
+   "ACT086-P0",
+   "ACT086-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.18,
+  "peak_log10_lr": 2.18,
+  "handles": [
+   "kestrelmarsh",
+   "kestrelmarsh_official"
+  ],
+  "dossier": {
+   "cluster_id": "CL054",
+   "personas": [
+    {
+     "id": "ACT086-P0",
+     "handle": "kestrelmarsh",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-02-22",
+     "last_seen": "2025-05-22"
+    },
+    {
+     "id": "ACT086-P1",
+     "handle": "kestrelmarsh_official",
+     "site": "exploit-market",
+     "first_seen": "2025-01-23",
+     "last_seen": "2025-07-23"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "exploit-market"
+   ],
+   "active_from": "2025-01-23",
+   "active_to": "2025-07-23",
+   "pgp_keys": [
+    "14BF203224AB4089A22B8055FD05355C0E6D74EB",
+    "5599878CD1B257707ABF8FB99CE39D8208CD4321"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "18ALhdH6COyMgK6mjo6vyvvrHhXDPbW",
+    "1ivL9HNUrc4o360rIzRJSh05JWTJmZn",
+    "1qnqfuEwAxZ9n6MtJ7MIYi1Ax2s48WW"
+   ],
+   "onion_services": [
+    "2jfnhyxj26urk33dzujestvtsvudfeeatbq5yu7mcigexfxyunb56m6c.onion",
+    "nojsc7df5jiwxbyjucmrknlpag2bmgued2p3geaxsbm4vbtsa73squnk.onion"
+   ],
+   "exif_devices": [
+    "HUAWEI P30",
+    "iPhone 13"
+   ],
+   "contact_identifiers": [
+    "kestrelmarsh@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 5.53,
+    "per_persona_spread_hours": 3.5,
+    "regions": [
+     "Bangladesh",
+     "Central Europe",
+     "China / Singapore",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Moscow / East Africa",
+     "Nepal",
+     "SE Asia",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.18
+  }
+ },
+ {
+  "cluster_id": "CL055",
+  "personas": [
+   "ACT091-P0",
+   "ACT091-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.73,
+  "peak_log10_lr": 2.73,
+  "handles": [
+   "kestreldell",
+   "mrkestreldell"
+  ],
+  "dossier": {
+   "cluster_id": "CL055",
+   "personas": [
+    {
+     "id": "ACT091-P0",
+     "handle": "kestreldell",
+     "site": "thehub-successor",
+     "first_seen": "2025-03-12",
+     "last_seen": "2025-10-08"
+    },
+    {
+     "id": "ACT091-P1",
+     "handle": "mrkestreldell",
+     "site": "kilos-index",
+     "first_seen": "2025-04-26",
+     "last_seen": "2025-06-01"
+    }
+   ],
+   "sites": [
+    "kilos-index",
+    "thehub-successor"
+   ],
+   "active_from": "2025-03-12",
+   "active_to": "2025-10-08",
+   "pgp_keys": [
+    "CA42CC2B87A73222A1AF85F1DF82ED2149500406"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [],
+   "onion_services": [
+    "imi5323iqambzps245j7asisyctrbtyrmsewcvw5674qyettl6sfemi4.onion",
+    "nbl2zdbns6gt2tdcdrohhai755n4jyfo7zxtmqpm6ahknvb7urwaah3y.onion"
+   ],
+   "exif_devices": [
+    "Nikon D3500"
+   ],
+   "contact_identifiers": [
+    "mrkestreldell@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 4.84,
+    "per_persona_spread_hours": 3.0,
+    "regions": [
+     "Bangladesh",
+     "Central Europe",
+     "China / Singapore",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Moscow / East Africa",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.73
+  }
+ },
+ {
+  "cluster_id": "CL056",
+  "personas": [
+   "ACT094-P0",
+   "ACT094-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 5.7,
+  "peak_log10_lr": 5.7,
+  "handles": [
+   "flintwick",
+   "lumenpike15"
+  ],
+  "dossier": {
+   "cluster_id": "CL056",
+   "personas": [
+    {
+     "id": "ACT094-P0",
+     "handle": "flintwick",
+     "site": "agora-reloaded",
+     "first_seen": "2025-04-15",
+     "last_seen": "2025-05-18"
+    },
+    {
+     "id": "ACT094-P1",
+     "handle": "lumenpike15",
+     "site": "thehub-successor",
+     "first_seen": "2025-01-12",
+     "last_seen": "2025-06-12"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "thehub-successor"
+   ],
+   "active_from": "2025-01-12",
+   "active_to": "2025-06-12",
+   "pgp_keys": [
+    "8C238DFC33950072B9F84ACFC029B869FC9C7722"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1GtWoF2riL6tnYYuWRjSttNpECHfWWV",
+    "1HB5s0mu2tYGuC85zBtXdCeJlBQu3Cs",
+    "1v24UJ0upPRZ018cZCpw4yo20NVCMsz",
+    "1vUaFSTbQYhjji4GI2Spt9SFT6hNS7p",
+    "1wh5gvteJWumqoyk34FhwXnRY5D80m5"
+   ],
+   "onion_services": [
+    "dxgbsxgyf5s47k245elns6lwzihc6pcnksyte2px7xtzhzbbh4xm5tl7.onion",
+    "tjspbnk6isxi4i5vlmjpt2prjzvlmjnwr2ueqlbcrw6kmqgyw6pw4e73.onion"
+   ],
+   "exif_devices": [
+    "iPhone 11"
+   ],
+   "contact_identifiers": [
+    "flintwick@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 6.75,
+    "per_persona_spread_hours": 0.5,
+    "regions": [
+     "Bangladesh",
+     "China / Singapore",
+     "India / Sri Lanka",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 5.7
+  }
+ },
+ {
+  "cluster_id": "CL057",
+  "personas": [
+   "ACT095-P0",
+   "ACT095-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.2,
+  "peak_log10_lr": 3.2,
+  "handles": [
+   "flintkeep",
+   "umbralcrest36"
+  ],
+  "dossier": {
+   "cluster_id": "CL057",
+   "personas": [
+    {
+     "id": "ACT095-P0",
+     "handle": "flintkeep",
+     "site": "dread-forum",
+     "first_seen": "2025-07-14",
+     "last_seen": "2025-12-08"
+    },
+    {
+     "id": "ACT095-P1",
+     "handle": "umbralcrest36",
+     "site": "kilos-index",
+     "first_seen": "2025-05-03",
+     "last_seen": "2025-06-03"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "kilos-index"
+   ],
+   "active_from": "2025-05-03",
+   "active_to": "2025-12-08",
+   "pgp_keys": [
+    "1BCAB840BD36D727F3C842A99997772ED8710FB6"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "13y6ecJ2zh3cQs4fHOps0VNnEspucOV",
+    "18STwU0lMsEYQMxO4SfqetrDKzQNHqo",
+    "1D5GfMyBDvp3RW1OrEm5DHWezjwH67Z",
+    "1NBMJvITOl4PQlY0Gj3iw4G86QFMMi5",
+    "1P6myRogC65tHi4D8m0p7KsD96KSySF",
+    "1kxVGV7cXkY1i3vUUBrh5HunJDjD79a",
+    "1ptLblmgBphCS7MfDEmJBJiB1POuQTy",
+    "1wFc7FVWcB9VonFe6tdIwrrWztn1mk4"
+   ],
+   "onion_services": [
+    "ftxcracmer56dygohpdlsxpot77vjihmadx3pauxeydzt7zh7tb36jiy.onion",
+    "mds6342l5z53hglrw7vqrvcsvsxx7oa6n7jerx646zfnyvsmwq4ka5n6.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 2.0,
+    "per_persona_spread_hours": 0,
+    "regions": [
+     "Central Europe",
+     "Gulf states",
+     "Iran",
+     "Moscow / East Africa",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 3.2
+  }
+ },
+ {
+  "cluster_id": "CL058",
+  "personas": [
+   "ACT097-P0",
+   "ACT097-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 4.41,
+  "peak_log10_lr": 4.41,
+  "handles": [
+   "nimbusdell",
+   "NimbuSdell"
+  ],
+  "dossier": {
+   "cluster_id": "CL058",
+   "personas": [
+    {
+     "id": "ACT097-P0",
+     "handle": "nimbusdell",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-03-17",
+     "last_seen": "2025-08-16"
+    },
+    {
+     "id": "ACT097-P1",
+     "handle": "NimbuSdell",
+     "site": "dread-forum",
+     "first_seen": "2025-02-05",
+     "last_seen": "2025-03-20"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "dread-forum"
+   ],
+   "active_from": "2025-02-05",
+   "active_to": "2025-08-16",
+   "pgp_keys": [
+    "249E165347A05E5AAC84E6CC140EEDAAC8E6D8B9"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "134wRLLAaF2GxpwdvPqP64ZMolyIc3g",
+    "18BNx40zPl0Pk3erp3g7ncY9UyEXMPT",
+    "1VwenvgXxiT6vZikxm5DdRMCHabG69Y",
+    "1Z2EiAEgsTJGWM8m0Xy99LLoUaqUQH2",
+    "1nUSyc4gDpyPWxhewQLq7C9mJpt1CUb"
+   ],
+   "onion_services": [
+    "f6cup4lhxs24s7vsynug4fcaymvojewucaqn3ybgxfmas4365gkfug23.onion",
+    "rfe7vlhxj5s3ce27ngyjipjgmc3vsyzxq3cyx4suzpapqs5vrgz4d4aa.onion"
+   ],
+   "exif_devices": [
+    "Nikon D3500"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 4.5,
+    "per_persona_spread_hours": 0.0,
+    "regions": [
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 4.41
+  }
+ },
+ {
+  "cluster_id": "CL059",
+  "personas": [
+   "ACT098-P0",
+   "ACT098-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.91,
+  "peak_log10_lr": 1.91,
+  "handles": [
+   "verdigriskeep",
+   "nimbuskeep53"
+  ],
+  "dossier": {
+   "cluster_id": "CL059",
+   "personas": [
+    {
+     "id": "ACT098-P0",
+     "handle": "verdigriskeep",
+     "site": "agora-reloaded",
+     "first_seen": "2025-01-26",
+     "last_seen": "2025-05-12"
+    },
+    {
+     "id": "ACT098-P1",
+     "handle": "nimbuskeep53",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-01-09",
+     "last_seen": "2025-08-03"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "cryptbb-mirror"
+   ],
+   "active_from": "2025-01-09",
+   "active_to": "2025-08-03",
+   "pgp_keys": [
+    "C1876D21450BD791FDEC52887151013083959CB6"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "11JxQtP7N1kpBIDYAwYsiybZUi7AvcB"
+   ],
+   "onion_services": [
+    "jdjcgopzboednolbresedrtekuoi4jbvjb32z2pio4uh7oddxp77fsdc.onion",
+    "joi2rqig6urlhlek7cnlf7lorsb2ukemv53e53yvxxxpsy7en5gvxywa.onion"
+   ],
+   "exif_devices": [
+    "Nikon D3500",
+    "SM-A515F"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 0.01,
+    "per_persona_spread_hours": 2,
+    "regions": [
+     "Central Europe",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.91
+  }
+ },
+ {
+  "cluster_id": "CL060",
+  "personas": [
+   "ACT100-P0",
+   "ACT100-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.89,
+  "peak_log10_lr": 1.89,
+  "handles": [
+   "zephyrkeep",
+   "marrowthorn15"
+  ],
+  "dossier": {
+   "cluster_id": "CL060",
+   "personas": [
+    {
+     "id": "ACT100-P0",
+     "handle": "zephyrkeep",
+     "site": "dread-forum",
+     "first_seen": "2025-05-22",
+     "last_seen": "2025-11-04"
+    },
+    {
+     "id": "ACT100-P1",
+     "handle": "marrowthorn15",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-05-24",
+     "last_seen": "2025-07-28"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "dread-forum"
+   ],
+   "active_from": "2025-05-22",
+   "active_to": "2025-11-04",
+   "pgp_keys": [
+    "323BE80EBD35504E14765C338F79904E52408FC0"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1KMW3JmFhler571Fk9G2hbLjBaSgi7J",
+    "1MAOHR0kbUxaVHW7dvnKATrWvVfcWny",
+    "1efe07EBHbYLmu2T3y9ylAqwgI1EsyE"
+   ],
+   "onion_services": [
+    "aeiwm7v6yukwptik5cxhk52klldgawkbhnfmgl4rimxs6dat4dtjqttu.onion",
+    "bexvmsyn5ze2vhhkltnjfbvabcfg3t2knynt7t75huyjxgy3oho5cdzk.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 9.56,
+    "per_persona_spread_hours": 1.75,
+    "regions": [
+     "China / Singapore",
+     "Eastern Australia",
+     "Japan / Korea"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 1.89
+  }
+ },
+ {
+  "cluster_id": "CL061",
+  "personas": [
+   "ACT106-P0",
+   "ACT106-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.5,
+  "peak_log10_lr": 1.5,
+  "handles": [
+   "dovetailnotch",
+   "doveta-ilnotch"
+  ],
+  "dossier": {
+   "cluster_id": "CL061",
+   "personas": [
+    {
+     "id": "ACT106-P0",
+     "handle": "dovetailnotch",
+     "site": "thehub-successor",
+     "first_seen": "2025-06-30",
+     "last_seen": "2025-09-07"
+    },
+    {
+     "id": "ACT106-P1",
+     "handle": "doveta-ilnotch",
+     "site": "agora-reloaded",
+     "first_seen": "2025-02-17",
+     "last_seen": "2025-08-06"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "thehub-successor"
+   ],
+   "active_from": "2025-02-17",
+   "active_to": "2025-09-07",
+   "pgp_keys": [
+    "8BAB816A874A67BC5275B0E4BA893AF3950F2DAB"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1qhZh2mh9m7BpGwKDI6mP5n6A5cacRG"
+   ],
+   "onion_services": [
+    "aqephcbapc57t5itgs6ars4nfw7ydlyjzsdiu6dz34pmh7p5ksdrdkdb.onion",
+    "bizdcfid6iije2uldfkcufdjgyncoozhm7q4kr276ju75csdrdofvldw.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a"
+   ],
+   "contact_identifiers": [
+    "doveta-ilnotch@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 9.13,
+    "per_persona_spread_hours": 0.75,
+    "regions": [
+     "China / Singapore",
+     "Japan / Korea"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 1.5
+  }
+ },
+ {
+  "cluster_id": "CL062",
+  "personas": [
+   "ACT108-P0",
+   "ACT108-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 5.55,
+  "peak_log10_lr": 5.55,
+  "handles": [
+   "yarrowbank",
+   "xyarrowbank"
+  ],
+  "dossier": {
+   "cluster_id": "CL062",
+   "personas": [
+    {
+     "id": "ACT108-P0",
+     "handle": "yarrowbank",
+     "site": "dread-forum",
+     "first_seen": "2025-06-11",
+     "last_seen": "2025-08-21"
+    },
+    {
+     "id": "ACT108-P1",
+     "handle": "xyarrowbank",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-05-16",
+     "last_seen": "2025-08-29"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-05-16",
+   "active_to": "2025-08-29",
+   "pgp_keys": [
+    "747B86DFAC743044AF57A6E5D4DE512D08B09C93"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "16ieN0cqNHmjN7jbFM1oMzuXO6627yn",
+    "1NODC63TO3dP2xRJspz0hyIf9FrVIeX",
+    "1OTYJSl1EoVbgPprRm5veR0RhhvxqMv"
+   ],
+   "onion_services": [
+    "5l7mhjcz42xjmvatjl2cwda5pbhymfyesor56vdoobhje2th7vfkovjv.onion",
+    "y6y5sjq3ffobsli32bidh4xgcabgjh4dvefkv3emlvta7v56ce7k6bqg.onion"
+   ],
+   "exif_devices": [
+    "Redmi Note 8 Pro"
+   ],
+   "contact_identifiers": [
+    "xyarrowbank@jabber.ru",
+    "yarrowbank@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -8.46,
+    "per_persona_spread_hours": 1,
+    "regions": [
+     "US Pacific"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 5.55
+  }
+ },
+ {
+  "cluster_id": "CL063",
+  "personas": [
+   "ACT111-P0",
+   "ACT111-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 4.46,
+  "peak_log10_lr": 4.46,
+  "handles": [
+   "umbralgate",
+   "UmbraLgate"
+  ],
+  "dossier": {
+   "cluster_id": "CL063",
+   "personas": [
+    {
+     "id": "ACT111-P0",
+     "handle": "umbralgate",
+     "site": "dread-forum",
+     "first_seen": "2025-06-29",
+     "last_seen": "2026-01-28"
+    },
+    {
+     "id": "ACT111-P1",
+     "handle": "UmbraLgate",
+     "site": "agora-reloaded",
+     "first_seen": "2025-03-11",
+     "last_seen": "2025-07-31"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "dread-forum"
+   ],
+   "active_from": "2025-03-11",
+   "active_to": "2026-01-28",
+   "pgp_keys": [
+    "9DBB6232D110A8FAE196B14E964C3F07E7454D7C"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1EtgFc0mHBDutuUO1A4PaO5lEIEqJCS"
+   ],
+   "onion_services": [
+    "hugoadilu4a65sc2ofp7m7ocvom4n6lyvucjagqjjojtfaepv5ykzlr7.onion",
+    "xkon6kvdftbtf4i22c6w65ufmgfmdlosee2pkoxh7j7jnalotnml5cuj.onion"
+   ],
+   "exif_devices": [
+    "moto g(7)"
+   ],
+   "contact_identifiers": [
+    "umbralgate@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -1.0,
+    "per_persona_spread_hours": 0,
+    "regions": [
+     "UK / Portugal"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 4.46
+  }
+ },
+ {
+  "cluster_id": "CL064",
+  "personas": [
+   "ACT118-P0",
+   "ACT118-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.74,
+  "peak_log10_lr": 2.74,
+  "handles": [
+   "yarrowspire",
+   "xyarrowspire"
+  ],
+  "dossier": {
+   "cluster_id": "CL064",
+   "personas": [
+    {
+     "id": "ACT118-P0",
+     "handle": "yarrowspire",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-04-30",
+     "last_seen": "2025-11-03"
+    },
+    {
+     "id": "ACT118-P1",
+     "handle": "xyarrowspire",
+     "site": "kilos-index",
+     "first_seen": "2025-05-02",
+     "last_seen": "2025-12-24"
+    }
+   ],
+   "sites": [
+    "kilos-index",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-04-30",
+   "active_to": "2025-12-24",
+   "pgp_keys": [
+    "28A581DD50D46A968A42103B01929A38F1AC7593",
+    "82A56A77AA5D19D1956C0E91A01F5B6B88FD9D9B"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1pBoECom1H13c6Xf8EzR71nQutJBRx2"
+   ],
+   "onion_services": [
+    "beufmiyilwc5bb4yt2m6577jrm3nffbzugzodqifys7dybaci7axjqp2.onion",
+    "cocnpfuzxn2tgo7eowukh23kzxbe3gdvm6fhcjc2jganaodfyvb7dyu3.onion"
+   ],
+   "exif_devices": [
+    "Pixel 4a"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 0.51,
+    "per_persona_spread_hours": 1,
+    "regions": [
+     "Central Europe",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 2.74
+  }
+ },
+ {
+  "cluster_id": "CL065",
+  "personas": [
+   "ACT120-P0",
+   "ACT120-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 5.32,
+  "peak_log10_lr": 5.32,
+  "handles": [
+   "nightowl",
+   "drnightowl"
+  ],
+  "dossier": {
+   "cluster_id": "CL065",
+   "personas": [
+    {
+     "id": "ACT120-P0",
+     "handle": "nightowl",
+     "site": "kilos-index",
+     "first_seen": "2025-06-17",
+     "last_seen": "2025-08-10"
+    },
+    {
+     "id": "ACT120-P1",
+     "handle": "drnightowl",
+     "site": "agora-reloaded",
+     "first_seen": "2025-06-22",
+     "last_seen": "2025-11-07"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "kilos-index"
+   ],
+   "active_from": "2025-06-17",
+   "active_to": "2025-11-07",
+   "pgp_keys": [
+    "30D3BD1DB8A34A103257819DA20EDDF54B422460"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "175Cr39yjngh2S7oMoc5oFEXgvgU77s",
+    "1NGL8O9axBpDllwwKxBHFE6UmbbQJX8",
+    "1sob3PpJ0YG96EiFRzr8NmB5ObFSsXN"
+   ],
+   "onion_services": [
+    "3wgdqixbt4h74dv4kcj4x24wozt4x4xbypfft3pbbzexqiajzw6lhqbh.onion",
+    "xpqy47heqgplzumdd7jrcmcjln2zkxsbnpyf5rxkwgjl2izrbc3hzlxt.onion"
+   ],
+   "exif_devices": [
+    "iPhone 13"
+   ],
+   "contact_identifiers": [
+    "nightowl@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -4.48,
+    "per_persona_spread_hours": 3,
+    "regions": [
+     "Brazil / Argentina",
+     "US Central",
+     "US Eastern"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 5.32
+  }
+ },
+ {
+  "cluster_id": "CL066",
+  "personas": [
+   "ACT130-P0",
+   "ACT130-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.37,
+  "peak_log10_lr": 3.37,
+  "handles": [
+   "nimbusreach",
+   "gablethorn35"
+  ],
+  "dossier": {
+   "cluster_id": "CL066",
+   "personas": [
+    {
+     "id": "ACT130-P0",
+     "handle": "nimbusreach",
+     "site": "agora-reloaded",
+     "first_seen": "2025-06-15",
+     "last_seen": "2025-12-04"
+    },
+    {
+     "id": "ACT130-P1",
+     "handle": "gablethorn35",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-03-19",
+     "last_seen": "2025-09-30"
+    }
+   ],
+   "sites": [
+    "agora-reloaded",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-03-19",
+   "active_to": "2025-12-04",
+   "pgp_keys": [
+    "FCA3FC616B44DA896B90C60E060A0E0B56D2F89E"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1pl8RxLLRf1qqXlsbPmjhBCvkKcWQHU"
+   ],
+   "onion_services": [
+    "cxmltqxfh66aexndz27kvgn26dhwwwoo2d4nfwc3jko4w5jiosmlueuv.onion",
+    "srku7bppooq4vwog5gy6n6vs5tg7n4rmzk5ny5hzgsrgq7gang7ygryw.onion"
+   ],
+   "exif_devices": [
+    "moto g(7)"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 10.5,
+    "per_persona_spread_hours": 0.0,
+    "regions": [
+     "Eastern Australia",
+     "Japan / Korea"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 3.37
+  }
+ },
+ {
+  "cluster_id": "CL067",
+  "personas": [
+   "ACT131-P0",
+   "ACT131-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.14,
+  "peak_log10_lr": 3.14,
+  "handles": [
+   "gablereach",
+   "mrgablereach"
+  ],
+  "dossier": {
+   "cluster_id": "CL067",
+   "personas": [
+    {
+     "id": "ACT131-P0",
+     "handle": "gablereach",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-03-13",
+     "last_seen": "2025-10-11"
+    },
+    {
+     "id": "ACT131-P1",
+     "handle": "mrgablereach",
+     "site": "dread-forum",
+     "first_seen": "2025-05-31",
+     "last_seen": "2025-09-30"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-03-13",
+   "active_to": "2025-10-11",
+   "pgp_keys": [
+    "3B7461DC84C4F2E16E46010DD49A21BDC4F78B0A"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [],
+   "onion_services": [
+    "n5zpj7cvdiauhq3bbdr54fbvpq26kehf4ateislqdlfgotq6tuxkh77p.onion",
+    "valpx3emihgrjje5ro562opva4mm36g6fzxfl7kq6xplaomz6zwb7sww.onion"
+   ],
+   "exif_devices": [
+    "SM-A515F"
+   ],
+   "contact_identifiers": [
+    "mrgablereach@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 8.75,
+    "per_persona_spread_hours": 0.0,
+    "regions": [
+     "China / Singapore",
+     "Japan / Korea"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 3.14
+  }
+ },
+ {
+  "cluster_id": "CL068",
+  "personas": [
+   "ACT132-P0",
+   "ACT132-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 3.36,
+  "peak_log10_lr": 3.36,
+  "handles": [
+   "yarrowdell",
+   "mryarrowdell"
+  ],
+  "dossier": {
+   "cluster_id": "CL068",
+   "personas": [
+    {
+     "id": "ACT132-P0",
+     "handle": "yarrowdell",
+     "site": "kilos-index",
+     "first_seen": "2025-07-08",
+     "last_seen": "2025-10-17"
+    },
+    {
+     "id": "ACT132-P1",
+     "handle": "mryarrowdell",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-04-15",
+     "last_seen": "2025-11-11"
+    }
+   ],
+   "sites": [
+    "kilos-index",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-04-15",
+   "active_to": "2025-11-11",
+   "pgp_keys": [
+    "9EB357981840F513BB64706D99C38BF35CCD0C2E"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [],
+   "onion_services": [
+    "64qflsolgj7hni4p3ocj76ptw52x4twqdlig44swcangaenyzmxdfmzn.onion",
+    "ujoz7g2qzxlvcm56lneq7ayfegzt3zm2rlng5samgwwzt3yeg2fumiu4.onion"
+   ],
+   "exif_devices": [
+    "Nikon D3500",
+    "Redmi Note 8 Pro"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 6.5,
+    "per_persona_spread_hours": 0.0,
+    "regions": [
+     "Bangladesh",
+     "India / Sri Lanka",
+     "Nepal",
+     "SE Asia"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 3.36
+  }
+ },
+ {
+  "cluster_id": "CL069",
+  "personas": [
+   "ACT134-P0",
+   "ACT134-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 1.41,
+  "peak_log10_lr": 1.41,
+  "handles": [
+   "zephyrthorn",
+   "z3phyrthorn"
+  ],
+  "dossier": {
+   "cluster_id": "CL069",
+   "personas": [
+    {
+     "id": "ACT134-P0",
+     "handle": "zephyrthorn",
+     "site": "kilos-index",
+     "first_seen": "2025-04-28",
+     "last_seen": "2025-11-04"
+    },
+    {
+     "id": "ACT134-P1",
+     "handle": "z3phyrthorn",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-01-13",
+     "last_seen": "2025-08-16"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "kilos-index"
+   ],
+   "active_from": "2025-01-13",
+   "active_to": "2025-11-04",
+   "pgp_keys": [
+    "78582DD48896D74C1CC24EAF367ABA495218BA45",
+    "8A0655351B914F278FA5CF1E06C1A797653986E6"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "146mCnklNRac3UyBwi5o35ivy3bTXmI",
+    "16ifbVZ9fxICRMlVtViQ1uIwK1ktXLu",
+    "1iSWMQ0ZSrSnWH1SIuaPHSLJ72hpW5g",
+    "1jg5ltDKOQl4w9OqUY0Eg9DqhYRgH8B"
+   ],
+   "onion_services": [
+    "kkpgl2vmcxzd4pagbfwcm4mho6esbsqo4qqabqos36jlx5v6w7qqzknr.onion",
+    "pxgvyb3zh4rkolv4r7ksszwazmkgcjffkec2qdwnls7ckrag7xkh2byc.onion"
+   ],
+   "exif_devices": [
+    "Canon EOS 1300D",
+    "Nikon D3500"
+   ],
+   "contact_identifiers": [],
+   "timezone": {
+    "pooled_utc_offset": 2.0,
+    "per_persona_spread_hours": 0,
+    "regions": [
+     "Central Europe",
+     "Gulf states",
+     "Iran",
+     "Moscow / East Africa",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "consistent rhythm across personas"
+   },
+   "cohesion_log10_lr": 1.41
+  }
+ },
+ {
+  "cluster_id": "CL070",
+  "personas": [
+   "ACT139-P0",
+   "ACT139-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.28,
+  "peak_log10_lr": 2.28,
+  "handles": [
+   "littoral",
+   "marrowmarsh52"
+  ],
+  "dossier": {
+   "cluster_id": "CL070",
+   "personas": [
+    {
+     "id": "ACT139-P0",
+     "handle": "littoral",
+     "site": "thehub-successor",
+     "first_seen": "2025-01-31",
+     "last_seen": "2025-08-10"
+    },
+    {
+     "id": "ACT139-P1",
+     "handle": "marrowmarsh52",
+     "site": "cryptbb-mirror",
+     "first_seen": "2025-06-28",
+     "last_seen": "2025-12-12"
+    }
+   ],
+   "sites": [
+    "cryptbb-mirror",
+    "thehub-successor"
+   ],
+   "active_from": "2025-01-31",
+   "active_to": "2025-12-12",
+   "pgp_keys": [
+    "3D55A84B860AFDC14C74EB5C92433844525DE96A",
+    "B65BC86F26D51CECC81084DC25F988A509C93F0F"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "17p5mABovqpOs6fHsGudwlGuT8UosPj",
+    "19k7mUTb1FyzW4AnweVc4h1NlhPJjaT",
+    "1RieAUM7JtdlDBFXHS9ZVUe6vZLqOu1",
+    "1ZvWzr6YCd8FaKM8m6bdn86yQDCfvHH",
+    "1o65JHCGDZ5R7HnZFaIzDWT3U2PbJkW",
+    "1ulhxm36DHcU0412CcvgeKF1MAJZlBp"
+   ],
+   "onion_services": [
+    "lcc4izueitxjatolnvuf7c24r7s5yzeov7tsofzdgyhp5awssymyfois.onion",
+    "lzrdhdvbpeagf7y352hhkoiux6dvmqvtkexiysh4inf5owihylxzrzhk.onion"
+   ],
+   "exif_devices": [
+    "vivo 1904"
+   ],
+   "contact_identifiers": [
+    "littoral@jabber.ru",
+    "marrowmarsh52@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 4.19,
+    "per_persona_spread_hours": 3.5,
+    "regions": [
+     "Bangladesh",
+     "Central Europe",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Moscow / East Africa",
+     "Nepal",
+     "UK / Portugal",
+     "Western Europe"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.28
+  }
+ },
+ {
+  "cluster_id": "CL071",
+  "personas": [
+   "ACT142-P0",
+   "ACT142-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 2.94,
+  "peak_log10_lr": 2.94,
+  "handles": [
+   "sablewolf",
+   "sablew1"
+  ],
+  "dossier": {
+   "cluster_id": "CL071",
+   "personas": [
+    {
+     "id": "ACT142-P0",
+     "handle": "sablewolf",
+     "site": "nulled-bazaar",
+     "first_seen": "2025-03-15",
+     "last_seen": "2025-06-22"
+    },
+    {
+     "id": "ACT142-P1",
+     "handle": "sablew1",
+     "site": "dread-forum",
+     "first_seen": "2025-01-18",
+     "last_seen": "2025-06-08"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "nulled-bazaar"
+   ],
+   "active_from": "2025-01-18",
+   "active_to": "2025-06-22",
+   "pgp_keys": [
+    "33C3D90E34E4B953E1E19D2E9E21B08D78B6CB24",
+    "DBD614B641DE655EC270383A2761E240D9817831"
+   ],
+   "key_rotation_observed": true,
+   "btc_addresses": [
+    "1DbT10SObc93Hgj8lgHo1v2fnE7rKq3",
+    "1IHqX1dDcbpBJ4MH8MHFI3O07BAURPm"
+   ],
+   "onion_services": [
+    "a4yg53owo4sxsmzyvisjqflngbgmuamplfprzlzor5jxwdatxio4rp5f.onion",
+    "bm6jz5qtn3k3ov3p2qe3wmvmgx3utuwovevlpahrn33rw435q3skkrau.onion"
+   ],
+   "exif_devices": [
+    "vivo 1904"
+   ],
+   "contact_identifiers": [
+    "sablew1@xmpp.jp"
+   ],
+   "timezone": {
+    "pooled_utc_offset": -4.18,
+    "per_persona_spread_hours": 4,
+    "regions": [
+     "Brazil / Argentina",
+     "US Central",
+     "US Eastern"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 2.94
+  }
+ },
+ {
+  "cluster_id": "CL072",
+  "personas": [
+   "ACT146-P0",
+   "ACT146-P1"
+  ],
+  "size": 2,
+  "internal_links": 1,
+  "density": 1.0,
+  "cohesion_log10_lr": 5.06,
+  "peak_log10_lr": 5.06,
+  "handles": [
+   "elmshadedell",
+   "ElmshaDedell"
+  ],
+  "dossier": {
+   "cluster_id": "CL072",
+   "personas": [
+    {
+     "id": "ACT146-P0",
+     "handle": "elmshadedell",
+     "site": "exploit-market",
+     "first_seen": "2025-04-25",
+     "last_seen": "2025-09-09"
+    },
+    {
+     "id": "ACT146-P1",
+     "handle": "ElmshaDedell",
+     "site": "dread-forum",
+     "first_seen": "2025-02-02",
+     "last_seen": "2025-09-09"
+    }
+   ],
+   "sites": [
+    "dread-forum",
+    "exploit-market"
+   ],
+   "active_from": "2025-02-02",
+   "active_to": "2025-09-09",
+   "pgp_keys": [
+    "3EBBAEFFB8A1DCB99746DAD47945B01646785814"
+   ],
+   "key_rotation_observed": false,
+   "btc_addresses": [
+    "1ArHpw04CpjL61V6hw2y7S027LEOmTh",
+    "1L77tsDaNX2VBsGLJ9dTkiSxQ55oUDm",
+    "1ncAElPwYMPMfYsX1AAC4YTFDY0sMoI",
+    "1qDswZ8416VkXMODxvGqAp5wnOgu3m3",
+    "1u4W4GVWmxZI5NNPkjKlObiVf1Nlw3u"
+   ],
+   "onion_services": [
+    "a7xkuktbms5xwbwx63ykx2oekbbvqjd3ka2r222ctznjl4ua2hdbkk4v.onion",
+    "wygikiglop2fujyy4g3e5lgbrl2zru3ghyxhz356ift72lmskj6vbruv.onion"
+   ],
+   "exif_devices": [],
+   "contact_identifiers": [
+    "elmshadedell@jabber.ru"
+   ],
+   "timezone": {
+    "pooled_utc_offset": 4.48,
+    "per_persona_spread_hours": 2.0,
+    "regions": [
+     "Bangladesh",
+     "Gulf states",
+     "India / Sri Lanka",
+     "Iran",
+     "Moscow / East Africa",
+     "Nepal"
+    ],
+    "note": "personas disagree on timezone; possible shared account or travel"
+   },
+   "cohesion_log10_lr": 5.06
+  }
+ }
+]

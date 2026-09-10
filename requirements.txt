@@ -1,0 +1,18 @@
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+networkx>=3.2
+rapidfuzz>=3.6
+fastapi>=0.110
+uvicorn>=0.27
+
+# live collection and discovery over Tor
+requests>=2.31
+PySocks>=1.7
+mmh3>=4.1
+cryptography>=42.0
+Pillow>=10.0
+
+# learned author embedding. Optional: the pipeline degrades gracefully without
+# it. The Docker image installs the CPU-only wheel deliberately.
+torch>=2.2

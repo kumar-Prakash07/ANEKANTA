@@ -1,0 +1,4237 @@
+{
+ "available": true,
+ "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+ "crawl": {
+  "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+  "onions": [
+   "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion"
+  ],
+  "services_crawled": 2,
+  "discovered_from": {
+   "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion"
+  },
+  "pages_fetched": 29,
+  "bytes_fetched": 179274,
+  "personas": 17,
+  "posts": 455,
+  "mentions": 107,
+  "pages_excluded_by_safety_gate": 0,
+  "services_excluded_by_safety_gate": 0,
+  "tls": true,
+  "favicon_mmh3": "609928828",
+  "notes": []
+ },
+ "settings": {
+  "threshold_log10_lr": 1.34,
+  "lead_floor": 0.24,
+  "prior_odds": 0.002,
+  "calibration": "transferred from the synthetic benchmark; see reference-population caveat"
+ },
+ "fingerprints": {
+  "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion": {
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "fetched_at": "2026-09-05T13:47:59+00:00",
+   "server_banner": "nginx",
+   "favicon_mmh3": "609928828",
+   "favicon_sha256": "ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+   "favicon_dhash": "a55aa55aa55aa55a",
+   "header_order": [
+    "server",
+    "date",
+    "content-type",
+    "content-length",
+    "x-content-type-options",
+    "referrer-policy",
+    "content-security-policy",
+    "connection"
+   ],
+   "header_order_hash": "a417550edbfb50bcec674903fec6cccb",
+   "cookie_names": [],
+   "dom_skeleton_hash": "6e498d5c3c826c3906d5c70557c0740e",
+   "css_vocab": [
+    "badge",
+    "card",
+    "mut"
+   ],
+   "css_vocab_hash": "efd369b88896681c3f9de055a5a9b4b9",
+   "error_page_hash": "d49c5b28f9218a3d9c254204f0069410",
+   "asset_hashes": [],
+   "tls": {
+    "present": true,
+    "subject_cn": "kilo-exchange.onion",
+    "issuer_cn": "kilo-exchange.onion",
+    "issuer_o": "Kilo Exchange",
+    "serial": "40b8a951a912a9f06cf657ee50569678ff710f28",
+    "not_before": "2026-09-03T19:35:31+00:00",
+    "not_after": "2028-12-06T19:35:31+00:00",
+    "sig_alg": "sha256WithRSAEncryption",
+    "spki_sha256": "658fe8ed40f50d3d5531b443fb32c1f76562554c6b2aa8e0f7b854935504f362",
+    "cert_sha256": "0116ba8eaeba9bea5ede01319d39acca043c6d4306fab57a5025883e74eec6be",
+    "sans": [
+     "kilo-exchange.onion",
+     "kilo.local"
+    ],
+    "self_signed": true,
+    "error": ""
+   }
+  },
+  "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion": {
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "fetched_at": "2026-09-05T13:48:33+00:00",
+   "server_banner": "nginx",
+   "favicon_mmh3": "609928828",
+   "favicon_sha256": "ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+   "favicon_dhash": "a55aa55aa55aa55a",
+   "header_order": [
+    "server",
+    "date",
+    "content-type",
+    "content-length",
+    "x-content-type-options",
+    "referrer-policy",
+    "content-security-policy",
+    "connection"
+   ],
+   "header_order_hash": "a417550edbfb50bcec674903fec6cccb",
+   "cookie_names": [],
+   "dom_skeleton_hash": "c1697a8e20497d88f6661d87c1870808",
+   "css_vocab": [
+    "badge",
+    "card",
+    "mut"
+   ],
+   "css_vocab_hash": "efd369b88896681c3f9de055a5a9b4b9",
+   "error_page_hash": "d49c5b28f9218a3d9c254204f0069410",
+   "asset_hashes": [],
+   "tls": {
+    "present": true,
+    "subject_cn": "kilo-exchange.onion",
+    "issuer_cn": "kilo-exchange.onion",
+    "issuer_o": "Kilo Exchange",
+    "serial": "40b8a951a912a9f06cf657ee50569678ff710f28",
+    "not_before": "2026-09-03T19:35:31+00:00",
+    "not_after": "2028-12-06T19:35:31+00:00",
+    "sig_alg": "sha256WithRSAEncryption",
+    "spki_sha256": "658fe8ed40f50d3d5531b443fb32c1f76562554c6b2aa8e0f7b854935504f362",
+    "cert_sha256": "0116ba8eaeba9bea5ede01319d39acca043c6d4306fab57a5025883e74eec6be",
+    "sans": [
+     "kilo-exchange.onion",
+     "kilo.local"
+    ],
+    "self_signed": true,
+    "error": ""
+   }
+  }
+ },
+ "accounts": [
+  {
+   "persona_id": "mssu6ktfxio3:kavach_supply",
+   "handle": "kavach_supply",
+   "site": "mssu6ktfxio3vnej",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "cluster": "CL000",
+   "pgp": "410E47188DBED15A",
+   "wallets": 3,
+   "first_seen": "2026-01-05",
+   "last_seen": "2026-09-02"
+  },
+  {
+   "persona_id": "mssu6ktfxio3:kavach.supply2",
+   "handle": "kavach.supply2",
+   "site": "mssu6ktfxio3vnej",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "cluster": "CL000",
+   "pgp": "410E47188DBED15A",
+   "wallets": 1,
+   "first_seen": "2026-01-07",
+   "last_seen": "2026-08-20"
+  },
+  {
+   "persona_id": "mssu6ktfxio3:nightfreight",
+   "handle": "nightfreight",
+   "site": "mssu6ktfxio3vnej",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "cluster": "CL000",
+   "pgp": "A377ACF200A25AAF",
+   "wallets": 3,
+   "first_seen": "2026-01-26",
+   "last_seen": "2026-08-18"
+  },
+  {
+   "persona_id": "mssu6ktfxio3:harbor_light",
+   "handle": "harbor_light",
+   "site": "mssu6ktfxio3vnej",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "cluster": "CL001",
+   "pgp": "1BB1DDCCDAB21123",
+   "wallets": 3,
+   "first_seen": "2026-01-07",
+   "last_seen": "2026-09-01"
+  },
+  {
+   "persona_id": "mssu6ktfxio3:HarborLight_hq",
+   "handle": "HarborLight_hq",
+   "site": "mssu6ktfxio3vnej",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "cluster": "CL001",
+   "pgp": "1BB1DDCCDAB21123",
+   "wallets": 3,
+   "first_seen": "2026-01-07",
+   "last_seen": "2026-09-02"
+  },
+  {
+   "persona_id": "mssu6ktfxio3:quartzpine",
+   "handle": "quartzpine",
+   "site": "mssu6ktfxio3vnej",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "cluster": "CL005",
+   "pgp": "F7DD260A87DD2F7A",
+   "wallets": 1,
+   "first_seen": "2026-01-05",
+   "last_seen": "2026-08-31"
+  },
+  {
+   "persona_id": "mssu6ktfxio3:stillwater_co",
+   "handle": "stillwater_co",
+   "site": "mssu6ktfxio3vnej",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "cluster": "CL006",
+   "pgp": "81CBD4DDBC804F3C",
+   "wallets": 2,
+   "first_seen": "2026-01-09",
+   "last_seen": "2026-08-29"
+  },
+  {
+   "persona_id": "mssu6ktfxio3:ninelives",
+   "handle": "ninelives",
+   "site": "mssu6ktfxio3vnej",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "cluster": "CL003",
+   "pgp": "562CCF361AB5C7F8",
+   "wallets": 1,
+   "first_seen": "2026-01-18",
+   "last_seen": "2026-08-20"
+  },
+  {
+   "persona_id": "mssu6ktfxio3:paper_ghost",
+   "handle": "paper_ghost",
+   "site": "mssu6ktfxio3vnej",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "cluster": "CL004",
+   "pgp": "D710B7AE51CDA6DA",
+   "wallets": 2,
+   "first_seen": "2026-01-20",
+   "last_seen": "2026-08-27"
+  },
+  {
+   "persona_id": "mssu6ktfxio3:brasstack",
+   "handle": "brasstack",
+   "site": "mssu6ktfxio3vnej",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "cluster": "CL002",
+   "pgp": "926343470D365359",
+   "wallets": 1,
+   "first_seen": "2026-01-09",
+   "last_seen": "2026-08-12"
+  },
+  {
+   "persona_id": "nz3wd6ag5hso:kav_admin",
+   "handle": "kav_admin",
+   "site": "nz3wd6ag5hsoj5sx",
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "cluster": "CL009",
+   "pgp": "410E47188DBED15A",
+   "wallets": 3,
+   "first_seen": "2026-01-26",
+   "last_seen": "2026-09-02"
+  },
+  {
+   "persona_id": "nz3wd6ag5hso:hbl_support",
+   "handle": "hbl_support",
+   "site": "nz3wd6ag5hsoj5sx",
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "cluster": "CL008",
+   "pgp": "1BB1DDCCDAB21123",
+   "wallets": 1,
+   "first_seen": "2026-02-01",
+   "last_seen": "2026-08-25"
+  },
+  {
+   "persona_id": "nz3wd6ag5hso:pale_quartz",
+   "handle": "pale_quartz",
+   "site": "nz3wd6ag5hsoj5sx",
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "cluster": "CL011",
+   "pgp": "F7DD260A87DD2F7A",
+   "wallets": 3,
+   "first_seen": "2026-01-07",
+   "last_seen": "2026-09-02"
+  },
+  {
+   "persona_id": "nz3wd6ag5hso:ninelives_alt",
+   "handle": "ninelives_alt",
+   "site": "nz3wd6ag5hsoj5sx",
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "cluster": "CL010",
+   "pgp": "562CCF361AB5C7F8",
+   "wallets": 3,
+   "first_seen": "2026-01-28",
+   "last_seen": "2026-08-29"
+  },
+  {
+   "persona_id": "nz3wd6ag5hso:driftwood",
+   "handle": "driftwood",
+   "site": "nz3wd6ag5hsoj5sx",
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "cluster": "CL007",
+   "pgp": "49EFC254530390C4",
+   "wallets": 3,
+   "first_seen": "2026-01-06",
+   "last_seen": "2026-08-22"
+  },
+  {
+   "persona_id": "nz3wd6ag5hso:sundowner",
+   "handle": "sundowner",
+   "site": "nz3wd6ag5hsoj5sx",
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "cluster": "CL012",
+   "pgp": "3D66DD6F2BA52F2C",
+   "wallets": 1,
+   "first_seen": "2026-01-07",
+   "last_seen": "2026-08-28"
+  },
+  {
+   "persona_id": "nz3wd6ag5hso:tallow_and_co",
+   "handle": "tallow_and_co",
+   "site": "nz3wd6ag5hsoj5sx",
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "cluster": "CL013",
+   "pgp": "E6885BA3C73432E7",
+   "wallets": 3,
+   "first_seen": "2026-01-07",
+   "last_seen": "2026-08-21"
+  }
+ ],
+ "links": [
+  {
+   "persona_a": "mssu6ktfxio3:harbor_light",
+   "persona_b": "mssu6ktfxio3:HarborLight_hq",
+   "log10_lr": 3.031,
+   "posterior": 0.68244,
+   "verbal": "high-confidence linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "handle",
+    "temporal",
+    "authorship",
+    "favicon"
+   ],
+   "evidence": [
+    {
+     "channel": "crypto",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "mssu6ktfxio3:HarborLight_hq",
+     "score": 1.0,
+     "log10_lr": 2.2148620121290667,
+     "rationale": "identical receiving address published by both personas (1CMH8cqPHKve...)",
+     "supporting": [
+      "shared_address=1CMH8cqPHKveh2nQPot7RGHBVx23NidrZ"
+     ],
+     "verbal": "strong support for same actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "mssu6ktfxio3:HarborLight_hq",
+     "score": 0.95,
+     "log10_lr": 1.6574083724798545,
+     "rationale": "identical PGP fingerprint 1BB1DDCCDAB21123 (held by 3 personas)",
+     "supporting": [
+      "fingerprint=1BB1DDCCDAB211236E660226CA69B03D13C0AAE0",
+      "holders=3"
+     ],
+     "verbal": "moderate support for same actor"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "mssu6ktfxio3:HarborLight_hq",
+     "score": 0.8375,
+     "log10_lr": 1.1412515512994925,
+     "rationale": "normalised root harborlight contained in harborlight; Jaro-Winkler 1.000 on harborlight vs harborlight",
+     "supporting": [
+      "handle_a=harbor_light",
+      "handle_b=HarborLight_hq",
+      "norm_a=harborlight",
+      "norm_b=harborlight",
+      "root_rarity=0.75"
+     ],
+     "verbal": "moderate support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "mssu6ktfxio3:HarborLight_hq",
+     "score": 0.8875,
+     "log10_lr": 0.685434133922684,
+     "rationale": "circadian shape corr 0.917; inferred offsets UTC-5 vs UTC-5 (0.0h apart)",
+     "supporting": [
+      "shape_corr=0.9173",
+      "offset_a=-5",
+      "offset_b=-5",
+      "offset_conf=1.00/1.00"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "mssu6ktfxio3:HarborLight_hq",
+     "score": 0.9473,
+     "log10_lr": 0.41170492707645545,
+     "rationale": "learned author embedding: cosine 0.973, mutual cohort rank 0.933 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.9731",
+      "neural_rank=0.9333"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "mssu6ktfxio3:HarborLight_hq",
+     "score": 0.6367,
+     "log10_lr": 0.28825118898769864,
+     "rationale": "mutual impostor rank 0.611 (each is the other's standout match against the corpus), char n-gram cos 0.684, Burrows delta 0.225, structural agreement on question use and double spacing",
+     "supporting": [
+      "impostor_rank=0.6110",
+      "char_cosine=0.6842",
+      "burrows_delta=0.2248",
+      "struct_dist=4.0588"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "mssu6ktfxio3:HarborLight_hq",
+     "score": 0.1141,
+     "log10_lr": 0.16402179287316998,
+     "rationale": "identical DOM skeleton across 10 services -- the same template, independent of the wording; identical 404 page structure (17 services)",
+     "supporting": [
+      "dom_skeleton=6e498d5c3c826c39",
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "infra",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "mssu6ktfxio3:HarborLight_hq",
+     "score": 0.2075,
+     "log10_lr": 0.04660846766117355,
+     "rationale": "both accounts appear on the hidden service mssu6ktfxio3vnej...onion, but so do 10 of 17 accounts: a shared platform, not shared operation",
+     "supporting": [
+      "onion=mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+      "holders=10"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "mssu6ktfxio3:HarborLight_hq",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    }
+   ],
+   "tier": "linkage",
+   "handle_a": "harbor_light",
+   "handle_b": "HarborLight_hq",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "mssu6ktfxio3vnej",
+   "cross_service": false
+  },
+  {
+   "persona_a": "mssu6ktfxio3:kavach_supply",
+   "persona_b": "mssu6ktfxio3:kavach.supply2",
+   "log10_lr": 2.957,
+   "posterior": 0.64422,
+   "verbal": "corroborated linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "handle",
+    "stylometry",
+    "authorship",
+    "favicon"
+   ],
+   "evidence": [
+    {
+     "channel": "crypto",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:kavach.supply2",
+     "score": 0.9406,
+     "log10_lr": 2.151590417894381,
+     "rationale": "identical receiving address published by both personas (1nYGPyCWxPs8...)",
+     "supporting": [
+      "shared_address=1nYGPyCWxPs82mHQuwWHNQ5visJkJTnsz"
+     ],
+     "verbal": "strong support for same actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:kavach.supply2",
+     "score": 0.95,
+     "log10_lr": 1.6574083724798545,
+     "rationale": "identical PGP fingerprint 410E47188DBED15A (held by 3 personas)",
+     "supporting": [
+      "fingerprint=410E47188DBED15AF1B6AF43B627D4D186C5FDA6",
+      "holders=3"
+     ],
+     "verbal": "moderate support for same actor"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:kavach.supply2",
+     "score": 0.8375,
+     "log10_lr": 1.1412515512994925,
+     "rationale": "normalised root kavachsupply contained in kavachsupply; Jaro-Winkler 1.000 on kavachsupply vs kavachsupply",
+     "supporting": [
+      "handle_a=kavach_supply",
+      "handle_b=kavach.supply2",
+      "norm_a=kavachsupply",
+      "norm_b=kavachsupply",
+      "root_rarity=0.75"
+     ],
+     "verbal": "moderate support for same actor"
+    },
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:kavach.supply2",
+     "score": 0.8163,
+     "log10_lr": 0.7938586072420741,
+     "rationale": "mutual impostor rank 0.864 (each is the other's standout match against the corpus), char n-gram cos 0.818, Burrows delta 0.073, structural agreement on double spacing and question use",
+     "supporting": [
+      "impostor_rank=0.8641",
+      "char_cosine=0.8185",
+      "burrows_delta=0.0731",
+      "struct_dist=3.4478"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:kavach.supply2",
+     "score": 0.8806,
+     "log10_lr": 0.3052477212382456,
+     "rationale": "learned author embedding: cosine 0.970, mutual cohort rank 0.833 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.9696",
+      "neural_rank=0.8327"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:kavach.supply2",
+     "score": 0.1141,
+     "log10_lr": 0.16402179287316998,
+     "rationale": "identical DOM skeleton across 10 services -- the same template, independent of the wording; identical 404 page structure (17 services)",
+     "supporting": [
+      "dom_skeleton=6e498d5c3c826c39",
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:kavach.supply2",
+     "score": 0.5826,
+     "log10_lr": 0.13315384470677016,
+     "rationale": "circadian shape corr 0.827; inferred offsets UTC+4.5 vs UTC+7 (2.5h apart)",
+     "supporting": [
+      "shape_corr=0.8269",
+      "offset_a=+4.5",
+      "offset_b=+7",
+      "offset_conf=1.00/0.98"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "infra",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:kavach.supply2",
+     "score": 0.2075,
+     "log10_lr": 0.04660846766117355,
+     "rationale": "both accounts appear on the hidden service mssu6ktfxio3vnej...onion, but so do 10 of 17 accounts: a shared platform, not shared operation",
+     "supporting": [
+      "onion=mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+      "holders=10"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:kavach.supply2",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    }
+   ],
+   "tier": "linkage",
+   "handle_a": "kavach_supply",
+   "handle_b": "kavach.supply2",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "mssu6ktfxio3vnej",
+   "cross_service": false
+  },
+  {
+   "persona_a": "mssu6ktfxio3:kavach_supply",
+   "persona_b": "mssu6ktfxio3:nightfreight",
+   "log10_lr": 1.674,
+   "posterior": 0.08619,
+   "verbal": "investigative lead",
+   "channels": [
+    "crypto",
+    "stylometry",
+    "temporal",
+    "favicon",
+    "pgp"
+   ],
+   "evidence": [
+    {
+     "channel": "crypto",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.9625,
+     "log10_lr": 2.1749420807705038,
+     "rationale": "identical receiving address published by both personas (1QYJXAwWb8kQ...)",
+     "supporting": [
+      "shared_address=1QYJXAwWb8kQMZ3kgM4ynTfb66LMBjNc1"
+     ],
+     "verbal": "strong support for same actor"
+    },
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.7384,
+     "log10_lr": 0.5746329638601257,
+     "rationale": "mutual impostor rank 0.760 (each is the other's standout match against the corpus), char n-gram cos 0.743, Burrows delta 0.161, structural agreement on double spacing and question use",
+     "supporting": [
+      "impostor_rank=0.7601",
+      "char_cosine=0.7426",
+      "burrows_delta=0.1606",
+      "struct_dist=3.1388"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.7182,
+     "log10_lr": 0.3788379651515681,
+     "rationale": "circadian shape corr 0.922; inferred offsets UTC+4.5 vs UTC+5.5 (1.0h apart)",
+     "supporting": [
+      "shape_corr=0.9225",
+      "offset_a=+4.5",
+      "offset_b=+5.5",
+      "offset_conf=1.00/0.98"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.8387,
+     "log10_lr": 0.23828931590912106,
+     "rationale": "learned author embedding: cosine 0.958, mutual cohort rank 0.775 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.9577",
+      "neural_rank=0.7746"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.1141,
+     "log10_lr": 0.16402179287316998,
+     "rationale": "identical DOM skeleton across 10 services -- the same template, independent of the wording; identical 404 page structure (17 services)",
+     "supporting": [
+      "dom_skeleton=6e498d5c3c826c39",
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "infra",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.2075,
+     "log10_lr": 0.04660846766117355,
+     "rationale": "both accounts appear on the hidden service mssu6ktfxio3vnej...onion, but so do 10 of 17 accounts: a shared platform, not shared operation",
+     "supporting": [
+      "onion=mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+      "holders=10"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.3257,
+     "log10_lr": -0.2605037284799152,
+     "rationale": "Jaro-Winkler 0.389 on kavachsupply vs nightfreight",
+     "supporting": [
+      "handle_a=kavach_supply",
+      "handle_b=nightfreight",
+      "norm_a=kavachsupply",
+      "norm_b=nightfreight",
+      "root_rarity=0.75"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.1491,
+     "log10_lr": -0.5,
+     "rationale": "distinct fingerprints (key rotation); no secondary traces",
+     "supporting": [
+      "fp_a=410E47188DBED15A",
+      "fp_b=A377ACF200A25AAF"
+     ],
+     "verbal": "weak support for different actor"
+    }
+   ],
+   "tier": "linkage",
+   "handle_a": "kavach_supply",
+   "handle_b": "nightfreight",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "mssu6ktfxio3vnej",
+   "cross_service": false
+  },
+  {
+   "persona_a": "mssu6ktfxio3:kavach.supply2",
+   "persona_b": "mssu6ktfxio3:nightfreight",
+   "log10_lr": 1.194,
+   "posterior": 0.03034,
+   "verbal": "investigative lead",
+   "channels": [
+    "crypto",
+    "stylometry",
+    "favicon",
+    "pgp"
+   ],
+   "evidence": [
+    {
+     "channel": "crypto",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.9406,
+     "log10_lr": 2.151590417894381,
+     "rationale": "identical receiving address published by both personas (1nYGPyCWxPs8...)",
+     "supporting": [
+      "shared_address=1nYGPyCWxPs82mHQuwWHNQ5visJkJTnsz"
+     ],
+     "verbal": "strong support for same actor"
+    },
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.6879,
+     "log10_lr": 0.43220284304183054,
+     "rationale": "mutual impostor rank 0.663 (each is the other's standout match against the corpus), char n-gram cos 0.713, Burrows delta 0.148, structural agreement on double spacing and question use",
+     "supporting": [
+      "impostor_rank=0.6633",
+      "char_cosine=0.7130",
+      "burrows_delta=0.1478",
+      "struct_dist=3.2993"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.1141,
+     "log10_lr": 0.16402179287316998,
+     "rationale": "identical DOM skeleton across 10 services -- the same template, independent of the wording; identical 404 page structure (17 services)",
+     "supporting": [
+      "dom_skeleton=6e498d5c3c826c39",
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.59,
+     "log10_lr": 0.1467039084244648,
+     "rationale": "circadian shape corr 0.749; inferred offsets UTC+7 vs UTC+5.5 (1.5h apart)",
+     "supporting": [
+      "shape_corr=0.7486",
+      "offset_a=+7",
+      "offset_b=+5.5",
+      "offset_conf=0.98/0.98"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.7223,
+     "log10_lr": 0.052350980340492015,
+     "rationale": "learned author embedding: cosine 0.902, mutual cohort rank 0.625 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.9023",
+      "neural_rank=0.6254"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "infra",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.2075,
+     "log10_lr": 0.04660846766117355,
+     "rationale": "both accounts appear on the hidden service mssu6ktfxio3vnej...onion, but so do 10 of 17 accounts: a shared platform, not shared operation",
+     "supporting": [
+      "onion=mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+      "holders=10"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.3257,
+     "log10_lr": -0.2605037284799152,
+     "rationale": "Jaro-Winkler 0.389 on kavachsupply vs nightfreight",
+     "supporting": [
+      "handle_a=kavach.supply2",
+      "handle_b=nightfreight",
+      "norm_a=kavachsupply",
+      "norm_b=nightfreight",
+      "root_rarity=0.75"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "mssu6ktfxio3:nightfreight",
+     "score": 0.1466,
+     "log10_lr": -0.5,
+     "rationale": "distinct fingerprints (key rotation); no secondary traces",
+     "supporting": [
+      "fp_a=410E47188DBED15A",
+      "fp_b=A377ACF200A25AAF"
+     ],
+     "verbal": "weak support for different actor"
+    }
+   ],
+   "tier": "lead",
+   "handle_a": "kavach.supply2",
+   "handle_b": "nightfreight",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "mssu6ktfxio3vnej",
+   "cross_service": false
+  },
+  {
+   "persona_a": "mssu6ktfxio3:harbor_light",
+   "persona_b": "nz3wd6ag5hso:hbl_support",
+   "log10_lr": 0.995,
+   "posterior": 0.01937,
+   "verbal": "insufficient",
+   "channels": [
+    "crypto",
+    "pgp",
+    "handle",
+    "temporal",
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry"
+   ],
+   "evidence": [
+    {
+     "channel": "crypto",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.9625,
+     "log10_lr": 2.1749420807705038,
+     "rationale": "identical receiving address published by both personas (1JZAy4wdi4ar...)",
+     "supporting": [
+      "shared_address=1JZAy4wdi4arWAHg43VtZWjsbDbGPfiB7"
+     ],
+     "verbal": "strong support for same actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.95,
+     "log10_lr": 1.6574083724798545,
+     "rationale": "identical PGP fingerprint 1BB1DDCCDAB21123 (held by 3 personas)",
+     "supporting": [
+      "fingerprint=1BB1DDCCDAB211236E660226CA69B03D13C0AAE0",
+      "holders=3"
+     ],
+     "verbal": "moderate support for same actor"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.5524,
+     "log10_lr": 0.36043910619922737,
+     "rationale": "Jaro-Winkler 0.660 on harborlight vs hblsupport",
+     "supporting": [
+      "handle_a=harbor_light",
+      "handle_b=hbl_support",
+      "norm_a=harborlight",
+      "norm_b=hblsupport",
+      "root_rarity=0.75"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.7059,
+     "log10_lr": 0.35653483587804424,
+     "rationale": "circadian shape corr 0.893; inferred offsets UTC-5 vs UTC-6 (1.0h apart)",
+     "supporting": [
+      "shape_corr=0.8926",
+      "offset_a=-5",
+      "offset_b=-6",
+      "offset_conf=1.00/1.00"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.0,
+     "log10_lr": -0.43917966160558386,
+     "rationale": "identical 404 page structure (17 services)",
+     "supporting": [
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.3251,
+     "log10_lr": -0.5820854279278853,
+     "rationale": "learned author embedding: cosine 0.196, mutual cohort rank 0.394 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.1965",
+      "neural_rank=0.3944"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:harbor_light",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.1515,
+     "log10_lr": -1.0776778392785387,
+     "rationale": "mutual impostor rank 0.447 (each is the other's standout match against the corpus), char n-gram cos -0.736, Burrows delta 0.693, structural agreement on question use and double spacing",
+     "supporting": [
+      "impostor_rank=0.4472",
+      "char_cosine=-0.7359",
+      "burrows_delta=0.6931",
+      "struct_dist=3.7114"
+     ],
+     "verbal": "moderate support for different actor"
+    }
+   ],
+   "tier": "lead",
+   "handle_a": "harbor_light",
+   "handle_b": "hbl_support",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "nz3wd6ag5hsoj5sx",
+   "cross_service": true
+  },
+  {
+   "persona_a": "nz3wd6ag5hso:pale_quartz",
+   "persona_b": "nz3wd6ag5hso:sundowner",
+   "log10_lr": 0.73,
+   "posterior": 0.01062,
+   "verbal": "insufficient",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "pgp"
+   ],
+   "evidence": [
+    {
+     "channel": "stylometry",
+     "persona_a": "nz3wd6ag5hso:pale_quartz",
+     "persona_b": "nz3wd6ag5hso:sundowner",
+     "score": 0.8851,
+     "log10_lr": 0.9874993133107335,
+     "rationale": "mutual impostor rank 1.000 (each is the other's standout match against the corpus), char n-gram cos 0.902, Burrows delta 0.263, structural agreement on double spacing and question use",
+     "supporting": [
+      "impostor_rank=1.0000",
+      "char_cosine=0.9022",
+      "burrows_delta=0.2630",
+      "struct_dist=2.0208"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "nz3wd6ag5hso:pale_quartz",
+     "persona_b": "nz3wd6ag5hso:sundowner",
+     "score": 0.9987,
+     "log10_lr": 0.49391220696297355,
+     "rationale": "learned author embedding: cosine 0.996, mutual cohort rank 1.000 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.9963",
+      "neural_rank=1.0000"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "nz3wd6ag5hso:pale_quartz",
+     "persona_b": "nz3wd6ag5hso:sundowner",
+     "score": 0.6766,
+     "log10_lr": 0.30346054866726924,
+     "rationale": "circadian shape corr 0.847; inferred offsets UTC-1 vs UTC-2 (1.0h apart)",
+     "supporting": [
+      "shape_corr=0.8471",
+      "offset_a=-1",
+      "offset_b=-2",
+      "offset_conf=1.00/0.97"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "infra",
+     "persona_a": "nz3wd6ag5hso:pale_quartz",
+     "persona_b": "nz3wd6ag5hso:sundowner",
+     "score": 0.3538,
+     "log10_lr": 0.2245406150844953,
+     "rationale": "both accounts appear on the hidden service nz3wd6ag5hsoj5sx...onion, but so do 7 of 17 accounts: a shared platform, not shared operation",
+     "supporting": [
+      "onion=nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+      "holders=7"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "template",
+     "persona_a": "nz3wd6ag5hso:pale_quartz",
+     "persona_b": "nz3wd6ag5hso:sundowner",
+     "score": 0.1946,
+     "log10_lr": 0.20756848442961773,
+     "rationale": "identical DOM skeleton across 7 services -- the same template, independent of the wording; identical 404 page structure (17 services)",
+     "supporting": [
+      "dom_skeleton=c1697a8e20497d88",
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "nz3wd6ag5hso:pale_quartz",
+     "persona_b": "nz3wd6ag5hso:sundowner",
+     "score": 0.4333,
+     "log10_lr": 0.03430233443162889,
+     "rationale": "Jaro-Winkler 0.433 on palequartz vs sundowner",
+     "supporting": [
+      "handle_a=pale_quartz",
+      "handle_b=sundowner",
+      "norm_a=palequartz",
+      "norm_b=sundowner",
+      "root_rarity=1.00"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "nz3wd6ag5hso:pale_quartz",
+     "persona_b": "nz3wd6ag5hso:sundowner",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "nz3wd6ag5hso:pale_quartz",
+     "persona_b": "nz3wd6ag5hso:sundowner",
+     "score": 0.1442,
+     "log10_lr": -0.5,
+     "rationale": "distinct fingerprints (key rotation); no secondary traces",
+     "supporting": [
+      "fp_a=F7DD260A87DD2F7A",
+      "fp_b=3D66DD6F2BA52F2C"
+     ],
+     "verbal": "weak support for different actor"
+    }
+   ],
+   "tier": "lead",
+   "handle_a": "pale_quartz",
+   "handle_b": "sundowner",
+   "site_a": "nz3wd6ag5hsoj5sx",
+   "site_b": "nz3wd6ag5hsoj5sx",
+   "cross_service": false
+  },
+  {
+   "persona_a": "mssu6ktfxio3:quartzpine",
+   "persona_b": "nz3wd6ag5hso:pale_quartz",
+   "log10_lr": 0.707,
+   "posterior": 0.01008,
+   "verbal": "insufficient",
+   "channels": [
+    "crypto",
+    "pgp",
+    "handle",
+    "temporal",
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry"
+   ],
+   "evidence": [
+    {
+     "channel": "crypto",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "nz3wd6ag5hso:pale_quartz",
+     "score": 1.0,
+     "log10_lr": 2.2148620121290667,
+     "rationale": "identical receiving address published by both personas (1PXqhWf78zCy...)",
+     "supporting": [
+      "shared_address=1PXqhWf78zCyqMZNxyzS4aDT8ekKJLKyT"
+     ],
+     "verbal": "strong support for same actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "nz3wd6ag5hso:pale_quartz",
+     "score": 1.0,
+     "log10_lr": 1.8140938417748287,
+     "rationale": "identical PGP fingerprint F7DD260A87DD2F7A (held by 2 personas)",
+     "supporting": [
+      "fingerprint=F7DD260A87DD2F7A4989018B6521678477A272A3",
+      "holders=2"
+     ],
+     "verbal": "moderate support for same actor"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "nz3wd6ag5hso:pale_quartz",
+     "score": 0.6778,
+     "log10_lr": 0.703797393430749,
+     "rationale": "Jaro-Winkler 0.678 on quartzpine vs palequartz",
+     "supporting": [
+      "handle_a=quartzpine",
+      "handle_b=pale_quartz",
+      "norm_a=quartzpine",
+      "norm_b=palequartz",
+      "root_rarity=1.00"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "nz3wd6ag5hso:pale_quartz",
+     "score": 0.7632,
+     "log10_lr": 0.46027494024248017,
+     "rationale": "circadian shape corr 0.842; inferred offsets UTC-1 vs UTC-1 (0.0h apart)",
+     "supporting": [
+      "shape_corr=0.8421",
+      "offset_a=-1",
+      "offset_b=-1",
+      "offset_conf=1.00/1.00"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "nz3wd6ag5hso:pale_quartz",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "nz3wd6ag5hso:pale_quartz",
+     "score": 0.0,
+     "log10_lr": -0.43917966160558386,
+     "rationale": "identical 404 page structure (17 services)",
+     "supporting": [
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "nz3wd6ag5hso:pale_quartz",
+     "score": 0.1501,
+     "log10_lr": -0.8616595078319436,
+     "rationale": "learned author embedding: cosine -0.057, mutual cohort rank 0.231 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=-0.0566",
+      "neural_rank=0.2309"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "nz3wd6ag5hso:pale_quartz",
+     "score": 0.0094,
+     "log10_lr": -1.4778227908566088,
+     "rationale": "mutual impostor rank 0.163 (each is the other's standout match against the corpus), char n-gram cos -0.824, Burrows delta 0.715, structural agreement on double spacing and question use",
+     "supporting": [
+      "impostor_rank=0.1633",
+      "char_cosine=-0.8243",
+      "burrows_delta=0.7147",
+      "struct_dist=2.8362"
+     ],
+     "verbal": "moderate support for different actor"
+    }
+   ],
+   "tier": "lead",
+   "handle_a": "quartzpine",
+   "handle_b": "pale_quartz",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "nz3wd6ag5hsoj5sx",
+   "cross_service": true
+  },
+  {
+   "persona_a": "mssu6ktfxio3:kavach.supply2",
+   "persona_b": "nz3wd6ag5hso:kav_admin",
+   "log10_lr": 0.664,
+   "posterior": 0.00915,
+   "verbal": "insufficient",
+   "channels": [
+    "crypto",
+    "pgp",
+    "temporal",
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry"
+   ],
+   "evidence": [
+    {
+     "channel": "crypto",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "nz3wd6ag5hso:kav_admin",
+     "score": 0.9406,
+     "log10_lr": 2.151590417894381,
+     "rationale": "identical receiving address published by both personas (1nYGPyCWxPs8...)",
+     "supporting": [
+      "shared_address=1nYGPyCWxPs82mHQuwWHNQ5visJkJTnsz"
+     ],
+     "verbal": "strong support for same actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "nz3wd6ag5hso:kav_admin",
+     "score": 0.95,
+     "log10_lr": 1.6574083724798545,
+     "rationale": "identical PGP fingerprint 410E47188DBED15A (held by 3 personas)",
+     "supporting": [
+      "fingerprint=410E47188DBED15AF1B6AF43B627D4D186C5FDA6",
+      "holders=3"
+     ],
+     "verbal": "moderate support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "nz3wd6ag5hso:kav_admin",
+     "score": 0.7753,
+     "log10_lr": 0.4822437296679476,
+     "rationale": "circadian shape corr 0.875; inferred offsets UTC+7 vs UTC+7 (0.0h apart)",
+     "supporting": [
+      "shape_corr=0.8751",
+      "offset_a=+7",
+      "offset_b=+7",
+      "offset_conf=0.98/1.00"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "nz3wd6ag5hso:kav_admin",
+     "score": 0.5118,
+     "log10_lr": 0.24922546416714209,
+     "rationale": "Jaro-Winkler 0.611 on kavachsupply vs kavadmin",
+     "supporting": [
+      "handle_a=kavach.supply2",
+      "handle_b=kav_admin",
+      "norm_a=kavachsupply",
+      "norm_b=kavadmin",
+      "root_rarity=0.75"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "nz3wd6ag5hso:kav_admin",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "nz3wd6ag5hso:kav_admin",
+     "score": 0.0,
+     "log10_lr": -0.43917966160558386,
+     "rationale": "identical 404 page structure (17 services)",
+     "supporting": [
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "nz3wd6ag5hso:kav_admin",
+     "score": 0.0,
+     "log10_lr": -0.7224404953018237,
+     "rationale": "learned author embedding: cosine -0.285, mutual cohort rank 0.000 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=-0.2852",
+      "neural_rank=0.0000"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:kavach.supply2",
+     "persona_b": "nz3wd6ag5hso:kav_admin",
+     "score": 0.0146,
+     "log10_lr": -1.4632658420813112,
+     "rationale": "mutual impostor rank 0.231 (each is the other's standout match against the corpus), char n-gram cos -0.814, Burrows delta 0.741, structural agreement on double spacing and question use",
+     "supporting": [
+      "impostor_rank=0.2309",
+      "char_cosine=-0.8139",
+      "burrows_delta=0.7408",
+      "struct_dist=5.7986"
+     ],
+     "verbal": "moderate support for different actor"
+    }
+   ],
+   "tier": "lead",
+   "handle_a": "kavach.supply2",
+   "handle_b": "kav_admin",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "nz3wd6ag5hsoj5sx",
+   "cross_service": true
+  },
+  {
+   "persona_a": "mssu6ktfxio3:HarborLight_hq",
+   "persona_b": "nz3wd6ag5hso:hbl_support",
+   "log10_lr": 0.525,
+   "posterior": 0.00665,
+   "verbal": "insufficient",
+   "channels": [
+    "crypto",
+    "pgp",
+    "handle",
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry"
+   ],
+   "evidence": [
+    {
+     "channel": "crypto",
+     "persona_a": "mssu6ktfxio3:HarborLight_hq",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.9625,
+     "log10_lr": 2.1749420807705038,
+     "rationale": "identical receiving address published by both personas (1JZAy4wdi4ar...)",
+     "supporting": [
+      "shared_address=1JZAy4wdi4arWAHg43VtZWjsbDbGPfiB7"
+     ],
+     "verbal": "strong support for same actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:HarborLight_hq",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.95,
+     "log10_lr": 1.6574083724798545,
+     "rationale": "identical PGP fingerprint 1BB1DDCCDAB21123 (held by 3 personas)",
+     "supporting": [
+      "fingerprint=1BB1DDCCDAB211236E660226CA69B03D13C0AAE0",
+      "holders=3"
+     ],
+     "verbal": "moderate support for same actor"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:HarborLight_hq",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.5524,
+     "log10_lr": 0.36043910619922737,
+     "rationale": "Jaro-Winkler 0.660 on harborlight vs hblsupport",
+     "supporting": [
+      "handle_a=HarborLight_hq",
+      "handle_b=hbl_support",
+      "norm_a=harborlight",
+      "norm_b=hblsupport",
+      "root_rarity=0.75"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:HarborLight_hq",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.6532,
+     "log10_lr": 0.2611069721874213,
+     "rationale": "circadian shape corr 0.797; inferred offsets UTC-5 vs UTC-6 (1.0h apart)",
+     "supporting": [
+      "shape_corr=0.7968",
+      "offset_a=-5",
+      "offset_b=-6",
+      "offset_conf=1.00/1.00"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:HarborLight_hq",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:HarborLight_hq",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.0,
+     "log10_lr": -0.43917966160558386,
+     "rationale": "identical 404 page structure (17 services)",
+     "supporting": [
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:HarborLight_hq",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.3475,
+     "log10_lr": -0.5463542008008648,
+     "rationale": "learned author embedding: cosine 0.210, mutual cohort rank 0.422 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.2098",
+      "neural_rank=0.4216"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:HarborLight_hq",
+     "persona_b": "nz3wd6ag5hso:hbl_support",
+     "score": 0.0549,
+     "log10_lr": -1.3497994423476096,
+     "rationale": "mutual impostor rank 0.298 (each is the other's standout match against the corpus), char n-gram cos -0.781, Burrows delta 0.808, structural agreement on question use and double spacing",
+     "supporting": [
+      "impostor_rank=0.2981",
+      "char_cosine=-0.7811",
+      "burrows_delta=0.8080",
+      "struct_dist=4.5600"
+     ],
+     "verbal": "moderate support for different actor"
+    }
+   ],
+   "tier": "lead",
+   "handle_a": "HarborLight_hq",
+   "handle_b": "hbl_support",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "nz3wd6ag5hsoj5sx",
+   "cross_service": true
+  },
+  {
+   "persona_a": "nz3wd6ag5hso:ninelives_alt",
+   "persona_b": "nz3wd6ag5hso:tallow_and_co",
+   "log10_lr": 0.501,
+   "posterior": 0.0063,
+   "verbal": "insufficient",
+   "channels": [
+    "stylometry",
+    "temporal",
+    "favicon",
+    "pgp"
+   ],
+   "evidence": [
+    {
+     "channel": "stylometry",
+     "persona_a": "nz3wd6ag5hso:ninelives_alt",
+     "persona_b": "nz3wd6ag5hso:tallow_and_co",
+     "score": 0.7336,
+     "log10_lr": 0.560880418217244,
+     "rationale": "mutual impostor rank 0.766 (each is the other's standout match against the corpus), char n-gram cos 0.828, Burrows delta 0.288, structural agreement on question use and double spacing",
+     "supporting": [
+      "impostor_rank=0.7659",
+      "char_cosine=0.8282",
+      "burrows_delta=0.2876",
+      "struct_dist=3.9648"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "nz3wd6ag5hso:ninelives_alt",
+     "persona_b": "nz3wd6ag5hso:tallow_and_co",
+     "score": 0.8062,
+     "log10_lr": 0.5381981300954233,
+     "rationale": "circadian shape corr 0.950; inferred offsets UTC+4.5 vs UTC+4.5 (0.0h apart)",
+     "supporting": [
+      "shape_corr=0.9501",
+      "offset_a=+4.5",
+      "offset_b=+4.5",
+      "offset_conf=0.99/0.95"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "infra",
+     "persona_a": "nz3wd6ag5hso:ninelives_alt",
+     "persona_b": "nz3wd6ag5hso:tallow_and_co",
+     "score": 0.3538,
+     "log10_lr": 0.2245406150844953,
+     "rationale": "both accounts appear on the hidden service nz3wd6ag5hsoj5sx...onion, but so do 7 of 17 accounts: a shared platform, not shared operation",
+     "supporting": [
+      "onion=nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+      "holders=7"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "template",
+     "persona_a": "nz3wd6ag5hso:ninelives_alt",
+     "persona_b": "nz3wd6ag5hso:tallow_and_co",
+     "score": 0.1946,
+     "log10_lr": 0.20756848442961773,
+     "rationale": "identical DOM skeleton across 7 services -- the same template, independent of the wording; identical 404 page structure (17 services)",
+     "supporting": [
+      "dom_skeleton=c1697a8e20497d88",
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "nz3wd6ag5hso:ninelives_alt",
+     "persona_b": "nz3wd6ag5hso:tallow_and_co",
+     "score": 0.7915,
+     "log10_lr": 0.16298319711607512,
+     "rationale": "learned author embedding: cosine 0.839, mutual cohort rank 0.766 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.8391",
+      "neural_rank=0.7659"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "nz3wd6ag5hso:ninelives_alt",
+     "persona_b": "nz3wd6ag5hso:tallow_and_co",
+     "score": 0.4007,
+     "log10_lr": -0.05514810733547115,
+     "rationale": "Jaro-Winkler 0.401 on ninelives vs tallowandco",
+     "supporting": [
+      "handle_a=ninelives_alt",
+      "handle_b=tallow_and_co",
+      "norm_a=ninelives",
+      "norm_b=tallowandco",
+      "root_rarity=1.00"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "nz3wd6ag5hso:ninelives_alt",
+     "persona_b": "nz3wd6ag5hso:tallow_and_co",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "nz3wd6ag5hso:ninelives_alt",
+     "persona_b": "nz3wd6ag5hso:tallow_and_co",
+     "score": 0.1293,
+     "log10_lr": -0.5,
+     "rationale": "distinct fingerprints (key rotation); no secondary traces",
+     "supporting": [
+      "fp_a=562CCF361AB5C7F8",
+      "fp_b=E6885BA3C73432E7"
+     ],
+     "verbal": "weak support for different actor"
+    }
+   ],
+   "tier": "lead",
+   "handle_a": "ninelives_alt",
+   "handle_b": "tallow_and_co",
+   "site_a": "nz3wd6ag5hsoj5sx",
+   "site_b": "nz3wd6ag5hsoj5sx",
+   "cross_service": false
+  },
+  {
+   "persona_a": "mssu6ktfxio3:quartzpine",
+   "persona_b": "mssu6ktfxio3:brasstack",
+   "log10_lr": 0.423,
+   "posterior": 0.00527,
+   "verbal": "insufficient",
+   "channels": [
+    "stylometry",
+    "temporal",
+    "authorship",
+    "favicon",
+    "pgp"
+   ],
+   "evidence": [
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "mssu6ktfxio3:brasstack",
+     "score": 0.7683,
+     "log10_lr": 0.6587566660038188,
+     "rationale": "mutual impostor rank 0.833 (each is the other's standout match against the corpus), char n-gram cos 0.786, Burrows delta 0.218, structural agreement on double spacing and question use",
+     "supporting": [
+      "impostor_rank=0.8327",
+      "char_cosine=0.7859",
+      "burrows_delta=0.2178",
+      "struct_dist=3.5106"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "mssu6ktfxio3:brasstack",
+     "score": 0.7256,
+     "log10_lr": 0.3922172843411711,
+     "rationale": "circadian shape corr 0.928; inferred offsets UTC-1 vs UTC+0 (1.0h apart)",
+     "supporting": [
+      "shape_corr=0.9284",
+      "offset_a=-1",
+      "offset_b=+0",
+      "offset_conf=1.00/1.00"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "mssu6ktfxio3:brasstack",
+     "score": 0.9267,
+     "log10_lr": 0.3789094105543749,
+     "rationale": "learned author embedding: cosine 0.977, mutual cohort rank 0.899 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.9775",
+      "neural_rank=0.8994"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "mssu6ktfxio3:brasstack",
+     "score": 0.1141,
+     "log10_lr": 0.16402179287316998,
+     "rationale": "identical DOM skeleton across 10 services -- the same template, independent of the wording; identical 404 page structure (17 services)",
+     "supporting": [
+      "dom_skeleton=6e498d5c3c826c39",
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "infra",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "mssu6ktfxio3:brasstack",
+     "score": 0.2075,
+     "log10_lr": 0.04660846766117355,
+     "rationale": "both accounts appear on the hidden service mssu6ktfxio3vnej...onion, but so do 10 of 17 accounts: a shared platform, not shared operation",
+     "supporting": [
+      "onion=mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+      "holders=10"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "mssu6ktfxio3:brasstack",
+     "score": 0.4333,
+     "log10_lr": 0.03430233443162889,
+     "rationale": "Jaro-Winkler 0.433 on quartzpine vs brasstack",
+     "supporting": [
+      "handle_a=quartzpine",
+      "handle_b=brasstack",
+      "norm_a=quartzpine",
+      "norm_b=brasstack",
+      "root_rarity=1.00"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "mssu6ktfxio3:brasstack",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:quartzpine",
+     "persona_b": "mssu6ktfxio3:brasstack",
+     "score": 0.1471,
+     "log10_lr": -0.5,
+     "rationale": "distinct fingerprints (key rotation); no secondary traces",
+     "supporting": [
+      "fp_a=F7DD260A87DD2F7A",
+      "fp_b=926343470D365359"
+     ],
+     "verbal": "weak support for different actor"
+    }
+   ],
+   "tier": "lead",
+   "handle_a": "quartzpine",
+   "handle_b": "brasstack",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "mssu6ktfxio3vnej",
+   "cross_service": false
+  },
+  {
+   "persona_a": "mssu6ktfxio3:ninelives",
+   "persona_b": "nz3wd6ag5hso:ninelives_alt",
+   "log10_lr": 0.419,
+   "posterior": 0.00523,
+   "verbal": "insufficient",
+   "channels": [
+    "crypto",
+    "pgp",
+    "handle",
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry"
+   ],
+   "evidence": [
+    {
+     "channel": "crypto",
+     "persona_a": "mssu6ktfxio3:ninelives",
+     "persona_b": "nz3wd6ag5hso:ninelives_alt",
+     "score": 1.0,
+     "log10_lr": 2.2148620121290667,
+     "rationale": "identical receiving address published by both personas (1U6JgogQt3Wb...)",
+     "supporting": [
+      "shared_address=1U6JgogQt3WbtNjh1NZ6AtWq4NNHCjCYp"
+     ],
+     "verbal": "strong support for same actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:ninelives",
+     "persona_b": "nz3wd6ag5hso:ninelives_alt",
+     "score": 1.0,
+     "log10_lr": 1.8140938417748287,
+     "rationale": "identical PGP fingerprint 562CCF361AB5C7F8 (held by 2 personas)",
+     "supporting": [
+      "fingerprint=562CCF361AB5C7F854B1116B6632A9D2F4CA841B",
+      "holders=2"
+     ],
+     "verbal": "moderate support for same actor"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:ninelives",
+     "persona_b": "nz3wd6ag5hso:ninelives_alt",
+     "score": 1.0,
+     "log10_lr": 1.5863136075659532,
+     "rationale": "normalised root ninelives contained in ninelives; Jaro-Winkler 1.000 on ninelives vs ninelives",
+     "supporting": [
+      "handle_a=ninelives",
+      "handle_b=ninelives_alt",
+      "norm_a=ninelives",
+      "norm_b=ninelives",
+      "root_rarity=1.00"
+     ],
+     "verbal": "moderate support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:ninelives",
+     "persona_b": "nz3wd6ag5hso:ninelives_alt",
+     "score": 0.6285,
+     "log10_lr": 0.21633985844714476,
+     "rationale": "circadian shape corr 0.909; inferred offsets UTC+2 vs UTC+4.5 (2.5h apart)",
+     "supporting": [
+      "shape_corr=0.9092",
+      "offset_a=+2",
+      "offset_b=+4.5",
+      "offset_conf=0.99/0.99"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:ninelives",
+     "persona_b": "nz3wd6ag5hso:ninelives_alt",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:ninelives",
+     "persona_b": "nz3wd6ag5hso:ninelives_alt",
+     "score": 0.0,
+     "log10_lr": -0.43917966160558386,
+     "rationale": "identical 404 page structure (17 services)",
+     "supporting": [
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:ninelives",
+     "persona_b": "nz3wd6ag5hso:ninelives_alt",
+     "score": 0.2705,
+     "log10_lr": -0.6693578400923088,
+     "rationale": "learned author embedding: cosine 0.166, mutual cohort rank 0.327 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.1663",
+      "neural_rank=0.3266"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:ninelives",
+     "persona_b": "nz3wd6ag5hso:ninelives_alt",
+     "score": 0.0512,
+     "log10_lr": -1.360149987644507,
+     "rationale": "mutual impostor rank 0.283 (each is the other's standout match against the corpus), char n-gram cos -0.806, Burrows delta 0.825, structural agreement on question use and double spacing",
+     "supporting": [
+      "impostor_rank=0.2828",
+      "char_cosine=-0.8062",
+      "burrows_delta=0.8248",
+      "struct_dist=3.3709"
+     ],
+     "verbal": "moderate support for different actor"
+    }
+   ],
+   "tier": "lead",
+   "handle_a": "ninelives",
+   "handle_b": "ninelives_alt",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "nz3wd6ag5hsoj5sx",
+   "cross_service": true
+  },
+  {
+   "persona_a": "mssu6ktfxio3:kavach_supply",
+   "persona_b": "mssu6ktfxio3:ninelives",
+   "log10_lr": 0.299,
+   "posterior": 0.00396,
+   "verbal": "insufficient",
+   "channels": [
+    "stylometry",
+    "favicon",
+    "pgp"
+   ],
+   "evidence": [
+    {
+     "channel": "stylometry",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:ninelives",
+     "score": 0.7893,
+     "log10_lr": 0.7177133504183356,
+     "rationale": "mutual impostor rank 0.797 (each is the other's standout match against the corpus), char n-gram cos 0.777, Burrows delta 0.092, structural agreement on question use and double spacing",
+     "supporting": [
+      "impostor_rank=0.7972",
+      "char_cosine=0.7768",
+      "burrows_delta=0.0923",
+      "struct_dist=2.1378"
+     ],
+     "verbal": "weak support for same actor"
+    },
+    {
+     "channel": "temporal",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:ninelives",
+     "score": 0.6261,
+     "log10_lr": 0.21198859162003836,
+     "rationale": "circadian shape corr 0.904; inferred offsets UTC+4.5 vs UTC+2 (2.5h apart)",
+     "supporting": [
+      "shape_corr=0.9039",
+      "offset_a=+4.5",
+      "offset_b=+2",
+      "offset_conf=1.00/0.99"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "authorship",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:ninelives",
+     "score": 0.8113,
+     "log10_lr": 0.1945732526178099,
+     "rationale": "learned author embedding: cosine 0.962, mutual cohort rank 0.730 (self-supervised on persona identity, no actor labels)",
+     "supporting": [
+      "neural_cosine=0.9618",
+      "neural_rank=0.7303"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "template",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:ninelives",
+     "score": 0.1141,
+     "log10_lr": 0.16402179287316998,
+     "rationale": "identical DOM skeleton across 10 services -- the same template, independent of the wording; identical 404 page structure (17 services)",
+     "supporting": [
+      "dom_skeleton=6e498d5c3c826c39",
+      "error_page=d49c5b28f9218a3d"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "infra",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:ninelives",
+     "score": 0.2075,
+     "log10_lr": 0.04660846766117355,
+     "rationale": "both accounts appear on the hidden service mssu6ktfxio3vnej...onion, but so do 10 of 17 accounts: a shared platform, not shared operation",
+     "supporting": [
+      "onion=mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+      "holders=10"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "handle",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:ninelives",
+     "score": 0.3877,
+     "log10_lr": -0.0905939975975627,
+     "rationale": "Jaro-Winkler 0.463 on kavachsupply vs ninelives",
+     "supporting": [
+      "handle_a=kavach_supply",
+      "handle_b=ninelives",
+      "norm_a=kavachsupply",
+      "norm_b=ninelives",
+      "root_rarity=0.75"
+     ],
+     "verbal": "uninformative"
+    },
+    {
+     "channel": "favicon",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:ninelives",
+     "score": 0.0,
+     "log10_lr": -0.3452465219541303,
+     "rationale": "byte-identical favicon (SHA-256 ec050e3698da), present on 17 of 17 services (100.0%) -- shared this widely it identifies the platform rather than the operator, and carries almost no weight",
+     "supporting": [
+      "favicon_sha256=ec050e3698dad8ea8c23f8c1fbfb42e34df1818ca2640d122f954534cda716e4",
+      "favicon_mmh3=609928828"
+     ],
+     "verbal": "weak support for different actor"
+    },
+    {
+     "channel": "pgp",
+     "persona_a": "mssu6ktfxio3:kavach_supply",
+     "persona_b": "mssu6ktfxio3:ninelives",
+     "score": 0.1667,
+     "log10_lr": -0.5,
+     "rationale": "distinct fingerprints (key rotation); no secondary traces",
+     "supporting": [
+      "fp_a=410E47188DBED15A",
+      "fp_b=562CCF361AB5C7F8"
+     ],
+     "verbal": "weak support for different actor"
+    }
+   ],
+   "tier": "lead",
+   "handle_a": "kavach_supply",
+   "handle_b": "ninelives",
+   "site_a": "mssu6ktfxio3vnej",
+   "site_b": "mssu6ktfxio3vnej",
+   "cross_service": false
+  }
+ ],
+ "clusters": [
+  {
+   "cluster_id": "CL000",
+   "personas": [
+    "mssu6ktfxio3:kavach.supply2",
+    "mssu6ktfxio3:kavach_supply",
+    "mssu6ktfxio3:nightfreight"
+   ],
+   "size": 3,
+   "internal_links": 2,
+   "density": 0.667,
+   "cohesion_log10_lr": 1.67,
+   "peak_log10_lr": 2.96
+  },
+  {
+   "cluster_id": "CL001",
+   "personas": [
+    "mssu6ktfxio3:HarborLight_hq",
+    "mssu6ktfxio3:harbor_light"
+   ],
+   "size": 2,
+   "internal_links": 1,
+   "density": 1.0,
+   "cohesion_log10_lr": 3.03,
+   "peak_log10_lr": 3.03
+  }
+ ],
+ "mentions": [
+  {
+   "kind": "email",
+   "value": "kavach.supply@gmail.example",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "url": "http://mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion/vendor/kavach_supply",
+   "persona_id": "mssu6ktfxio3:kavach_supply",
+   "handle": "kavach_supply",
+   "context": "For bulk orders and escrow disputes reach me directly at kavach.supply@gmail.example &mdash; faster than the on-site messages.",
+   "block": "body",
+   "in_footer": false,
+   "offset": 57,
+   "provider": "gmail.example",
+   "provider_class": "mainstream",
+   "category": "vendor_contact",
+   "priority": 1.0,
+   "reasons": [
+    "solicits direct contact (reach me, bulk order)",
+    "published on the profile of kavach_supply, so it is attributable to that account",
+    "mainstream provider (gmail.example): more likely to connect to recovery details, linked accounts and breach data",
+    "appears on exactly one page"
+   ],
+   "band": "high"
+  },
+  {
+   "kind": "email",
+   "value": "hl.trading@gmail.example",
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "url": "http://nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion/vendor/hbl_support",
+   "persona_id": "nz3wd6ag5hso:hbl_support",
+   "handle": "hbl_support",
+   "context": "For bulk orders and escrow disputes reach me directly at hl.trading@gmail.example &mdash; faster than the on-site messages.",
+   "block": "body",
+   "in_footer": false,
+   "offset": 57,
+   "provider": "gmail.example",
+   "provider_class": "mainstream",
+   "category": "vendor_contact",
+   "priority": 1.0,
+   "reasons": [
+    "solicits direct contact (reach me, bulk order)",
+    "published on the profile of hbl_support, so it is attributable to that account",
+    "mainstream provider (gmail.example): more likely to connect to recovery details, linked accounts and breach data",
+    "appears on exactly one page"
+   ],
+   "band": "high"
+  },
+  {
+   "kind": "email",
+   "value": "ninelives.dev@gmail.example",
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "url": "http://nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion/vendor/ninelives_alt",
+   "persona_id": "nz3wd6ag5hso:ninelives_alt",
+   "handle": "ninelives_alt",
+   "context": "For bulk orders and escrow disputes reach me directly at ninelives.dev@gmail.example &mdash; faster than the on-site messages.",
+   "block": "body",
+   "in_footer": false,
+   "offset": 57,
+   "provider": "gmail.example",
+   "provider_class": "mainstream",
+   "category": "vendor_contact",
+   "priority": 1.0,
+   "reasons": [
+    "solicits direct contact (reach me, bulk order)",
+    "published on the profile of ninelives_alt, so it is attributable to that account",
+    "mainstream provider (gmail.example): more likely to connect to recovery details, linked accounts and breach data",
+    "appears on exactly one page"
+   ],
+   "band": "high"
+  },
+  {
+   "kind": "email",
+   "value": "sundowner.mail@yandex.example",
+   "onion": "nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion",
+   "url": "http://nz3wd6ag5hsoj5sxsuqxzcve643qhopybennlosbegrnfy4ragxoetid.onion/vendor/sundowner",
+   "persona_id": "nz3wd6ag5hso:sundowner",
+   "handle": "sundowner",
+   "context": "For bulk orders and escrow disputes reach me directly at sundowner.mail@yandex.example &mdash; faster than the on-site messages.",
+   "block": "body",
+   "in_footer": false,
+   "offset": 57,
+   "provider": "yandex.example",
+   "provider_class": "mainstream",
+   "category": "vendor_contact",
+   "priority": 1.0,
+   "reasons": [
+    "solicits direct contact (reach me, bulk order)",
+    "published on the profile of sundowner, so it is attributable to that account",
+    "mainstream provider (yandex.example): more likely to connect to recovery details, linked accounts and breach data",
+    "appears on exactly one page"
+   ],
+   "band": "high"
+  },
+  {
+   "kind": "email",
+   "value": "stillwater.trading@example.com",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "url": "http://mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion/vendor/stillwater_co",
+   "persona_id": "mssu6ktfxio3:stillwater_co",
+   "handle": "stillwater_co",
+   "context": "For bulk orders and escrow disputes reach me directly at stillwater.trading@example.com &mdash; faster than the on-site messages.",
+   "block": "body",
+   "in_footer": false,
+   "offset": 57,
+   "provider": "example.com",
+   "provider_class": "other",
+   "category": "vendor_contact",
+   "priority": 0.9,
+   "reasons": [
+    "solicits direct contact (reach me, bulk order)",
+    "published on the profile of stillwater_co, so it is attributable to that account",
+    "appears on exactly one page"
+   ],
+   "band": "high"
+  },
+  {
+   "kind": "domain",
+   "value": "paperghost-shop.example.org",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "url": "http://mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion/vendor/paper_ghost",
+   "persona_id": "mssu6ktfxio3:paper_ghost",
+   "handle": "paper_ghost",
+   "context": "Direct shop and stock list: paperghost-shop.example.org",
+   "block": "body",
+   "in_footer": false,
+   "offset": 28,
+   "provider": "",
+   "provider_class": "",
+   "category": "vendor_contact",
+   "priority": 0.86,
+   "reasons": [
+    "solicits direct contact (stock list, direct shop)",
+    "published on the profile of paper_ghost, so it is attributable to that account",
+    "appears on exactly one page"
+   ],
+   "band": "high"
+  },
+  {
+   "kind": "email",
+   "value": "harborlight.ops@protonmail.example",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "url": "http://mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion/vendor/harbor_light",
+   "persona_id": "mssu6ktfxio3:harbor_light",
+   "handle": "harbor_light",
+   "context": "For bulk orders and escrow disputes reach me directly at harborlight.ops@protonmail.example &mdash; faster than the on-site messages.",
+   "block": "body",
+   "in_footer": false,
+   "offset": 57,
+   "provider": "protonmail.example",
+   "provider_class": "privacy",
+   "category": "vendor_contact",
+   "priority": 0.84,
+   "reasons": [
+    "solicits direct contact (reach me, bulk order)",
+    "published on the profile of harbor_light, so it is attributable to that account",
+    "anonymous provider (protonmail.example): created to be disposable, so it usually pivots to little",
+    "appears on exactly one page"
+   ],
+   "band": "high"
+  },
+  {
+   "kind": "email",
+   "value": "noreply@example.com",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "url": "http://mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion/",
+   "persona_id": "",
+   "handle": "",
+   "context": "Machine-readable index at /api/vendors.json . Support enquiries: noreply@example.com",
+   "block": "body",
+   "in_footer": false,
+   "offset": 65,
+   "provider": "example.com",
+   "provider_class": "other",
+   "category": "boilerplate",
+   "priority": 0.0,
+   "reasons": [
+    "platform boilerplate (noreply)",
+    "appears in advisory or warning text, may be an example rather than the author's own identifier",
+    "not on any account's profile page"
+   ],
+   "band": "noise"
+  },
+  {
+   "kind": "email",
+   "value": "abuse@torproject.example",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "url": "http://mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion/",
+   "persona_id": "",
+   "handle": "",
+   "context": "Escrow held 14 days. Verify every mirror against a signed link. Abuse: abuse@torproject.example &middot; Postmaster: postmaster@example.net ONIONLAB demonstration target &mdash; synthetic data, no real goods, no real keys, no real addresses.",
+   "block": "footer",
+   "in_footer": true,
+   "offset": 71,
+   "provider": "torproject.example",
+   "provider_class": "other",
+   "category": "boilerplate",
+   "priority": 0.0,
+   "reasons": [
+    "platform boilerplate (abuse, postmaster)",
+    "site-operational context (mirror)",
+    "appears in advisory or warning text, may be an example rather than the author's own identifier",
+    "sits in the page footer or navigation, which belongs to the platform rather than to any account",
+    "appears on 21 of 21 crawled pages, so it is site furniture rather than an individual's identifier"
+   ],
+   "band": "noise"
+  },
+  {
+   "kind": "email",
+   "value": "postmaster@example.net",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "url": "http://mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion/",
+   "persona_id": "",
+   "handle": "",
+   "context": "Escrow held 14 days. Verify every mirror against a signed link. Abuse: abuse@torproject.example &middot; Postmaster: postmaster@example.net ONIONLAB demonstration target &mdash; synthetic data, no real goods, no real keys, no real addresses.",
+   "block": "footer",
+   "in_footer": true,
+   "offset": 117,
+   "provider": "example.net",
+   "provider_class": "other",
+   "category": "boilerplate",
+   "priority": 0.0,
+   "reasons": [
+    "platform boilerplate (abuse, postmaster)",
+    "site-operational context (mirror)",
+    "appears in advisory or warning text, may be an example rather than the author's own identifier",
+    "sits in the page footer or navigation, which belongs to the platform rather than to any account",
+    "appears on 21 of 21 crawled pages, so it is site furniture rather than an individual's identifier"
+   ],
+   "band": "noise"
+  },
+  {
+   "kind": "email",
+   "value": "security@example.org",
+   "onion": "mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion",
+   "url": "http://mssu6ktfxio3vnej545tokmuhbuo3rpa6ywpoahxbtqruvyvzjzf2byd.onion/mirrors",
+   "persona_id": "",
+   "handle": "",
+   "context": "Report phishing mirrors to security@example.org",
+   "block": "body",
+   "in_footer": false,
+   "offset": 27,
+   "provider": "example.org",
+   "provider_class": "other",
+   "category": "boilerplate",
+   "priority": 0.0,
+   "reasons": [
+    "platform boilerplate (report phishing, security@)",
+    "site-operational context (mirror)",
+    "appears in advisory or warning text, may be an example rather than the author's own identifier",
+    "not on any account's profile page"
+   ],
+   "band": "noise"
+  }
+ ],
+ "developed": [
+  {
+   "identifier": "kavach.supply@gmail.example",
+   "kind": "email",
+   "handle": "kavach_supply",
+   "priority": 1.0,
+   "leads": [
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "identity correlation",
+     "detail": "normalised handle is identical (kavachsupply). Matched account(s): kavach.supply2, kavach_supply. The identifier was published on kavach_supply; the linkage engine places that account in cluster CL000 with 2 other persona(s), so the leak attaches to all of them",
+     "url": "",
+     "confidence": "confirmed",
+     "linked_personas": [
+      "mssu6ktfxio3:kavach.supply2",
+      "mssu6ktfxio3:kavach_supply",
+      "mssu6ktfxio3:nightfreight"
+     ],
+     "linked_cluster": "CL000"
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "gravatar",
+     "detail": "If a Gravatar exists for this address, the account was registered on a service using Gravatar and may expose a profile image and display name.",
+     "url": "https://www.gravatar.com/avatar/07ddea9952e698203799448374ad64f9?d=404",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "breach corpora",
+     "detail": "A mainstream mailbox frequently appears in public breach corpora alongside reused passwords, recovery addresses and linked services. Query through an authorised source.",
+     "url": "https://haveibeenpwned.com/unifiedsearch/kavach.supply@gmail.example",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'kavach.supply' derived from this identifier.",
+     "url": "https://github.com/kavach.supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'kavach.supply' derived from this identifier.",
+     "url": "https://keybase.io/kavach.supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'kavach.supply' derived from this identifier.",
+     "url": "https://www.reddit.com/user/kavach.supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'kavach.supply' derived from this identifier.",
+     "url": "https://twitter.com/kavach.supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'kavach.supply' derived from this identifier.",
+     "url": "https://www.instagram.com/kavach.supply/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'kavach.supply' derived from this identifier.",
+     "url": "https://t.me/kavach.supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'kavach.supply' derived from this identifier.",
+     "url": "https://gitlab.com/kavach.supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'kavach.supply' derived from this identifier.",
+     "url": "https://pastebin.com/u/kavach.supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'kavach_supply' derived from this identifier.",
+     "url": "https://github.com/kavach_supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'kavach_supply' derived from this identifier.",
+     "url": "https://keybase.io/kavach_supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'kavach_supply' derived from this identifier.",
+     "url": "https://www.reddit.com/user/kavach_supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'kavach_supply' derived from this identifier.",
+     "url": "https://twitter.com/kavach_supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'kavach_supply' derived from this identifier.",
+     "url": "https://www.instagram.com/kavach_supply/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'kavach_supply' derived from this identifier.",
+     "url": "https://t.me/kavach_supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'kavach_supply' derived from this identifier.",
+     "url": "https://gitlab.com/kavach_supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'kavach_supply' derived from this identifier.",
+     "url": "https://pastebin.com/u/kavach_supply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'kavachsupply' derived from this identifier.",
+     "url": "https://github.com/kavachsupply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'kavachsupply' derived from this identifier.",
+     "url": "https://keybase.io/kavachsupply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'kavachsupply' derived from this identifier.",
+     "url": "https://www.reddit.com/user/kavachsupply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'kavachsupply' derived from this identifier.",
+     "url": "https://twitter.com/kavachsupply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'kavachsupply' derived from this identifier.",
+     "url": "https://www.instagram.com/kavachsupply/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'kavachsupply' derived from this identifier.",
+     "url": "https://t.me/kavachsupply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'kavachsupply' derived from this identifier.",
+     "url": "https://gitlab.com/kavachsupply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "kavach.supply@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'kavachsupply' derived from this identifier.",
+     "url": "https://pastebin.com/u/kavachsupply",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    }
+   ]
+  },
+  {
+   "identifier": "hl.trading@gmail.example",
+   "kind": "email",
+   "handle": "hbl_support",
+   "priority": 1.0,
+   "leads": [
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "gravatar",
+     "detail": "If a Gravatar exists for this address, the account was registered on a service using Gravatar and may expose a profile image and display name.",
+     "url": "https://www.gravatar.com/avatar/ed54cbdf076c289218db3c7b681cb3fa?d=404",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "breach corpora",
+     "detail": "A mainstream mailbox frequently appears in public breach corpora alongside reused passwords, recovery addresses and linked services. Query through an authorised source.",
+     "url": "https://haveibeenpwned.com/unifiedsearch/hl.trading@gmail.example",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'hl.trading' derived from this identifier.",
+     "url": "https://github.com/hl.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'hl.trading' derived from this identifier.",
+     "url": "https://keybase.io/hl.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'hl.trading' derived from this identifier.",
+     "url": "https://www.reddit.com/user/hl.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'hl.trading' derived from this identifier.",
+     "url": "https://twitter.com/hl.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'hl.trading' derived from this identifier.",
+     "url": "https://www.instagram.com/hl.trading/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'hl.trading' derived from this identifier.",
+     "url": "https://t.me/hl.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'hl.trading' derived from this identifier.",
+     "url": "https://gitlab.com/hl.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'hl.trading' derived from this identifier.",
+     "url": "https://pastebin.com/u/hl.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'hl_trading' derived from this identifier.",
+     "url": "https://github.com/hl_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'hl_trading' derived from this identifier.",
+     "url": "https://keybase.io/hl_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'hl_trading' derived from this identifier.",
+     "url": "https://www.reddit.com/user/hl_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'hl_trading' derived from this identifier.",
+     "url": "https://twitter.com/hl_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'hl_trading' derived from this identifier.",
+     "url": "https://www.instagram.com/hl_trading/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'hl_trading' derived from this identifier.",
+     "url": "https://t.me/hl_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'hl_trading' derived from this identifier.",
+     "url": "https://gitlab.com/hl_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'hl_trading' derived from this identifier.",
+     "url": "https://pastebin.com/u/hl_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'hltrading' derived from this identifier.",
+     "url": "https://github.com/hltrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'hltrading' derived from this identifier.",
+     "url": "https://keybase.io/hltrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'hltrading' derived from this identifier.",
+     "url": "https://www.reddit.com/user/hltrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'hltrading' derived from this identifier.",
+     "url": "https://twitter.com/hltrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'hltrading' derived from this identifier.",
+     "url": "https://www.instagram.com/hltrading/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'hltrading' derived from this identifier.",
+     "url": "https://t.me/hltrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'hltrading' derived from this identifier.",
+     "url": "https://gitlab.com/hltrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "hl.trading@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'hltrading' derived from this identifier.",
+     "url": "https://pastebin.com/u/hltrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    }
+   ]
+  },
+  {
+   "identifier": "ninelives.dev@gmail.example",
+   "kind": "email",
+   "handle": "ninelives_alt",
+   "priority": 1.0,
+   "leads": [
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "identity correlation",
+     "detail": "normalised forms contain one another (ninelives / ninelivesdev). Matched account(s): ninelives. The identifier was published on ninelives_alt; no larger cluster was resolved for it",
+     "url": "",
+     "confidence": "unverified",
+     "linked_personas": [
+      "mssu6ktfxio3:ninelives"
+     ],
+     "linked_cluster": "CL003"
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "identity correlation",
+     "detail": "normalised forms contain one another (ninelives / ninelivesdev). Matched account(s): ninelives_alt. The identifier was published on ninelives_alt; no larger cluster was resolved for it",
+     "url": "",
+     "confidence": "unverified",
+     "linked_personas": [
+      "nz3wd6ag5hso:ninelives_alt"
+     ],
+     "linked_cluster": "CL010"
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "gravatar",
+     "detail": "If a Gravatar exists for this address, the account was registered on a service using Gravatar and may expose a profile image and display name.",
+     "url": "https://www.gravatar.com/avatar/91b664991599562a4ff741dc31744ad1?d=404",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "breach corpora",
+     "detail": "A mainstream mailbox frequently appears in public breach corpora alongside reused passwords, recovery addresses and linked services. Query through an authorised source.",
+     "url": "https://haveibeenpwned.com/unifiedsearch/ninelives.dev@gmail.example",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'ninelives.dev' derived from this identifier.",
+     "url": "https://github.com/ninelives.dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'ninelives.dev' derived from this identifier.",
+     "url": "https://keybase.io/ninelives.dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'ninelives.dev' derived from this identifier.",
+     "url": "https://www.reddit.com/user/ninelives.dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'ninelives.dev' derived from this identifier.",
+     "url": "https://twitter.com/ninelives.dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'ninelives.dev' derived from this identifier.",
+     "url": "https://www.instagram.com/ninelives.dev/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'ninelives.dev' derived from this identifier.",
+     "url": "https://t.me/ninelives.dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'ninelives.dev' derived from this identifier.",
+     "url": "https://gitlab.com/ninelives.dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'ninelives.dev' derived from this identifier.",
+     "url": "https://pastebin.com/u/ninelives.dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'ninelives_dev' derived from this identifier.",
+     "url": "https://github.com/ninelives_dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'ninelives_dev' derived from this identifier.",
+     "url": "https://keybase.io/ninelives_dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'ninelives_dev' derived from this identifier.",
+     "url": "https://www.reddit.com/user/ninelives_dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'ninelives_dev' derived from this identifier.",
+     "url": "https://twitter.com/ninelives_dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'ninelives_dev' derived from this identifier.",
+     "url": "https://www.instagram.com/ninelives_dev/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'ninelives_dev' derived from this identifier.",
+     "url": "https://t.me/ninelives_dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'ninelives_dev' derived from this identifier.",
+     "url": "https://gitlab.com/ninelives_dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'ninelives_dev' derived from this identifier.",
+     "url": "https://pastebin.com/u/ninelives_dev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'ninelivesdev' derived from this identifier.",
+     "url": "https://github.com/ninelivesdev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'ninelivesdev' derived from this identifier.",
+     "url": "https://keybase.io/ninelivesdev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'ninelivesdev' derived from this identifier.",
+     "url": "https://www.reddit.com/user/ninelivesdev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'ninelivesdev' derived from this identifier.",
+     "url": "https://twitter.com/ninelivesdev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'ninelivesdev' derived from this identifier.",
+     "url": "https://www.instagram.com/ninelivesdev/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'ninelivesdev' derived from this identifier.",
+     "url": "https://t.me/ninelivesdev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'ninelivesdev' derived from this identifier.",
+     "url": "https://gitlab.com/ninelivesdev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "ninelives.dev@gmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'ninelivesdev' derived from this identifier.",
+     "url": "https://pastebin.com/u/ninelivesdev",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    }
+   ]
+  },
+  {
+   "identifier": "sundowner.mail@yandex.example",
+   "kind": "email",
+   "handle": "sundowner",
+   "priority": 1.0,
+   "leads": [
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "identity correlation",
+     "detail": "normalised forms contain one another (sundowner / sundownermail). Matched account(s): sundowner. The identifier was published on sundowner; no larger cluster was resolved for it",
+     "url": "",
+     "confidence": "unverified",
+     "linked_personas": [
+      "nz3wd6ag5hso:sundowner"
+     ],
+     "linked_cluster": "CL012"
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "gravatar",
+     "detail": "If a Gravatar exists for this address, the account was registered on a service using Gravatar and may expose a profile image and display name.",
+     "url": "https://www.gravatar.com/avatar/f3947bbbbb963967a28eb153ea3da589?d=404",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "breach corpora",
+     "detail": "A mainstream mailbox frequently appears in public breach corpora alongside reused passwords, recovery addresses and linked services. Query through an authorised source.",
+     "url": "https://haveibeenpwned.com/unifiedsearch/sundowner.mail@yandex.example",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'sundowner.mail' derived from this identifier.",
+     "url": "https://github.com/sundowner.mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'sundowner.mail' derived from this identifier.",
+     "url": "https://keybase.io/sundowner.mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'sundowner.mail' derived from this identifier.",
+     "url": "https://www.reddit.com/user/sundowner.mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'sundowner.mail' derived from this identifier.",
+     "url": "https://twitter.com/sundowner.mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'sundowner.mail' derived from this identifier.",
+     "url": "https://www.instagram.com/sundowner.mail/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'sundowner.mail' derived from this identifier.",
+     "url": "https://t.me/sundowner.mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'sundowner.mail' derived from this identifier.",
+     "url": "https://gitlab.com/sundowner.mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'sundowner.mail' derived from this identifier.",
+     "url": "https://pastebin.com/u/sundowner.mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'sundowner_mail' derived from this identifier.",
+     "url": "https://github.com/sundowner_mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'sundowner_mail' derived from this identifier.",
+     "url": "https://keybase.io/sundowner_mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'sundowner_mail' derived from this identifier.",
+     "url": "https://www.reddit.com/user/sundowner_mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'sundowner_mail' derived from this identifier.",
+     "url": "https://twitter.com/sundowner_mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'sundowner_mail' derived from this identifier.",
+     "url": "https://www.instagram.com/sundowner_mail/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'sundowner_mail' derived from this identifier.",
+     "url": "https://t.me/sundowner_mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'sundowner_mail' derived from this identifier.",
+     "url": "https://gitlab.com/sundowner_mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'sundowner_mail' derived from this identifier.",
+     "url": "https://pastebin.com/u/sundowner_mail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'sundownermail' derived from this identifier.",
+     "url": "https://github.com/sundownermail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'sundownermail' derived from this identifier.",
+     "url": "https://keybase.io/sundownermail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'sundownermail' derived from this identifier.",
+     "url": "https://www.reddit.com/user/sundownermail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'sundownermail' derived from this identifier.",
+     "url": "https://twitter.com/sundownermail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'sundownermail' derived from this identifier.",
+     "url": "https://www.instagram.com/sundownermail/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'sundownermail' derived from this identifier.",
+     "url": "https://t.me/sundownermail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'sundownermail' derived from this identifier.",
+     "url": "https://gitlab.com/sundownermail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "sundowner.mail@yandex.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'sundownermail' derived from this identifier.",
+     "url": "https://pastebin.com/u/sundownermail",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    }
+   ]
+  },
+  {
+   "identifier": "stillwater.trading@example.com",
+   "kind": "email",
+   "handle": "stillwater_co",
+   "priority": 0.9,
+   "leads": [
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "gravatar",
+     "detail": "If a Gravatar exists for this address, the account was registered on a service using Gravatar and may expose a profile image and display name.",
+     "url": "https://www.gravatar.com/avatar/758edd2cbf230ff75604a09b05fa35f6?d=404",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "breach corpora",
+     "detail": "Address is at an anonymous provider, so breach corpora are less likely to hold anything; check anyway, it is cheap.",
+     "url": "https://haveibeenpwned.com/unifiedsearch/stillwater.trading@example.com",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'stillwater.trading' derived from this identifier.",
+     "url": "https://github.com/stillwater.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'stillwater.trading' derived from this identifier.",
+     "url": "https://keybase.io/stillwater.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'stillwater.trading' derived from this identifier.",
+     "url": "https://www.reddit.com/user/stillwater.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'stillwater.trading' derived from this identifier.",
+     "url": "https://twitter.com/stillwater.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'stillwater.trading' derived from this identifier.",
+     "url": "https://www.instagram.com/stillwater.trading/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'stillwater.trading' derived from this identifier.",
+     "url": "https://t.me/stillwater.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'stillwater.trading' derived from this identifier.",
+     "url": "https://gitlab.com/stillwater.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'stillwater.trading' derived from this identifier.",
+     "url": "https://pastebin.com/u/stillwater.trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'stillwater_trading' derived from this identifier.",
+     "url": "https://github.com/stillwater_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'stillwater_trading' derived from this identifier.",
+     "url": "https://keybase.io/stillwater_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'stillwater_trading' derived from this identifier.",
+     "url": "https://www.reddit.com/user/stillwater_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'stillwater_trading' derived from this identifier.",
+     "url": "https://twitter.com/stillwater_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'stillwater_trading' derived from this identifier.",
+     "url": "https://www.instagram.com/stillwater_trading/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'stillwater_trading' derived from this identifier.",
+     "url": "https://t.me/stillwater_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'stillwater_trading' derived from this identifier.",
+     "url": "https://gitlab.com/stillwater_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'stillwater_trading' derived from this identifier.",
+     "url": "https://pastebin.com/u/stillwater_trading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'stillwatertrading' derived from this identifier.",
+     "url": "https://github.com/stillwatertrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'stillwatertrading' derived from this identifier.",
+     "url": "https://keybase.io/stillwatertrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'stillwatertrading' derived from this identifier.",
+     "url": "https://www.reddit.com/user/stillwatertrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'stillwatertrading' derived from this identifier.",
+     "url": "https://twitter.com/stillwatertrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'stillwatertrading' derived from this identifier.",
+     "url": "https://www.instagram.com/stillwatertrading/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'stillwatertrading' derived from this identifier.",
+     "url": "https://t.me/stillwatertrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'stillwatertrading' derived from this identifier.",
+     "url": "https://gitlab.com/stillwatertrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "stillwater.trading@example.com",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'stillwatertrading' derived from this identifier.",
+     "url": "https://pastebin.com/u/stillwatertrading",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    }
+   ]
+  },
+  {
+   "identifier": "paperghost-shop.example.org",
+   "kind": "domain",
+   "handle": "paper_ghost",
+   "priority": 0.86,
+   "leads": [
+    {
+     "identifier": "paperghost-shop.example.org",
+     "kind": "domain",
+     "method": "identity correlation",
+     "detail": "normalised forms contain one another (paperghost / paperghostshopexampleorg). Matched account(s): paper_ghost. The identifier was published on paper_ghost; no larger cluster was resolved for it",
+     "url": "",
+     "confidence": "unverified",
+     "linked_personas": [
+      "mssu6ktfxio3:paper_ghost"
+     ],
+     "linked_cluster": "CL004"
+    },
+    {
+     "identifier": "paperghost-shop.example.org",
+     "kind": "domain",
+     "method": "certificate transparency",
+     "detail": "Infrastructure history for paperghost-shop.example.org. Certificate transparency in particular often exposes sibling hostnames and the registration timeline.",
+     "url": "https://crt.sh/?q=paperghost-shop.example.org",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "paperghost-shop.example.org",
+     "kind": "domain",
+     "method": "passive DNS / WHOIS",
+     "detail": "Infrastructure history for paperghost-shop.example.org. Certificate transparency in particular often exposes sibling hostnames and the registration timeline.",
+     "url": "https://whois.domaintools.com/paperghost-shop.example.org",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "paperghost-shop.example.org",
+     "kind": "domain",
+     "method": "wayback history",
+     "detail": "Infrastructure history for paperghost-shop.example.org. Certificate transparency in particular often exposes sibling hostnames and the registration timeline.",
+     "url": "https://web.archive.org/web/*/paperghost-shop.example.org",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    }
+   ]
+  },
+  {
+   "identifier": "harborlight.ops@protonmail.example",
+   "kind": "email",
+   "handle": "harbor_light",
+   "priority": 0.84,
+   "leads": [
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "identity correlation",
+     "detail": "normalised forms contain one another (harborlight / harborlightops). Matched account(s): HarborLight_hq, harbor_light. The identifier was published on harbor_light; the linkage engine places that account in cluster CL001 with 1 other persona(s), so the leak attaches to all of them",
+     "url": "",
+     "confidence": "unverified",
+     "linked_personas": [
+      "mssu6ktfxio3:HarborLight_hq",
+      "mssu6ktfxio3:harbor_light"
+     ],
+     "linked_cluster": "CL001"
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "gravatar",
+     "detail": "If a Gravatar exists for this address, the account was registered on a service using Gravatar and may expose a profile image and display name.",
+     "url": "https://www.gravatar.com/avatar/e232e6fa02a562d36092e53f0e36b005?d=404",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "breach corpora",
+     "detail": "Address is at an anonymous provider, so breach corpora are less likely to hold anything; check anyway, it is cheap.",
+     "url": "https://haveibeenpwned.com/unifiedsearch/harborlight.ops@protonmail.example",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'harborlight.ops' derived from this identifier.",
+     "url": "https://github.com/harborlight.ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'harborlight.ops' derived from this identifier.",
+     "url": "https://keybase.io/harborlight.ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'harborlight.ops' derived from this identifier.",
+     "url": "https://www.reddit.com/user/harborlight.ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'harborlight.ops' derived from this identifier.",
+     "url": "https://twitter.com/harborlight.ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'harborlight.ops' derived from this identifier.",
+     "url": "https://www.instagram.com/harborlight.ops/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'harborlight.ops' derived from this identifier.",
+     "url": "https://t.me/harborlight.ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'harborlight.ops' derived from this identifier.",
+     "url": "https://gitlab.com/harborlight.ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'harborlight.ops' derived from this identifier.",
+     "url": "https://pastebin.com/u/harborlight.ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'harborlight_ops' derived from this identifier.",
+     "url": "https://github.com/harborlight_ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'harborlight_ops' derived from this identifier.",
+     "url": "https://keybase.io/harborlight_ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'harborlight_ops' derived from this identifier.",
+     "url": "https://www.reddit.com/user/harborlight_ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'harborlight_ops' derived from this identifier.",
+     "url": "https://twitter.com/harborlight_ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'harborlight_ops' derived from this identifier.",
+     "url": "https://www.instagram.com/harborlight_ops/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'harborlight_ops' derived from this identifier.",
+     "url": "https://t.me/harborlight_ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'harborlight_ops' derived from this identifier.",
+     "url": "https://gitlab.com/harborlight_ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'harborlight_ops' derived from this identifier.",
+     "url": "https://pastebin.com/u/harborlight_ops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate github account for the username 'harborlightops' derived from this identifier.",
+     "url": "https://github.com/harborlightops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate keybase account for the username 'harborlightops' derived from this identifier.",
+     "url": "https://keybase.io/harborlightops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate reddit account for the username 'harborlightops' derived from this identifier.",
+     "url": "https://www.reddit.com/user/harborlightops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate twitter account for the username 'harborlightops' derived from this identifier.",
+     "url": "https://twitter.com/harborlightops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate instagram account for the username 'harborlightops' derived from this identifier.",
+     "url": "https://www.instagram.com/harborlightops/",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate telegram account for the username 'harborlightops' derived from this identifier.",
+     "url": "https://t.me/harborlightops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate gitlab account for the username 'harborlightops' derived from this identifier.",
+     "url": "https://gitlab.com/harborlightops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    },
+    {
+     "identifier": "harborlight.ops@protonmail.example",
+     "kind": "email",
+     "method": "username reuse",
+     "detail": "Candidate pastebin account for the username 'harborlightops' derived from this identifier.",
+     "url": "https://pastebin.com/u/harborlightops",
+     "confidence": "unverified",
+     "linked_personas": [],
+     "linked_cluster": ""
+    }
+   ]
+  }
+ ],
+ "exposure": [
+  {
+   "cluster_id": "CL000",
+   "personas": [
+    "kavach.supply2",
+    "kavach_supply",
+    "nightfreight"
+   ],
+   "leaking_personas": [
+    "kavach_supply"
+   ],
+   "exposed_by_association": [
+    "kavach.supply2",
+    "nightfreight"
+   ],
+   "identifiers": [
+    "kavach.supply@gmail.example"
+   ],
+   "top_priority": 1.0
+  },
+  {
+   "cluster_id": "CL008",
+   "personas": [
+    "hbl_support"
+   ],
+   "leaking_personas": [
+    "hbl_support"
+   ],
+   "exposed_by_association": [],
+   "identifiers": [
+    "hl.trading@gmail.example"
+   ],
+   "top_priority": 1.0
+  },
+  {
+   "cluster_id": "CL010",
+   "personas": [
+    "ninelives_alt"
+   ],
+   "leaking_personas": [
+    "ninelives_alt"
+   ],
+   "exposed_by_association": [],
+   "identifiers": [
+    "ninelives.dev@gmail.example"
+   ],
+   "top_priority": 1.0
+  },
+  {
+   "cluster_id": "CL012",
+   "personas": [
+    "sundowner"
+   ],
+   "leaking_personas": [
+    "sundowner"
+   ],
+   "exposed_by_association": [],
+   "identifiers": [
+    "sundowner.mail@yandex.example"
+   ],
+   "top_priority": 1.0
+  },
+  {
+   "cluster_id": "CL006",
+   "personas": [
+    "stillwater_co"
+   ],
+   "leaking_personas": [
+    "stillwater_co"
+   ],
+   "exposed_by_association": [],
+   "identifiers": [
+    "stillwater.trading@example.com"
+   ],
+   "top_priority": 0.9
+  },
+  {
+   "cluster_id": "CL004",
+   "personas": [
+    "paper_ghost"
+   ],
+   "leaking_personas": [
+    "paper_ghost"
+   ],
+   "exposed_by_association": [],
+   "identifiers": [
+    "paperghost-shop.example.org"
+   ],
+   "top_priority": 0.86
+  },
+  {
+   "cluster_id": "CL001",
+   "personas": [
+    "HarborLight_hq",
+    "harbor_light"
+   ],
+   "leaking_personas": [
+    "harbor_light"
+   ],
+   "exposed_by_association": [
+    "HarborLight_hq"
+   ],
+   "identifiers": [
+    "harborlight.ops@protonmail.example"
+   ],
+   "top_priority": 0.84
+  }
+ ],
+ "graded": {
+  "available": true,
+  "personas_matched": 17,
+  "pairs_scored": 136,
+  "true_pairs": 11,
+  "tp": 3,
+  "fp": 0,
+  "fn": 8,
+  "precision": 1.0,
+  "recall": 0.2727,
+  "roc_auc": 0.9018,
+  "bcubed_f1": 0.8343,
+  "note": "ground truth is the lab's own operator map; the crawler never saw it. Calibration was transferred from the benchmark."
+ },
+ "osint_graded": {
+  "available": true,
+  "planted": 7,
+  "recovered": 7,
+  "recall": 1.0,
+  "missed": [],
+  "attribution_correct": 7,
+  "decoys_present": 4,
+  "decoys_collected": 4,
+  "worst_real_leak_priority": 0.84,
+  "best_decoy_priority": 0.0,
+  "ranking_separates_leaks_from_decoys": true,
+  "identifiers_with_identity_correlation": 5,
+  "accounts_exposed_by_association": 3,
+  "note": "recall is over deliberately planted identifiers; ranking is the context-setting step the paper performs manually"
+ }
+}

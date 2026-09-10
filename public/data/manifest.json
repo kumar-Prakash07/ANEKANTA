@@ -1,0 +1,23 @@
+{
+ "generated_at": "2026-09-05T13:44:59+00:00",
+ "benchmark": {
+  "personas": 286,
+  "links": 327,
+  "clusters": 73
+ },
+ "live": {
+  "accounts": 17,
+  "mentions": 11,
+  "graded": true
+ },
+ "realworld": {
+  "services_attempted": 16,
+  "services_reachable": 16,
+  "reachability": 1.0,
+  "pages": 64,
+  "bytes": 4416616,
+  "seconds": 234.5,
+  "pages_per_minute": 16.4,
+  "seconds_per_service": 14.7
+ }
+}

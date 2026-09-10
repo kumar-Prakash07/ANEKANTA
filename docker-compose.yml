@@ -1,0 +1,61 @@
+# ANEKANTA — the whole platform, one command.
+#
+#   docker compose up -d --build
+#   ...then open http://127.0.0.1:8000
+#
+# Brings up four containers:
+#
+#   anekanta   the analyst dashboard and API          -> 127.0.0.1:8000
+#   tor        Tor daemon + the two hidden services   -> 127.0.0.1:9050 (SOCKS)
+#   market     ONIONLAB mock marketplace              (no host port)
+#   forum      ONIONLAB mock discussion board         (no host port)
+#
+# The lab definitions are pulled in from onionlab/ rather than duplicated, so
+# there is exactly one description of the containers whose isolation the
+# SECURITY.md argument depends on. A second copy of that file would eventually
+# drift from the one people actually read.
+#
+# Only two ports are published, both to 127.0.0.1: the dashboard, and Tor's
+# SOCKS proxy. The mock services publish nothing at all. See onionlab/SECURITY.md.
+
+include:
+  - onionlab/docker-compose.yml
+
+services:
+
+  anekanta:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: anekanta
+    restart: unless-stopped
+    depends_on:
+      tor:
+        condition: service_started
+    # `edge` to reach the Tor container's SOCKS port. Deliberately NOT on
+    # `backend`: the application has no business talking to the mock services
+    # directly, and reaching them the way any other visitor would -- through
+    # Tor -- is what makes the live demonstration meaningful rather than a
+    # loopback call dressed up as one.
+    networks: [edge]
+    ports:
+      # Loopback only. Without the 127.0.0.1 prefix Docker binds 0.0.0.0 and
+      # the dashboard, which can start crawls, is exposed to your whole network.
+      - "127.0.0.1:8000:8000"
+    environment:
+      ANEKANTA_TOR: "tor:9050"
+      ANEKANTA_ACTORS: "150"
+      ANEKANTA_SEED: "1337"
+      ONION_ADDRESS_DIR: "/hs"
+      PYTHONDONTWRITEBYTECODE: "1"
+    volumes:
+      # Read-only view of the ADDRESS volume so the dashboard can offer the
+      # lab's .onion addresses without shelling out to `docker exec`. Doing
+      # that would mean mounting the Docker socket into a container that
+      # accepts requests -- effectively handing it root on the host, to save
+      # reading a 63-byte file. The keys are in a different volume and are not
+      # mounted here.
+      - onion_pub:/hs:ro
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 3g

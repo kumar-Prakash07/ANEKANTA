@@ -1,0 +1,1132 @@
+<!doctype html>
+<html lang="en" class="theme-light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ANEKANTA — Uncovering the Many Sides of Anonymous Actors. Dark web threat actor attribution and de-anonymisation platform.">
+<title>ANEKANTA — Uncovering the Many Sides of Anonymous Actors</title>
+<link rel="stylesheet" href="/style.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>window.d3 || document.write('<script src="/d3.v7.min.js"><\/script>')</script>
+</head>
+<body class="theme-light">
+
+<header class="anv-navbar-container">
+
+  <!-- ROW 1: Brand left + Stat Pills + Live Badge + Theme Switcher + Bell + Avatar -->
+  <div class="anv-row1">
+    <div class="anv-brand">
+      <svg class="anv-logo-svg" width="36" height="36" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="anvLg" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#00aaff"/>
+            <stop offset="100%" stop-color="#7B2FFF"/>
+          </linearGradient>
+        </defs>
+        <g stroke="url(#anvLg)" stroke-width="2" stroke-linecap="round" opacity="0.85">
+          <line x1="50" y1="8"  x2="86" y2="29"/>
+          <line x1="86" y1="29" x2="86" y2="71"/>
+          <line x1="86" y1="71" x2="50" y2="92"/>
+          <line x1="50" y1="92" x2="14" y2="71"/>
+          <line x1="14" y1="71" x2="14" y2="29"/>
+          <line x1="14" y1="29" x2="50" y2="8"/>
+          <line x1="50" y1="8"  x2="50" y2="27"/>
+          <line x1="86" y1="29" x2="69" y2="38"/>
+          <line x1="86" y1="71" x2="69" y2="62"/>
+          <line x1="50" y1="92" x2="50" y2="73"/>
+          <line x1="14" y1="71" x2="31" y2="62"/>
+          <line x1="14" y1="29" x2="31" y2="38"/>
+          <line x1="50" y1="27" x2="69" y2="38"/>
+          <line x1="69" y1="38" x2="69" y2="62"/>
+          <line x1="69" y1="62" x2="50" y2="73"/>
+          <line x1="50" y1="73" x2="31" y2="62"/>
+          <line x1="31" y1="62" x2="31" y2="38"/>
+          <line x1="31" y1="38" x2="50" y2="27"/>
+          <line x1="50" y1="27" x2="50" y2="50"/>
+          <line x1="69" y1="38" x2="50" y2="50"/>
+          <line x1="69" y1="62" x2="50" y2="50"/>
+          <line x1="50" y1="73" x2="50" y2="50"/>
+          <line x1="31" y1="62" x2="50" y2="50"/>
+          <line x1="31" y1="38" x2="50" y2="50"/>
+          <line x1="50" y1="8"  x2="31" y2="38"/>
+          <line x1="50" y1="8"  x2="69" y2="38"/>
+          <line x1="86" y1="29" x2="50" y2="27"/>
+          <line x1="86" y1="71" x2="50" y2="73"/>
+          <line x1="50" y1="92" x2="31" y2="62"/>
+          <line x1="50" y1="92" x2="69" y2="62"/>
+          <line x1="14" y1="71" x2="50" y2="73"/>
+          <line x1="14" y1="29" x2="50" y2="27"/>
+        </g>
+        <g fill="url(#anvLg)">
+          <circle cx="50" cy="8"  r="4.5"/>
+          <circle cx="86" cy="29" r="4.5"/>
+          <circle cx="86" cy="71" r="4.5"/>
+          <circle cx="50" cy="92" r="4.5"/>
+          <circle cx="14" cy="71" r="4.5"/>
+          <circle cx="14" cy="29" r="4.5"/>
+          <circle cx="50" cy="27" r="3.2"/>
+          <circle cx="69" cy="38" r="3.2"/>
+          <circle cx="69" cy="62" r="3.2"/>
+          <circle cx="50" cy="73" r="3.2"/>
+          <circle cx="31" cy="62" r="3.2"/>
+          <circle cx="31" cy="38" r="3.2"/>
+          <circle cx="50" cy="50" r="3.8"/>
+        </g>
+      </svg>
+      <div class="anv-brand-text">
+        <div class="anv-brand-title">ANEKANTA</div>
+        <div class="anv-brand-sub">THREAT ATTRIBUTION PLATFORM</div>
+      </div>
+    </div>
+
+    <div class="anv-right-zone">
+      <div class="anv-stat-pills">
+        <div class="anv-stat-pill" title="Total Analyzed Personas">
+          <span class="anv-stat-dot" style="background:#0891b2"></span>
+          <b class="anv-stat-num" id="hdr-stat-personas">286</b>
+          <span class="anv-stat-lbl">personas</span>
+        </div>
+        <div class="anv-stat-pill" title="Possible Pairs Evaluated">
+          <span class="anv-stat-dot" style="background:#d97706"></span>
+          <b class="anv-stat-num" id="hdr-stat-pairs">40,755</b>
+          <span class="anv-stat-lbl">pairs</span>
+        </div>
+        <div class="anv-stat-pill" title="Scored Linkages">
+          <span class="anv-stat-dot" style="background:#7c3aed"></span>
+          <b class="anv-stat-num" id="hdr-stat-scored">10,787</b>
+          <span class="anv-stat-lbl">scored</span>
+        </div>
+      </div>
+
+      <div class="anv-live-badge" title="Live Threat Stream Active">
+        <span class="anv-live-dot"></span>
+        <span class="anv-live-text">LIVE</span>
+      </div>
+
+      <!-- 3-Theme Switcher -->
+      <div class="anv-theme-switcher" id="anvThemeSwitcher">
+        <button class="anv-theme-pill" data-theme="dark" type="button">🌙 Dark</button>
+        <button class="anv-theme-pill active" data-theme="light" type="button">☀️ Light</button>
+        <button class="anv-theme-pill" data-theme="glass" type="button">🪟 Glass</button>
+      </div>
+
+      <div class="anv-bell-wrap" id="anvBellBtn" title="3 Alerts in Queue">
+        <svg class="anv-bell-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+        <span class="anv-bell-dot"></span>
+      </div>
+
+      <div class="anv-avatar-container">
+        <button class="anv-avatar-btn" id="anvAvatarBtn" title="Analyst Profile & Menu">AN</button>
+        <div class="anv-avatar-dropdown" id="anvAvatarDropdown" style="display:none">
+          <div class="anv-dropdown-item" id="menuProfile"><span class="anv-dropdown-icon">&#128100;</span> Profile</div>
+          <div class="anv-dropdown-item" id="menuSettings"><span class="anv-dropdown-icon">&#9881;&#65039;</span> Settings</div>
+          <div class="anv-dropdown-item" id="menuMyReports"><span class="anv-dropdown-icon">&#128203;</span> My Reports</div>
+          <div class="anv-dropdown-divider"></div>
+          <div class="anv-dropdown-item anv-dropdown-item-danger" id="menuSignOut"><span class="anv-dropdown-icon">&#8618;</span> Sign Out</div>
+        </div>
+      </div>
+
+      <button id="anvNavToggle" class="anv-nav-toggle" title="Toggle Navigation">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ROW 2: Nav Tabs centered -->
+  <div class="anv-row2">
+    <nav id="tabs" class="anv-nav-tabs">
+      <button data-tab="overview" class="active">
+        <svg class="anv-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        <span>Overview</span>
+      </button>
+
+      <button data-tab="realnet">
+        <svg class="anv-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+        <span>Real Network</span>
+      </button>
+      <button data-tab="graph">
+        <svg class="anv-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M18 6a9 9 0 0 1-9 9"></path><line x1="6" y1="9" x2="6" y2="21"></line></svg>
+        <span>Link Graph</span>
+      </button>
+      <button data-tab="links">
+        <svg class="anv-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+        <span>Linkages</span>
+      </button>
+      <button data-tab="actors">
+        <svg class="anv-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline></svg>
+        <span>Resolved Actors</span>
+      </button>
+
+      <button data-tab="benchmark">
+        <svg class="anv-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+        <span>Benchmark</span>
+      </button>
+    </nav>
+  </div>
+
+  <!-- ROW 3: Context breadcrumb strip -->
+  <div class="anv-context-bar" id="anvContextBar">
+    <div class="anv-ctx-breadcrumb">
+      <span class="anv-ctx-root">Dashboard</span>
+      <span class="anv-ctx-slash">/</span>
+      <span class="anv-ctx-active" id="hdr-ctx-tab">Overview</span>
+    </div>
+    <div class="anv-ctx-sep" id="anvCtxSep" style="display:none"></div>
+    <div class="anv-ctx-info" id="hdr-ctx-info" style="display:none">Showing 66 nodes &middot; 27 clusters &middot; threshold LR 3.5</div>
+  </div>
+
+</header>
+
+<main>
+
+<!-- ================= OVERVIEW ================= -->
+<section id="overview" class="tab active">
+
+  <!-- Open Hero Section (no card wrapper) -->
+  <div class="ov-hero-section">
+    <div class="ov-hero-tag">DE-ANONYMISE.</div>
+    <h1 class="ov-hero-heading">Multi-channel evidence fused across darknets</h1>
+    <p class="ov-hero-subtext">
+      Bayesian multi-channel evidence fusion across darknet forums, PGP keyservers, Bitcoin transaction graphs, and hosting infrastructure.
+    </p>
+    <div class="ov-hero-chips">
+      <button type="button" class="ov-chip-btn" onclick="document.querySelector('#tabs button[data-tab="realnet"]').click()">Real Network</button>
+      <button type="button" class="ov-chip-btn" onclick="document.querySelector('#tabs button[data-tab="graph"]').click()">Link Graph</button>
+      <button type="button" class="ov-chip-btn" onclick="document.querySelector('#tabs button[data-tab="actors"]').click()">Resolved Actors</button>
+    </div>
+    <div class="ov-tech-tags">
+      TOR ROUTING · ONIONLAB · PGP KEYSERVERS · BLOCKCHAIN FORENSICS · CLEAR-WEB OSINT · BAYESIAN GRAPH
+    </div>
+  </div>
+
+  <!-- 6 Stat Cards Grid -->
+  <div class="ov-kpi-grid" id="kpis"></div>
+
+
+
+  <!-- Detection Rate + Tradecraft (2 Column Grid) -->
+  <div class="grid2">
+    <div class="card">
+      <h2><span>🎯</span> Detection Rate by Operator Discipline</h2>
+      <p class="sub">Empirical recovery across tradecraft discipline tiers. Naive operators are identified via rotated credentials; disciplined actors are attributed via behavioural invariants.</p>
+      <div id="opsec-chart"></div>
+    </div>
+    <div class="card">
+      <h2><span>⚡</span> Which Channel Survives Tradecraft</h2>
+      <p class="sub">Per-channel discrimination power (AUC). Artefact channels collapse toward 0.50 (chance) under active rotation, while behavioural channels preserve attribution power.</p>
+      <div id="channel-heat"></div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+<!-- ================= REAL NETWORK ================= -->
+<section id="realnet" class="tab">
+
+  <!-- ── Sub-tab navigation ── -->
+  <div class="rw-subtab-row">
+    <button class="rw-subtab active" data-subtab="rw-infrarecon">Infrastructure Recon</button>
+    <button class="rw-subtab" data-subtab="rw-topomap">Topology Map</button>
+    <button class="rw-subtab" data-subtab="rw-overview">Overview</button>
+  </div>
+
+  <!-- ── Sub-tab: Overview (original discovery & crawler benchmark) ── -->
+  <div id="rw-overview" class="rw-subpanel">
+    <div class="card">
+      <h2>Live Tor network</h2>
+      <p class="sub">Everything on this tab touches the <b>public Tor network</b>,
+        not the lab. Onion discovery is adapted from
+        <a href="https://github.com/josh0xA/darkdump" target="_blank"
+           rel="noreferrer noopener">darkdump</a> (Josh Schiavone, MIT).
+        Every result is filtered against Ahmia's abuse blacklist before anything
+        is fetched, and again by a local content gate — discovery <b>fails
+        closed</b> if the blacklist cannot be loaded.</p>
+
+      <div class="toolbar">
+        <label>terms
+          <input id="rwQueries" class="mono" value="hosting, forum, wiki, market"
+                 style="width:260px;background:#0a0e13;color:var(--ink);
+                        border:1px solid var(--line);border-radius:6px;padding:6px 9px">
+        </label>
+        <label>engines <span id="rwEngines" class="mono muted"></span></label>
+        <label>services
+          <input id="rwServices" type="number" min="1" max="40" value="12"
+                 style="width:56px;background:#0a0e13;color:var(--ink);
+                        border:1px solid var(--line);border-radius:6px;padding:5px">
+        </label>
+        <label>pages each
+          <input id="rwPages" type="number" min="1" max="20" value="4"
+                 style="width:52px;background:#0a0e13;color:var(--ink);
+                        border:1px solid var(--line);border-radius:6px;padding:5px">
+        </label>
+        <button id="rwDiscover" class="btn-run">Discover only</button>
+        <button id="rwBench" class="btn-run">Run full benchmark</button>
+        <span id="rwState" class="muted"></span>
+      </div>
+      <div id="rwProgress" class="raw" style="max-height:170px;margin-top:10px;
+           display:none"></div>
+    </div>
+
+    <div id="rwBody" style="display:none">
+      <div class="kpis" id="rwKpis"></div>
+      <div class="card">
+        <h2>Infrastructure correlation on live services</h2>
+        <p class="sub">The finding that survives having no ground truth. If two
+          independently discovered services present the same favicon bytes or the
+          same TLS public key, they do — anyone can check it. Clusters covering
+          more than half the sample are marked generic: they identify the
+          software, not an operator.</p>
+        <div id="rwClusters"></div>
+      </div>
+      <div class="grid2">
+        <div class="card"><h2>Services crawled</h2><div id="rwServicesTable"></div></div>
+        <div class="card">
+          <h2>Safety and discovery</h2>
+          <div id="rwSafety"></div>
+        </div>
+      </div>
+      <div class="card"><h2>Discovered addresses</h2><div id="rwDiscovered"></div></div>
+      <div class="card"><h2>Raw report</h2>
+        <pre id="rwRaw" class="raw"></pre></div>
+    </div>
+  </div>
+
+  <!-- ── Sub-tab: Infrastructure Recon ── -->
+  <div id="rw-infrarecon" class="rw-subpanel active">
+
+    <!-- Top stats bar -->
+    <div class="ir-stats-bar" id="irStatsBar">
+      <div class="ir-stat-card">
+        <div class="ir-stat-icon">🖥</div>
+        <div>
+          <div class="ir-stat-num" id="irStatTotal" style="color:#e2e8f0">120</div>
+          <div class="ir-stat-lbl">Total Hosts</div>
+        </div>
+      </div>
+      <div class="ir-stat-card">
+        <div class="ir-stat-icon">🔴</div>
+        <div>
+          <div class="ir-stat-num" id="irStatCritical" style="color:#fc8181">—</div>
+          <div class="ir-stat-lbl">Critical</div>
+        </div>
+      </div>
+      <div class="ir-stat-card">
+        <div class="ir-stat-icon">🟡</div>
+        <div>
+          <div class="ir-stat-num" id="irStatHigh" style="color:#f5a623">—</div>
+          <div class="ir-stat-lbl">High</div>
+        </div>
+      </div>
+      <div class="ir-stat-card">
+        <div class="ir-stat-icon">👤</div>
+        <div>
+          <div class="ir-stat-num" id="irStatAttributed" style="color:#00e5cc">—</div>
+          <div class="ir-stat-lbl">Attributed</div>
+        </div>
+      </div>
+      <div class="ir-stat-card">
+        <div class="ir-stat-icon">🌍</div>
+        <div>
+          <div class="ir-stat-num" id="irStatCountries" style="color:#8b5cf6">—</div>
+          <div class="ir-stat-lbl">Countries</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="ir-filter-bar">
+      <input type="text" id="irSearch" class="ir-search" placeholder="🔍  Search IP, hostname, persona, note…">
+      <select id="irFilterOpsec" class="ir-select">
+        <option value="">OPSEC ▾</option>
+        <option value="Critical">Critical</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+        <option value="Hardened">Hardened</option>
+      </select>
+      <!-- Tags Multi-Select Dropdown -->
+      <div class="ir-multiselect" id="irTagMulti">
+        <button type="button" class="ir-select ir-multiselect-btn" id="irTagMultiBtn">
+          <span id="irTagMultiLabel">Tags ▾</span>
+        </button>
+        <div class="ir-multiselect-menu" id="irTagMultiMenu" style="display:none">
+          <div class="ir-multiselect-header">
+            <span>Filter by Tags</span>
+            <button type="button" id="irTagMultiClear" class="ir-multiselect-clear">Clear</button>
+          </div>
+          <div class="ir-multiselect-list">
+            <label class="ir-multiselect-item"><input type="checkbox" value="email"> <span class="ir-tag ir-tag-email">email</span></label>
+            <label class="ir-multiselect-item"><input type="checkbox" value="remote-access"> <span class="ir-tag ir-tag-remote-access">remote-access</span></label>
+            <label class="ir-multiselect-item"><input type="checkbox" value="file-sharing"> <span class="ir-tag ir-tag-file-sharing">file-sharing</span></label>
+            <label class="ir-multiselect-item"><input type="checkbox" value="database"> <span class="ir-tag ir-tag-database">database</span></label>
+            <label class="ir-multiselect-item"><input type="checkbox" value="WAF"> <span class="ir-tag ir-tag-WAF">WAF</span></label>
+            <label class="ir-multiselect-item"><input type="checkbox" value="C2"> <span class="ir-tag ir-tag-C2">⚠ C2</span></label>
+            <label class="ir-multiselect-item"><input type="checkbox" value="web"> <span class="ir-tag ir-tag-web">web</span></label>
+            <label class="ir-multiselect-item"><input type="checkbox" value="dns"> <span class="ir-tag ir-tag-dns">dns</span></label>
+          </div>
+        </div>
+      </div>
+      <select id="irFilterCountry" class="ir-select" style="min-width:140px">
+        <option value="">Country ▾</option>
+      </select>
+      <label class="ir-checkbox-label">
+        <input type="checkbox" id="irFilterAttributed">
+        <span>Attributed only</span>
+      </label>
+      <span id="irResultCount" class="ir-result-count">Loading…</span>
+    </div>
+
+    <!-- Main split: table + sidebar -->
+    <div class="ir-split">
+
+      <!-- LEFT: Table -->
+      <div class="ir-table-wrap">
+        <!-- Loading skeleton -->
+        <div id="irSkeleton" class="ir-skeleton">
+          <div class="ir-skel-row" style="animation-delay:0s"></div>
+          <div class="ir-skel-row" style="animation-delay:.08s"></div>
+          <div class="ir-skel-row" style="animation-delay:.16s"></div>
+          <div class="ir-skel-row" style="animation-delay:.24s"></div>
+          <div class="ir-skel-row" style="animation-delay:.32s"></div>
+        </div>
+        <!-- Error state -->
+        <div id="irError" class="ir-error" style="display:none">
+          <span>⚠ Failed to load host data</span>
+          <button id="irRetry" class="ir-retry-btn">↺ Retry</button>
+        </div>
+        <!-- Table container -->
+        <div id="irTableContainer" style="display:none">
+          <table class="ir-table" id="irTable">
+            <thead>
+              <tr>
+                <th style="width:28px"></th>
+                <th class="ir-sortable" data-col="id">HOST</th>
+                <th class="ir-sortable" data-col="opsec_score">OPSEC</th>
+                <th class="ir-sortable" data-col="country">COUNTRY</th>
+                <th class="ir-sortable" data-col="asn">ASN</th>
+                <th>TAGS</th>
+                <th>PORTS</th>
+                <th class="ir-sortable" data-col="attributed_persona">PERSONA</th>
+                <th class="ir-sortable" data-col="risk_ports" title="Critical-risk port count">RISK PORTS</th>
+              </tr>
+            </thead>
+            <tbody id="irTableBody"></tbody>
+          </table>
+        </div>
+
+        <!-- World map -->
+        <div id="irMapContainer" class="ir-map-container" style="display:none">
+          <div class="ir-map-header">
+            <span>📍 Host Geographic Distribution</span>
+            <span id="irMapCount" class="ir-map-count"></span>
+          </div>
+          <div id="irMap" class="ir-map"></div>
+          <div id="irMapTooltip" class="ir-map-tooltip" style="display:none"></div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Summary panel -->
+      <aside class="ir-summary-panel" id="irSummaryPanel" style="display:none">
+
+        <div class="ir-panel-section">
+          <div class="ir-panel-title">OPSEC Distribution</div>
+          <div id="irOpsecBars"></div>
+        </div>
+
+        <div class="ir-panel-section">
+          <div class="ir-panel-title">Top Countries</div>
+          <div id="irCountryList"></div>
+        </div>
+
+        <div class="ir-panel-section">
+          <div class="ir-panel-title">Top Providers</div>
+          <div id="irProviderList"></div>
+        </div>
+
+        <div class="ir-panel-section">
+          <div class="ir-panel-title" style="color:#fc8181">⚠ Critical Alerts</div>
+          <div id="irCriticalList"></div>
+          <button class="ir-viewall-btn" id="irViewAllCritical" style="display:none">View all critical →</button>
+        </div>
+
+        <div class="ir-panel-section">
+          <div class="ir-panel-title" style="color:#00e5cc">👤 Attributed Summary</div>
+          <div class="ir-attr-intro" id="irAttrIntro"></div>
+          <div id="irPersonaList"></div>
+        </div>
+
+      </aside>
+    </div>
+  </div><!-- /rw-infrarecon -->
+
+  <!-- ── Sub-tab: Interactive Infrastructure Topology Map ── -->
+  <div id="rw-topomap" class="rw-subpanel">
+    <div class="topo-container" id="topoContainer">
+      <!-- Top Controls Bar -->
+      <div class="topo-top-overlay">
+        <!-- Search Input -->
+        <div class="topo-search-wrap">
+          <svg class="topo-search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="topoSearchInput" placeholder="Search IP, host, provider, persona in topology…" autocomplete="off">
+          <button id="topoSearchClear" style="display:none">&times;</button>
+        </div>
+
+        <!-- Filter Chips -->
+        <div class="topo-filter-group">
+          <button type="button" class="topo-chip active" data-filter="all" id="topoChipAll">All Nodes</button>
+          <button type="button" class="topo-chip" data-filter="critical" id="topoChipCrit">🔴 Critical & High</button>
+          <button type="button" class="topo-chip" data-filter="attributed" id="topoChipAttr">👤 Attributed</button>
+          <button type="button" class="topo-chip" data-filter="c2" id="topoChipC2">⚠ C2 / DB</button>
+        </div>
+
+        <!-- Grouping Mode -->
+        <div class="topo-group-select-wrap">
+          <span class="topo-lbl">Group:</span>
+          <select id="topoGroupMode" class="topo-select">
+            <option value="provider">Provider Hubs</option>
+            <option value="country">Country Clusters</option>
+            <option value="opsec">OPSEC Severity</option>
+            <option value="free">Free Force</option>
+          </select>
+        </div>
+
+        <!-- Zoom & Physics Controls -->
+        <div class="topo-zoom-controls">
+          <button type="button" id="topoPauseBtn" class="topo-btn-icon" title="Pause / Resume Physics Simulation">⏸</button>
+          <button type="button" id="topoZoomIn" class="topo-btn-icon" title="Zoom In">+</button>
+          <button type="button" id="topoZoomOut" class="topo-btn-icon" title="Zoom Out">−</button>
+          <button type="button" id="topoZoomFit" class="topo-btn-icon" title="Fit View">⤢</button>
+        </div>
+      </div>
+
+      <!-- Main SVG Canvas Workspace -->
+      <div class="topo-svg-wrap" id="topo-svg-wrap">
+        <svg id="topo-svg" width="100%" height="100%"></svg>
+      </div>
+
+      <!-- Floating HUD / Inspector Drawer (Collapsible) -->
+      <aside class="topo-hud" id="topoHud" style="display:none">
+        <div class="topo-hud-header">
+          <div class="topo-hud-title" id="topoHudTitle">
+            <span id="topoHudIcon">🖥</span>
+            <span id="topoHudHeading" class="mono">HOST-001</span>
+          </div>
+          <button type="button" id="topoHudClose" class="topo-hud-close" title="Close details">&times;</button>
+        </div>
+        <div class="topo-hud-body" id="topoHudBody">
+          <!-- Populated dynamically -->
+        </div>
+      </aside>
+
+      <!-- Bottom Legend & Live Telemetry Strip -->
+      <div class="topo-bottom-bar">
+        <div class="topo-stat-items">
+          <div class="topo-stat-item"><span class="topo-k">HOSTS:</span> <span class="topo-v" id="topoCountHosts">120</span></div>
+          <div class="topo-stat-item"><span class="topo-k">PROVIDERS:</span> <span class="topo-v" id="topoCountProviders">—</span></div>
+          <div class="topo-stat-item"><span class="topo-k">COUNTRIES:</span> <span class="topo-v" id="topoCountCountries">—</span></div>
+          <div class="topo-stat-item"><span class="topo-k">ATTRIBUTED:</span> <span class="topo-v" id="topoCountAttr" style="color:#00e5cc">—</span></div>
+        </div>
+        <div class="topo-legend-items">
+          <span class="topo-legend-item"><span class="topo-dot" style="background:#fc8181;box-shadow:0 0 6px #fc8181"></span>Critical</span>
+          <span class="topo-legend-item"><span class="topo-dot" style="background:#f5a623"></span>High</span>
+          <span class="topo-legend-item"><span class="topo-dot" style="background:#fbd38d"></span>Medium</span>
+          <span class="topo-legend-item"><span class="topo-dot" style="background:#8b5cf6"></span>Low</span>
+          <span class="topo-legend-item"><span class="topo-dot" style="background:#00e5cc"></span>Hardened</span>
+          <span class="topo-legend-sep">|</span>
+          <span class="topo-legend-item"><span class="topo-dot-hub"></span>Provider Hub</span>
+          <span class="topo-legend-item"><span class="topo-dot-persona"></span>Persona Link</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ================= GRAPH ================= -->
+<section id="graph" class="tab">
+  <div class="lg-container">
+    <!-- Left Sidebar (Collapsible, 240px) -->
+    <aside class="lg-sidebar" id="lgSidebar">
+      <div class="lg-sb-header">
+        <div class="lg-sb-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          Graph Controls
+        </div>
+        <button id="lgToggleSidebar" class="lg-icon-btn" title="Collapse Sidebar">◀</button>
+      </div>
+
+      <div class="lg-sb-content">
+        <!-- LR Filter -->
+        <div class="lg-control-group">
+          <div class="lg-label-row">
+            <span class="lg-label">Min log<sub>10</sub> LR</span>
+            <span class="lg-val-pill" id="lrFilterVal">3.5</span>
+          </div>
+          <input type="range" id="lrFilter" min="0.5" max="6" step="0.1" value="3.5" class="lg-range">
+        </div>
+
+        <!-- Show Leads Toggle -->
+        <div class="lg-control-group">
+          <label class="lg-toggle-label">
+            <input type="checkbox" id="showLeads">
+            <span>Show Leads <span class="lg-hint">(&lt; threshold)</span></span>
+          </label>
+        </div>
+
+        <!-- Cluster Size Filter -->
+        <div class="lg-control-group">
+          <div class="lg-label-row">
+            <span class="lg-label">Cluster Size</span>
+            <span class="lg-val-pill" id="clusterSizeVal">1 – 15</span>
+          </div>
+          <div class="lg-range-dual">
+            <input type="range" id="clusterSizeMin" min="1" max="15" value="1" class="lg-range">
+            <input type="range" id="clusterSizeMax" min="1" max="15" value="15" class="lg-range">
+          </div>
+        </div>
+
+        <!-- Confidence Tier Filter -->
+        <div class="lg-control-group">
+          <span class="lg-label">Confidence Tiers</span>
+          <div class="lg-chip-group">
+            <button class="lg-chip active" data-tier="high" id="chipHigh">
+              <span class="lg-chip-dot dot-high"></span>High (&gt;6)
+            </button>
+            <button class="lg-chip active" data-tier="med" id="chipMed">
+              <span class="lg-chip-dot dot-med"></span>Med (4–6)
+            </button>
+            <button class="lg-chip active" data-tier="low" id="chipLow">
+              <span class="lg-chip-dot dot-low"></span>Low (2–4)
+            </button>
+          </div>
+        </div>
+
+        <!-- Sort Clusters -->
+        <div class="lg-control-group">
+          <span class="lg-label">Sort Clusters By</span>
+          <select id="clusterSort" class="lg-select">
+            <option value="size">Size (Personas count)</option>
+            <option value="confidence">Avg Confidence (LR)</option>
+            <option value="recency">Recency (Activity)</option>
+          </select>
+        </div>
+
+        <!-- Legend Compact with Live Count Badges -->
+        <div class="lg-legend-box">
+          <div class="lg-legend-title">Confidence Tiers</div>
+          <div class="lg-legend-row">
+            <span class="lg-legend-item"><span class="lg-legend-color" style="background:#00e5cc;box-shadow:0 0 6px #00e5cc"></span>High (LR &gt; 6)</span>
+            <span class="lg-count-badge" id="lgCountHigh">0</span>
+          </div>
+          <div class="lg-legend-row">
+            <span class="lg-legend-item"><span class="lg-legend-color" style="background:#f5a623;box-shadow:0 0 4px #f5a623"></span>Med (LR 4–6)</span>
+            <span class="lg-count-badge" id="lgCountMed">0</span>
+          </div>
+          <div class="lg-legend-row">
+            <span class="lg-legend-item"><span class="lg-legend-color" style="background:#8b5cf6"></span>Low (LR 2–4)</span>
+            <span class="lg-count-badge" id="lgCountLow">0</span>
+          </div>
+          <div class="lg-legend-divider"></div>
+          <div class="lg-legend-row">
+            <span class="lg-legend-item"><span class="lg-legend-color" style="background:rgba(0,229,204,0.6);height:2px;border-radius:1px"></span>Asserted Edge</span>
+          </div>
+          <div class="lg-legend-row">
+            <span class="lg-legend-item"><span class="lg-legend-color" style="border-top:1px dashed #8b5cf6;height:0;background:none"></span>Lead Edge</span>
+          </div>
+        </div>
+
+        <div class="lg-sb-footer" id="lgSbSummary">
+          Showing 0 clusters · 0 nodes
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Graph Workspace -->
+    <div class="lg-workspace" id="lgWorkspace">
+      <!-- Top Search & Cluster Reset Overlay -->
+      <div class="lg-top-overlay">
+        <div class="lg-search-wrap">
+          <div class="lg-search-box">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="lgSearchInput" placeholder="Fuzzy search actor name or alias..." autocomplete="off">
+            <button id="lgSearchClear" style="display:none">&times;</button>
+          </div>
+          <!-- Dropdown search results list (max 8) -->
+          <div class="lg-search-results" id="lgSearchResults" style="display:none"></div>
+        </div>
+        <div id="lgSubGraphBanner" class="lg-subgraph-banner" style="display:none">
+          <span>Viewing sub-graph for cluster <b id="lgSubGraphCluster"></b></span>
+          <button id="lgExitSubGraph" class="btn-run" style="padding:2px 10px;font-size:11px">Exit Sub-graph</button>
+        </div>
+        <div class="lg-zoom-controls">
+          <button id="lgReportBadge" class="lg-report-badge" style="display:none" title="Open Analyst Report Drawer">📋 Report (0)</button>
+          <button id="lgZoomIn" class="lg-btn-icon" title="Zoom In">+</button>
+          <button id="lgZoomOut" class="lg-btn-icon" title="Zoom Out">−</button>
+          <button id="lgZoomFit" class="lg-btn-icon" title="Reset View">⤢</button>
+        </div>
+      </div>
+
+      <!-- Radar Minimap (180x110px) -->
+      <div class="lg-minimap-wrap" id="lgMinimapWrap">
+        <div class="lg-minimap-title">RADAR</div>
+        <canvas id="cv-minimap" width="180" height="110"></canvas>
+        <div id="lgMinimapViewport" class="lg-minimap-viewport"></div>
+      </div>
+
+      <!-- Canvas / SVG Wrap -->
+      <div class="graph-canvas-wrap" id="graph-wrap">
+        <svg id="graph-svg" width="100%" height="100%"></svg>
+      </div>
+
+      <!-- Context Menu (Right Click) -->
+      <div id="lgContextMenu" class="lg-context-menu" style="display:none">
+        <div class="lg-ctx-item" data-action="inspect">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          Inspect Actor
+        </div>
+        <div class="lg-ctx-item" data-action="subgraph">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+          Open Cluster Sub-Graph
+        </div>
+        <div class="lg-ctx-item" data-action="flag_fp">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg>
+          Flag as False Positive (FP)
+        </div>
+        <div class="lg-ctx-item" data-action="add_report">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="18" x2="12" y2="12"></line><line x1="9" y1="15" x2="15" y2="15"></line></svg>
+          Add to Case Report
+        </div>
+        <div class="lg-ctx-divider"></div>
+        <div class="lg-ctx-item" data-action="copy_id">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          Copy Persona ID
+        </div>
+      </div>
+
+      <!-- Bottom Stats Strip -->
+      <footer class="lg-bottom-bar" id="lgBottomBar">
+        <div class="lg-stat-item">
+          <span class="lg-stat-k">TOTAL PERSONAS:</span>
+          <span class="lg-stat-v" id="lgStatPersonas">--</span>
+        </div>
+        <div class="lg-stat-item">
+          <span class="lg-stat-k">PAIRS SCORED:</span>
+          <span class="lg-stat-v" id="lgStatPairs">--</span>
+        </div>
+        <div class="lg-stat-item">
+          <span class="lg-stat-k">CLUSTERS SHOWN:</span>
+          <span class="lg-stat-v" id="lgStatClusters">--</span>
+        </div>
+        <div class="lg-stat-item lg-stat-sel">
+          <span class="lg-stat-k">SELECTED ACTOR:</span>
+          <span class="lg-stat-v mono" id="lgStatSelected">None (Click any node)</span>
+        </div>
+      </footer>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LINKS ================= -->
+<section id="links" class="tab">
+  <!-- Top summary bar (4 stat cards in a row) -->
+  <div class="lk-stats-bar" id="lkStatsBar">
+    <div class="lk-stat-card">
+      <div class="lk-stat-icon">⚖️</div>
+      <div>
+        <div class="lk-stat-num" id="lkStatTotal">10,787</div>
+        <div class="lk-stat-lbl">Total Pairs Scored</div>
+      </div>
+    </div>
+    <div class="lk-stat-card">
+      <div class="lk-stat-icon">🔗</div>
+      <div>
+        <div class="lk-stat-num" id="lkStatLinkages" style="color:#00e5cc">—</div>
+        <div class="lk-stat-lbl">Linkages Found</div>
+      </div>
+    </div>
+    <div class="lk-stat-card">
+      <div class="lk-stat-icon">⚡</div>
+      <div>
+        <div class="lk-stat-num" id="lkStatHighConf" style="color:#00e5cc">—</div>
+        <div class="lk-stat-lbl">High Confidence</div>
+      </div>
+    </div>
+    <div class="lk-stat-card">
+      <div class="lk-stat-icon">🎯</div>
+      <div>
+        <div class="lk-stat-num" id="lkStatLeads" style="color:#8b5cf6">—</div>
+        <div class="lk-stat-lbl">Leads</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px">
+      <div>
+        <h2>Scored persona pairs</h2>
+        <p class="sub">Ordered by weight of evidence. Click any row to expand the comprehensive per-channel evidence breakdown and sticky fused score telemetry panel.</p>
+      </div>
+    </div>
+
+    <!-- Search & Filter Bar -->
+    <div class="lk-filter-bar">
+      <div class="lk-search-wrap">
+        <svg class="lk-search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="lkSearchInput" class="lk-search-input" placeholder="Search persona, site, channel…">
+      </div>
+      <select id="lkFilterFinding" class="lk-select">
+        <option value="">Finding: All</option>
+        <option value="linkage">Linkage</option>
+        <option value="lead">Lead</option>
+      </select>
+      <select id="lkFilterMinLR" class="lk-select">
+        <option value="">Min LR: Any</option>
+        <option value="2">LR ≥ 2.0 (Low+)</option>
+        <option value="4">LR ≥ 4.0 (Med+)</option>
+        <option value="6">LR ≥ 6.0 (High)</option>
+      </select>
+      <select id="lkFilterClearnet" class="lk-select">
+        <option value="">Clearnet Pivot: All</option>
+        <option value="clearnet">🌐 Clearnet-Linked Only</option>
+      </select>
+      <div class="lk-multiselect" id="lkChannelMulti">
+        <button type="button" class="lk-select lk-multiselect-btn" id="lkChannelMultiBtn">
+          <span id="lkChannelMultiLabel">Channels ▾</span>
+        </button>
+        <div class="lk-multiselect-menu" id="lkChannelMultiMenu" style="display:none">
+          <div class="lk-multiselect-header">
+            <span>Filter by Channel</span>
+            <button type="button" id="lkChannelClearBtn" class="lk-multiselect-clear">Clear</button>
+          </div>
+          <div class="lk-multiselect-list" id="lkChannelList">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+      <div class="lk-filter-count" id="lkFilterCount">
+        Showing 0 of 0 pairs
+      </div>
+    </div>
+
+    <!-- Table Container -->
+    <div id="linkTable" class="lk-table-container"></div>
+  </div>
+</section>
+
+<!-- ================= ACTORS ================= -->
+<section id="actors" class="tab">
+  <!-- Top Stats Bar (full width, 4 cards) -->
+  <div class="lk-stats-bar cl-stats-bar">
+    <div class="lk-stat-card">
+      <div class="lk-stat-icon" style="color:#00e5cc;background:rgba(0,229,204,0.08)">🎭</div>
+      <div>
+        <div class="lk-stat-num" id="clStatClusters" style="color:#00e5cc">—</div>
+        <div class="lk-stat-lbl">Total Clusters</div>
+      </div>
+    </div>
+    <div class="lk-stat-card">
+      <div class="lk-stat-icon" style="color:#38bdf8;background:rgba(56,189,248,0.08)">👤</div>
+      <div>
+        <div class="lk-stat-num" id="clStatPersonas" style="color:#38bdf8">—</div>
+        <div class="lk-stat-lbl">Total Personas</div>
+      </div>
+    </div>
+    <div class="lk-stat-card">
+      <div class="lk-stat-icon" style="color:#f5a623;background:rgba(245,166,35,0.08)">⚡</div>
+      <div>
+        <div class="lk-stat-num" id="clStatHighConf" style="color:#f5a623">—</div>
+        <div class="lk-stat-lbl">High Confidence</div>
+      </div>
+    </div>
+    <div class="lk-stat-card">
+      <div class="lk-stat-icon" style="color:#a78bfa;background:rgba(167,139,250,0.08)">🌍</div>
+      <div>
+        <div class="lk-stat-num" id="clStatRegions" style="color:#a78bfa">—</div>
+        <div class="lk-stat-lbl">Regions Identified</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px">
+      <div>
+        <h2>Resolved actors</h2>
+        <p class="sub">Personas clustered into distinct operators, each with a consolidated dossier and a pooled geotemporal assessment.</p>
+      </div>
+      <!-- View Layout Toggles -->
+      <div class="cl-view-toggles">
+        <button type="button" id="clViewCardBtn" class="cl-view-btn active" title="Detailed Card View">
+          <span>▤ Card View</span>
+        </button>
+        <button type="button" id="clViewGridBtn" class="cl-view-btn" title="Compact Grid View">
+          <span>⊞ Grid View</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Search & Filter Bar -->
+    <div class="lk-filter-bar cl-filter-bar">
+      <div class="lk-search-wrap cl-search-wrap">
+        <svg class="lk-search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="clSearchInput" class="lk-search-input" placeholder="Search cluster, handle, site, artefact…">
+      </div>
+      <select id="clFilterMinSize" class="lk-select">
+        <option value="0">Min Personas: Any</option>
+        <option value="2">2+ Personas</option>
+        <option value="3">3+ Personas</option>
+        <option value="4">4+ Personas</option>
+        <option value="5">5+ Personas</option>
+      </select>
+      <select id="clFilterRegion" class="lk-select">
+        <option value="">All regions</option>
+      </select>
+      <select id="clFilterSort" class="lk-select">
+        <option value="id_asc">Sort: Cluster ID</option>
+        <option value="size_desc">Sort: Size (High → Low)</option>
+        <option value="lr_desc">Sort: Weakest LR (High → Low)</option>
+        <option value="lr_asc">Sort: Weakest LR (Low → High)</option>
+        <option value="activity_desc">Sort: Recent Activity</option>
+      </select>
+      <div class="lk-filter-count" id="clFilterCount">
+        Showing 0 of 0 clusters
+      </div>
+    </div>
+
+    <!-- Clusters Container -->
+    <div id="actorList" class="cl-card-view"></div>
+  </div>
+</section>
+
+
+
+<!-- ================= BENCHMARK ================= -->
+<section id="benchmark" class="tab">
+  <div class="grid2">
+    <div class="card"><h2>Discrimination &amp; operating point</h2><div id="bm-op"></div></div>
+    <div class="card"><h2>Calibration</h2><div id="bm-cal"></div></div>
+  </div>
+  <div class="card"><h2>Channel ablation</h2>
+    <p class="sub">Solo AUC is what a channel achieves alone. The second column
+      is what the fusion achieves with that channel removed — the honest
+      measure of what it contributes.</p>
+    <div id="bm-abl"></div></div>
+  <div class="grid2">
+    <div class="card"><h2>Blocking (scalability)</h2><div id="bm-block"></div></div>
+    <div class="card"><h2>Fusion model selection</h2><div id="bm-fuse"></div></div>
+  </div>
+  <div class="card"><h2>Learned components</h2>
+    <p class="sub">Two models, both held to the same rule as everything else:
+      earn your place on cross-validated C<sub>llr</sub>, or be dropped.</p>
+    <div id="bm-ai"></div></div>
+  <div class="card"><h2>Full evaluation report</h2>
+    <pre id="rawReport" class="raw"></pre></div>
+</section>
+
+</main>
+
+<div id="graph-tooltip" style="
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 150ms;
+  background: rgba(6,9,18,0.93);
+  border: 1px solid rgba(0,229,204,0.4);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 12px;
+  color: white;
+  min-width: 180px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.7);
+"></div>
+
+<div id="actor-detail-panel" style="
+  position: fixed;
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height: calc(100vh - 120px);
+  background: #0d1520;
+  border-left: 1px solid rgba(0,229,204,0.25);
+  z-index: 1000;
+  transform: translateX(300px);
+  transition: transform 300ms cubic-bezier(0.25,0.46,0.45,0.94);
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+">
+  <!-- content injected by JS -->
+</div>
+
+<!-- Fullscreen Profile Modal -->
+<div id="profile-modal-overlay" class="anv-modal-backdrop" style="display:none"></div>
+
+<!-- AI Forensic Analyst Briefing Modal -->
+<div id="ai-modal-overlay" class="anv-modal-backdrop" style="display:none">
+  <div class="anv-ai-modal-card" onclick="event.stopPropagation()">
+    <!-- Header -->
+    <div class="anv-ai-modal-header">
+      <div class="anv-ai-title-wrap">
+        <div class="anv-ai-icon-shield">✨</div>
+        <div>
+          <div class="anv-ai-modal-title">
+            <span id="aiModalHandles">Persona A ↔ Persona B</span>
+          </div>
+          <div class="anv-ai-modal-sub">
+            AI Forensic Attribution Briefing · Local Offline Intelligence
+          </div>
+        </div>
+      </div>
+      <div class="anv-ai-header-controls">
+        <div class="anv-ai-model-selector-wrap">
+          <label for="aiModelSelect" class="anv-ai-model-lbl">Engine:</label>
+          <select id="aiModelSelect" class="anv-ai-model-select">
+            <option value="">Auto Detect</option>
+            <option value="deterministic">Deterministic Synthesizer</option>
+          </select>
+        </div>
+        <span id="aiModelBadge" class="anv-ai-badge-mode">Deterministic</span>
+        <button type="button" class="anv-drawer-close" id="aiModalCloseBtn" title="Close (Esc)">&times;</button>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="anv-ai-modal-body">
+      <!-- Loading Skeleton -->
+      <div id="aiLoadingState" class="anv-ai-loading-container" style="display:none">
+        <div class="anv-ai-spinner"></div>
+        <div class="anv-ai-loading-text">Generating Executive Forensic Briefing...</div>
+        <div class="anv-ai-checklist">
+          <div class="anv-ai-check-item active"><span>✓</span> Querying Bayesian evidence fusion matrix</div>
+          <div class="anv-ai-check-item active"><span>✓</span> Inspecting PGP fingerprints and Bitcoin reuse</div>
+          <div class="anv-ai-check-item active"><span>✓</span> Evaluating circadian and geotemporal rhythm</div>
+          <div class="anv-ai-check-item active"><span>✓</span> Checking alias versioning & OPSEC anomalies</div>
+          <div class="anv-ai-check-item active"><span>✓</span> Structuring court-admissible forensic briefing</div>
+        </div>
+      </div>
+
+      <!-- Report View -->
+      <div id="aiReportView" class="anv-ai-report-view">
+        <div id="aiReportContent" class="anv-ai-markdown-body"></div>
+        
+        <!-- Interactive Assistant Chat Section -->
+        <div class="anv-ai-chat-section">
+          <div class="anv-ai-chat-header">
+            <span class="anv-ai-chat-icon">💬</span>
+            <span>Ask Forensic Assistant Follow-up Questions</span>
+          </div>
+          <div id="aiChatHistory" class="anv-ai-chat-history"></div>
+          <div class="anv-ai-quick-chips">
+            <button type="button" class="anv-chip-btn" data-q="Give me the exact Law Enforcement operational workflow to de-anonymize, trace, and subpoena this threat actor.">🎯 LEA Subpoena &amp; Takedown</button>
+            <button type="button" class="anv-chip-btn" data-q="How do I trace the blockchain wallet, unmix transactions, and identify the Centralized Exchange (CEX) deposit address?">⛓️ Blockchain Tracing &amp; CEX KYC</button>
+            <button type="button" class="anv-chip-btn" data-q="How do I pivot from darknet infrastructure to real-world clearnet IP addresses and VPS hosting providers?">🌐 Dark2Clear Infrastructure Pivot</button>
+            <button type="button" class="anv-chip-btn" data-q="How do I defend this Bayesian evidence in court under Daubert and ENFSI legal standards?">🛡️ Court Admissibility Defense</button>
+          </div>
+          <div class="anv-ai-chat-input-bar">
+            <input type="text" id="aiChatInput" class="anv-ai-chat-input" placeholder="e.g. 'How to subpoena this?', 'What are the main OPSEC flaws?', 'Explain circadian confidence'...">
+            <button type="button" id="aiChatSubmit" class="anv-btn-teal">Ask</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="anv-ai-modal-footer">
+      <div class="anv-ai-footer-left">
+        <button type="button" class="anv-btn-teal" id="aiBtnCopy">📋 Copy Markdown</button>
+        <button type="button" class="cl-btn-secondary" id="aiBtnExport">📄 Export / Print</button>
+        <button type="button" class="cl-btn-secondary" id="aiBtnRegen">🔄 Regenerate</button>
+      </div>
+      <button type="button" class="anv-btn-red-ghost" id="aiModalCloseBtn2">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Flag False Positive Confirmation Dialog -->
+<div id="fp-dialog-overlay" class="anv-modal-backdrop" style="display:none"></div>
+
+<!-- Generic Custom Confirm Dialog (replaces native window.confirm) -->
+<div id="anv-confirm-overlay" class="anv-modal-backdrop" style="display:none"></div>
+
+<!-- Slide-up Report Drawer (40vh) -->
+<div id="report-drawer" class="anv-report-drawer">
+  <div class="anv-drawer-header">
+    <div class="anv-drawer-title-group">
+      <span class="anv-drawer-icon">📋</span>
+      <h3 class="anv-drawer-title">Analyst Report</h3>
+      <span id="reportDrawerCount" class="anv-drawer-badge">0 actors</span>
+    </div>
+    <button id="closeReportDrawer" class="anv-drawer-close" title="Close Drawer (Esc)">&times;</button>
+  </div>
+  <div class="anv-drawer-body">
+    <table class="anv-drawer-table">
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>ACT CODE</th>
+          <th>CLUSTER</th>
+          <th>SITE</th>
+          <th>MAX LR</th>
+          <th>ADDED AT</th>
+          <th style="text-align:center">ACTION</th>
+        </tr>
+      </thead>
+      <tbody id="reportDrawerTableBody">
+        <!-- Rows injected by JS -->
+      </tbody>
+    </table>
+    <div id="reportDrawerEmpty" class="anv-drawer-empty" style="display:none">
+      No threat actors added to the report yet. Click <b>+ Add to Report</b> on any actor dossier.
+    </div>
+  </div>
+  <div class="anv-drawer-footer">
+    <button id="btnExportCsv" class="anv-btn-teal">⬇ Export CSV</button>
+    <button id="btnClearReport" class="anv-btn-red-ghost">🗑 Clear Report</button>
+  </div>
+</div>
+
+<!-- Full Cluster Dossier Modal -->
+<div id="clDossierModal" class="cl-modal-overlay" style="display:none">
+  <div class="cl-modal-container">
+    <div class="cl-modal-header">
+      <div class="cl-modal-title-wrap">
+        <span class="cl-badge" id="modalClusterId">CL000</span>
+        <span class="cl-size-pill" id="modalPersonaCount">5 personas</span>
+        <span class="cl-active-dates" id="modalDateRange">Jan 2025 – Dec 2025</span>
+        <span class="cl-tier-badge" id="modalTierBadge">HIGH CONFIDENCE</span>
+        <span class="muted" style="font-size:12px;margin-left:8px" id="modalCohesionText">weakest LR 1.59 · peak LR 2.68</span>
+      </div>
+      <button type="button" class="anv-drawer-close" id="clModalCloseBtn" title="Close (Esc)">&times;</button>
+    </div>
+
+    <div class="cl-modal-body" id="clModalBody">
+      <!-- Dynamically populated 6 sections:
+           1. Cluster Header
+           2. All Personas Table
+           3. Timeline View
+           4. Geotemporal Analysis
+           5. All Artefacts
+           6. Internal Linkage Matrix -->
+    </div>
+
+    <div class="cl-modal-footer">
+      <div style="display:flex;gap:10px">
+        <button type="button" class="anv-btn-teal" id="modalAddReportBtn">📋 Add to Report</button>
+        <button type="button" class="cl-btn-secondary" id="modalViewLinksBtn">🔗 View Linkages</button>
+      </div>
+      <button type="button" class="anv-btn-red-ghost" id="modalCloseBtn2">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast Container -->
+<div id="anv-toast-container"></div>
+
+<script src="/app.js"></script>
+</body>
+</html>
+

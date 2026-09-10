@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated reports. Regenerate with `python run.py realworld --out ...`.
+# The copy that the static site serves lives in public/data/ and IS committed.
+realworld-report.json
+*.log
+
+# Local scratch
+_*.py
+_*.js
+_*.html
+*.zip
+
+# Never commit hidden service private keys. They live in a Docker volume and
+# should never reach a working tree, but this is the backstop: anyone holding
+# them can impersonate your service at your address.
+**/hidden_service/
+*.onion.key
+hs_ed25519_secret_key
+
+# OS
+.DS_Store
+Thumbs.db

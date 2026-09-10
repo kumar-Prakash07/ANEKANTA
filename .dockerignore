@@ -1,0 +1,9 @@
+.git
+__pycache__
+**/__pycache__
+*.pyc
+tests/
+realworld-report.json
+*.log
+.venv
+venv

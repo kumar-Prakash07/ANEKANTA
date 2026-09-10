@@ -1,0 +1,519 @@
+{
+ "corpus": {
+  "actors": 150,
+  "multi_persona_actors": 87,
+  "personas": 286,
+  "posts": 15985,
+  "transactions": 660,
+  "true_link_pairs": 197,
+  "true_pairs_by_opsec": {
+   "mixed": 94,
+   "disciplined": 37,
+   "sloppy": 66
+  },
+  "total_pairs": 40755,
+  "base_rate": 0.004834,
+  "traps": {
+   "shared_host": 10,
+   "copypaste": 14,
+   "key_rotation": 63,
+   "mixer": 3,
+   "handle_collision": 8
+  }
+ },
+ "blocking": {
+  "personas": 286,
+  "all_pairs": 40755,
+  "candidate_pairs": 10787,
+  "reduction_ratio": 0.7353,
+  "true_pairs": 197,
+  "true_pairs_retained": 183,
+  "pair_completeness": 0.9289,
+  "missed": [
+   [
+    "ACT016-P0",
+    "ACT016-P1"
+   ],
+   [
+    "ACT016-P1",
+    "ACT016-P3"
+   ],
+   [
+    "ACT016-P2",
+    "ACT016-P3"
+   ],
+   [
+    "ACT036-P1",
+    "ACT036-P2"
+   ],
+   [
+    "ACT038-P0",
+    "ACT038-P2"
+   ],
+   [
+    "ACT040-P0",
+    "ACT040-P1"
+   ],
+   [
+    "ACT040-P0",
+    "ACT040-P2"
+   ],
+   [
+    "ACT041-P0",
+    "ACT041-P1"
+   ],
+   [
+    "ACT041-P0",
+    "ACT041-P2"
+   ],
+   [
+    "ACT041-P0",
+    "ACT041-P3"
+   ]
+  ],
+  "candidates_by_index": {
+   "style": 5744,
+   "tz": 2733,
+   "handle": 2145,
+   "infra": 1488,
+   "pgp": 97,
+   "phash": 49,
+   "wallet": 39,
+   "contact": 4
+  }
+ },
+ "split": {
+  "train_actors": 75,
+  "test_actors": 75,
+  "train_pairs": 2790,
+  "test_pairs": 2697
+ },
+ "discrimination": {
+  "roc_auc": 0.981,
+  "average_precision": 0.8955,
+  "n_same_actor": 97,
+  "n_different_actor": 2600
+ },
+ "operating_point": {
+  "threshold_log10_lr": 1.34,
+  "tp": 72,
+  "fp": 2,
+  "fn": 25,
+  "precision": 0.973,
+  "recall": 0.7423,
+  "f1": 0.8421,
+  "precision_at_10": 1.0,
+  "precision_at_25": 1.0,
+  "precision_at_50": 1.0,
+  "precision_at_100": 0.8
+ },
+ "calibration": {
+  "cllr": 0.2391,
+  "cllr_min": 0.2032,
+  "calibration_loss": 0.0359
+ },
+ "ablation": {
+  "all_channels_auc": 0.9713,
+  "channels": {
+   "stylometry": {
+    "solo_auc": 0.9329,
+    "auc_without_it": 0.9665,
+    "mean_abs_log10_lr": 0.3914
+   },
+   "temporal": {
+    "solo_auc": 0.8681,
+    "auc_without_it": 0.9556,
+    "mean_abs_log10_lr": 0.5115
+   },
+   "crypto": {
+    "solo_auc": 0.6289,
+    "auc_without_it": 0.9712,
+    "mean_abs_log10_lr": 0.0798
+   },
+   "pgp": {
+    "solo_auc": 0.8784,
+    "auc_without_it": 0.9675,
+    "mean_abs_log10_lr": 0.4492
+   },
+   "handle": {
+    "solo_auc": 0.8397,
+    "auc_without_it": 0.9729,
+    "mean_abs_log10_lr": 0.2922
+   },
+   "infra": {
+    "solo_auc": 0.7323,
+    "auc_without_it": 0.9682,
+    "mean_abs_log10_lr": 0.1845
+   },
+   "device": {
+    "solo_auc": 0.6387,
+    "auc_without_it": 0.9713,
+    "mean_abs_log10_lr": 0.1322
+   },
+   "verbatim": {
+    "solo_auc": 0.4859,
+    "auc_without_it": 0.9713,
+    "mean_abs_log10_lr": 0.0005
+   },
+   "favicon": {
+    "solo_auc": 0.7477,
+    "auc_without_it": 0.9728,
+    "mean_abs_log10_lr": 0.3887
+   },
+   "tls": {
+    "solo_auc": 0.5737,
+    "auc_without_it": 0.9716,
+    "mean_abs_log10_lr": 0.0716
+   },
+   "template": {
+    "solo_auc": 0.7267,
+    "auc_without_it": 0.974,
+    "mean_abs_log10_lr": 0.4678
+   },
+   "authorship": {
+    "solo_auc": 0.8765,
+    "auc_without_it": 0.9696,
+    "mean_abs_log10_lr": 0.4072
+   }
+  }
+ },
+ "fusion_vs_naive": {
+  "fused_auc": 0.981,
+  "naive_sum_auc": 0.9719,
+  "fused_cllr": 0.2391,
+  "naive_sum_cllr": 0.2892
+ },
+ "traps": {
+  "shared_host": {
+   "adversarial_pairs_scored": 6,
+   "false_links_emitted": 0,
+   "survived": true
+  },
+  "copypaste": {
+   "adversarial_pairs_scored": 1,
+   "false_links_emitted": 0,
+   "survived": true
+  },
+  "handle_collision": {
+   "adversarial_pairs_scored": 8,
+   "false_links_emitted": 0,
+   "survived": true
+  },
+  "key_rotation": {
+   "true_pairs_with_rotated_key": 39,
+   "still_recovered": 17,
+   "recall": 0.4359
+  }
+ },
+ "by_opsec": {
+  "sloppy": {
+   "true_pairs": 43,
+   "recovered": 43,
+   "recall": 1.0,
+   "median_log10_lr": 4.06
+  },
+  "mixed": {
+   "true_pairs": 45,
+   "recovered": 29,
+   "recall": 0.6444,
+   "median_log10_lr": 1.6
+  },
+  "disciplined": {
+   "true_pairs": 9,
+   "recovered": 0,
+   "recall": 0.0,
+   "median_log10_lr": 0.06
+  }
+ },
+ "review_queue": {
+  "lead_floor_log10_lr": 0.24,
+  "leads": 66,
+  "true_links_in_band": 13,
+  "band_precision": 0.197,
+  "candidate_pool_base_rate": 0.036,
+  "enrichment_vs_candidate_pool": 5.5,
+  "median_behavioural_share": 0.67,
+  "note": "recovered as leads, not assertions; these are the pairs the assertion threshold deliberately refuses"
+ },
+ "channel_auc_by_opsec": {
+  "sloppy": {
+   "stylometry": 0.961,
+   "temporal": 0.87,
+   "crypto": 0.709,
+   "pgp": 1.0,
+   "handle": 0.999,
+   "infra": 0.91,
+   "device": 0.748,
+   "verbatim": 0.5,
+   "favicon": 0.927,
+   "tls": 0.627,
+   "template": 0.937,
+   "authorship": 0.877,
+   "FUSED": 1.0,
+   "n_true_pairs": 43
+  },
+  "mixed": {
+   "stylometry": 0.96,
+   "temporal": 0.858,
+   "crypto": 0.578,
+   "pgp": 0.831,
+   "handle": 0.759,
+   "infra": 0.626,
+   "device": 0.577,
+   "verbatim": 0.468,
+   "favicon": 0.601,
+   "tls": 0.539,
+   "template": 0.576,
+   "authorship": 0.915,
+   "FUSED": 0.988,
+   "n_true_pairs": 45
+  },
+  "disciplined": {
+   "stylometry": 0.642,
+   "temporal": 0.908,
+   "crypto": 0.5,
+   "pgp": 0.557,
+   "handle": 0.466,
+   "infra": 0.511,
+   "device": 0.457,
+   "verbatim": 0.5,
+   "favicon": 0.549,
+   "tls": 0.488,
+   "template": 0.519,
+   "authorship": 0.605,
+   "FUSED": 0.778,
+   "n_true_pairs": 9
+  }
+ },
+ "clustering": {
+  "bcubed_precision": 0.9733,
+  "bcubed_recall": 0.8881,
+  "bcubed_f1": 0.9288,
+  "predicted_clusters": 174,
+  "true_actors": 150
+ },
+ "crypto_diagnostics": {
+  "addresses": 652,
+  "clusters": 221,
+  "service_addresses_quarantined": 3,
+  "largest_cluster": 6,
+  "service_examples": [
+   "12mH5T2H4xC4b45RhbKhfaX1mRuXxN2",
+   "1JR6s5VzO6qGwOaJf1q2IsvODS5115u",
+   "1ZQviPBaa6J3z7UIv0rGWOiNxoZFpt4"
+  ]
+ },
+ "model": {
+  "channels": [
+   {
+    "channel": "stylometry",
+    "informative": true,
+    "negative_floor": -4.0,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "temporal",
+    "informative": true,
+    "negative_floor": -4.0,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "crypto",
+    "informative": true,
+    "negative_floor": -0.5,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "pgp",
+    "informative": true,
+    "negative_floor": -0.5,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "handle",
+    "informative": true,
+    "negative_floor": -0.5,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "infra",
+    "informative": true,
+    "negative_floor": -0.5,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "device",
+    "informative": true,
+    "negative_floor": -0.5,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "verbatim",
+    "informative": true,
+    "negative_floor": -0.5,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "favicon",
+    "informative": true,
+    "negative_floor": -0.5,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "tls",
+    "informative": true,
+    "negative_floor": -0.5,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "template",
+    "informative": true,
+    "negative_floor": -0.5,
+    "train_pos": 86,
+    "train_neg": 2704
+   },
+   {
+    "channel": "authorship",
+    "informative": true,
+    "negative_floor": -4.0,
+    "train_pos": 86,
+    "train_neg": 2704
+   }
+  ],
+  "fusion_selection": {
+   "criterion": "cross-validated Cllr, lower is better",
+   "naive_sum_cllr": 0.3192,
+   "best_learned_cllr": 0.2732,
+   "chosen_C": 1.0,
+   "selected": "learned_fusion"
+  },
+  "active_channels": [
+   "stylometry",
+   "temporal",
+   "crypto",
+   "pgp",
+   "handle",
+   "device",
+   "verbatim",
+   "favicon",
+   "tls",
+   "authorship"
+  ],
+  "dropped_channels": [
+   {
+    "channel": "infra",
+    "cv_cllr_improvement": 0.0113
+   },
+   {
+    "channel": "template",
+    "cv_cllr_improvement": 0.0044
+   }
+  ],
+  "fusion_weights": {
+   "stylometry": 2.954,
+   "temporal": 2.875,
+   "crypto": 1.367,
+   "pgp": 1.629,
+   "handle": -0.33,
+   "device": 1.349,
+   "verbatim": 0.001,
+   "favicon": 1.534,
+   "tls": 0.361,
+   "authorship": -0.089
+  },
+  "note": "weights below 1.0 indicate a channel whose evidence is partly redundant with others already in the model"
+ },
+ "neural": {
+  "available": true,
+  "personas_embedded": 286,
+  "dim": 128,
+  "epochs": 6,
+  "loss_curve": [
+   3.0117,
+   2.4111,
+   2.2764,
+   2.1896,
+   2.1199,
+   2.0584
+  ],
+  "training": "self-supervised on persona identity; no actor labels used"
+ },
+ "tradecraft": {
+  "available": true,
+  "accuracy": 0.625,
+  "majority_class_baseline": 0.4722,
+  "disciplined_missed_rate": 0.75,
+  "per_class": {
+   "sloppy": {
+    "n": 48,
+    "recall": 0.75
+   },
+   "mixed": {
+    "n": 68,
+    "recall": 0.691
+   },
+   "disciplined": {
+    "n": 28,
+    "recall": 0.25
+   }
+  },
+  "top_features": [
+   {
+    "feature": "pgp_holders",
+    "importance": 0.214
+   },
+   {
+    "feature": "tz_confidence",
+    "importance": 0.118
+   },
+   {
+    "feature": "interval_regularity",
+    "importance": 0.091
+   },
+   {
+    "feature": "hour_entropy",
+    "importance": 0.089
+   },
+   {
+    "feature": "post_count",
+    "importance": 0.077
+   },
+   {
+    "feature": "active_days",
+    "importance": 0.076
+   }
+  ],
+  "note": "trained on benchmark tradecraft tiers; on live data this is an extrapolation and should be read as a hypothesis"
+ },
+ "channel_load": {
+  "favicon": 327,
+  "template": 327,
+  "pgp": 286,
+  "authorship": 238,
+  "temporal": 232,
+  "handle": 201,
+  "stylometry": 200,
+  "infra": 72,
+  "device": 58,
+  "crypto": 39,
+  "tls": 30
+ },
+ "settings": {
+  "threshold_log10_lr": 1.34,
+  "threshold_selected_on": "training split; most recall subject to >=95% precision and a hard floor of log10 LR 1.0",
+  "lead_floor_log10_lr": 0.24,
+  "lead_floor_selected_on": "training split; deepest band holding >=20% precision",
+  "prior_odds": 0.002,
+  "seed": 1337
+ }
+}

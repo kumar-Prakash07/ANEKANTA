@@ -1,0 +1,6340 @@
+{
+ "nodes": [
+  {
+   "id": "ACT002-P0",
+   "handle": "lumengate",
+   "site": "kilos-index",
+   "cluster": "CL001",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT002-P1",
+   "handle": "lume.ngate",
+   "site": "dread-forum",
+   "cluster": "CL001",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT002-P2",
+   "handle": "LumeNgate",
+   "site": "nulled-bazaar",
+   "cluster": "CL001",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT002-P3",
+   "handle": "lumenga5",
+   "site": "agora-reloaded",
+   "cluster": "CL001",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT003-P0",
+   "handle": "jettisonpike",
+   "site": "thehub-successor",
+   "cluster": "CL002",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT003-P1",
+   "handle": "dovetailkeep53",
+   "site": "agora-reloaded",
+   "cluster": "CL075",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT004-P0",
+   "handle": "petrelkeep",
+   "site": "thehub-successor",
+   "cluster": "CL027",
+   "utc_offset": 10.5
+  },
+  {
+   "id": "ACT004-P1",
+   "handle": "xpetrelkeep",
+   "site": "exploit-market",
+   "cluster": "CL027",
+   "utc_offset": 10.5
+  },
+  {
+   "id": "ACT005-P0",
+   "handle": "gablemarsh_x",
+   "site": "cryptbb-mirror",
+   "cluster": "CL076",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT006-P0",
+   "handle": "nimbuscrest",
+   "site": "cryptbb-mirror",
+   "cluster": "CL077",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT007-P0",
+   "handle": "jettisonkeep_30",
+   "site": "nulled-bazaar",
+   "cluster": "CL078",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT008-P0",
+   "handle": "hazelreach",
+   "site": "exploit-market",
+   "cluster": "CL079",
+   "utc_offset": -9.5
+  },
+  {
+   "id": "ACT010-P0",
+   "handle": "indigoford",
+   "site": "thehub-successor",
+   "cluster": "CL081",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT011-P0",
+   "handle": "lum3nmar5h",
+   "site": "agora-reloaded",
+   "cluster": "CL028",
+   "utc_offset": 9.5
+  },
+  {
+   "id": "ACT011-P1",
+   "handle": "quillonspire73",
+   "site": "thehub-successor",
+   "cluster": "CL028",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT014-P0",
+   "handle": "lumenbank",
+   "site": "exploit-market",
+   "cluster": "CL084",
+   "utc_offset": -8
+  },
+  {
+   "id": "ACT015-P0",
+   "handle": "kestrelkeep",
+   "site": "agora-reloaded",
+   "cluster": "CL029",
+   "utc_offset": -9.5
+  },
+  {
+   "id": "ACT015-P1",
+   "handle": "kestrel9",
+   "site": "nulled-bazaar",
+   "cluster": "CL029",
+   "utc_offset": -9
+  },
+  {
+   "id": "ACT016-P0",
+   "handle": "paperghost",
+   "site": "nulled-bazaar",
+   "cluster": "CL085",
+   "utc_offset": -9.5
+  },
+  {
+   "id": "ACT016-P2",
+   "handle": "sorrelpike22",
+   "site": "exploit-market",
+   "cluster": "CL087",
+   "utc_offset": -7
+  },
+  {
+   "id": "ACT018-P0",
+   "handle": "rookerykeep",
+   "site": "kilos-index",
+   "cluster": "CL011",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT018-P1",
+   "handle": "drrookerykeep",
+   "site": "exploit-market",
+   "cluster": "CL011",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT019-P0",
+   "handle": "elmshadepike",
+   "site": "agora-reloaded",
+   "cluster": "CL012",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT019-P1",
+   "handle": "elmshadep3",
+   "site": "kilos-index",
+   "cluster": "CL012",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT019-P2",
+   "handle": "elmshadepikealt",
+   "site": "thehub-successor",
+   "cluster": "CL012",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT020-P0",
+   "handle": "lumendell",
+   "site": "nulled-bazaar",
+   "cluster": "CL030",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT020-P1",
+   "handle": "xlumendell",
+   "site": "dread-forum",
+   "cluster": "CL030",
+   "utc_offset": -7
+  },
+  {
+   "id": "ACT021-P0",
+   "handle": "quillonvale",
+   "site": "thehub-successor",
+   "cluster": "CL031",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT021-P1",
+   "handle": "quill.onvale",
+   "site": "dread-forum",
+   "cluster": "CL031",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT022-P0",
+   "handle": "opalinegate",
+   "site": "exploit-market",
+   "cluster": "CL090",
+   "utc_offset": -2
+  },
+  {
+   "id": "ACT022-P1",
+   "handle": "opalinespire69",
+   "site": "dread-forum",
+   "cluster": "CL091",
+   "utc_offset": -8
+  },
+  {
+   "id": "ACT023-P0",
+   "handle": "gablemarsh",
+   "site": "thehub-successor",
+   "cluster": "CL032",
+   "utc_offset": -11
+  },
+  {
+   "id": "ACT023-P1",
+   "handle": "g4blemarsh",
+   "site": "exploit-market",
+   "cluster": "CL032",
+   "utc_offset": -9.5
+  },
+  {
+   "id": "ACT024-P0",
+   "handle": "marrownotch",
+   "site": "thehub-successor",
+   "cluster": "CL033",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT024-P1",
+   "handle": "marr0wnotch",
+   "site": "dread-forum",
+   "cluster": "CL033",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT025-P0",
+   "handle": "verdigriswick",
+   "site": "dread-forum",
+   "cluster": "CL034",
+   "utc_offset": 9.5
+  },
+  {
+   "id": "ACT025-P1",
+   "handle": "verdigriswick_hq",
+   "site": "cryptbb-mirror",
+   "cluster": "CL034",
+   "utc_offset": 10.5
+  },
+  {
+   "id": "ACT026-P0",
+   "handle": "tallow",
+   "site": "thehub-successor",
+   "cluster": "CL092",
+   "utc_offset": 9.5
+  },
+  {
+   "id": "ACT027-P0",
+   "handle": "marrowford",
+   "site": "exploit-market",
+   "cluster": "CL011",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT028-P0",
+   "handle": "yarrowgate",
+   "site": "dread-forum",
+   "cluster": "CL093",
+   "utc_offset": 7
+  },
+  {
+   "id": "ACT029-P0",
+   "handle": "wrenthorn",
+   "site": "cryptbb-mirror",
+   "cluster": "CL013",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT029-P1",
+   "handle": "hazelvale34",
+   "site": "nulled-bazaar",
+   "cluster": "CL013",
+   "utc_offset": -5
+  },
+  {
+   "id": "ACT029-P2",
+   "handle": "wrenthorn.hq",
+   "site": "agora-reloaded",
+   "cluster": "CL013",
+   "utc_offset": -3.5
+  },
+  {
+   "id": "ACT030-P0",
+   "handle": "marrowbank",
+   "site": "cryptbb-mirror",
+   "cluster": "CL035",
+   "utc_offset": -7
+  },
+  {
+   "id": "ACT030-P1",
+   "handle": "dovetailpike49",
+   "site": "exploit-market",
+   "cluster": "CL035",
+   "utc_offset": -7
+  },
+  {
+   "id": "ACT031-P0",
+   "handle": "lumenspire",
+   "site": "cryptbb-mirror",
+   "cluster": "CL036",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT031-P1",
+   "handle": "lumen-spire",
+   "site": "agora-reloaded",
+   "cluster": "CL036",
+   "utc_offset": 9.5
+  },
+  {
+   "id": "ACT032-P0",
+   "handle": "hushpuppy",
+   "site": "thehub-successor",
+   "cluster": "CL094",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT034-P0",
+   "handle": "indigodell",
+   "site": "dread-forum",
+   "cluster": "CL003",
+   "utc_offset": -5
+  },
+  {
+   "id": "ACT034-P1",
+   "handle": "indig-odell",
+   "site": "kilos-index",
+   "cluster": "CL003",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT034-P2",
+   "handle": "indigodell38",
+   "site": "nulled-bazaar",
+   "cluster": "CL003",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT034-P3",
+   "handle": "1ndigodell",
+   "site": "agora-reloaded",
+   "cluster": "CL003",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT036-P0",
+   "handle": "thistlekeep",
+   "site": "kilos-index",
+   "cluster": "CL037",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT036-P1",
+   "handle": "thistlekeep-x",
+   "site": "nulled-bazaar",
+   "cluster": "CL097",
+   "utc_offset": 1
+  },
+  {
+   "id": "ACT036-P2",
+   "handle": "yarrowhollow4",
+   "site": "cryptbb-mirror",
+   "cluster": "CL037",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT037-P0",
+   "handle": "hazeldell",
+   "site": "dread-forum",
+   "cluster": "CL038",
+   "utc_offset": -9
+  },
+  {
+   "id": "ACT037-P1",
+   "handle": "h4zeldell",
+   "site": "thehub-successor",
+   "cluster": "CL038",
+   "utc_offset": -3.5
+  },
+  {
+   "id": "ACT038-P0",
+   "handle": "rookerybank",
+   "site": "agora-reloaded",
+   "cluster": "CL098",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT038-P1",
+   "handle": "jettisonford82",
+   "site": "nulled-bazaar",
+   "cluster": "CL099",
+   "utc_offset": -2
+  },
+  {
+   "id": "ACT039-P0",
+   "handle": "kestrelspire",
+   "site": "thehub-successor",
+   "cluster": "CL039",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT039-P1",
+   "handle": "k3strelspire",
+   "site": "nulled-bazaar",
+   "cluster": "CL039",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT041-P0",
+   "handle": "elmshadevale",
+   "site": "kilos-index",
+   "cluster": "CL104",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT042-P0",
+   "handle": "rookeryhollow",
+   "site": "thehub-successor",
+   "cluster": "CL108",
+   "utc_offset": 7
+  },
+  {
+   "id": "ACT044-P0",
+   "handle": "lumenford",
+   "site": "nulled-bazaar",
+   "cluster": "CL110",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT045-P0",
+   "handle": "umbralspire",
+   "site": "dread-forum",
+   "cluster": "CL040",
+   "utc_offset": -7
+  },
+  {
+   "id": "ACT045-P1",
+   "handle": "mrumbralspire",
+   "site": "kilos-index",
+   "cluster": "CL040",
+   "utc_offset": -7
+  },
+  {
+   "id": "ACT046-P0",
+   "handle": "petrelford",
+   "site": "dread-forum",
+   "cluster": "CL112",
+   "utc_offset": -5
+  },
+  {
+   "id": "ACT047-P0",
+   "handle": "verdigrisspire",
+   "site": "thehub-successor",
+   "cluster": "CL113",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT048-P0",
+   "handle": "verdigrisvale",
+   "site": "nulled-bazaar",
+   "cluster": "CL114",
+   "utc_offset": -7
+  },
+  {
+   "id": "ACT049-P0",
+   "handle": "bramblewick",
+   "site": "cryptbb-mirror",
+   "cluster": "CL115",
+   "utc_offset": -3.5
+  },
+  {
+   "id": "ACT050-P0",
+   "handle": "opalinewick",
+   "site": "nulled-bazaar",
+   "cluster": "CL116",
+   "utc_offset": 1
+  },
+  {
+   "id": "ACT052-P0",
+   "handle": "elmshadewick",
+   "site": "exploit-market",
+   "cluster": "CL004",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT052-P1",
+   "handle": "ElmshaDewick",
+   "site": "thehub-successor",
+   "cluster": "CL004",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT052-P2",
+   "handle": "xelmshadewick",
+   "site": "agora-reloaded",
+   "cluster": "CL004",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT052-P3",
+   "handle": "ElmshaDewick",
+   "site": "dread-forum",
+   "cluster": "CL004",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT053-P0",
+   "handle": "dovetailmarsh",
+   "site": "nulled-bazaar",
+   "cluster": "CL014",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT053-P1",
+   "handle": "xdovetailmarsh",
+   "site": "thehub-successor",
+   "cluster": "CL014",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT053-P2",
+   "handle": "elmshadehollow53",
+   "site": "dread-forum",
+   "cluster": "CL014",
+   "utc_offset": 9.5
+  },
+  {
+   "id": "ACT054-P0",
+   "handle": "jettisonbank",
+   "site": "cryptbb-mirror",
+   "cluster": "CL118",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT055-P0",
+   "handle": "dovetailhollow",
+   "site": "thehub-successor",
+   "cluster": "CL015",
+   "utc_offset": -2
+  },
+  {
+   "id": "ACT055-P1",
+   "handle": "dovetailh0llow",
+   "site": "dread-forum",
+   "cluster": "CL015",
+   "utc_offset": 1
+  },
+  {
+   "id": "ACT055-P2",
+   "handle": "drdovetailhollow",
+   "site": "cryptbb-mirror",
+   "cluster": "CL015",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT056-P0",
+   "handle": "nimbusmarsh",
+   "site": "agora-reloaded",
+   "cluster": "CL041",
+   "utc_offset": -11
+  },
+  {
+   "id": "ACT056-P1",
+   "handle": "nimbusma9",
+   "site": "exploit-market",
+   "cluster": "CL119",
+   "utc_offset": 12.75
+  },
+  {
+   "id": "ACT056-P2",
+   "handle": "nimbusmarsh-x",
+   "site": "dread-forum",
+   "cluster": "CL041",
+   "utc_offset": 9.5
+  },
+  {
+   "id": "ACT056-P3",
+   "handle": "lumenthorn90",
+   "site": "thehub-successor",
+   "cluster": "CL120",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT057-P0",
+   "handle": "thistledell",
+   "site": "exploit-market",
+   "cluster": "CL121",
+   "utc_offset": -9
+  },
+  {
+   "id": "ACT059-P0",
+   "handle": "opalinedell",
+   "site": "nulled-bazaar",
+   "cluster": "CL000",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT060-P0",
+   "handle": "amberspire",
+   "site": "nulled-bazaar",
+   "cluster": "CL042",
+   "utc_offset": -9.5
+  },
+  {
+   "id": "ACT060-P1",
+   "handle": "amber_spire",
+   "site": "dread-forum",
+   "cluster": "CL123",
+   "utc_offset": 11
+  },
+  {
+   "id": "ACT060-P2",
+   "handle": "wireframe55",
+   "site": "cryptbb-mirror",
+   "cluster": "CL042",
+   "utc_offset": -8
+  },
+  {
+   "id": "ACT061-P0",
+   "handle": "indigovale",
+   "site": "exploit-market",
+   "cluster": "CL005",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT061-P1",
+   "handle": "ind1goval3",
+   "site": "agora-reloaded",
+   "cluster": "CL005",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT061-P2",
+   "handle": "1nd1goval3",
+   "site": "thehub-successor",
+   "cluster": "CL005",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT061-P3",
+   "handle": "indigova4",
+   "site": "kilos-index",
+   "cluster": "CL005",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT062-P0",
+   "handle": "sorrelspire",
+   "site": "thehub-successor",
+   "cluster": "CL043",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT062-P1",
+   "handle": "amberbank8",
+   "site": "nulled-bazaar",
+   "cluster": "CL043",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT063-P0",
+   "handle": "zephyrford",
+   "site": "agora-reloaded",
+   "cluster": "CL044",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT063-P1",
+   "handle": "ZephyRford",
+   "site": "kilos-index",
+   "cluster": "CL044",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT064-P0",
+   "handle": "umbralvale",
+   "site": "cryptbb-mirror",
+   "cluster": "CL006",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT064-P1",
+   "handle": "umbralvale.57",
+   "site": "agora-reloaded",
+   "cluster": "CL006",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT064-P2",
+   "handle": "umbra_lvale",
+   "site": "thehub-successor",
+   "cluster": "CL006",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT064-P3",
+   "handle": "xumbralvale",
+   "site": "kilos-index",
+   "cluster": "CL006",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT065-P0",
+   "handle": "rookeryford",
+   "site": "exploit-market",
+   "cluster": "CL124",
+   "utc_offset": 12.75
+  },
+  {
+   "id": "ACT066-P0",
+   "handle": "sorrelwick",
+   "site": "cryptbb-mirror",
+   "cluster": "CL045",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT066-P1",
+   "handle": "drsorrelwick",
+   "site": "nulled-bazaar",
+   "cluster": "CL045",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT067-P0",
+   "handle": "amberreach",
+   "site": "nulled-bazaar",
+   "cluster": "CL046",
+   "utc_offset": 9.5
+  },
+  {
+   "id": "ACT067-P1",
+   "handle": "amber-reach",
+   "site": "kilos-index",
+   "cluster": "CL046",
+   "utc_offset": 11
+  },
+  {
+   "id": "ACT067-P2",
+   "handle": "marrowdell71",
+   "site": "thehub-successor",
+   "cluster": "CL125",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT068-P0",
+   "handle": "hazelgate",
+   "site": "dread-forum",
+   "cluster": "CL016",
+   "utc_offset": -2
+  },
+  {
+   "id": "ACT068-P1",
+   "handle": "saltmine38",
+   "site": "cryptbb-mirror",
+   "cluster": "CL016",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT068-P2",
+   "handle": "HazeLgate",
+   "site": "exploit-market",
+   "cluster": "CL016",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT069-P0",
+   "handle": "cinderkeep",
+   "site": "thehub-successor",
+   "cluster": "CL126",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT070-P0",
+   "handle": "ambervale",
+   "site": "dread-forum",
+   "cluster": "CL000",
+   "utc_offset": -3.5
+  },
+  {
+   "id": "ACT071-P0",
+   "handle": "rookerymarsh",
+   "site": "dread-forum",
+   "cluster": "CL047",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT071-P1",
+   "handle": "rookerymarsh",
+   "site": "agora-reloaded",
+   "cluster": "CL047",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT072-P0",
+   "handle": "birchnotch",
+   "site": "dread-forum",
+   "cluster": "CL048",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT072-P1",
+   "handle": "birchnotch",
+   "site": "thehub-successor",
+   "cluster": "CL048",
+   "utc_offset": -5
+  },
+  {
+   "id": "ACT073-P0",
+   "handle": "cinderwick",
+   "site": "kilos-index",
+   "cluster": "CL049",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT073-P2",
+   "handle": "verdigrisdell21",
+   "site": "nulled-bazaar",
+   "cluster": "CL049",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT074-P0",
+   "handle": "dovetailvale",
+   "site": "dread-forum",
+   "cluster": "CL128",
+   "utc_offset": 7
+  },
+  {
+   "id": "ACT075-P0",
+   "handle": "birchgate",
+   "site": "thehub-successor",
+   "cluster": "CL129",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT076-P0",
+   "handle": "rookeryvale",
+   "site": "thehub-successor",
+   "cluster": "CL017",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT076-P1",
+   "handle": "wireframe59",
+   "site": "nulled-bazaar",
+   "cluster": "CL017",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT076-P2",
+   "handle": "rookeryv5",
+   "site": "exploit-market",
+   "cluster": "CL017",
+   "utc_offset": -7
+  },
+  {
+   "id": "ACT077-P0",
+   "handle": "opalinebank",
+   "site": "cryptbb-mirror",
+   "cluster": "CL007",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT077-P1",
+   "handle": "opal1neb4nk",
+   "site": "kilos-index",
+   "cluster": "CL007",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT077-P2",
+   "handle": "mropalinebank",
+   "site": "nulled-bazaar",
+   "cluster": "CL007",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT077-P3",
+   "handle": "opalineb6",
+   "site": "exploit-market",
+   "cluster": "CL007",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT079-P0",
+   "handle": "gablecrest",
+   "site": "thehub-successor",
+   "cluster": "CL050",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT079-P1",
+   "handle": "petrelgate42",
+   "site": "cryptbb-mirror",
+   "cluster": "CL050",
+   "utc_offset": 1
+  },
+  {
+   "id": "ACT080-P0",
+   "handle": "flintdell",
+   "site": "cryptbb-mirror",
+   "cluster": "CL132",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT081-P0",
+   "handle": "verdigriscrest",
+   "site": "kilos-index",
+   "cluster": "CL051",
+   "utc_offset": -2
+  },
+  {
+   "id": "ACT081-P2",
+   "handle": "verdigr_iscrest",
+   "site": "nulled-bazaar",
+   "cluster": "CL134",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT081-P3",
+   "handle": "dustdevil52",
+   "site": "dread-forum",
+   "cluster": "CL051",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT082-P0",
+   "handle": "redlantern",
+   "site": "cryptbb-mirror",
+   "cluster": "CL018",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT082-P1",
+   "handle": "redla.ntern",
+   "site": "exploit-market",
+   "cluster": "CL018",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT082-P2",
+   "handle": "redla-ntern",
+   "site": "thehub-successor",
+   "cluster": "CL018",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT083-P0",
+   "handle": "rookeryspire",
+   "site": "thehub-successor",
+   "cluster": "CL052",
+   "utc_offset": -5
+  },
+  {
+   "id": "ACT083-P1",
+   "handle": "mrrookeryspire",
+   "site": "cryptbb-mirror",
+   "cluster": "CL052",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT085-P0",
+   "handle": "verdigrisbank",
+   "site": "dread-forum",
+   "cluster": "CL053",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT085-P1",
+   "handle": "VerdigRisbank",
+   "site": "kilos-index",
+   "cluster": "CL053",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT086-P0",
+   "handle": "kestrelmarsh",
+   "site": "cryptbb-mirror",
+   "cluster": "CL054",
+   "utc_offset": 7
+  },
+  {
+   "id": "ACT086-P1",
+   "handle": "kestrelmarsh_official",
+   "site": "exploit-market",
+   "cluster": "CL054",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT088-P0",
+   "handle": "umbralreach",
+   "site": "thehub-successor",
+   "cluster": "CL008",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT088-P1",
+   "handle": "vellum47",
+   "site": "exploit-market",
+   "cluster": "CL008",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT088-P2",
+   "handle": "thistlewick80",
+   "site": "dread-forum",
+   "cluster": "CL008",
+   "utc_offset": 1
+  },
+  {
+   "id": "ACT088-P3",
+   "handle": "umbra.lreach",
+   "site": "agora-reloaded",
+   "cluster": "CL008",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT089-P0",
+   "handle": "petrelreach",
+   "site": "kilos-index",
+   "cluster": "CL019",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT089-P1",
+   "handle": "petrelr2",
+   "site": "exploit-market",
+   "cluster": "CL019",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT089-P2",
+   "handle": "amberbank9",
+   "site": "agora-reloaded",
+   "cluster": "CL019",
+   "utc_offset": 6
+  },
+  {
+   "id": "ACT091-P0",
+   "handle": "kestreldell",
+   "site": "thehub-successor",
+   "cluster": "CL055",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT091-P1",
+   "handle": "mrkestreldell",
+   "site": "kilos-index",
+   "cluster": "CL055",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT091-P2",
+   "handle": "birchpike28",
+   "site": "cryptbb-mirror",
+   "cluster": "CL140",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT092-P0",
+   "handle": "amberhollow",
+   "site": "thehub-successor",
+   "cluster": "CL000",
+   "utc_offset": -3.5
+  },
+  {
+   "id": "ACT092-P1",
+   "handle": "AmberHollow",
+   "site": "dread-forum",
+   "cluster": "CL000",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT092-P2",
+   "handle": "AmberHollow",
+   "site": "cryptbb-mirror",
+   "cluster": "CL000",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT093-P0",
+   "handle": "coldfront",
+   "site": "agora-reloaded",
+   "cluster": "CL141",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT094-P0",
+   "handle": "flintwick",
+   "site": "agora-reloaded",
+   "cluster": "CL056",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT094-P1",
+   "handle": "lumenpike15",
+   "site": "thehub-successor",
+   "cluster": "CL056",
+   "utc_offset": 7
+  },
+  {
+   "id": "ACT095-P0",
+   "handle": "flintkeep",
+   "site": "dread-forum",
+   "cluster": "CL057",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT095-P1",
+   "handle": "umbralcrest36",
+   "site": "kilos-index",
+   "cluster": "CL057",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT096-P0",
+   "handle": "umbralpike",
+   "site": "dread-forum",
+   "cluster": "CL020",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT096-P1",
+   "handle": "umbralpi5",
+   "site": "nulled-bazaar",
+   "cluster": "CL020",
+   "utc_offset": -3.5
+  },
+  {
+   "id": "ACT096-P2",
+   "handle": "UmbraLpike",
+   "site": "kilos-index",
+   "cluster": "CL020",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT097-P0",
+   "handle": "nimbusdell",
+   "site": "cryptbb-mirror",
+   "cluster": "CL058",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT097-P1",
+   "handle": "NimbuSdell",
+   "site": "dread-forum",
+   "cluster": "CL058",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT098-P0",
+   "handle": "verdigriskeep",
+   "site": "agora-reloaded",
+   "cluster": "CL059",
+   "utc_offset": 1
+  },
+  {
+   "id": "ACT098-P1",
+   "handle": "nimbuskeep53",
+   "site": "cryptbb-mirror",
+   "cluster": "CL059",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT099-P0",
+   "handle": "petrelcrest",
+   "site": "exploit-market",
+   "cluster": "CL142",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT100-P0",
+   "handle": "zephyrkeep",
+   "site": "dread-forum",
+   "cluster": "CL060",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT100-P1",
+   "handle": "marrowthorn15",
+   "site": "cryptbb-mirror",
+   "cluster": "CL060",
+   "utc_offset": 10.5
+  },
+  {
+   "id": "ACT101-P0",
+   "handle": "rookerynotch",
+   "site": "cryptbb-mirror",
+   "cluster": "CL009",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT101-P1",
+   "handle": "rookerynotch_v2",
+   "site": "agora-reloaded",
+   "cluster": "CL009",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT101-P2",
+   "handle": "rookerynot6",
+   "site": "nulled-bazaar",
+   "cluster": "CL009",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT101-P3",
+   "handle": "r00kerynotch",
+   "site": "exploit-market",
+   "cluster": "CL009",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT103-P0",
+   "handle": "hazelcrest",
+   "site": "kilos-index",
+   "cluster": "CL144",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT104-P0",
+   "handle": "wrenford",
+   "site": "kilos-index",
+   "cluster": "CL021",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT104-P1",
+   "handle": "quillonford82",
+   "site": "cryptbb-mirror",
+   "cluster": "CL021",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT104-P2",
+   "handle": "wrenfordhq",
+   "site": "exploit-market",
+   "cluster": "CL021",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT106-P0",
+   "handle": "dovetailnotch",
+   "site": "thehub-successor",
+   "cluster": "CL061",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT106-P1",
+   "handle": "doveta-ilnotch",
+   "site": "agora-reloaded",
+   "cluster": "CL061",
+   "utc_offset": 9.5
+  },
+  {
+   "id": "ACT107-P0",
+   "handle": "flintmarsh",
+   "site": "kilos-index",
+   "cluster": "CL022",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT107-P1",
+   "handle": "FlintMarsh",
+   "site": "agora-reloaded",
+   "cluster": "CL022",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT107-P2",
+   "handle": "flintmarsh.50",
+   "site": "dread-forum",
+   "cluster": "CL022",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT108-P0",
+   "handle": "yarrowbank",
+   "site": "dread-forum",
+   "cluster": "CL062",
+   "utc_offset": -9
+  },
+  {
+   "id": "ACT108-P1",
+   "handle": "xyarrowbank",
+   "site": "nulled-bazaar",
+   "cluster": "CL062",
+   "utc_offset": -8
+  },
+  {
+   "id": "ACT109-P0",
+   "handle": "marrowcrest",
+   "site": "cryptbb-mirror",
+   "cluster": "CL147",
+   "utc_offset": -3.5
+  },
+  {
+   "id": "ACT109-P1",
+   "handle": "drmarrowcrest",
+   "site": "exploit-market",
+   "cluster": "CL148",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT110-P0",
+   "handle": "wrencrest",
+   "site": "dread-forum",
+   "cluster": "CL149",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT111-P0",
+   "handle": "umbralgate",
+   "site": "dread-forum",
+   "cluster": "CL063",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT111-P1",
+   "handle": "UmbraLgate",
+   "site": "agora-reloaded",
+   "cluster": "CL063",
+   "utc_offset": -1
+  },
+  {
+   "id": "ACT112-P0",
+   "handle": "flintpike",
+   "site": "exploit-market",
+   "cluster": "CL150",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT113-P0",
+   "handle": "jettisonkeep",
+   "site": "agora-reloaded",
+   "cluster": "CL023",
+   "utc_offset": 12.75
+  },
+  {
+   "id": "ACT113-P1",
+   "handle": "jettis.onkeep",
+   "site": "exploit-market",
+   "cluster": "CL023",
+   "utc_offset": 11
+  },
+  {
+   "id": "ACT113-P2",
+   "handle": "j3tt1sonkeep",
+   "site": "dread-forum",
+   "cluster": "CL023",
+   "utc_offset": 12.75
+  },
+  {
+   "id": "ACT114-P0",
+   "handle": "thistleford",
+   "site": "kilos-index",
+   "cluster": "CL151",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT116-P0",
+   "handle": "indigopike",
+   "site": "dread-forum",
+   "cluster": "CL010",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT116-P1",
+   "handle": "IndigOpike",
+   "site": "thehub-successor",
+   "cluster": "CL010",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT117-P0",
+   "handle": "opalinenotch",
+   "site": "cryptbb-mirror",
+   "cluster": "CL153",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT118-P0",
+   "handle": "yarrowspire",
+   "site": "nulled-bazaar",
+   "cluster": "CL064",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT118-P1",
+   "handle": "xyarrowspire",
+   "site": "kilos-index",
+   "cluster": "CL064",
+   "utc_offset": 1
+  },
+  {
+   "id": "ACT120-P0",
+   "handle": "nightowl",
+   "site": "kilos-index",
+   "cluster": "CL065",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT120-P1",
+   "handle": "drnightowl",
+   "site": "agora-reloaded",
+   "cluster": "CL065",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT122-P0",
+   "handle": "birchcrest",
+   "site": "agora-reloaded",
+   "cluster": "CL156",
+   "utc_offset": -3
+  },
+  {
+   "id": "ACT123-P0",
+   "handle": "rookerygate",
+   "site": "thehub-successor",
+   "cluster": "CL002",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT123-P1",
+   "handle": "therookerygate",
+   "site": "cryptbb-mirror",
+   "cluster": "CL002",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT123-P2",
+   "handle": "rookeryg7",
+   "site": "nulled-bazaar",
+   "cluster": "CL002",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT125-P0",
+   "handle": "petreldell",
+   "site": "nulled-bazaar",
+   "cluster": "CL158",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT127-P0",
+   "handle": "lumenreach",
+   "site": "kilos-index",
+   "cluster": "CL024",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT127-P1",
+   "handle": "lumenr1",
+   "site": "dread-forum",
+   "cluster": "CL024",
+   "utc_offset": -5
+  },
+  {
+   "id": "ACT127-P2",
+   "handle": "LumenReach",
+   "site": "exploit-market",
+   "cluster": "CL024",
+   "utc_offset": -5
+  },
+  {
+   "id": "ACT129-P0",
+   "handle": "indigogate",
+   "site": "nulled-bazaar",
+   "cluster": "CL025",
+   "utc_offset": -11
+  },
+  {
+   "id": "ACT129-P1",
+   "handle": "cinderthorn89",
+   "site": "cryptbb-mirror",
+   "cluster": "CL025",
+   "utc_offset": -11
+  },
+  {
+   "id": "ACT129-P2",
+   "handle": "IndigOgate",
+   "site": "thehub-successor",
+   "cluster": "CL025",
+   "utc_offset": -9.5
+  },
+  {
+   "id": "ACT130-P0",
+   "handle": "nimbusreach",
+   "site": "agora-reloaded",
+   "cluster": "CL066",
+   "utc_offset": 10.5
+  },
+  {
+   "id": "ACT130-P1",
+   "handle": "gablethorn35",
+   "site": "nulled-bazaar",
+   "cluster": "CL066",
+   "utc_offset": 10.5
+  },
+  {
+   "id": "ACT131-P0",
+   "handle": "gablereach",
+   "site": "nulled-bazaar",
+   "cluster": "CL067",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT131-P1",
+   "handle": "mrgablereach",
+   "site": "dread-forum",
+   "cluster": "CL067",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT132-P0",
+   "handle": "yarrowdell",
+   "site": "kilos-index",
+   "cluster": "CL068",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT132-P1",
+   "handle": "mryarrowdell",
+   "site": "nulled-bazaar",
+   "cluster": "CL068",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT133-P0",
+   "handle": "hazelhollow",
+   "site": "thehub-successor",
+   "cluster": "CL161",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT134-P0",
+   "handle": "zephyrthorn",
+   "site": "kilos-index",
+   "cluster": "CL069",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT134-P1",
+   "handle": "z3phyrthorn",
+   "site": "cryptbb-mirror",
+   "cluster": "CL069",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT135-P0",
+   "handle": "verdigrisford",
+   "site": "exploit-market",
+   "cluster": "CL026",
+   "utc_offset": 6.5
+  },
+  {
+   "id": "ACT135-P1",
+   "handle": "lumenpike66",
+   "site": "cryptbb-mirror",
+   "cluster": "CL026",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT135-P2",
+   "handle": "verdigri5f0rd",
+   "site": "dread-forum",
+   "cluster": "CL026",
+   "utc_offset": 7
+  },
+  {
+   "id": "ACT137-P0",
+   "handle": "umbralthorn",
+   "site": "kilos-index",
+   "cluster": "CL163",
+   "utc_offset": 8.75
+  },
+  {
+   "id": "ACT138-P0",
+   "handle": "opalinereach",
+   "site": "agora-reloaded",
+   "cluster": "CL164",
+   "utc_offset": 1
+  },
+  {
+   "id": "ACT139-P0",
+   "handle": "littoral",
+   "site": "thehub-successor",
+   "cluster": "CL070",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT139-P1",
+   "handle": "marrowmarsh52",
+   "site": "cryptbb-mirror",
+   "cluster": "CL070",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT140-P0",
+   "handle": "lumenmarsh",
+   "site": "nulled-bazaar",
+   "cluster": "CL165",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT140-P1",
+   "handle": "lumen_marsh",
+   "site": "exploit-market",
+   "cluster": "CL166",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT141-P0",
+   "handle": "cinderpike",
+   "site": "exploit-market",
+   "cluster": "CL167",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT142-P0",
+   "handle": "sablewolf",
+   "site": "nulled-bazaar",
+   "cluster": "CL071",
+   "utc_offset": -6
+  },
+  {
+   "id": "ACT142-P1",
+   "handle": "sablew1",
+   "site": "dread-forum",
+   "cluster": "CL071",
+   "utc_offset": -2
+  },
+  {
+   "id": "ACT143-P0",
+   "handle": "birchreach",
+   "site": "agora-reloaded",
+   "cluster": "CL010",
+   "utc_offset": 0
+  },
+  {
+   "id": "ACT143-P1",
+   "handle": "birchreach-alt",
+   "site": "cryptbb-mirror",
+   "cluster": "CL010",
+   "utc_offset": 2
+  },
+  {
+   "id": "ACT144-P0",
+   "handle": "quillonthorn",
+   "site": "thehub-successor",
+   "cluster": "CL168",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT144-P1",
+   "handle": "quillonthornhq",
+   "site": "kilos-index",
+   "cluster": "CL169",
+   "utc_offset": 4.5
+  },
+  {
+   "id": "ACT146-P0",
+   "handle": "elmshadedell",
+   "site": "exploit-market",
+   "cluster": "CL072",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT146-P1",
+   "handle": "ElmshaDedell",
+   "site": "dread-forum",
+   "cluster": "CL072",
+   "utc_offset": 3.5
+  },
+  {
+   "id": "ACT147-P0",
+   "handle": "jettisonthorn",
+   "site": "thehub-successor",
+   "cluster": "CL171",
+   "utc_offset": 5.5
+  },
+  {
+   "id": "ACT149-P0",
+   "handle": "thistlegate",
+   "site": "exploit-market",
+   "cluster": "CL173",
+   "utc_offset": 6.5
+  }
+ ],
+ "edges": [
+  {
+   "source": "ACT064-P1",
+   "target": "ACT064-P2",
+   "log10_lr": 6.44,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "tls",
+    "device",
+    "pgp",
+    "favicon",
+    "temporal",
+    "stylometry",
+    "handle",
+    "template",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT077-P0",
+   "target": "ACT077-P1",
+   "log10_lr": 5.8,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT063-P0",
+   "target": "ACT063-P1",
+   "log10_lr": 5.8,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "crypto",
+    "device",
+    "pgp",
+    "handle",
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT015-P0",
+   "target": "ACT015-P1",
+   "log10_lr": 5.79,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "pgp",
+    "favicon",
+    "stylometry",
+    "template",
+    "authorship",
+    "handle",
+    "temporal",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT101-P0",
+   "target": "ACT101-P1",
+   "log10_lr": 5.72,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "pgp",
+    "favicon",
+    "temporal",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT094-P0",
+   "target": "ACT094-P1",
+   "log10_lr": 5.7,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "pgp",
+    "favicon",
+    "template",
+    "stylometry",
+    "infra",
+    "authorship",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT064-P0",
+   "target": "ACT064-P1",
+   "log10_lr": 5.62,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "tls",
+    "device",
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship",
+    "infra",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT064-P0",
+   "target": "ACT064-P2",
+   "log10_lr": 5.59,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "tls",
+    "device",
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "stylometry",
+    "infra",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT108-P0",
+   "target": "ACT108-P1",
+   "log10_lr": 5.55,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "crypto",
+    "device",
+    "pgp",
+    "favicon",
+    "template",
+    "handle",
+    "stylometry",
+    "authorship",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT004-P0",
+   "target": "ACT004-P1",
+   "log10_lr": 5.36,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "tls",
+    "device",
+    "pgp",
+    "stylometry",
+    "handle",
+    "temporal",
+    "template",
+    "authorship",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT120-P0",
+   "target": "ACT120-P1",
+   "log10_lr": 5.32,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "pgp",
+    "handle",
+    "favicon",
+    "template",
+    "stylometry",
+    "authorship",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT082-P0",
+   "target": "ACT082-P1",
+   "log10_lr": 5.23,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "favicon",
+    "tls",
+    "pgp",
+    "handle",
+    "temporal",
+    "template",
+    "stylometry",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT146-P0",
+   "target": "ACT146-P1",
+   "log10_lr": 5.06,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "favicon",
+    "pgp",
+    "stylometry",
+    "template",
+    "handle",
+    "temporal",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT101-P0",
+   "target": "ACT101-P3",
+   "log10_lr": 4.77,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT039-P0",
+   "target": "ACT039-P1",
+   "log10_lr": 4.59,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "device",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT101-P1",
+   "target": "ACT101-P3",
+   "log10_lr": 4.56,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "pgp",
+    "favicon",
+    "handle",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT101-P1",
+   "target": "ACT101-P2",
+   "log10_lr": 4.53,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "favicon",
+    "temporal",
+    "template",
+    "handle",
+    "authorship",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT077-P0",
+   "target": "ACT077-P3",
+   "log10_lr": 4.5,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "device",
+    "favicon",
+    "pgp",
+    "temporal",
+    "handle",
+    "template",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT052-P0",
+   "target": "ACT052-P1",
+   "log10_lr": 4.47,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT111-P0",
+   "target": "ACT111-P1",
+   "log10_lr": 4.46,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "pgp",
+    "handle",
+    "temporal",
+    "authorship",
+    "stylometry",
+    "infra",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT101-P0",
+   "target": "ACT101-P2",
+   "log10_lr": 4.42,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "favicon",
+    "template",
+    "handle",
+    "temporal",
+    "authorship",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT097-P0",
+   "target": "ACT097-P1",
+   "log10_lr": 4.41,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "pgp",
+    "template",
+    "handle",
+    "temporal",
+    "authorship",
+    "stylometry",
+    "infra",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT077-P1",
+   "target": "ACT077-P2",
+   "log10_lr": 4.33,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT064-P1",
+   "target": "ACT064-P3",
+   "log10_lr": 4.33,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "favicon",
+    "handle",
+    "temporal",
+    "template",
+    "stylometry",
+    "authorship",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT052-P0",
+   "target": "ACT052-P3",
+   "log10_lr": 4.25,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT067-P0",
+   "target": "ACT067-P1",
+   "log10_lr": 4.22,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "favicon",
+    "pgp",
+    "stylometry",
+    "handle",
+    "template",
+    "infra",
+    "authorship",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT077-P0",
+   "target": "ACT077-P2",
+   "log10_lr": 4.21,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT056-P0",
+   "target": "ACT056-P2",
+   "log10_lr": 4.18,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "favicon",
+    "tls",
+    "pgp",
+    "handle",
+    "template",
+    "authorship",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT064-P2",
+   "target": "ACT064-P3",
+   "log10_lr": 4.17,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "temporal",
+    "stylometry",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT064-P0",
+   "target": "ACT064-P3",
+   "log10_lr": 4.11,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship",
+    "infra",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT061-P0",
+   "target": "ACT061-P2",
+   "log10_lr": 4.11,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT123-P1",
+   "target": "ACT123-P2",
+   "log10_lr": 4.09,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "device",
+    "pgp",
+    "favicon",
+    "template",
+    "handle",
+    "infra",
+    "authorship",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT083-P0",
+   "target": "ACT083-P1",
+   "log10_lr": 4.09,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "device",
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "authorship",
+    "stylometry",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT077-P1",
+   "target": "ACT077-P3",
+   "log10_lr": 4.06,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "temporal",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT061-P0",
+   "target": "ACT061-P1",
+   "log10_lr": 4.03,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "favicon",
+    "handle",
+    "temporal",
+    "template",
+    "authorship",
+    "stylometry",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT034-P0",
+   "target": "ACT034-P2",
+   "log10_lr": 4.0,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "tls",
+    "device",
+    "pgp",
+    "template",
+    "handle",
+    "authorship",
+    "infra",
+    "temporal",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT061-P1",
+   "target": "ACT061-P2",
+   "log10_lr": 4.0,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT077-P2",
+   "target": "ACT077-P3",
+   "log10_lr": 3.96,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "temporal",
+    "infra",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT053-P0",
+   "target": "ACT053-P1",
+   "log10_lr": 3.95,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "pgp",
+    "handle",
+    "template",
+    "authorship",
+    "stylometry",
+    "temporal",
+    "infra",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT031-P0",
+   "target": "ACT031-P1",
+   "log10_lr": 3.88,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "tls",
+    "pgp",
+    "handle",
+    "stylometry",
+    "template",
+    "authorship",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT088-P0",
+   "target": "ACT088-P3",
+   "log10_lr": 3.84,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "temporal",
+    "authorship",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT034-P0",
+   "target": "ACT034-P1",
+   "log10_lr": 3.82,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "favicon",
+    "template",
+    "handle",
+    "stylometry",
+    "authorship",
+    "infra",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT107-P0",
+   "target": "ACT107-P2",
+   "log10_lr": 3.76,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "authorship",
+    "temporal",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT089-P0",
+   "target": "ACT089-P2",
+   "log10_lr": 3.71,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "tls",
+    "pgp",
+    "template",
+    "stylometry",
+    "authorship",
+    "infra",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT061-P1",
+   "target": "ACT061-P3",
+   "log10_lr": 3.64,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "temporal",
+    "authorship",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT096-P0",
+   "target": "ACT096-P1",
+   "log10_lr": 3.62,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT096-P1",
+   "target": "ACT096-P2",
+   "log10_lr": 3.6,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "pgp",
+    "favicon",
+    "handle",
+    "temporal",
+    "template",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT101-P2",
+   "target": "ACT101-P3",
+   "log10_lr": 3.6,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "favicon",
+    "template",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT123-P0",
+   "target": "ACT123-P1",
+   "log10_lr": 3.58,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "pgp",
+    "favicon",
+    "handle",
+    "temporal",
+    "template",
+    "infra",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT030-P0",
+   "target": "ACT030-P1",
+   "log10_lr": 3.53,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "device",
+    "stylometry",
+    "temporal",
+    "authorship",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT129-P0",
+   "target": "ACT129-P2",
+   "log10_lr": 3.44,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT068-P0",
+   "target": "ACT068-P1",
+   "log10_lr": 3.41,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT020-P0",
+   "target": "ACT020-P1",
+   "log10_lr": 3.41,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "tls",
+    "pgp",
+    "template",
+    "handle",
+    "authorship",
+    "infra",
+    "temporal",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT130-P0",
+   "target": "ACT130-P1",
+   "log10_lr": 3.37,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "stylometry",
+    "temporal",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT132-P0",
+   "target": "ACT132-P1",
+   "log10_lr": 3.36,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "tls",
+    "pgp",
+    "template",
+    "handle",
+    "stylometry",
+    "infra",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT034-P1",
+   "target": "ACT034-P3",
+   "log10_lr": 3.31,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "template",
+    "handle",
+    "temporal",
+    "authorship",
+    "infra",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT123-P0",
+   "target": "ACT123-P2",
+   "log10_lr": 3.29,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "pgp",
+    "favicon",
+    "template",
+    "handle",
+    "infra",
+    "stylometry",
+    "authorship",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT143-P0",
+   "target": "ACT143-P1",
+   "log10_lr": 3.28,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT002-P0",
+   "target": "ACT002-P1",
+   "log10_lr": 3.27,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT095-P0",
+   "target": "ACT095-P1",
+   "log10_lr": 3.2,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT131-P0",
+   "target": "ACT131-P1",
+   "log10_lr": 3.14,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "stylometry",
+    "temporal",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT052-P2",
+   "target": "ACT052-P3",
+   "log10_lr": 3.1,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT052-P0",
+   "target": "ACT052-P2",
+   "log10_lr": 3.05,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT113-P0",
+   "target": "ACT113-P2",
+   "log10_lr": 3.05,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "temporal",
+    "handle",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT096-P0",
+   "target": "ACT096-P2",
+   "log10_lr": 3.04,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT082-P0",
+   "target": "ACT082-P2",
+   "log10_lr": 3.01,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "favicon",
+    "template",
+    "temporal",
+    "stylometry",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT061-P2",
+   "target": "ACT061-P3",
+   "log10_lr": 3.0,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "favicon",
+    "handle",
+    "stylometry",
+    "template",
+    "authorship",
+    "temporal",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT107-P0",
+   "target": "ACT107-P1",
+   "log10_lr": 3.0,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "handle",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT021-P0",
+   "target": "ACT021-P1",
+   "log10_lr": 3.0,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "handle",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT034-P0",
+   "target": "ACT034-P3",
+   "log10_lr": 2.94,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "pgp",
+    "favicon",
+    "template",
+    "handle",
+    "authorship",
+    "stylometry",
+    "infra",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT034-P1",
+   "target": "ACT034-P2",
+   "log10_lr": 2.94,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "favicon",
+    "pgp",
+    "template",
+    "handle",
+    "authorship",
+    "infra",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT142-P0",
+   "target": "ACT142-P1",
+   "log10_lr": 2.94,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "favicon",
+    "pgp",
+    "template",
+    "handle",
+    "authorship",
+    "stylometry",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT082-P1",
+   "target": "ACT082-P2",
+   "log10_lr": 2.9,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "favicon",
+    "template",
+    "temporal",
+    "stylometry",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT088-P0",
+   "target": "ACT088-P2",
+   "log10_lr": 2.89,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "template",
+    "authorship",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT104-P0",
+   "target": "ACT104-P1",
+   "log10_lr": 2.89,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT052-P1",
+   "target": "ACT052-P2",
+   "log10_lr": 2.87,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT113-P0",
+   "target": "ACT113-P1",
+   "log10_lr": 2.84,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "stylometry",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT061-P0",
+   "target": "ACT061-P3",
+   "log10_lr": 2.75,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT118-P0",
+   "target": "ACT118-P1",
+   "log10_lr": 2.74,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "stylometry",
+    "handle",
+    "temporal",
+    "authorship",
+    "infra",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT052-P1",
+   "target": "ACT052-P3",
+   "log10_lr": 2.74,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT068-P0",
+   "target": "ACT068-P2",
+   "log10_lr": 2.74,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "stylometry",
+    "temporal",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT091-P0",
+   "target": "ACT091-P1",
+   "log10_lr": 2.73,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "favicon",
+    "template",
+    "stylometry",
+    "handle",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT002-P1",
+   "target": "ACT002-P2",
+   "log10_lr": 2.73,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "favicon",
+    "pgp",
+    "handle",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT127-P0",
+   "target": "ACT127-P2",
+   "log10_lr": 2.71,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "temporal",
+    "authorship",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT092-P0",
+   "target": "ACT092-P2",
+   "log10_lr": 2.68,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "temporal",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT019-P0",
+   "target": "ACT019-P1",
+   "log10_lr": 2.65,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT024-P0",
+   "target": "ACT024-P1",
+   "log10_lr": 2.61,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "template",
+    "handle",
+    "authorship",
+    "temporal",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT076-P0",
+   "target": "ACT076-P1",
+   "log10_lr": 2.59,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT023-P0",
+   "target": "ACT023-P1",
+   "log10_lr": 2.59,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "handle",
+    "temporal",
+    "stylometry",
+    "authorship",
+    "infra",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT036-P0",
+   "target": "ACT036-P2",
+   "log10_lr": 2.58,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "tls",
+    "device",
+    "template",
+    "infra",
+    "handle",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT045-P0",
+   "target": "ACT045-P1",
+   "log10_lr": 2.58,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT104-P0",
+   "target": "ACT104-P2",
+   "log10_lr": 2.55,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "handle",
+    "temporal",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT002-P0",
+   "target": "ACT002-P2",
+   "log10_lr": 2.53,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT029-P0",
+   "target": "ACT029-P2",
+   "log10_lr": 2.4,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "handle",
+    "stylometry",
+    "authorship",
+    "infra",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT085-P0",
+   "target": "ACT085-P1",
+   "log10_lr": 2.33,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "infra",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT139-P0",
+   "target": "ACT139-P1",
+   "log10_lr": 2.28,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "favicon",
+    "template",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT076-P0",
+   "target": "ACT076-P2",
+   "log10_lr": 2.26,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "template",
+    "stylometry",
+    "authorship",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT113-P1",
+   "target": "ACT113-P2",
+   "log10_lr": 2.25,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "handle",
+    "stylometry",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT011-P0",
+   "target": "ACT011-P1",
+   "log10_lr": 2.24,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "favicon",
+    "stylometry",
+    "template",
+    "authorship",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT071-P0",
+   "target": "ACT071-P1",
+   "log10_lr": 2.19,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "favicon",
+    "handle",
+    "template",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT086-P0",
+   "target": "ACT086-P1",
+   "log10_lr": 2.18,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "handle",
+    "stylometry",
+    "pgp",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT088-P0",
+   "target": "ACT088-P1",
+   "log10_lr": 2.14,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "favicon",
+    "template",
+    "authorship",
+    "infra",
+    "handle",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT062-P0",
+   "target": "ACT062-P1",
+   "log10_lr": 2.12,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "stylometry",
+    "template",
+    "authorship",
+    "temporal",
+    "infra",
+    "favicon",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT081-P0",
+   "target": "ACT081-P3",
+   "log10_lr": 2.09,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT019-P0",
+   "target": "ACT019-P2",
+   "log10_lr": 2.06,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship",
+    "infra"
+   ]
+  },
+  {
+   "source": "ACT135-P0",
+   "target": "ACT135-P2",
+   "log10_lr": 2.04,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT053-P0",
+   "target": "ACT053-P2",
+   "log10_lr": 2.04,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "template",
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT019-P1",
+   "target": "ACT019-P2",
+   "log10_lr": 2.04,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "handle",
+    "template",
+    "temporal",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT037-P0",
+   "target": "ACT037-P1",
+   "log10_lr": 2.01,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "handle",
+    "infra",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT079-P0",
+   "target": "ACT079-P1",
+   "log10_lr": 2.0,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "tls",
+    "template",
+    "authorship",
+    "stylometry",
+    "temporal",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT034-P2",
+   "target": "ACT034-P3",
+   "log10_lr": 1.98,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "favicon",
+    "pgp",
+    "template",
+    "handle",
+    "authorship",
+    "infra",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT018-P0",
+   "target": "ACT018-P1",
+   "log10_lr": 1.97,
+   "tier": "linkage",
+   "channels": [
+    "handle",
+    "favicon",
+    "pgp",
+    "template",
+    "stylometry",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT060-P0",
+   "target": "ACT060-P2",
+   "log10_lr": 1.95,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "tls",
+    "template",
+    "stylometry",
+    "infra",
+    "authorship",
+    "temporal",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT098-P0",
+   "target": "ACT098-P1",
+   "log10_lr": 1.91,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "infra",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT100-P0",
+   "target": "ACT100-P1",
+   "log10_lr": 1.89,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "template",
+    "stylometry",
+    "infra",
+    "authorship",
+    "favicon",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT072-P0",
+   "target": "ACT072-P1",
+   "log10_lr": 1.86,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "infra",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT025-P0",
+   "target": "ACT025-P1",
+   "log10_lr": 1.84,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "template",
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT073-P0",
+   "target": "ACT073-P2",
+   "log10_lr": 1.8,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "infra",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT068-P1",
+   "target": "ACT068-P2",
+   "log10_lr": 1.79,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "authorship",
+    "temporal",
+    "stylometry",
+    "favicon",
+    "template",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT070-P0",
+   "target": "ACT092-P0",
+   "log10_lr": 1.78,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "temporal",
+    "handle",
+    "device",
+    "template",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT018-P0",
+   "target": "ACT027-P0",
+   "log10_lr": 1.74,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "temporal",
+    "stylometry",
+    "authorship",
+    "pgp",
+    "handle",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT076-P1",
+   "target": "ACT076-P2",
+   "log10_lr": 1.72,
+   "tier": "linkage",
+   "channels": [
+    "tls",
+    "favicon",
+    "template",
+    "temporal",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT135-P0",
+   "target": "ACT135-P1",
+   "log10_lr": 1.72,
+   "tier": "linkage",
+   "channels": [
+    "crypto",
+    "pgp",
+    "favicon",
+    "authorship",
+    "template",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT002-P2",
+   "target": "ACT002-P3",
+   "log10_lr": 1.67,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "template",
+    "handle",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT053-P1",
+   "target": "ACT053-P2",
+   "log10_lr": 1.65,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "template",
+    "authorship",
+    "temporal",
+    "stylometry",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT059-P0",
+   "target": "ACT092-P2",
+   "log10_lr": 1.62,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "stylometry",
+    "temporal",
+    "authorship",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT107-P1",
+   "target": "ACT107-P2",
+   "log10_lr": 1.61,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "authorship",
+    "temporal",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT092-P1",
+   "target": "ACT092-P2",
+   "log10_lr": 1.6,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "stylometry",
+    "template",
+    "temporal",
+    "authorship",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT092-P0",
+   "target": "ACT092-P1",
+   "log10_lr": 1.59,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "stylometry",
+    "template",
+    "temporal",
+    "authorship",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT066-P0",
+   "target": "ACT066-P1",
+   "log10_lr": 1.57,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "authorship",
+    "temporal",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT088-P2",
+   "target": "ACT088-P3",
+   "log10_lr": 1.53,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry",
+    "temporal",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT106-P0",
+   "target": "ACT106-P1",
+   "log10_lr": 1.5,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "temporal",
+    "infra",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT116-P0",
+   "target": "ACT116-P1",
+   "log10_lr": 1.48,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "authorship",
+    "stylometry",
+    "temporal",
+    "infra",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT055-P1",
+   "target": "ACT055-P2",
+   "log10_lr": 1.47,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "temporal",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT029-P0",
+   "target": "ACT029-P1",
+   "log10_lr": 1.47,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "stylometry",
+    "favicon",
+    "handle",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT129-P0",
+   "target": "ACT129-P1",
+   "log10_lr": 1.42,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "template",
+    "temporal",
+    "infra",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT127-P0",
+   "target": "ACT127-P1",
+   "log10_lr": 1.41,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "template",
+    "pgp",
+    "infra",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT089-P1",
+   "target": "ACT089-P2",
+   "log10_lr": 1.41,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT134-P0",
+   "target": "ACT134-P1",
+   "log10_lr": 1.41,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "stylometry",
+    "temporal",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT055-P0",
+   "target": "ACT055-P2",
+   "log10_lr": 1.41,
+   "tier": "linkage",
+   "channels": [
+    "pgp",
+    "handle",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT002-P1",
+   "target": "ACT002-P3",
+   "log10_lr": 1.41,
+   "tier": "linkage",
+   "channels": [
+    "device",
+    "pgp",
+    "template",
+    "handle",
+    "favicon",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT003-P0",
+   "target": "ACT123-P0",
+   "log10_lr": 1.4,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "temporal",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT055-P0",
+   "target": "ACT092-P2",
+   "log10_lr": 1.36,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "template",
+    "temporal",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT116-P0",
+   "target": "ACT143-P1",
+   "log10_lr": 1.34,
+   "tier": "linkage",
+   "channels": [
+    "favicon",
+    "template",
+    "temporal",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT026-P0",
+   "target": "ACT131-P1",
+   "log10_lr": 1.33,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "stylometry",
+    "temporal",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT071-P0",
+   "target": "ACT143-P0",
+   "log10_lr": 1.28,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "stylometry",
+    "authorship",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT042-P0",
+   "target": "ACT074-P0",
+   "log10_lr": 1.24,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "stylometry",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT055-P0",
+   "target": "ACT092-P0",
+   "log10_lr": 1.23,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "temporal",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT026-P0",
+   "target": "ACT131-P0",
+   "log10_lr": 1.23,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "stylometry",
+    "temporal",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT059-P0",
+   "target": "ACT068-P2",
+   "log10_lr": 1.23,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "stylometry",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT002-P0",
+   "target": "ACT044-P0",
+   "log10_lr": 1.22,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "handle",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT071-P0",
+   "target": "ACT143-P1",
+   "log10_lr": 1.22,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "stylometry",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT036-P0",
+   "target": "ACT036-P1",
+   "log10_lr": 1.21,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "template",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT029-P1",
+   "target": "ACT029-P2",
+   "log10_lr": 1.2,
+   "tier": "lead",
+   "channels": [
+    "device",
+    "temporal",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT070-P0",
+   "target": "ACT092-P2",
+   "log10_lr": 1.2,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "handle",
+    "temporal",
+    "template",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT127-P1",
+   "target": "ACT127-P2",
+   "log10_lr": 1.19,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "pgp",
+    "temporal",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT055-P0",
+   "target": "ACT055-P1",
+   "log10_lr": 1.18,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "authorship",
+    "stylometry",
+    "infra",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT089-P0",
+   "target": "ACT089-P1",
+   "log10_lr": 1.16,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT116-P0",
+   "target": "ACT143-P0",
+   "log10_lr": 1.16,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT014-P0",
+   "target": "ACT037-P0",
+   "log10_lr": 1.15,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT140-P0",
+   "target": "ACT140-P1",
+   "log10_lr": 1.15,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "temporal",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT144-P0",
+   "target": "ACT144-P1",
+   "log10_lr": 1.14,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT038-P0",
+   "target": "ACT038-P1",
+   "log10_lr": 1.12,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "temporal",
+    "favicon",
+    "handle",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT059-P0",
+   "target": "ACT092-P0",
+   "log10_lr": 1.11,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT002-P0",
+   "target": "ACT144-P0",
+   "log10_lr": 1.09,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT057-P0",
+   "target": "ACT083-P0",
+   "log10_lr": 1.09,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "stylometry",
+    "template",
+    "handle",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT088-P1",
+   "target": "ACT088-P3",
+   "log10_lr": 1.09,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT023-P0",
+   "target": "ACT065-P0",
+   "log10_lr": 1.07,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT071-P1",
+   "target": "ACT143-P0",
+   "log10_lr": 1.06,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT019-P1",
+   "target": "ACT101-P3",
+   "log10_lr": 1.04,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "stylometry",
+    "authorship",
+    "handle",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT068-P0",
+   "target": "ACT092-P2",
+   "log10_lr": 1.03,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT054-P0",
+   "target": "ACT147-P0",
+   "log10_lr": 1.01,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "pgp",
+    "handle",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT016-P0",
+   "target": "ACT016-P2",
+   "log10_lr": 1.0,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT099-P0",
+   "target": "ACT144-P0",
+   "log10_lr": 0.93,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT097-P0",
+   "target": "ACT146-P0",
+   "log10_lr": 0.92,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT018-P0",
+   "target": "ACT042-P0",
+   "log10_lr": 0.91,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "handle",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT002-P0",
+   "target": "ACT002-P3",
+   "log10_lr": 0.9,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "template",
+    "temporal",
+    "handle",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT070-P0",
+   "target": "ACT109-P0",
+   "log10_lr": 0.89,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "temporal",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT109-P0",
+   "target": "ACT109-P1",
+   "log10_lr": 0.87,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT071-P0",
+   "target": "ACT116-P0",
+   "log10_lr": 0.86,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT002-P2",
+   "target": "ACT141-P0",
+   "log10_lr": 0.86,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "temporal",
+    "handle",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT027-P0",
+   "target": "ACT044-P0",
+   "log10_lr": 0.85,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT053-P0",
+   "target": "ACT106-P1",
+   "log10_lr": 0.85,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "temporal",
+    "handle",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT072-P0",
+   "target": "ACT075-P0",
+   "log10_lr": 0.83,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "handle",
+    "authorship",
+    "stylometry",
+    "pgp",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT097-P1",
+   "target": "ACT146-P1",
+   "log10_lr": 0.83,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT061-P2",
+   "target": "ACT107-P0",
+   "log10_lr": 0.83,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT129-P1",
+   "target": "ACT129-P2",
+   "log10_lr": 0.79,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "infra",
+    "pgp",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT018-P1",
+   "target": "ACT027-P0",
+   "log10_lr": 0.78,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "stylometry",
+    "handle",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT027-P0",
+   "target": "ACT042-P0",
+   "log10_lr": 0.77,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "infra",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT025-P0",
+   "target": "ACT125-P0",
+   "log10_lr": 0.75,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT056-P0",
+   "target": "ACT056-P1",
+   "log10_lr": 0.75,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "temporal",
+    "authorship",
+    "infra",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT036-P2",
+   "target": "ACT133-P0",
+   "log10_lr": 0.74,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT097-P0",
+   "target": "ACT146-P1",
+   "log10_lr": 0.72,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT057-P0",
+   "target": "ACT083-P1",
+   "log10_lr": 0.7,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "template",
+    "handle",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT023-P1",
+   "target": "ACT060-P0",
+   "log10_lr": 0.69,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "temporal",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT007-P0",
+   "target": "ACT027-P0",
+   "log10_lr": 0.69,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT019-P2",
+   "target": "ACT046-P0",
+   "log10_lr": 0.68,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "stylometry",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT055-P0",
+   "target": "ACT059-P0",
+   "log10_lr": 0.66,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "stylometry",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT060-P0",
+   "target": "ACT060-P1",
+   "log10_lr": 0.65,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "infra",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT082-P1",
+   "target": "ACT093-P0",
+   "log10_lr": 0.65,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT055-P0",
+   "target": "ACT070-P0",
+   "log10_lr": 0.64,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT064-P2",
+   "target": "ACT097-P0",
+   "log10_lr": 0.63,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "device",
+    "pgp",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT059-P0",
+   "target": "ACT068-P0",
+   "log10_lr": 0.62,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT044-P0",
+   "target": "ACT064-P3",
+   "log10_lr": 0.62,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "stylometry",
+    "template",
+    "pgp",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT097-P1",
+   "target": "ACT146-P0",
+   "log10_lr": 0.62,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT091-P0",
+   "target": "ACT146-P1",
+   "log10_lr": 0.6,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "pgp",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT064-P1",
+   "target": "ACT097-P1",
+   "log10_lr": 0.6,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "device",
+    "favicon",
+    "authorship",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT091-P1",
+   "target": "ACT097-P0",
+   "log10_lr": 0.59,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "authorship",
+    "stylometry",
+    "device",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT064-P2",
+   "target": "ACT097-P1",
+   "log10_lr": 0.58,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "device",
+    "pgp",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT081-P0",
+   "target": "ACT081-P2",
+   "log10_lr": 0.58,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT061-P3",
+   "target": "ACT107-P2",
+   "log10_lr": 0.57,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT056-P1",
+   "target": "ACT056-P2",
+   "log10_lr": 0.56,
+   "tier": "lead",
+   "channels": [
+    "handle",
+    "pgp",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT061-P1",
+   "target": "ACT107-P2",
+   "log10_lr": 0.56,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT112-P0",
+   "target": "ACT116-P0",
+   "log10_lr": 0.55,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "pgp",
+    "authorship",
+    "template",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT036-P1",
+   "target": "ACT133-P0",
+   "log10_lr": 0.54,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "device",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT072-P1",
+   "target": "ACT075-P0",
+   "log10_lr": 0.54,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "handle",
+    "authorship",
+    "temporal",
+    "pgp",
+    "stylometry",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT015-P1",
+   "target": "ACT021-P0",
+   "log10_lr": 0.54,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry",
+    "handle",
+    "temporal",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT027-P0",
+   "target": "ACT135-P0",
+   "log10_lr": 0.54,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT071-P1",
+   "target": "ACT116-P0",
+   "log10_lr": 0.53,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT022-P0",
+   "target": "ACT022-P1",
+   "log10_lr": 0.52,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "handle",
+    "pgp",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT080-P0",
+   "target": "ACT143-P1",
+   "log10_lr": 0.52,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "template",
+    "authorship",
+    "stylometry",
+    "handle",
+    "favicon",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT066-P0",
+   "target": "ACT075-P0",
+   "log10_lr": 0.51,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT064-P1",
+   "target": "ACT097-P0",
+   "log10_lr": 0.5,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "device",
+    "favicon",
+    "pgp",
+    "template",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT019-P0",
+   "target": "ACT101-P2",
+   "log10_lr": 0.5,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "handle",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT021-P0",
+   "target": "ACT031-P0",
+   "log10_lr": 0.49,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT068-P2",
+   "target": "ACT092-P2",
+   "log10_lr": 0.49,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT073-P0",
+   "target": "ACT125-P0",
+   "log10_lr": 0.49,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "handle",
+    "template",
+    "authorship",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT031-P0",
+   "target": "ACT032-P0",
+   "log10_lr": 0.49,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT067-P0",
+   "target": "ACT067-P2",
+   "log10_lr": 0.49,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "infra",
+    "authorship",
+    "temporal",
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT088-P1",
+   "target": "ACT088-P2",
+   "log10_lr": 0.49,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "authorship",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT091-P0",
+   "target": "ACT146-P0",
+   "log10_lr": 0.49,
+   "tier": "lead",
+   "channels": [
+    "authorship",
+    "temporal",
+    "stylometry",
+    "pgp",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT021-P0",
+   "target": "ACT026-P0",
+   "log10_lr": 0.48,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT006-P0",
+   "target": "ACT080-P0",
+   "log10_lr": 0.48,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "handle",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT055-P0",
+   "target": "ACT068-P0",
+   "log10_lr": 0.48,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "temporal",
+    "stylometry",
+    "handle",
+    "template",
+    "authorship",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT038-P0",
+   "target": "ACT123-P0",
+   "log10_lr": 0.48,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "pgp",
+    "handle",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT063-P0",
+   "target": "ACT077-P1",
+   "log10_lr": 0.48,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT015-P0",
+   "target": "ACT021-P0",
+   "log10_lr": 0.47,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry",
+    "handle",
+    "temporal",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT093-P0",
+   "target": "ACT098-P1",
+   "log10_lr": 0.47,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "template",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT089-P1",
+   "target": "ACT125-P0",
+   "log10_lr": 0.47,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT088-P3",
+   "target": "ACT138-P0",
+   "log10_lr": 0.46,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT091-P1",
+   "target": "ACT146-P0",
+   "log10_lr": 0.46,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT131-P1",
+   "target": "ACT137-P0",
+   "log10_lr": 0.46,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT055-P0",
+   "target": "ACT109-P0",
+   "log10_lr": 0.46,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "infra",
+    "authorship",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT029-P1",
+   "target": "ACT068-P0",
+   "log10_lr": 0.46,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "temporal",
+    "favicon",
+    "template",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT022-P0",
+   "target": "ACT059-P0",
+   "log10_lr": 0.45,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "pgp",
+    "handle",
+    "temporal",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT053-P0",
+   "target": "ACT074-P0",
+   "log10_lr": 0.45,
+   "tier": "lead",
+   "channels": [
+    "tls",
+    "pgp",
+    "handle",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT061-P3",
+   "target": "ACT107-P0",
+   "log10_lr": 0.44,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT077-P2",
+   "target": "ACT143-P1",
+   "log10_lr": 0.44,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT021-P0",
+   "target": "ACT131-P1",
+   "log10_lr": 0.44,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT091-P0",
+   "target": "ACT091-P2",
+   "log10_lr": 0.44,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "temporal",
+    "authorship",
+    "handle",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT092-P2",
+   "target": "ACT109-P0",
+   "log10_lr": 0.43,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "pgp",
+    "template",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT063-P0",
+   "target": "ACT077-P0",
+   "log10_lr": 0.43,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT047-P0",
+   "target": "ACT048-P0",
+   "log10_lr": 0.42,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "temporal",
+    "favicon",
+    "template",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT029-P0",
+   "target": "ACT147-P0",
+   "log10_lr": 0.42,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "authorship",
+    "stylometry",
+    "pgp",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT101-P3",
+   "target": "ACT107-P0",
+   "log10_lr": 0.42,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "template",
+    "pgp",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT116-P0",
+   "target": "ACT141-P0",
+   "log10_lr": 0.41,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "pgp",
+    "favicon",
+    "template",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT021-P0",
+   "target": "ACT032-P0",
+   "log10_lr": 0.41,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "template",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "handle",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT139-P0",
+   "target": "ACT146-P0",
+   "log10_lr": 0.41,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT077-P2",
+   "target": "ACT080-P0",
+   "log10_lr": 0.4,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT036-P2",
+   "target": "ACT101-P0",
+   "log10_lr": 0.4,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "template",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT076-P0",
+   "target": "ACT122-P0",
+   "log10_lr": 0.39,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT010-P0",
+   "target": "ACT114-P0",
+   "log10_lr": 0.39,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "authorship",
+    "temporal",
+    "stylometry",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT062-P0",
+   "target": "ACT117-P0",
+   "log10_lr": 0.39,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT049-P0",
+   "target": "ACT092-P1",
+   "log10_lr": 0.38,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT002-P0",
+   "target": "ACT007-P0",
+   "log10_lr": 0.37,
+   "tier": "lead",
+   "channels": [
+    "tls",
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT020-P0",
+   "target": "ACT127-P2",
+   "log10_lr": 0.37,
+   "tier": "lead",
+   "channels": [
+    "authorship",
+    "pgp",
+    "handle",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT099-P0",
+   "target": "ACT110-P0",
+   "log10_lr": 0.37,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "pgp",
+    "template",
+    "stylometry"
+   ]
+  },
+  {
+   "source": "ACT073-P0",
+   "target": "ACT103-P0",
+   "log10_lr": 0.37,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT104-P0",
+   "target": "ACT134-P0",
+   "log10_lr": 0.37,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "temporal",
+    "device",
+    "favicon",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT118-P1",
+   "target": "ACT138-P0",
+   "log10_lr": 0.36,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT002-P0",
+   "target": "ACT027-P0",
+   "log10_lr": 0.36,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT019-P0",
+   "target": "ACT041-P0",
+   "log10_lr": 0.36,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT032-P0",
+   "target": "ACT106-P0",
+   "log10_lr": 0.36,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "template",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT056-P2",
+   "target": "ACT056-P3",
+   "log10_lr": 0.36,
+   "tier": "lead",
+   "channels": [
+    "authorship",
+    "stylometry",
+    "temporal",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT026-P0",
+   "target": "ACT032-P0",
+   "log10_lr": 0.35,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "template",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT091-P0",
+   "target": "ACT097-P0",
+   "log10_lr": 0.34,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "authorship",
+    "temporal",
+    "stylometry",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT088-P0",
+   "target": "ACT138-P0",
+   "log10_lr": 0.34,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "pgp",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT002-P0",
+   "target": "ACT018-P0",
+   "log10_lr": 0.34,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "temporal",
+    "authorship",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT023-P0",
+   "target": "ACT060-P0",
+   "log10_lr": 0.34,
+   "tier": "lead",
+   "channels": [
+    "authorship",
+    "stylometry",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT064-P2",
+   "target": "ACT123-P1",
+   "log10_lr": 0.33,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "tls",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT008-P0",
+   "target": "ACT016-P0",
+   "log10_lr": 0.33,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT062-P0",
+   "target": "ACT064-P2",
+   "log10_lr": 0.33,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT063-P1",
+   "target": "ACT077-P1",
+   "log10_lr": 0.32,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT053-P1",
+   "target": "ACT074-P0",
+   "log10_lr": 0.32,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "handle",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT029-P2",
+   "target": "ACT092-P0",
+   "log10_lr": 0.32,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT049-P0",
+   "target": "ACT050-P0",
+   "log10_lr": 0.32,
+   "tier": "lead",
+   "channels": [
+    "pgp",
+    "template",
+    "authorship",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT131-P0",
+   "target": "ACT137-P0",
+   "log10_lr": 0.32,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "pgp",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT061-P0",
+   "target": "ACT107-P0",
+   "log10_lr": 0.31,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT005-P0",
+   "target": "ACT114-P0",
+   "log10_lr": 0.31,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT069-P0",
+   "target": "ACT123-P1",
+   "log10_lr": 0.31,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT118-P0",
+   "target": "ACT138-P0",
+   "log10_lr": 0.3,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT007-P0",
+   "target": "ACT044-P0",
+   "log10_lr": 0.3,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT029-P1",
+   "target": "ACT070-P0",
+   "log10_lr": 0.3,
+   "tier": "lead",
+   "channels": [
+    "authorship",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT018-P1",
+   "target": "ACT101-P2",
+   "log10_lr": 0.3,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "handle",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT029-P2",
+   "target": "ACT092-P2",
+   "log10_lr": 0.29,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT003-P0",
+   "target": "ACT113-P0",
+   "log10_lr": 0.29,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "pgp",
+    "handle",
+    "template",
+    "temporal"
+   ]
+  },
+  {
+   "source": "ACT064-P3",
+   "target": "ACT097-P0",
+   "log10_lr": 0.29,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "pgp",
+    "favicon",
+    "template",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT020-P0",
+   "target": "ACT034-P0",
+   "log10_lr": 0.29,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "infra",
+    "temporal",
+    "authorship",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT021-P0",
+   "target": "ACT137-P0",
+   "log10_lr": 0.29,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT063-P0",
+   "target": "ACT077-P2",
+   "log10_lr": 0.29,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT044-P0",
+   "target": "ACT052-P0",
+   "log10_lr": 0.28,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT044-P0",
+   "target": "ACT144-P1",
+   "log10_lr": 0.28,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT063-P1",
+   "target": "ACT077-P0",
+   "log10_lr": 0.28,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT036-P2",
+   "target": "ACT041-P0",
+   "log10_lr": 0.28,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "favicon",
+    "template",
+    "handle",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT044-P0",
+   "target": "ACT088-P1",
+   "log10_lr": 0.27,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT055-P0",
+   "target": "ACT068-P2",
+   "log10_lr": 0.27,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "handle",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT010-P0",
+   "target": "ACT144-P0",
+   "log10_lr": 0.27,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT062-P1",
+   "target": "ACT149-P0",
+   "log10_lr": 0.27,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship",
+    "favicon",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT032-P0",
+   "target": "ACT053-P0",
+   "log10_lr": 0.27,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT028-P0",
+   "target": "ACT032-P0",
+   "log10_lr": 0.27,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template",
+    "pgp",
+    "handle"
+   ]
+  },
+  {
+   "source": "ACT095-P0",
+   "target": "ACT116-P0",
+   "log10_lr": 0.27,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT034-P3",
+   "target": "ACT083-P1",
+   "log10_lr": 0.27,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT021-P0",
+   "target": "ACT031-P1",
+   "log10_lr": 0.27,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "authorship",
+    "temporal",
+    "favicon",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT003-P0",
+   "target": "ACT069-P0",
+   "log10_lr": 0.27,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT061-P1",
+   "target": "ACT107-P0",
+   "log10_lr": 0.26,
+   "tier": "lead",
+   "channels": [
+    "favicon",
+    "authorship",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT018-P1",
+   "target": "ACT101-P0",
+   "log10_lr": 0.26,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "handle",
+    "authorship",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT025-P0",
+   "target": "ACT026-P0",
+   "log10_lr": 0.26,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template",
+    "handle",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT054-P0",
+   "target": "ACT089-P2",
+   "log10_lr": 0.26,
+   "tier": "lead",
+   "channels": [
+    "stylometry",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT027-P0",
+   "target": "ACT114-P0",
+   "log10_lr": 0.26,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "pgp",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT095-P0",
+   "target": "ACT134-P0",
+   "log10_lr": 0.26,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "authorship",
+    "stylometry",
+    "favicon",
+    "handle",
+    "template",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT080-P0",
+   "target": "ACT143-P0",
+   "log10_lr": 0.25,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "temporal",
+    "stylometry",
+    "authorship",
+    "handle",
+    "favicon",
+    "pgp"
+   ]
+  },
+  {
+   "source": "ACT091-P1",
+   "target": "ACT097-P1",
+   "log10_lr": 0.25,
+   "tier": "lead",
+   "channels": [
+    "template",
+    "authorship",
+    "device",
+    "favicon"
+   ]
+  },
+  {
+   "source": "ACT005-P0",
+   "target": "ACT144-P0",
+   "log10_lr": 0.25,
+   "tier": "lead",
+   "channels": [
+    "authorship",
+    "favicon",
+    "handle",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT003-P0",
+   "target": "ACT003-P1",
+   "log10_lr": 0.25,
+   "tier": "lead",
+   "channels": [
+    "authorship",
+    "infra",
+    "stylometry",
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT064-P2",
+   "target": "ACT146-P0",
+   "log10_lr": 0.25,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "pgp",
+    "template"
+   ]
+  },
+  {
+   "source": "ACT022-P0",
+   "target": "ACT068-P0",
+   "log10_lr": 0.24,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template",
+    "authorship"
+   ]
+  },
+  {
+   "source": "ACT049-P0",
+   "target": "ACT092-P0",
+   "log10_lr": 0.24,
+   "tier": "lead",
+   "channels": [
+    "temporal",
+    "favicon",
+    "template"
+   ]
+  }
+ ]
+}

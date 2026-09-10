@@ -1,0 +1,117 @@
+# ONIONLAB -- two Tor hidden services you can safely run on your own machine.
+#
+# The security of this setup is in the network topology, not in any single
+# setting. Read this before running it; SECURITY.md has the full argument.
+#
+#   backend network: `internal: true`
+#     Docker attaches no gateway to an internal network, so containers on it
+#     have no route to the internet and, critically, nothing outside can route
+#     to them. Both site containers live ONLY here.
+#
+#   the sites publish NO ports
+#     There is no `ports:` key on either site service. Nothing is bound on
+#     Windows. Your machine's interfaces do not carry these services at all,
+#     so there is no port for anyone -- on your LAN, on your wifi, or on the
+#     internet -- to reach. The only process that can open a socket to them is
+#     the Tor container, over the internal network.
+#
+#   tor bridges the two networks
+#     It sits on `backend` (to reach the sites) and `edge` (to reach the Tor
+#     network). Its SOCKS port is published to 127.0.0.1 ONLY -- note the
+#     explicit loopback address; "9050:9050" would expose your Tor proxy to
+#     your entire local network, which is a genuine and common mistake.
+#
+# Two services rather than one, because a single service cannot demonstrate
+# recursive onion discovery, cross-service persona linkage, or the shared-stack
+# fingerprints that survive a rebrand.
+#
+# Everything else is defence in depth for the case where a site process is
+# compromised anyway: it cannot write to disk, cannot gain privileges, cannot
+# use any capability, and has no network to escape to.
+
+x-site-hardening: &site-hardening
+  build: ./site
+  restart: unless-stopped
+  networks: [backend]           # internal only: no internet, no host access
+  # Deliberately no `ports:` mapping. See the note above.
+  read_only: true               # the filesystem is immutable at runtime
+  tmpfs:
+    - /tmp:size=8m,noexec,nosuid,nodev
+  cap_drop: [ALL]               # no capabilities at all; it only needs a socket
+  security_opt:
+    - no-new-privileges:true    # setuid binaries cannot escalate
+  user: "10001:10001"           # unprivileged, no shell, no home
+  mem_limit: 192m
+  pids_limit: 64
+  volumes:
+    # Read-only view of the ADDRESS volume -- deliberately not the key volume.
+    # A site needs its sibling's .onion address, which is public by design; it
+    # has no business anywhere near the private keys. Keeping them in separate
+    # volumes means the sites cannot reach the keys even by accident, and no
+    # permissions have to be loosened on the directory holding them.
+    - onion_pub:/hs:ro
+  healthcheck:
+    test: ["CMD", "python", "-c",
+           "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8080/').read(1)"]
+    interval: 30s
+    timeout: 5s
+    retries: 3
+
+services:
+
+  market:
+    <<: *site-hardening
+    container_name: onionlab-site
+    environment:
+      PORT: "8080"
+      TLS_PORT: "8443"
+      SITE_ROLE: "market"
+      ONIONLAB_SEED: "20260904"
+      PEER_ONION_FILE: "/hs/forum"
+      PYTHONDONTWRITEBYTECODE: "1"
+
+  forum:
+    <<: *site-hardening
+    container_name: onionlab-forum
+    environment:
+      PORT: "8080"
+      TLS_PORT: "8443"
+      SITE_ROLE: "forum"
+      ONIONLAB_SEED: "20260904"
+      PEER_ONION_FILE: "/hs/market"
+      PYTHONDONTWRITEBYTECODE: "1"
+
+  tor:
+    build: ./tor
+    container_name: onionlab-tor
+    restart: unless-stopped
+    depends_on:
+      market:
+        condition: service_healthy
+      forum:
+        condition: service_healthy
+    networks: [backend, edge]
+    ports:
+      # The 127.0.0.1 prefix is load-bearing. Without it Docker binds 0.0.0.0
+      # and anyone on your network can use your machine as a Tor proxy.
+      - "127.0.0.1:9050:9050"
+    volumes:
+      # Private keys. Treat this volume as secret material: whoever holds it
+      # can impersonate your services. Mounted nowhere else.
+      - hs_keys:/var/lib/tor/hidden_service
+      # Public addresses only, so the sites can find each other.
+      - onion_pub:/srv/onion-addresses
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 256m
+
+networks:
+  backend:
+    internal: true    # no gateway, no egress, no ingress. This is the guarantee.
+  edge:
+    driver: bridge
+
+volumes:
+  hs_keys:
+  onion_pub:

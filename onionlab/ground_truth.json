@@ -1,0 +1,131 @@
+{
+  "_comment": [
+    "Ground truth for the ONIONLAB target services. Used only to grade a live",
+    "run. The crawler never reads it, the engines never see it, and neither",
+    "service serves it. Against a genuine third-party service no equivalent",
+    "exists, and the correct output there is a set of hypotheses with no",
+    "accuracy figure attached.",
+    "",
+    "Kept in sync with MARKET_ACCOUNTS and FORUM_ACCOUNTS in site/market.py;",
+    "tests/test_live.py fails if the two drift apart."
+  ],
+
+  "operators": {
+    "kavach_supply": "OP-A",
+    "kavach.supply2": "OP-A",
+    "nightfreight": "OP-A",
+    "kav_admin": "OP-A",
+
+    "harbor_light": "OP-B",
+    "HarborLight_hq": "OP-B",
+    "hbl_support": "OP-B",
+
+    "quartzpine": "OP-C",
+    "pale_quartz": "OP-C",
+
+    "stillwater_co": "OP-D",
+
+    "ninelives": "OP-E",
+    "ninelives_alt": "OP-E",
+
+    "paper_ghost": "OP-F",
+    "brasstack": "OP-G",
+    "driftwood": "OP-H",
+    "sundowner": "OP-I",
+    "tallow_and_co": "OP-J"
+  },
+
+  "structure": {
+    "OP-A": "four accounts across BOTH services: three on the market (one with a deliberately unrelated handle and a rotated key) and one on the forum",
+    "OP-B": "three accounts across both services",
+    "OP-C": "two accounts, one per service, unrelated handles",
+    "OP-E": "two accounts, one per service",
+    "OP-D, OP-F..OP-J": "singletons, present so false positives have somewhere to land"
+  },
+
+  "clear_web_leaks": {
+    "_comment": [
+      "Clear-web identifiers deliberately published by an account, in the",
+      "phrasing a careless operator actually uses. `value` is what the harvest",
+      "should find; `should_rank` is the band the context scorer should place",
+      "it in; `pivot` is what the correlation stage should be able to say."
+    ],
+    "kavach.supply@gmail.example": {
+      "leaked_by": "kavach_supply",
+      "operator": "OP-A",
+      "kind": "email",
+      "provider_class": "mainstream",
+      "should_rank": "high",
+      "pivot": "local part normalises to the same string as the handle kavach_supply"
+    },
+    "hl.trading@gmail.example": {
+      "leaked_by": "hbl_support",
+      "operator": "OP-B",
+      "kind": "email",
+      "provider_class": "mainstream",
+      "should_rank": "high",
+      "pivot": "leaked on the forum; attaches to the operator's market accounts through the resolved cluster"
+    },
+    "ninelives.dev@gmail.example": {
+      "leaked_by": "ninelives_alt",
+      "operator": "OP-E",
+      "kind": "email",
+      "provider_class": "mainstream",
+      "should_rank": "high",
+      "pivot": "local part normalises onto the market handle ninelives"
+    },
+    "sundowner.mail@yandex.example": {
+      "leaked_by": "sundowner",
+      "operator": "OP-I",
+      "kind": "email",
+      "provider_class": "mainstream",
+      "should_rank": "high",
+      "pivot": "singleton operator; identity correlation only, no cluster to widen to"
+    },
+    "stillwater.trading@example.com": {
+      "leaked_by": "stillwater_co",
+      "operator": "OP-D",
+      "kind": "email",
+      "provider_class": "other",
+      "should_rank": "high",
+      "pivot": "local part contains the handle stem"
+    },
+    "harborlight.ops@protonmail.example": {
+      "leaked_by": "harbor_light",
+      "operator": "OP-B",
+      "kind": "email",
+      "provider_class": "privacy",
+      "should_rank": "medium",
+      "pivot": "anonymous provider, so ranked below the mainstream leaks even though the correlation is just as strong"
+    },
+    "paperghost-shop.example.org": {
+      "leaked_by": "paper_ghost",
+      "operator": "OP-F",
+      "kind": "domain",
+      "should_rank": "high",
+      "pivot": "clear-web shop domain; pivots to certificate transparency and registration history"
+    }
+  },
+
+  "decoys": {
+    "_comment": [
+      "Boilerplate present on every page. A naive scraper collects these as",
+      "eagerly as it collects a vendor's private mailbox. The context scorer",
+      "must place all of them below the real leaks; that separation is the",
+      "step Wangchuk & Rathod performed by hand."
+    ],
+    "abuse@torproject.example": "footer abuse contact",
+    "postmaster@example.net": "footer postmaster contact",
+    "security@example.org": "phishing report address on the mirrors page",
+    "noreply@example.com": "support enquiries line on the index"
+  },
+
+  "expected": {
+    "services": 2,
+    "accounts": 17,
+    "true_link_pairs": 11,
+    "cross_service_pairs": 7,
+    "real_leaks": 7,
+    "decoys": 4
+  }
+}

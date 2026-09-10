@@ -1,0 +1,60 @@
+# Tor configuration for ONIONLAB.
+#
+# Every line is either required for the hidden services to work or is a
+# deliberate hardening choice. The hardening choices are annotated, because a
+# torrc you cannot explain is a torrc you cannot trust.
+
+# --- hidden service 1: the marketplace --------------------------------------
+
+HiddenServiceDir /var/lib/tor/hidden_service/market
+HiddenServiceVersion 3
+# Public port 80 on the onion maps to the container's 8080. The target is a
+# container name on the internal Docker network, so this connection never
+# leaves that network and never touches the host.
+HiddenServicePort 80 market:8080
+# A second port serving the same content over TLS. Onion services do not need
+# TLS for confidentiality, but operators frequently deploy it anyway, and a
+# reused certificate or public key is one of the strongest cross-service
+# pivots available. The collector must be able to see one.
+HiddenServicePort 443 market:8443
+# Rate-limit introduction attempts. Without this a single adversary can exhaust
+# the service's introduction points and take it offline cheaply -- the standard
+# denial-of-service against hidden services.
+HiddenServiceEnableIntroDoSDefense 1
+HiddenServiceEnableIntroDoSBurstPerSec 200
+HiddenServiceEnableIntroDoSRatePerSec 25
+
+# --- hidden service 2: the discussion board ---------------------------------
+# A separate address on the same host, running the same software. This is what
+# lets the lab demonstrate recursive discovery and cross-service correlation.
+
+HiddenServiceDir /var/lib/tor/hidden_service/forum
+HiddenServiceVersion 3
+HiddenServicePort 80 forum:8080
+HiddenServicePort 443 forum:8443
+HiddenServiceEnableIntroDoSDefense 1
+HiddenServiceEnableIntroDoSBurstPerSec 200
+HiddenServiceEnableIntroDoSRatePerSec 25
+
+# Refuse to run if a service is misconfigured in a way that would leak.
+HiddenServiceNonAnonymousMode 0
+
+# --- client side (used by the ANVESHAK collector) ---------------------------
+
+# Bound to the container's own interfaces; docker-compose then publishes this
+# to 127.0.0.1 on the host only.
+SocksPort 0.0.0.0:9050
+
+# This Tor instance exists to serve our own onions and to fetch them. It is not
+# a relay and must never become one.
+ORPort 0
+DirPort 0
+ExitPolicy reject *:*
+ExitRelay 0
+PublishServerDescriptor 0
+
+# --- hygiene ----------------------------------------------------------------
+
+AvoidDiskWrites 1
+SafeLogging 1
+Log notice stdout

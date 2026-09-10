@@ -1,0 +1,463 @@
+{
+  "generated_at": "2026-09-05T11:26:48+00:00",
+  "queries": [
+    "hosting",
+    "forum",
+    "search engine",
+    "email",
+    "wiki",
+    "bitcoin",
+    "library",
+    "chat",
+    "directory",
+    "market"
+  ],
+  "engines": [
+    "tordex",
+    "tor66"
+  ],
+  "discovery": {
+    "unique_addresses": 101,
+    "seconds": 35.3,
+    "engine_stats": {
+      "queried": 20,
+      "raw_hits": 957,
+      "blacklisted": 125,
+      "safety_excluded": 0,
+      "kept": 159
+    },
+    "blacklist_hashes": 58381,
+    "notes": [],
+    "corroborated_by_multiple_engines": 3
+  },
+  "safety": {
+    "blacklisted_before_fetch": 125,
+    "excluded_by_gate_before_fetch": 0,
+    "services_excluded_after_fetch": 0,
+    "gate": {
+      "checked": 159,
+      "blocked": 0,
+      "policy": "hard exclusion of material whose retrieval is itself an offence; no filtering of the subject matter this tool exists to investigate"
+    }
+  },
+  "crawl": {
+    "services_attempted": 16,
+    "services_reachable": 16,
+    "reachability": 1.0,
+    "pages": 64,
+    "bytes": 4416616,
+    "seconds": 234.5,
+    "pages_per_minute": 16.4,
+    "seconds_per_service": 14.7
+  },
+  "extraction": {
+    "clear_web_mentions": 12,
+    "mentions_per_reachable_service": 0.8,
+    "services_with_accounts_extracted": 0,
+    "account_extraction_note": "The persona extractor keys on ONIONLAB's profile-page structure. Real services do not share it, so account-level extraction from an arbitrary marketplace needs a per-site adapter. Service fingerprinting and the clear-web harvest are structure-agnostic and do generalise."
+  },
+  "infrastructure_clusters": {
+    "total": 3,
+    "non_generic": 3,
+    "clusters": [
+      {
+        "artefact": "favicon_sha256",
+        "label": "favicon (exact)",
+        "meaning": "byte-identical icon",
+        "value": "c965a500f698483526faf92a",
+        "services": [
+          "torlink2uegl22vwzop42t4eipy2r2eksk67kvan4vx4r6h77t3cejad.onion",
+          "torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion"
+        ],
+        "size": 2,
+        "share_of_sample": 0.125,
+        "generic": false
+      },
+      {
+        "artefact": "favicon_mmh3",
+        "label": "favicon (mmh3)",
+        "meaning": "same icon, Shodan hash convention",
+        "value": "530492348",
+        "services": [
+          "torlink2uegl22vwzop42t4eipy2r2eksk67kvan4vx4r6h77t3cejad.onion",
+          "torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion"
+        ],
+        "size": 2,
+        "share_of_sample": 0.125,
+        "generic": false
+      },
+      {
+        "artefact": "header_order",
+        "label": "header order",
+        "meaning": "same server and proxy chain",
+        "value": "c116c2e555c696f5fd5346ac",
+        "services": [
+          "torlink2uegl22vwzop42t4eipy2r2eksk67kvan4vx4r6h77t3cejad.onion",
+          "torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion"
+        ],
+        "size": 2,
+        "share_of_sample": 0.125,
+        "generic": false
+      }
+    ],
+    "note": "A shared fingerprint is a verifiable fact, not a prediction: no ground truth is needed to state that two services present the same favicon or the same TLS public key. Clusters covering more than half the sample are marked generic -- they identify the software, not an operator."
+  },
+  "services": [
+    {
+      "onion": "wiki6dtqpuvwtc5hopuj33eeavwa6sik7sy57cor35chkx5nrbmmolqd.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tordex",
+        "tor66"
+      ],
+      "queries": [
+        "hosting",
+        "forum",
+        "wiki",
+        "bitcoin",
+        "library",
+        "chat",
+        "directory",
+        "market"
+      ],
+      "pages": 4,
+      "bytes": 57696,
+      "seconds": 5.6,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 3,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "nv3x2jozywh63fkohn5mwp2d73vasusjixn3im3ueof52fmbjsigw6ad.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tordex",
+        "tor66"
+      ],
+      "queries": [
+        "library"
+      ],
+      "pages": 4,
+      "bytes": 4085,
+      "seconds": 59.6,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 1,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "haystak5ejd6wg76n23hwi6otehuyuoylp2p7y3idvff7bivwa7mhsad.onion",
+      "reachable": true,
+      "title": "directory",
+      "engines": [
+        "tordex",
+        "tor66"
+      ],
+      "queries": [
+        "search engine"
+      ],
+      "pages": 4,
+      "bytes": 78503,
+      "seconds": 8.9,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 0,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "primeee5fziqa5ul2uxjwmkwe3cad6hcchxqmay3il3poegvulpse5qd.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tor66"
+      ],
+      "queries": [
+        "forum",
+        "search engine",
+        "email",
+        "wiki",
+        "bitcoin",
+        "directory",
+        "market"
+      ],
+      "pages": 4,
+      "bytes": 763432,
+      "seconds": 15.8,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 0,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tordex"
+      ],
+      "queries": [
+        "hosting",
+        "search engine",
+        "email",
+        "wiki",
+        "library",
+        "chat",
+        "directory"
+      ],
+      "pages": 4,
+      "bytes": 248962,
+      "seconds": 10.2,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 0,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "pandorumwzudcql6f3ourlqw2voyh332a4tke64x7k46ds564adoeeyd.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tordex"
+      ],
+      "queries": [
+        "search engine",
+        "email",
+        "wiki",
+        "library",
+        "chat",
+        "directory",
+        "market"
+      ],
+      "pages": 4,
+      "bytes": 270899,
+      "seconds": 13.6,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 2,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": false
+    },
+    {
+      "onion": "dnrk746n2632y7gn5japydalxrusvenllrltapw743yjglpmbo2kkhqd.onion",
+      "reachable": true,
+      "title": "The Hidden Wiki",
+      "engines": [
+        "tor66"
+      ],
+      "queries": [
+        "forum",
+        "search engine",
+        "wiki",
+        "bitcoin",
+        "market"
+      ],
+      "pages": 4,
+      "bytes": 793697,
+      "seconds": 15.1,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 0,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "torbuyxpe6auueywlctu4wz6ur3o5n2meybt6tyi4rmeudtjsysayqyd.onion",
+      "reachable": true,
+      "title": "OnionDir",
+      "engines": [
+        "tor66"
+      ],
+      "queries": [
+        "forum",
+        "bitcoin",
+        "directory",
+        "market"
+      ],
+      "pages": 4,
+      "bytes": 125768,
+      "seconds": 7.4,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 1,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "monerokpw6inpkzm2yayp23t3llfu7wqgm46xvc55gbn3qiudxcpvmyd.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tordex"
+      ],
+      "queries": [
+        "hosting",
+        "forum",
+        "chat",
+        "directory"
+      ],
+      "pages": 4,
+      "bytes": 167737,
+      "seconds": 4.4,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 4,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "torlink2uegl22vwzop42t4eipy2r2eksk67kvan4vx4r6h77t3cejad.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tordex"
+      ],
+      "queries": [
+        "email",
+        "wiki",
+        "library",
+        "chat"
+      ],
+      "pages": 4,
+      "bytes": 202942,
+      "seconds": 10.8,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 0,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "6vhbbjyccuq6r3fdgo7pcuonqqec5qkddhajkbt4ual57frlcyzyymad.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tor66"
+      ],
+      "queries": [
+        "bitcoin",
+        "chat",
+        "market"
+      ],
+      "pages": 4,
+      "bytes": 443615,
+      "seconds": 13.8,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 0,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "tormarkbdgfxbxzkoqy777q5br3uuxuqmaivhfqxx7xf5uyarjs562ad.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tordex"
+      ],
+      "queries": [
+        "forum",
+        "bitcoin",
+        "directory"
+      ],
+      "pages": 4,
+      "bytes": 21243,
+      "seconds": 13.6,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 0,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "2s3knlqncblhwq5ljuwnly2j6xfz5wjmv3atjq7m2k3w7mxtsuq2x6qd.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tordex"
+      ],
+      "queries": [
+        "forum",
+        "wiki",
+        "directory"
+      ],
+      "pages": 4,
+      "bytes": 561312,
+      "seconds": 9.8,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 0,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "darkbayfs5u74hn3oa2hznohiwggaxkjjkwhoxansxepikphkdrsxyad.onion",
+      "reachable": true,
+      "title": "\ud83c\udf1fSEPULCRO| UNCENSORED \u2705",
+      "engines": [
+        "tor66"
+      ],
+      "queries": [
+        "chat",
+        "market"
+      ],
+      "pages": 4,
+      "bytes": 287795,
+      "seconds": 14.1,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 1,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": false
+    },
+    {
+      "onion": "darkzqtmbdeauwq5mzcmgeeuhet42fhfjj4p5wbak3ofx2yqgecoeqyd.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tordex"
+      ],
+      "queries": [
+        "library",
+        "chat"
+      ],
+      "pages": 4,
+      "bytes": 26031,
+      "seconds": 8.3,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 0,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    },
+    {
+      "onion": "emarketzhfjehkqd53lnjgmtvbf7tseydias4rjpazwifiqcotoi2gad.onion",
+      "reachable": true,
+      "title": "",
+      "engines": [
+        "tordex"
+      ],
+      "queries": [
+        "email",
+        "market"
+      ],
+      "pages": 4,
+      "bytes": 362899,
+      "seconds": 23.6,
+      "accounts_extracted": 0,
+      "clear_web_mentions": 0,
+      "high_priority_mentions": 0,
+      "tls": false,
+      "favicon": true
+    }
+  ],
+  "total_seconds": 274.1,
+  "what_is_not_measured": "Persona-linkage precision and recall. That requires knowing which accounts share an operator, which nobody does for the live network. Those figures come from the labelled benchmark and are not estimated here."
+}
