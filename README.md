@@ -102,7 +102,6 @@ This table lets evaluators know exactly what is running in the codebase today ve
 | Isolation | Docker Compose | Tor daemon, lab hidden services, network isolation |
 | Tests | stdlib `unittest` | 175 test methods across 7 modules |
 
-> **Model stack note:** There is no DarkBERT, BGE-M3, XGBoost, Qwen, or Shodan API integration in this codebase. The calibration layer is logistic regression. The only neural component is the self-supervised contrastive author embedding (`author_net.py`) trained locally on the corpus. The Ollama integration (`forensic_analyst.py`) supports any locally installed model for report generation and falls back deterministically — it does not require any specific model to be present.
 
 > **External API note:** The core attribution pipeline makes **no external API calls** and is fully offline/air-gap capable. OSINT pivot outputs (Shodan search URLs, IPinfo links, HIBP links, social profile URLs) are **analyst-initiated checkable URLs** — the platform generates the link but never fetches it. Querying a third party discloses investigative interest, which is the analyst's decision to make. This preserves the offline and OPSEC guarantee of the core pipeline while providing actionable pivot starting points.
 
