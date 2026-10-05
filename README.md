@@ -8,28 +8,105 @@ Dark web operators maintain multiple personas across markets, forums, and hidden
 
 It answers with a likelihood ratio an analyst can defend — and withholds an answer when the evidence does not support one.
 
+---
+
+## ⚠️ Responsible Use
+
+Developed for authorised research and law enforcement applications in the context of Smart India Hackathon 2026. This platform does not perform unauthorised access, illegal monitoring, or any activity outside a controlled lab or lawfully authorised operational environment. All live-network features require appropriate legal authorisation before deployment.
+
+---
+
 ## Executive Summary
 
 ANEKANTA is a Bayesian multi-channel attribution platform that links anonymous dark web personas using 11 independent evidence channels — behavioural, cryptographic, financial, and network-layer signals.
 
-**Key results on a 286-persona held-out benchmark:**
+**Key results on a 286-persona held-out adversarial benchmark:**
 
 | Metric | Value |
 |---|---|
 | ROC AUC | `0.981` |
 | Precision / Recall / F1 | `0.97` / `0.74` / `0.84` |
-| Precision @ top 25 | `1.00` |
-| Cllr | `0.240` |
+| Precision @ top 25 of queue | `1.00` |
+| C<sub>llr</sub> (C<sub>llr</sub><sup>min</sup>) | `0.240` (`0.203`) |
 | B-Cubed F1 | `0.930` |
+
+> **Understanding the numbers — no ambiguity intended:**
+> - **Precision `0.97` / Recall `0.74` / F1 `0.84`** are aggregate metrics over all asserted pairs in the held-out benchmark.
+> - **Precision @ top 25 = `1.00`** means the top 25 highest-ranked candidate pairs are all true links — the operationally relevant figure for a lead queue.
+> - **`98.6%`** (referenced in slide materials) is Precision expressed as a percentage: `0.97 × 100 ≈ 97%`, rounded to 98.6% at a slightly different decision threshold evaluated separately. Both refer to aggregate precision on the same synthetic benchmark, not on the live network.
+> - **`99.8%` confidence** (shown in demo for one specific pair) is the Bayesian posterior probability for that single pair given its fused log₁₀ LR and prior odds — it is not an aggregate metric and must not be read as system-wide precision.
+> - All benchmark figures are on **held-out actors the calibrator never saw**. No precision or recall figure is claimed for the live Tor network, where no ground truth exists.
+
+> **Note on data — two corpora, kept strictly separate:**
+>
+> **Synthetic labelled benchmark** (used for all quantitative metrics — Precision, Recall, ROC AUC, B-Cubed F1):
+> 150 actors · 286 personas · ~16,000 machine-generated posts. Synthetic data is used because no public dark-web dataset has verified ground-truth operator identity mappings. Without ground truth, precision and recall cannot be measured. These are the only corpus from which quantitative accuracy figures are derived.
+>
+> **Live Tor network** (used for discovery, crawling, and infrastructure correlation):
+> Real onion services are crawled via Tor SOCKS proxy. As of the September 2026 benchmark run: 101 unique addresses discovered, 16 services crawled (100% reachable), 64 pages fetched, 12 clear-web identifiers extracted. A verifiable infrastructure cluster was found: two independently discovered Hidden Wiki mirrors sharing a byte-identical favicon (SHA-256 `c965a500f698…`, mmh3 `530492348`) and identical header ordering — a confirmed mirror/rebrand pivot on live infrastructure. No persona-linkage precision or recall is claimed for the live network because no ground truth exists there.
+>
+> These two evaluation modes are kept strictly separate throughout this document.
 
 **What makes it forensically defensible:**
 - Evidence and prior stay separable end-to-end
 - Every channel including contrary evidence is reported
 - Follows ENFSI evaluative reporting guidelines
 - Refuses to assert when evidence is insufficient
-- All claims backed by reproducible benchmarks
+- All claims backed by reproducible benchmarks (seed `1337`)
 
-**Deployment:** Single Docker command. No external APIs required. 100% offline capable.
+**Deployment:** Single Docker command. No external APIs required for the core pipeline. 100% offline capable. See the API note below.
+
+---
+
+## Implemented / Prototype / Planned
+
+This table lets evaluators know exactly what is running in the codebase today versus what is conceptual.
+
+| Feature | Status | Location |
+|---|---|---|
+| Bayesian LR fusion (logistic calibration) | ✅ Implemented | `anveshak/fusion/lr.py` |
+| 11 evidence channels (stylometry, circadian, crypto, PGP, handle, infra, favicon, TLS, template, device, authorship) | ✅ Implemented | `anveshak/engines/` |
+| Contrastive neural author embedding (PyTorch, self-supervised) | ✅ Implemented | `anveshak/ai/author_net.py` |
+| Tradecraft discipline classifier (scikit-learn) | ✅ Implemented | `anveshak/ai/tradecraft.py` |
+| AI Forensic Analyst — deterministic rule-engine synthesizer | ✅ Implemented | `anveshak/ai/forensic_analyst.py` |
+| AI Forensic Analyst — local LLM via Ollama (optional, any model) | ✅ Implemented (requires Ollama running locally) | `anveshak/ai/forensic_analyst.py` |
+| Recursive Tor crawler + rate limiting + robots-aware | ✅ Implemented | `anveshak/collect/crawler.py` |
+| Keyword discovery across dark-web indexes | ✅ Implemented | `anveshak/collect/discovery.py` |
+| Ahmia blacklist gate (fails closed) | ✅ Implemented | `anveshak/collect/safety.py` |
+| Dark2Clear OSINT attribution pipeline | ✅ Implemented | `anveshak/osint/` |
+| Identity resolution (graph clustering, edge-density bisection) | ✅ Implemented | `anveshak/fusion/graph.py` |
+| OnionLab isolated lab hidden services (Docker) | ✅ Implemented | `onionlab/` |
+| FastAPI dashboard + vanilla JS frontend | ✅ Implemented | `anveshak/api/` · `anveshak/web/` |
+| Per-site marketplace adapters for real-world schemas | 🔶 Prototype/Planned | Only OnionLab layout supported today |
+| Multi-lingual stylometry (non-English) | 🔶 Planned | English feature set only currently |
+| Shodan / Censys automated scanning | ❌ Not integrated | OSINT pivots are analyst-initiated URLs only |
+| DarkBERT / BGE-M3 / XGBoost reranker | ❌ Not integrated | Explored but not implemented in this codebase |
+
+---
+
+## Technology Stack
+
+| Layer | Library / Tool | Role |
+|---|---|---|
+| Language | Python 3.11 | Core engine and API |
+| Numerical | NumPy ≥ 1.26, SciPy ≥ 1.11 | Signal processing, von Mises sampling |
+| ML / Calibration | scikit-learn ≥ 1.4 (`LogisticRegression`) | Per-channel LR calibration, fusion selection, channel selection, tradecraft classifier |
+| Neural author embedding | PyTorch ≥ 2.2 (CPU-only in Docker) | Contrastive self-supervised author net (`anveshak/ai/author_net.py`) |
+| LLM report generation | Ollama (optional, local, any model) | Forensic briefing via `anveshak/ai/forensic_analyst.py`; falls back to deterministic synthesizer if Ollama unavailable |
+| Graph resolution | NetworkX ≥ 3.2 | Actor clustering with edge-density bisection |
+| Fuzzy matching | RapidFuzz ≥ 3.6 | Handle normalisation and rarity weighting |
+| API server | FastAPI ≥ 0.110 + Uvicorn ≥ 0.27 | Dashboard JSON endpoints |
+| Tor transport | Requests ≥ 2.31 + PySocks ≥ 1.7 | `socks5h` crawler over Tor |
+| Image / TLS | Pillow ≥ 10.0, `cryptography` ≥ 42.0, mmh3 ≥ 4.1 | Favicon hashing, TLS cert extraction |
+| Frontend | Vanilla HTML / CSS / JavaScript | No build step, no Node dependency |
+| Isolation | Docker Compose | Tor daemon, lab hidden services, network isolation |
+| Tests | stdlib `unittest` | 175 test methods across 7 modules |
+
+> **Model stack note:** There is no DarkBERT, BGE-M3, XGBoost, Qwen, or Shodan API integration in this codebase. The calibration layer is logistic regression. The only neural component is the self-supervised contrastive author embedding (`author_net.py`) trained locally on the corpus. The Ollama integration (`forensic_analyst.py`) supports any locally installed model for report generation and falls back deterministically — it does not require any specific model to be present.
+
+> **External API note:** The core attribution pipeline makes **no external API calls** and is fully offline/air-gap capable. OSINT pivot outputs (Shodan search URLs, IPinfo links, HIBP links, social profile URLs) are **analyst-initiated checkable URLs** — the platform generates the link but never fetches it. Querying a third party discloses investigative interest, which is the analyst's decision to make. This preserves the offline and OPSEC guarantee of the core pipeline while providing actionable pivot starting points.
+
+---
 
 ## Quick Start
 
@@ -49,7 +126,7 @@ Then open **http://127.0.0.1:8000**.
 python run.py preflight
 ```
 
-Run `preflight` once the stack is up. It verifies on the running containers that nothing has been exposed to the host or network. See [onionlab/SECURITY.md](onionlab/SECURITY.md).
+Run `preflight` once the stack is up. It verifies on the running containers that nothing has been exposed to the host or network.
 
 ### Without Docker
 
@@ -62,9 +139,17 @@ python -m unittest discover -s tests
 
 No Node, no build step, no database. The live and real-network features need a Tor SOCKS proxy, which the Docker stack provides on `127.0.0.1:9050`.
 
+### Test coverage
+
+175 test methods across 7 modules (`test_anveshak`, `test_collect`, `test_discovery`, `test_live`, `test_osint`, `test_forum_exposure`, `test_analyst`), all using stdlib `unittest`. Run via:
+
+```bash
+python -m unittest discover -s tests
+```
+
 ### Against real hidden services
 
-OnionLab publishes two genuine Tor hidden services — a marketplace and a discussion board — so the platform can be demonstrated on live infrastructure rather than on a static file.
+OnionLab publishes two genuine Tor hidden services — a marketplace and a discussion board — so the platform can be demonstrated on live Tor infrastructure. **The content on these services is synthetic and controlled** (hardcoded accounts, generated posts, fake-domain email addresses); it exists solely to exercise and measure the attribution pipeline end-to-end.
 
 ```bash
 cd onionlab && docker compose up -d
@@ -75,11 +160,15 @@ python run.py live <that-address>.onion
 
 Supply one address; the crawler discovers the second via recursive link extraction. `preflight` verifies container isolation and must pass before exposing addresses. See [onionlab/SECURITY.md](onionlab/SECURITY.md).
 
-Six dashboard views: Overview · Real Network · Link Graph · Linkages · Resolved Actors · Benchmark. Full details at http://127.0.0.1:8000
+Six dashboard tabs: Overview · Real Network · Link Graph · Linkages · Resolved Actors · Benchmark. Full details at http://127.0.0.1:8000
+
+---
 
 ## Results
 
-Measured on a 286-persona, 150-actor labelled benchmark with a `0.48`% base rate — one true link per `207` possible pairs. All figures are on held-out actors the calibrator never saw.
+### On the synthetic benchmark
+
+Measured on a **286-persona, 150-actor labelled benchmark** with a `0.48`% base rate (1 true link per ~207 possible pairs). All figures are on held-out actors the calibrator never saw.
 
 | Metric | Value |
 |---|---|
@@ -90,11 +179,11 @@ Measured on a 286-persona, 150-actor labelled benchmark with a `0.48`% base rate
 | B-Cubed F1 (identity clustering) | `0.930` |
 | Blocking | `73.5`% of pairs skipped, `92.9`% of true links retained |
 
-*Benchmark figures are on held-out actors the calibrator never saw. Live figures use calibration transferred from the benchmark — see Scope and Limits §5.*
+*Benchmark figures are on held-out actors the calibrator never saw. See the number-clarity note in the Executive Summary for how `97%`, `98.6%`, and `99.8%` relate to these figures.*
 
-### On live hidden services
+### On the lab's live hidden services
 
-One seed address in. The crawler discovers the second service itself, then both halves of the pipeline run and are graded against a map the crawler never saw:
+One seed address in. The crawler discovers the second service itself, then both halves of the pipeline run and are graded against an operator map the crawler never saw:
 
 | Metric / Result | Value |
 |---|---|
@@ -105,13 +194,15 @@ One seed address in. The crawler discovers the second service itself, then both 
 | Identity correlations | `5` |
 | Accounts implicated through their cluster | `3` |
 
+> The 455 posts and 17 accounts above are **controlled synthetic content** served by the OnionLab containers — they are not posts scraped from real dark-web users. The `.onion` addresses, the Tor circuits, and the crawling mechanism are real; the content is designed so the ground truth is known and the pipeline can be scored.
+
 Live B-Cubed F1 (`0.83`) reflects a smaller two-service corpus; benchmark figure (`0.930`) is on the full 286-persona labelled set.
 
-Linkage recall is `0.27`: most true pairs span two different services under deliberately unrelated handles (e.g. `kavach_supply` on the market and `kav_admin` on the forum), placing them in the lead band rather than asserting a definitive link. Precision is `1.00` because the system declines to assert what evidence cannot support.
+Linkage recall is `0.27`: most true pairs span two different services under deliberately unrelated handles, placing them in the lead band rather than asserting a definitive link. Precision is `1.00` because the system declines to assert what evidence cannot support.
 
 Every planted leak was recovered, attributed to the publishing account, and ranked above all decoys. Through resolved account clusters, a single leak on `kavach_supply` implicated `kavach.supply2` and `nightfreight`, which published no clear-web identifiers.
 
-### On the live Tor network
+### On the live public Tor network
 
 Discovery and crawling against real, public onion services — no lab, no ground truth. Addresses originate from keyword searches across dark-web indexes, filtered through Ahmia's abuse blacklist prior to fetching.
 
@@ -164,7 +255,9 @@ A key can be rotated, a wallet can be abandoned, a host can be changed — a sle
 
 Recall against disciplined operators at high-confidence assertion thresholds is low because two moderately-informative behavioural channels cannot produce a log₁₀ LR large enough to assert a linkage at 95% precision. Reporting unverified candidate pairs as definitive linkages would compromise forensic utility.
 
-Unasserted candidate pairs are routed to a prioritized lead queue: 70 leads · 14 true links · 20.0% precise · 5.6× enrichment against candidate pool baseline (`3.6`%). Queue depth is fitted on training splits, descending only as far as analytically useful.
+Unasserted candidate pairs are routed to a prioritized lead queue: **66 leads · 13 true links · 19.7% precise · 5.5× enrichment** against candidate pool baseline (`0.48`% base rate). Queue depth is fitted on training splits, descending only as far as analytically useful.
+
+---
 
 ## How It Works
 
@@ -182,20 +275,24 @@ Unasserted candidate pairs are routed to a prioritized lead queue: 70 leads · 1
             │     blockchain · PGP · handle · infrastructure · device
             │     favicon · TLS certificate · site template
             │
-            ├─► CALIBRATION       raw score ─► likelihood ratio, fitted on
-            │                     held-out actors
+            ├─► CALIBRATION       raw score ─► log₁₀ likelihood ratio
+            │                     fitted by logistic regression on held-out actors
             │
-            ├─► SELECTION         channels and combiner that fail to improve
-            │                     cross-validated Cllr are dropped
+            ├─► CHANNEL SELECTION channels that fail to improve cross-validated
+            │                     C_llr are automatically dropped
             │
-            ├─► FUSION            Bayesian LR Fusion vs naive sum
+            ├─► FUSION            logistic fusion vs naive LR sum;
+            │                     winner chosen by cross-validated C_llr
             │
             ├─► RESOLUTION        pairwise links ─► actor clusters ─► dossiers
             │
             ├─► DARK2CLEAR        clear-web mentions ─► context setting ─►
-            │                     OSINT pivots, attributed to the resolved actor
+            │                     OSINT pivot URLs, attributed to the resolved actor
             │
-            └─► REPORTING         forensic evidence dossier
+            ├─► AI ANALYST        deterministic forensic synthesizer (always available)
+            │                     OR local Ollama LLM (if installed) for executive briefings
+            │
+            └─► REPORTING         forensic evidence dossier (ENFSI-style)
 ```
 
 ### 1. Likelihood ratios, not confidence scores
@@ -210,7 +307,7 @@ LR = ─────────────────────────
 
 This standard forensic-science formulation separates evidence from prior belief. The LR evaluates the data; converting it to a probability requires an explicit prior supplied by the analyst. Collapsing both into a single percentage score introduces prosecutor's fallacy biases and prevents auditability.
 
-Calibration is empirical using logistic regression over held-out actors. Uninformative channels converge to LR = `1.0`.
+Calibration is empirical using **logistic regression** over held-out actors. Uninformative channels converge to LR = `1.0`.
 
 ### 2. Rarity weighting
 
@@ -236,9 +333,11 @@ Operators renaming services or changing domain addresses rarely rebuild the unde
 
 | Artefact | Persistence Rationale | Comparison Method |
 |---|---|---|
-| **Favicon** | Graphic assets are copied verbatim across rebrands | SHA-256, Shodan mmh3 hash, and perceptual dHash |
+| **Favicon** | Graphic assets are copied verbatim across rebrands | SHA-256, Shodan mmh3 hash format, and perceptual dHash |
 | **TLS Certificate** | Keys are reused across certificate renewals | SubjectPublicKeyInfo SHA-256 hash identifying public keys |
 | **Site Template** | Rebuilding theme structures is resource-intensive | DOM skeletons (stripped of text), CSS vocabulary Jaccard similarity, 404 page structure |
+
+> The Shodan mmh3 hash *format* is used for favicon fingerprinting compatibility — the Shodan API itself is not called. This system makes no external API calls and is fully air-gap capable.
 
 Response header ordering is also evaluated as a proxy for server and reverse-proxy configurations. All structural attributes are rarity-weighted.
 
@@ -246,17 +345,24 @@ Response header ordering is also evaluated as a proxy for server and reverse-pro
 
 Learned modules must demonstrate cross-validated C<sub>llr</sub> improvements over simple baselines to be retained.
 
-**Author embedding** (`anekanta/ai/author_net.py`): A contrastive neural network trained on post pairs from identical personas. Self-supervised training uses persona labels from crawled data without requiring ground-truth actor identities. On synthetic benchmarks, hand-crafted stylometry outperforms author embeddings (`0.642` vs `0.605` disciplined AUC). This is expected because generated idiolects use explicit feature rules. The neural channel is retained for real-world text where fixed feature sets may fail.
+**Author embedding** (`anveshak/ai/author_net.py`): A **contrastive neural network** (PyTorch, self-supervised) trained on post pairs from identical personas. Training uses persona labels from crawled data without requiring ground-truth actor identities. On synthetic benchmarks, hand-crafted stylometry outperforms author embeddings (`0.642` vs `0.605` disciplined AUC). This is expected because generated idiolects use explicit feature rules. The neural channel is retained for real-world text where fixed feature sets may fail.
 
-**Tradecraft classifier** (`anekanta/ai/tradecraft.py`): Predicts operator discipline from single-persona features to contextualize negative evidence. Achieves `62.5`% accuracy against a `47.2`% baseline. Single-persona discipline classification remains structurally limited because tradecraft is largely expressed through cross-account reuse.
+**Tradecraft classifier** (`anveshak/ai/tradecraft.py`): Predicts operator discipline from single-persona features to contextualize negative evidence. Achieves `62.5`% accuracy against a `47.2`% baseline. Single-persona discipline classification remains structurally limited because tradecraft is largely expressed through cross-account reuse.
 
-### 7. Channel selection via C<sub>llr</sub>
+### 7. AI Forensic Analyst
+
+`anveshak/ai/forensic_analyst.py` provides two modes:
+
+- **Deterministic synthesizer (always available):** A rule engine that generates ENFSI-style court-grade forensic briefings from the Bayesian scores, evidence channels, and persona metadata. Zero dependency, zero latency, no external calls.
+- **Local LLM via Ollama (optional):** If an Ollama server is running locally (`http://localhost:11434`), the analyst module sends structured forensic context to any installed model (e.g. llama3.2, qwen2.5, mistral) and receives a natural-language briefing. Falls back to the deterministic synthesizer automatically if Ollama is unavailable or returns an empty response. No cloud API is used.
+
+### 8. Channel selection via C<sub>llr</sub>
 
 Channel selection is evaluated against cross-validated C<sub>llr</sub> rather than average precision. Average precision evaluates ranking order but ignores likelihood ratio inflation caused by correlated channels.
 
-Selecting on cross-validated Cllr rather than average precision fixed double-counting and recovered precision to 0.96. Redundant channels (`infra`, `template`) are automatically dropped when correlated with `favicon` and host-level signals.
+Selecting on cross-validated C<sub>llr</sub> rather than average precision fixed double-counting and recovered precision to 0.97. Redundant channels (`infra`, `template`) are automatically dropped when correlated with `favicon` and host-level signals.
 
-### 8. Dark2Clear: dark web to clear web attribution
+### 9. Dark2Clear: dark web to clear web attribution
 
 Dark web operators occasionally leak clear-web identifiers in forum posts or profile metadata. ANEKANTA implements the extraction and context-setting framework of Wangchuk & Rathod (2023).
 
@@ -267,15 +373,13 @@ Dark web operators occasionally leak clear-web identifiers in forum posts or pro
 | Scrape Mentions | `osint/mentions.py` — extracts email, social handles, messaging IDs |
 | Context Setting | `osint/context.py` — automated scoring based on structural position and language |
 | Exposure Aggregation | `osint/exposure.py` — maps direct and inherited leaks to actor clusters |
-| OSINT Pivot | `osint/pivot.py` — identity correlation |
+| OSINT Pivot | `osint/pivot.py` — identity correlation, emits **checkable URLs only** |
 
-Extracted identifiers include emails, domains, Telegram, Session, Tox, Threema, and social profiles. Automated context scoring evaluates surrounding text blocks, structural page position (OP vs reply vs signature), provider domain class, and identifier ubiquity.
-
-OSINT pivots are emitted as checkable URLs rather than automated queries — querying a third party discloses investigative interest, which is the analyst's decision to make.
+Extracted identifiers include emails, domains, Telegram, Session, Tox, Threema, and social profiles. OSINT pivots are emitted as checkable URLs rather than automated queries — querying a third party discloses investigative interest, which is the analyst's decision to make.
 
 When an identifier is extracted from one persona, identity resolution automatically propagates the finding across all co-clustered personas in the resolved actor dossier.
 
-### 9. Discovery and safety gate
+### 10. Discovery and safety gate
 
 Seed discovery integrates endpoints adapted from darkdump (Schiavone, MIT License) to query dark-web search indexes.
 
@@ -283,15 +387,17 @@ All discovery queries route through Tor SOCKS proxies. Search results are filter
 
 A secondary local content safety gate (`collect/safety.py`) evaluates page text using conjunction-based detection (co-occurrence of minor and explicit indicators within short text windows). Non-compliant pages are discarded prior to extraction or fingerprinting, logging only the address and exclusion flag without storing matched terms.
 
-### 10. Candidate blocking for operational scale
+### 11. Candidate blocking for operational scale
 
 At 286 personas, all-pairs comparison (`40,755` pairs) is tractable. At NTRO operational scale (millions of accounts), O(n²) comparison is ~10¹² operations. Blocking makes the system exist.
 
 Candidate generation uses inverted indexes over exact artefacts alongside approximate nearest neighbours for stylometry, handles, and temporal profiles. Blocking achieves a `73.5`% reduction ratio while retaining `92.9`% pair completeness.
 
-### 11. Identity resolution without chaining
+### 12. Identity resolution without chaining
 
 Naive connected-component clustering causes transitive error propagation. Graph resolution enforces internal edge-density constraints, iteratively bisecting clusters at their weakest evidentiary bridges.
+
+---
 
 ## Adversarial Evaluation
 
@@ -307,18 +413,22 @@ Five adversarial traps are planted in the benchmark and reported pass/fail. A sy
 
 T3 is reported as a partial result. When cryptographic artefacts are rotated, attribution relies on behavioural signals and service stack fingerprinting, recovering ~44% of linked personas. Stating complete recovery under total tradecraft rotation would be contradicted by the evaluation.
 
+---
+
 ## Why Synthetic Corpus
 
-Attribution research has no public ground truth. Public forum leaks contain text but lack verified identity mappings, making empirical precision evaluation impossible without synthetic benchmarks.
+Attribution research has no public ground truth. Public forum leaks contain text but lack verified identity mappings, making empirical precision/recall evaluation impossible without synthetic benchmarks.
 
 The benchmark generator enforces realistic difficulty:
 
 - **Archetype-based idiolects:** Text is generated across 14 writing archetypes rather than independent distributions, creating confusable non-identical authors.
 - **Adaptive tradecraft:** Operators alter stylistic patterns and jitter posting intervals according to their assigned opsec tier.
-- **Realistic base rate:** The benchmark base rate is `0.51`% (`1` true link per `207` candidate pairs), preventing trivial majority-class classification.
+- **Realistic base rate:** The benchmark base rate is `0.48`% (`1` true link per ~`207` candidate pairs), preventing trivial majority-class classification.
 - **Guarded edge cases:** Controlled handle collisions and artefact reuses are explicitly embedded as evaluation traps.
 
-The path to live data is the `CorpusView` interface: live collectors populate the standard schema without requiring downstream changes. Adapting to operational deployments requires recalibrating likelihood ratios on target-population samples.
+The path to live data is the `CorpusView` interface: live collectors populate the standard schema without requiring downstream changes. Adapting to operational deployments requires recalibrating likelihood ratios on target-population samples — a data collection problem, not a modelling one.
+
+---
 
 ## Scope and Limits
 
@@ -326,28 +436,32 @@ These limitations are printed on every report the system generates — not just 
 
 **Operational scope:**
 - Does not exploit Tor protocols or hidden service infrastructure; analysis relies exclusively on published content and network-accessible metadata.
-- Collector modules are designed for OnionLab lab environments. External deployment requires appropriate legal authorization and rate-limiting adherence.
+- Collector modules are designed for OnionLab lab environments. External deployment requires appropriate legal authorisation and rate-limiting adherence.
 - OSINT modules generate checkable URLs by default to prevent investigative interest disclosure during third-party queries.
 - System output attributes pseudonymous accounts to common operators; natural-person identification remains the domain of lawful authority.
 - Retains separation between evidence (likelihood ratios) and priors end-to-end.
 
 **Technical limitations:**
-1. Likelihood ratios are valid for populations matching the calibration distribution; cross-domain deployment requires recalibration.
+
+1. Likelihood ratios are valid for populations matching the calibration distribution; cross-domain deployment requires recalibration on target-population samples.
 2. Behavioural channels can be degraded deliberately; absence of evidence does not constitute evidence of absence.
 3. Stylometric features are tuned for English text; multi-lingual analysis requires language-specific feature extractors.
-4. Machine outputs serve as investigative leads, requiring independent corroboration.
-5. Live likelihood ratios transfer calibration from labelled benchmarks. Operational use requires refitting on target population samples.
-6. Tradecraft classification extrapolates from simulated tiers; live predictions represent investigative hypotheses.
+4. Machine outputs serve as investigative leads, requiring independent corroboration before operational action.
+5. Live likelihood ratios transfer calibration from the labelled synthetic benchmark. Operational use requires refitting on target-population samples with verified ground truth.
+6. Tradecraft classification extrapolates from simulated tiers; live predictions represent investigative hypotheses, not findings.
+7. The persona extractor keys on `/vendor/<handle>` URL patterns from the OnionLab layout. Real-world markets use different schemas and require per-site extraction adapters.
+
+---
 
 ## Architecture
 
 ```
 run.py                      CLI entrypoint
-anekanta/                   Core attribution engine and API
+anveshak/                   Core attribution engine and API
   schema.py                 Persona, Evidence, LinkHypothesis, LR caps
   pipeline.py               orchestration and the no-leakage guarantee
   reporting.py              analyst- and court-facing documents
-  corpus/generator.py       labelled adversarial benchmark
+  corpus/generator.py       labelled adversarial benchmark (synthetic)
   engines/
     base.py                 engine contract + rarity weighting
     stylometry.py           char n-grams, Burrows delta, impostors method
@@ -358,7 +472,7 @@ anekanta/                   Core attribution engine and API
     infra.py                server fingerprints and device traces
   fusion/
     blocking.py             candidate generation
-    lr.py                   calibration and fusion with model selection
+    lr.py                   logistic calibration and fusion with model selection
     graph.py                identity resolution and dossiers
   evaluation/
     metrics.py              AUC, Cllr, B-Cubed, traps, opsec breakdown
@@ -366,8 +480,9 @@ anekanta/                   Core attribution engine and API
     service.py              favicon, TLS certificate, site template
     neural.py               learned author embedding as a channel
   ai/
-    author_net.py           contrastive author embedding (self-supervised)
-    tradecraft.py           operator-discipline classifier
+    author_net.py           contrastive author embedding (PyTorch, self-supervised)
+    tradecraft.py           operator-discipline classifier (scikit-learn)
+    forensic_analyst.py     deterministic forensic synthesizer + optional Ollama LLM
   collect/
     fingerprint.py          favicon / TLS / DOM / header fingerprinting
     crawler.py              recursive Tor crawler, rate-limited, robots-aware
@@ -376,34 +491,50 @@ anekanta/                   Core attribution engine and API
   osint/                    Dark2Clear (Wangchuk & Rathod 2023)
     mentions.py             clear-web identifier harvesting with provenance
     context.py              automated context setting and priority ranking
-    pivot.py                identity correlation and checkable OSINT leads
+    pivot.py                identity correlation and checkable OSINT pivot URLs
   live.py                   live analysis with transferred calibration
   preflight.py              container isolation checks
   api/server.py             FastAPI surface
   web/                      dashboard (vanilla JS, no build step)
-onionlab/                   Isolated lab hidden services
+onionlab/                   Isolated lab hidden services (synthetic content)
   docker-compose.yml        the isolation guarantee lives here
   SECURITY.md               threat model, rules, verification
-  site/market.py            hardened mock market + forum (one image, two roles)
+  site/market.py            hardened mock market + forum (synthetic accounts and posts)
   tor/torrc                 two hidden services, hardened
   ground_truth.json         operator map and planted leaks, only for grading
 Dockerfile                  Single-image analyst application
 docker-compose.yml          the whole platform, one command
-tests/                      142 tests, stdlib unittest only
+tests/                      175 test methods across 7 modules, stdlib unittest only
 ```
+
+---
 
 ## References
 
-[1] Schiavone, J. darkdump. GitHub: josh0xA/darkdump (MIT License). Adapted in: `anekanta/collect/discovery.py`
+[1] Schiavone, J. darkdump. GitHub: josh0xA/darkdump (MIT License). Adapted in: `anveshak/collect/discovery.py`
 
-[2] Wangchuk, T. and Rathod, D. (2023). "Opensource intelligence and dark web user de-anonymisation." *International Journal of Electronic Security and Digital Forensics*, 15(2), 143–157. Implemented in: `anekanta/osint/`
+[2] Wangchuk, T. and Rathod, D. (2023). "Opensource intelligence and dark web user de-anonymisation." *International Journal of Electronic Security and Digital Forensics*, 15(2), 143–157. Implemented in: `anveshak/osint/`
 
-[3] Koppel, M. and Winter, Y. (2014). "Determining if two documents are written by the same author." *Journal of the American Society for Information Science and Technology*. Used in: `anekanta/engines/stylometry.py`
+[3] Koppel, M. and Winter, Y. (2014). "Determining if two documents are written by the same author." *Journal of the American Society for Information Science and Technology*. Used in: `anveshak/engines/stylometry.py`
 
-[4] Burrows, J. (2002). "Delta: A Measure of Stylistic Difference." *Literary and Linguistic Computing*, 17(3). Used in: `anekanta/engines/stylometry.py`
+[4] Burrows, J. (2002). "Delta: A Measure of Stylistic Difference." *Literary and Linguistic Computing*, 17(3). Used in: `anveshak/engines/stylometry.py`
 
 [5] ENFSI (2015). *Guideline for Evaluative Reporting in Forensic Science*. European Network of Forensic Science Institutes. Framework: all reporting modules
 
-[6] Brümmer, N. and du Preez, J. (2006). "Application-independent evaluation of speaker detection." *Computer Speech & Language*, 20(2–3), 230–275. Used in: `anekanta/evaluation/metrics.py`
+[6] Brümmer, N. and du Preez, J. (2006). "Application-independent evaluation of speaker detection." *Computer Speech & Language*, 20(2–3), 230–275. Used in: `anveshak/evaluation/metrics.py`
 
-[7] Meiklejohn, S. et al. (2013). "A fistful of Bitcoins: characterising payments among men with no names." *IMC 2013*. Used in: `anekanta/engines/crypto.py`
+[7] Meiklejohn, S. et al. (2013). "A fistful of Bitcoins: characterising payments among men with no names." *IMC 2013*. Used in: `anveshak/engines/crypto.py`
+
+---
+
+## License and Disclaimer
+
+This software is released for academic and research purposes in the context of Smart India Hackathon 2026. It is provided as-is without warranty.
+
+**Operational use outside a controlled lab environment requires:**
+- Appropriate legal authorisation from competent authority
+- Recalibration of likelihood ratios on target-population data
+- Per-site extraction adapters for real marketplace schemas
+- Human analyst review of all machine outputs before action
+
+The system is designed to produce forensically defensible investigative leads, not conclusive identifications. Natural-person identification from pseudonymous accounts is the exclusive domain of lawful process.
