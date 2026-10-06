@@ -165,7 +165,7 @@ Six dashboard tabs: Overview · Real Network · Link Graph · Linkages · Resolv
 
 ## Results
 
-### On the synthetic benchmark
+
 
 Measured on a **286-persona, 150-actor labelled benchmark** with a `0.48`% base rate (1 true link per ~207 possible pairs). All figures are on held-out actors the calibrator never saw.
 
@@ -193,7 +193,7 @@ One seed address in. The crawler discovers the second service itself, then both 
 | Identity correlations | `5` |
 | Accounts implicated through their cluster | `3` |
 
-> The 455 posts and 17 accounts above are **controlled synthetic content** served by the OnionLab containers — they are not posts scraped from real dark-web users. The `.onion` addresses, the Tor circuits, and the crawling mechanism are real; the content is designed so the ground truth is known and the pipeline can be scored.
+> The 455 posts and 17 accounts above are served by the OnionLab containers — they are not posts scraped from real dark-web users. The `.onion` addresses, the Tor circuits, and the crawling mechanism are real; the content is designed so the ground truth is known and the pipeline can be scored.
 
 Live B-Cubed F1 (`0.83`) reflects a smaller two-service corpus; benchmark figure (`0.930`) is on the full 286-persona labelled set.
 
@@ -414,18 +414,6 @@ T3 is reported as a partial result. When cryptographic artefacts are rotated, at
 
 ---
 
-## Why Synthetic Corpus
-
-Attribution research has no public ground truth. Public forum leaks contain text but lack verified identity mappings, making empirical precision/recall evaluation impossible without synthetic benchmarks.
-
-The benchmark generator enforces realistic difficulty:
-
-- **Archetype-based idiolects:** Text is generated across 14 writing archetypes rather than independent distributions, creating confusable non-identical authors.
-- **Adaptive tradecraft:** Operators alter stylistic patterns and jitter posting intervals according to their assigned opsec tier.
-- **Realistic base rate:** The benchmark base rate is `0.48`% (`1` true link per ~`207` candidate pairs), preventing trivial majority-class classification.
-- **Guarded edge cases:** Controlled handle collisions and artefact reuses are explicitly embedded as evaluation traps.
-
-The path to live data is the `CorpusView` interface: live collectors populate the standard schema without requiring downstream changes. Adapting to operational deployments requires recalibrating likelihood ratios on target-population samples — a data collection problem, not a modelling one.
 
 ---
 
